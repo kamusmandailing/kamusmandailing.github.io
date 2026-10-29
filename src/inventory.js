@@ -1,9 +1,10 @@
   const BANK = JSON.parse($('#inventory-data').textContent);
   const bankEntries = new Map(SEED.map(w=>[w.id,w]));
   const bankById = new Map(BANK.forms.map(f=>[f.id,f]));
-  const bankState = {query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1};
+  const latestFormIds = new Set(BANK.researchUpdate.newFormIds || []);
+  const bankState = {query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1,latestOnly:false};
   const BANK_SIZE=24;
-  const bankKinds={headword:'Lema',subentry:'Turunan / gabungan',cross_reference:'Rujuk silang',abbreviation_expansion:'Perluasan singkatan',bound_form:'Bentuk terikat',compound:'Gabungan kata',reference_example:'Contoh ejaan',number_list:'Daftar bilangan / ukuran',historical_form:'Bentuk kamus 1977',wordlist_entry:'Entri daftar kata',study_table:'Bentuk pada penelitian',publisher_abstract:'Abstrak penerbit',idiom:'Idiom / ungkapan',cultural_term:'Istilah budaya',botanical_name:'Nama botani pada sumber'};
+  const bankKinds={headword:'Lema',subentry:'Turunan / gabungan',cross_reference:'Rujuk silang',abbreviation_expansion:'Perluasan singkatan',bound_form:'Bentuk terikat',compound:'Gabungan kata',reference_example:'Contoh ejaan',number_list:'Daftar bilangan / ukuran',historical_form:'Bentuk kamus 1977',wordlist_entry:'Entri daftar kata',study_table:'Bentuk pada penelitian',publisher_abstract:'Abstrak penerbit',idiom:'Idiom / ungkapan',cultural_term:'Istilah budaya',botanical_name:'Nama botani pada sumber',culinary_term:'Nama kuliner pada sumber'};
   const bankLabels={Mdl:'Label Mdl',Akl:'Angkola',Tb:'Toba',unmarked:'Tanpa label per bentuk',Tapsel:'Tapsel','Mdl-scope':'Cakupan studi Mandailing',MA:'Mandailing–Angkola (MA)',Sipirok:'Catatan dialek Sipirok'};
   const bankSourceName=id=>{const s=SOURCES.find(s=>s.id===id);return s?.shortTitle||s?.title||id;};
   const bankSourceLocation=ref=>ref.pdfPage?'Hlm. cetak '+ref.printedPage+' · PDF '+ref.pdfPage:ref.sourceLocator||'Halaman sumber';
@@ -19,6 +20,7 @@
   function bankFiltered(){
     const q=normalize(bankState.query);
     return BANK.forms.filter(f=>{
+      if(bankState.latestOnly&&!latestFormIds.has(f.id))return false;
       const refs=bankSelectedReferences(f);
       if(!refs.length)return false;
       if(bankState.letter!=='all'&&bankLetter(f)!==bankState.letter)return false;
@@ -34,6 +36,8 @@
   }
   function renderBank(){
     const items=bankFiltered(),pages=Math.max(1,Math.ceil(items.length/BANK_SIZE));bankState.page=Math.min(Math.max(1,bankState.page),pages);
+    $('#bank-latest').textContent=bankState.latestOnly?'Tampilkan seluruh bank':latestFormIds.size+' bentuk baru';
+    $('#bank-latest').setAttribute('aria-pressed',String(bankState.latestOnly));
     $('#bank-count').textContent=items.length.toLocaleString('id-ID')+' bentuk cocok · '+BANK.stats.uniqueForms.toLocaleString('id-ID')+' bentuk dalam bank';
     $('#bank-letters').innerHTML='<button data-bank-letter="all" class="letter-button '+(bankState.letter==='all'?'active':'')+'" aria-pressed="'+(bankState.letter==='all')+'">Semua</button>'+RESEARCH.alphabet.split('').map(l=>'<button class="letter-button '+(bankState.letter===l?'active':'')+'" data-bank-letter="'+l+'" aria-pressed="'+(bankState.letter===l)+'" aria-label="Bank huruf '+l+'">'+l+'<small>'+(bankLetterCounts[l]||0)+'</small></button>').join('');
     const slice=items.slice((bankState.page-1)*BANK_SIZE,bankState.page*BANK_SIZE);
@@ -111,7 +115,8 @@
     if(b.dataset.bankOpen)openBankDetail(b.dataset.bankOpen);
     if(b.dataset.bankReviewed){$('#bank-modal').close();openDetail(b.dataset.bankReviewed);}
     if(b.dataset.bankPage){bankState.page=Number(b.dataset.bankPage);renderBank();$('#bank-count').scrollIntoView({block:'start',behavior:'smooth'});}
-    if(b.dataset.bankReset){Object.assign(bankState,{query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1});$('#bank-search').value='';for(const id of ['bank-kind','bank-scope','bank-status','bank-source'])$('#'+id).value='all';renderBank();}
+    if(b.dataset.bankReset){Object.assign(bankState,{query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1,latestOnly:false});$('#bank-search').value='';for(const id of ['bank-kind','bank-scope','bank-status','bank-source'])$('#'+id).value='all';renderBank();}
+    if(b.id==='bank-latest'){bankState.latestOnly=!bankState.latestOnly;bankState.page=1;renderBank();}
     if(b.id==='bank-export')exportBankTSV();
     if(b.id==='bank-export-labels')exportBankLabels();
     if(b.id==='local-name-export')exportLocalNames();
@@ -122,7 +127,7 @@
   $('#bank-source-total').textContent=BANK.stats.sourceCount;
   const researchUpdate=BANK.researchUpdate;
   $('#research-update-summary').textContent=BANK.stats.releaseAddedUniqueForms.toLocaleString('id-ID')+' bentuk baru dan '+BANK.stats.releaseAddedReferences.toLocaleString('id-ID')+' rujukan tambahan dari penelaahan sumber. Isi buku yang belum diperoleh tetap ditandai.';
-  $('#source-audit-summary').textContent=researchUpdate.phase+' · '+researchUpdate.date+' · '+BANK.stats.uniqueForms.toLocaleString('id-ID')+' bentuk tersimpan. '+researchUpdate.supportedPlantNames+' dari '+researchUpdate.plantNames+' nama–takson mendapat dukungan silang dengan cakupan yang dibedakan. '+researchUpdate.plantTaxa+' nama ilmiah asal tersimpan; satu baris sumber kosong. Glos sumber dibedakan dari padanan multibahasa yang dikurasi.';
+  $('#source-audit-summary').textContent=researchUpdate.summary || researchUpdate.phase+' · '+researchUpdate.date;
   $('#source-audit-cards').innerHTML=researchUpdate.cards.map(card=>'<article><h3>'+esc(card.title)+'</h3><strong>'+esc(card.status)+'</strong><p>'+esc(card.detail)+'</p><a href="'+esc(card.url)+'" target="_blank" rel="noopener noreferrer">Lihat bukti dan cakupan ↗</a></article>').join('');
   $('#research-update-link').href=researchUpdate.reportUrl;
   $('#bank-source').innerHTML='<option value="all">Semua sumber bentuk</option>'+Object.keys(BANK.stats.recordsBySource).map(id=>'<option value="'+esc(id)+'">'+esc(bankSourceName(id))+'</option>').join('');
