@@ -1,0 +1,246 @@
+/* Digital ornament inspired by Mandailing woven textiles.
+   Adaptation of geometry and color; not an authenticated ceremonial pattern. */
+:root {
+  --wine: #762d3d;
+  --wine-light: #f1e2dd;
+  --gold: #ba8e45;
+  --ulos-ink: #301b25;
+  --ulos-red: #a83f49;
+  --ulos-gold: #d5ad64;
+  --ulos-green: #397561;
+  --ulos-cream: #f4e7c8;
+  --ulos-pattern: INLINE_ULOS_PATTERN;
+}
+body {
+  background-color: #f8f3eb;
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #99754403 3px 4px);
+}
+.sidebar {
+  background: #421f2b;
+  border-right: 1px solid #5f3341;
+  padding-top: 40px;
+}
+.sidebar::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 14px;
+  background: var(--ulos-ink) var(--ulos-pattern) center / 144px 48px repeat-x;
+}
+.sidebar::after {
+  content: "";
+  position: absolute;
+  inset: 14px 0 0 auto;
+  width: 5px;
+  background: repeating-linear-gradient(180deg, #b76555 0 3px, #d6b16c 3px 4px, #39202b 4px 8px, #f0dcac 8px 9px, #397561 9px 11px, #39202b 11px 15px);
+  opacity: .8;
+}
+.brand-name { color: #fbf0d7; }
+.brand-symbol, .brand-dot { color: #d9b56c; }
+.brand-name small { color: #c4a18e; }
+.sidebar-caption { color: #b58c81; }
+.nav-item { color: #ddc6b5; }
+.nav-item:hover { background: #613242; color: #fff5df; }
+.nav-item.active {
+  background: #f1e5cc;
+  color: #6a2d3a;
+  box-shadow: 0 4px 14px #21101920;
+}
+.nav-marker { background: #ad743b; }
+.nav-count { background: #714354; color: #f1d9b6; }
+.nav-item.active .nav-count { background: #dec9a4; color: #682b37; }
+.chapter-card {
+  background: #552a38;
+  border-color: #805144;
+  padding-bottom: 39px;
+}
+.chapter-number { color: #a46c54; opacity: .38; }
+.chapter-card .eyebrow { color: #d2b17d; }
+.chapter-card strong { color: #fae7c0; }
+.chapter-card p { color: #c4a08a; }
+.chapter-pattern {
+  position: absolute;
+  inset: auto 0 0;
+  margin: 0;
+  height: 29px;
+  background: var(--ulos-pattern) center / 144px 48px repeat-x;
+  border-top: 1px solid #b98e4c;
+}
+.sidebar-footer { color: #bf9985; }
+.topbar { border-bottom-color: #ddcfb9; }
+.ulos-ribbon {
+  position: relative;
+  height: 48px;
+  margin-top: 23px;
+  background: var(--ulos-ink) var(--ulos-pattern) center / 180px 60px repeat-x;
+  border: 1px solid #aa7d41;
+  border-radius: 7px;
+  box-shadow: 0 3px 0 #e4d5bd, 0 7px 15px #6c40200a;
+  overflow: hidden;
+}
+.ulos-ribbon::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(110deg, #fff4c411, transparent 35%, #0d050c18);
+}
+.hero { padding-top: 31px; padding-bottom: 33px; }
+.hero-copy .eyebrow { color: #9b704b; }
+.tiny-rule { background: #b27a36; }
+.hero-copy h1 em { color: #7b3040; }
+.featured-word {
+  background-color: #532333;
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #f8df9a06 3px 4px), linear-gradient(135deg, #642b38, #40202c);
+  border-color: #ad8246;
+  border-radius: 12px;
+  box-shadow: 0 10px 22px #4b253014, inset 0 0 0 4px #ffffff05;
+  padding-bottom: 65px;
+}
+.featured-word::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 44px;
+  border-top: 1px solid #af844d;
+  background: var(--ulos-pattern) center / 180px 60px repeat-x;
+}
+.featured-top .eyebrow, .featured-label { color: #d8b888; }
+.featured-top svg { color: #e0c17d; }
+.featured-term { color: #fff1d3; }
+.featured-term > span { color: #cfad82; }
+.featured-meanings > span { color: #f5e4c8; }
+.featured-meanings small { color: #d8b99c; }
+.featured-link { color: #f0d49d; border-top-color: #be8f514d; }
+.featured-link:hover { color: #fff9e9; }
+.heritage-emblem {
+  position: absolute;
+  width: 111px;
+  height: 116px;
+  right: -11px;
+  top: 61px;
+  color: #dbb26a;
+  opacity: .14;
+  pointer-events: none;
+}
+.search-wrap { border-color: #d9c4a5; }
+.category.active { background: #762d3d; border-color: #762d3d; }
+.category:hover { border-color: #9c6970; }
+.word-card { position: relative; border-color: #e4d5c1; }
+.word-card::before {
+  content: "";
+  height: 4px;
+  flex-shrink: 0;
+  background: var(--ulos-pattern) center / 144px 48px repeat-x;
+  opacity: .85;
+}
+.word-card:hover { border-color: #b99a6e; box-shadow: 0 8px 23px #6c40200b; }
+.card-bottom { background: #f8f1e6; border-top-color: #eee1cd; }
+.category-label.rumah { color: #8e6d40; }
+.category-label.ganti { color: #935561; }
+.category-label.kerja { color: #4f7966; }
+.button-primary { background: #762d3d; }
+.button-primary:hover { background: #562032; }
+.button-export { background: #f1e7d7; border-color: #d6c3a7; color: #7d5c33; }
+.editorial-note { background: #f0e5d4; border-color: #dccaad; }
+.flashcard { border-color: #b99b6b; }
+.flashcard::before {
+  content: "";
+  display: block;
+  height: 26px;
+  background: var(--ulos-pattern) center / 144px 48px repeat-x;
+  border-bottom: 1px solid #b59155;
+}
+.progress-orbit { box-shadow: 0 0 0 1px #c6a567, 0 0 0 5px #e7d6b950; }
+.source-notice {
+  background-color: #592739;
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #f1d9a305 3px 4px);
+  border-top: 5px solid #b89250;
+}
+.main-footer { border-top: 2px solid #b99761; }
+.textile-context-link {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: #9a7445;
+  text-decoration: underline;
+  text-decoration-color: #b9976155;
+  text-underline-offset: 3px;
+}
+.textile-context-link:hover { color: #762d3d; }
+.textile-note {
+  display: grid;
+  grid-template-columns: 92px minmax(0,1fr);
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+  margin: 30px 0 22px;
+  border: 1px solid #d9c5a5;
+  background: #efe4d4;
+  border-radius: 10px;
+}
+.textile-swatch {
+  width: 92px;
+  height: 124px;
+  border: 1px solid #a77c43;
+  border-radius: 4px;
+  background: #6b2738 var(--ulos-pattern) center / 180px 60px repeat;
+  box-shadow: 5px 5px 0 #d7c5a9;
+}
+.textile-note .eyebrow { font-size: 8px; color: #9c743c; }
+.textile-note h3 { font: 25px var(--serif); color: #742d3d; margin: 10px 0; }
+.textile-note p { font-size: 11px; line-height: 1.85; color: #8b7152; margin: 0 0 10px; max-width: 740px; }
+.textile-note a { font-size: 10px; color: #81592c; text-underline-offset: 3px; }
+@media(min-width:1500px) {
+  .hero { padding-top: 38px; padding-bottom: 40px; }
+  .featured-word { padding-bottom: 70px; }
+  .ulos-ribbon { height: 55px; background-size: 216px 72px; }
+}
+@media(max-width:1180px) {
+  .hero { gap: 24px; }
+  .featured-word { padding-bottom: 63px; }
+  .featured-meanings { gap: 10px; }
+  .heritage-emblem { width: 90px; right: -16px; }
+}
+@media(max-width:900px) {
+  .sidebar { padding-top: 34px; }
+  .ulos-ribbon { height: 43px; background-size: 162px 54px; }
+  .featured-word { padding-bottom: 63px; }
+}
+@media(max-width:640px) {
+  .sidebar {
+    height: 72px;
+    padding: 8px 12px 7px;
+    background: #482331f5;
+    border-top: 1px solid #9c7743;
+  }
+  .sidebar::before { height: 5px; background-size: 144px 48px; }
+  .sidebar::after { display: none; }
+  .nav-item { color: #e6cfb6; }
+  .nav-item:hover { background: #714151; color: #fff2d5; }
+  .nav-item.active { background: #ecd8b3; color: #662739; }
+  .nav-item > span:not([data-icon]) { font-size: 8px; }
+  .nav-list .nav-item > .nav-count,
+  .nav-list .nav-item > .nav-marker { display: none !important; }
+  .mobile-brand { color: #752d3d; }
+  .mobile-brand span { color: #ac7a36; }
+  .topbar { min-height: 73px; }
+  .ulos-ribbon { margin-top: 17px; height: 34px; border-radius: 5px; background-size: 144px 48px; box-shadow: 0 2px 0 #e4d5bd; }
+  .hero { padding-top: 26px; padding-bottom: 27px; }
+  .hero-copy h1 { font-size: 40px; }
+  .hero-copy > p { font-size: 12px; }
+  .word-card::before { height: 4px; }
+  .textile-note { grid-template-columns: 52px minmax(0,1fr); gap: 17px; padding: 19px 16px; margin: 22px 0; }
+  .textile-swatch { width: 52px; height: 125px; background-size: 144px 48px; box-shadow: 3px 3px 0 #d7c5a9; }
+  .textile-note h3 { font-size: 22px; line-height: 1.2; }
+  .textile-note p { font-size: 10px; }
+  .textile-note .eyebrow { font-size: 7px; line-height: 1.6; letter-spacing: 1px; }
+  .textile-note a { font-size: 9px; }
+  .main-footer { font-size: 8px; }
+  .source-notice { border-top-width: 4px; }
+}
+@media print {
+  .ulos-ribbon, .textile-note, .heritage-emblem { display: none; }
+  .word-card::before { background-image: none; background-color: #762d3d; height: 2px; }
+}

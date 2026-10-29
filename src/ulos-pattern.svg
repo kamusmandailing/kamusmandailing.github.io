@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 96" width="288" height="96">
+  <defs>
+    <pattern id="thread" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4M0 0V4" fill="none" stroke="#fff6dc" stroke-opacity=".12" stroke-width=".6"/>
+      <path d="M2 0V4" fill="none" stroke="#170d11" stroke-opacity=".18" stroke-width=".6"/>
+    </pattern>
+    <pattern id="stitch" width="12" height="6" patternUnits="userSpaceOnUse">
+      <path d="m1 5 5-4 5 4" fill="none" stroke="#e6c783" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <path fill="#301c23" d="M0 0h288v96H0z"/>
+  <path fill="#c09345" d="M0 1h288v3H0zM0 92h288v3H0z"/>
+  <path fill="#f6e5ba" d="M0 6h288v2H0zM0 88h288v2H0z"/>
+  <path fill="#a23443" d="M0 11h288v6H0zM0 79h288v6H0z"/>
+  <path fill="#28725f" d="M0 20h288v3H0zM0 73h288v3H0z"/>
+  <path fill="#6e2636" d="M0 27h288v42H0z"/>
+  <path d="M0 25h288M0 71h288" stroke="#d8b768" stroke-width="1" stroke-dasharray="2 3"/>
+  <g fill="none" stroke="#e9c76f" stroke-width="2">
+    <path d="M8 33h37v30H8zM15 39h23v18H15zM243 33h37v30h-37zM250 39h23v18h-23z"/>
+    <path d="m61 34 29 28m0-28L61 62m137-28 29 28m0-28-29 28"/>
+  </g>
+  <g fill="#f5e6c5">
+    <path d="m27 42 6 6-6 6-6-6zM261 42l6 6-6 6-6-6z"/>
+    <path d="m101 43 5 5-5 5-5-5zM187 43l5 5-5 5-5-5z"/>
+    <path d="M133 42c-15 3-23-3-25-14 8 5 15 7 24 7l8 5h8l8-5c9 0 16-2 24-7-2 11-10 17-25 14l-1 16-7 9h-7l-7-9z"/>
+  </g>
+  <path d="m136 47 4 3m12-3-4 3m-7 10h6" fill="none" stroke="#6e2636" stroke-width="2"/>
+  <path d="m55 36 10 10m20 4 10 10m98-24 10 10m20 4 10 10" fill="none" stroke="#3b9a7d" stroke-width="2"/>
+  <path fill="url(#stitch)" d="M0 11h288v6H0zM0 79h288v6H0z"/>
+  <path fill="url(#thread)" d="M0 0h288v96H0z"/>
+</svg>
