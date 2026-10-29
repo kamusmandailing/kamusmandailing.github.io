@@ -1,8 +1,8 @@
 # Hata — Kamus Mandailing
 
-**10.703 bentuk sumber unik**, bertambah **54** dari rilis 10.649. Bank menggabungkan **19 sumber bentuk**, dengan **13.571 catatan rujukan**. Koleksi berpadanan tetap **1.404 entri**; **9.299 bentuk** lainnya menunggu penelaahan padanan. Ada **183 catatan nama tumbuhan pembanding**, dengan 182 nama ilmiah asal serta 21 dukungan silang yang membedakan label Mandailing, kode gabungan MA, dan cakupan studi; konflik takson dan risiko homonim dicatat.
+**10.821 bentuk sumber unik**, bertambah **118** dari rilis 10.703. Bank menggabungkan **24 sumber bentuk**, dengan **13.745 catatan rujukan**. Koleksi berpadanan tetap **1.404 entri**; **9.417 bentuk** lainnya menunggu penelaahan padanan multibahasa. Ada **183 catatan nama tumbuhan pembanding** yang tetap terpisah. Rilis 30 Oktober 2026 menambah 174 rujukan dari lima sumber tentang istilah adat, botani, musik, upah-upah, dan penamaan kuliner. Lihat [laporan tahap 3](research/analisis_pendalaman_20261030.md), [daftar bentuk baru](data/tambahan_20261030.tsv), dan tombol **118 bentuk baru** dalam Bank kosakata.
 
-[Buka aplikasi](https://kamusmandailing.github.io/) · [Bank kosakata](https://kamusmandailing.github.io/#bank) · [Analisis dan batas cakupan](research/analisis_lanjutan_20261027.md) · [Database JSON/SQLite](data/Kamus_Mandailing_Database.zip) · [Paket aplikasi lengkap](Hata_Kamus_Mandailing_Lengkap.zip)
+[Buka aplikasi](https://kamusmandailing.github.io/) · [Bank kosakata](https://kamusmandailing.github.io/#bank) · [Analisis dan batas cakupan](research/analisis_pendalaman_20261030.md) · [Database JSON/SQLite](data/Kamus_Mandailing_Database.zip) · [Paket aplikasi lengkap](Hata_Kamus_Mandailing_Lengkap.zip)
 
 Repositori tujuan proyek: [kamusmandailing/kamusmandailing.github.io](https://github.com/kamusmandailing/kamusmandailing.github.io). Seluruh aplikasi, database, hasil penelitian, dan paket unduhan disiapkan bersama untuk alamat utama baru pada 29 Oktober 2026. Lihat [catatan pemindahan](research/migrasi_20261029.md).
 
@@ -21,7 +21,7 @@ Tab Kamus, Disimpan dan Belajar memakai koleksi berpadanan. Desain mempertahanka
 - [Seluruh bank, TSV lima kolom](data/kosakata_semua.tsv): padanan belum ditelaah kosong.
 - [Seluruh bank dengan label](data/kosakata_berlabel.tsv): label sumber, jenis dan identitas disertakan.
 - [Lokasi rujukan lengkap](data/inventaris_sumber.tsv): satu baris per catatan rujukan.
-- [Nama botani dan lokasi sumber](data/nama_botani_sumber.tsv): 75 rujukan nama–takson yang terpilih.
+- [Nama botani dan lokasi sumber](data/nama_botani_sumber.tsv): 102 rujukan nama–takson yang terpilih.
 - [Nama tumbuhan pembanding](data/nama_tumbuhan_pembanding.tsv): 183 pengamatan terpisah.
 - [Katalog akses dan batas sumber](research/source_catalog.json), [audit rilis](research/coverage_audit.json), [panduan skema](data/database/README.md).
 - [Koleksi berpadanan](data/kamus.tsv), [jejak kurasi lama](data/jejak_sumber.tsv), [riwayat A–Z](research/analisis_AZ.md).

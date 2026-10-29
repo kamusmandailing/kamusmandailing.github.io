@@ -73,7 +73,7 @@ def prepare_inventory():
            'sourceCount':len({ref['sourceId'] for f in result for ref in f['references']}),
            'recordsBySource':dict(collections.Counter(ref['sourceId'] for f in result for ref in f['references'])),
            'localNameObservations':len(json.loads((ROOT/'research/local_name_observations.json').read_text()))}
-    extension=json.loads((ROOT/'research/extension_20261027b.json').read_text())
+    extension=json.loads((ROOT/'research/extension_20261030.json').read_text())
     old_forms={r['form'].casefold() for r in additional['records'] if r.get('extensionBatch')!=extension['releaseId']}|{r['form'].casefold() for r in source['records']}|set(known)
     stats['releasePreviousUniqueForms']=len(old_forms)
     stats['releaseAddedUniqueForms']=len({f['form'].casefold() for f in result}-old_forms)
@@ -83,10 +83,10 @@ def prepare_inventory():
     stats['botanicalReferences']=sum(bool(r.get('taxonAsPrinted')) for f in result for r in f['references'])
     stats['localNameTaxa']=sum(bool(r.get('taxonAsPrinted')) for r in json.loads((ROOT/'research/local_name_observations.json').read_text()))
     stats['localNameReviewCounts']=dict(collections.Counter(r['review']['status'] for r in json.loads((ROOT/'research/local_name_observations.json').read_text())))
-    bank={'schemaVersion':5,'version':'2026-10-27-DEEP02','stats':stats,'forms':result,
+    bank={'schemaVersion':5,'version':extension['releaseId'],'stats':stats,'forms':result,
           'coverage':source['pages'],'sourceSha256':source['sourceSha256'],
           'additionalCoverage':additional['review1977'],
-          'researchUpdate':json.loads((ROOT/'research/research_update_20261027.json').read_text()),
+          'researchUpdate':json.loads((ROOT/'research/research_update_20261030.json').read_text()),
           'localNames':json.loads((ROOT/'research/local_name_observations.json').read_text()),
           'notes':['Bentuk leksikal bertanda pada halaman 1–248 kamus 2021 diinventarisasi; kata dasar, turunan, gabungan, bentuk terikat dan rujuk silang dibedakan.',
           'Kamus 1977 ditambah melalui pemeriksaan visual calon dari OCR; seluruh lembar calon baru ditinjau, tetapi deteksi tersebut bukan jaminan seluruh isi kamus sudah ditranskripsikan.',
@@ -118,6 +118,18 @@ def prepare_inventory():
     writer.writerow(['ID bentuk','Bentuk','Takson sebagaimana sumber','Sumber','Halaman cetak','Halaman PDF','Label sumber','Lokasi','Catatan'])
     writer.writerows([[f['id'],f['form'],r['taxonAsPrinted'],r['sourceId'],r['printedPage'],r['pdfPage'],', '.join(r['labels']),r.get('sourceLocator',''),r.get('annotation','')] for f in result for r in f['references'] if r.get('taxonAsPrinted')])
     (ROOT/'data/nama_botani_sumber.tsv').write_text('\ufeff'+buff.getvalue())
+    buff=io.StringIO(newline='');writer=csv.writer(buff,delimiter='\t',lineterminator='\n')
+    writer.writerow(['ID bentuk','Bentuk baru','Jenis','Label sumber','Glos sumber','Bahasa glos','Sumber','Halaman cetak','Halaman PDF','Lokasi','URL'])
+    latest_ids=set(bank['researchUpdate']['newFormIds'])
+    catalog={s['id']:s for s in json.loads((ROOT/'src/sources.json').read_text())}
+    for f in result:
+        if f['id'] not in latest_ids:continue
+        for r in f['references']:
+            if r.get('extensionBatch')!=extension['releaseId']:continue
+            s=catalog[r['sourceId']];url=r.get('url') or s.get('documentUrl') or s['url']
+            if r['pdfPage']:url=url.split('#')[0]+'#page='+str(r['pdfPage'])
+            writer.writerow([f['id'],f['form'],r['kind'],', '.join(r['labels']),r.get('sourceGloss',''),r.get('glossLanguage',''),r['sourceId'],r['printedPage'],r['pdfPage'],r.get('sourceLocator',''),url])
+    (ROOT/'data/tambahan_20261030.tsv').write_text('\ufeff'+buff.getvalue())
     return bank
 
 if __name__=='__main__':print(json.dumps(prepare_inventory()['stats']))

@@ -171,7 +171,7 @@ def export_database():
     con.close();temporary.replace(dbfile)
     guide=f'''# Database Kamus Mandailing
 
-Versi {bank['version']} · {bank['stats']['uniqueForms']:,} bentuk sumber unik · {len(words):,} entri berpadanan · 27 Oktober 2026.
+Versi {bank['version']} · {bank['stats']['uniqueForms']:,} bentuk sumber unik · {len(words):,} entri berpadanan · 30 Oktober 2026.
 
 Bank bertambah {bank['stats']['releaseAddedUniqueForms']:,} bentuk dari rilis 10.649, melalui penggabungan indeks dan pemeriksaan sumber tambahan. Jumlah mencakup variasi ejaan, turunan, gabungan, bentuk terikat, serapan dan nama yang ditulis sumber; bukan jumlah semua kata dasar Mandailing. Label Angkola, Toba, Tapsel dan cakupan studi tidak dihapus. Tanpa label per bentuk tidak berarti Mandailing eksklusif.
 
@@ -204,15 +204,15 @@ Kamus 2021: indeks leksikal halaman 1–248. Kamus 1977: audit awal 3.403 calon 
 
 Skema 5 mempertahankan tabel lama, mempertahankan second_pass_extraction_audit dan local_name_reviews serta menambahkan kolom takson pada lexical_occurrences dan local_name_observations, serta membolehkan pdf_page NULL untuk sumber web dan menambah lokasi web, metadata rujukan, audit ekstraksi, serta observasi nama lokal. Ekspor merupakan berkas baru, bukan migrasi yang dijalankan pada database pengguna. ID entri lama dan ID bentuk tetap dipertahankan.
 
-Pendalaman tahap 2, 27 Oktober 2026: 54 bentuk baru dan 99 rujukan tambahan. Lihat research/analisis_lanjutan_20261027.md. nama_botani_sumber.tsv memuat 75 lokasi nama–takson; 182 nama ilmiah pada observasi pembanding disalin sebagaimana sumber. Satu baris sumber memang kosong. Glos sumber dibedakan dari terjemahan kurasi; local_name_reviews mempertahankan dukungan silang per nama.
+Pendalaman tahap 3, 30 Oktober 2026: 118 bentuk baru dan 174 rujukan dari lima sumber tambahan. Lihat research/analisis_pendalaman_20261030.md dan tambahan_20261030.tsv. nama_botani_sumber.tsv memuat 102 lokasi nama–takson. Kode MA tetap Mandailing–Angkola; glos tabel yang bergeser ditahan, dan simanat dicatat untuk dua takson tanpa disamakan. Artikel kuliner dibaca sebagai salinan teks web, bukan PDF yang diperiksa visual. Glos sumber dibedakan dari terjemahan kurasi. Telaah 183 observasi tumbuhan sebelumnya dipertahankan.
 
 Aplikasi statis menyimpan favorit, progres dan kata pribadi di peramban. SQLite adalah ekspor, bukan backend server. Untuk membangun ulang dari sumber repo, jalankan python3 build.py. Tidak perlu jaringan atau paket Python tambahan untuk build biasa. PDF dan definisi lengkap buku tidak disalin ke paket ini.
 '''
     (target/'README.md').write_text(guide)
     package_files={p.name:p for p in target.iterdir() if p.is_file() and p.suffix!='.tmp'}
     package_files.update({'kamus.tsv':ROOT/'data/kamus.tsv','jejak_sumber.tsv':ROOT/'data/jejak_sumber.tsv','analisis_AZ.md':ROOT/'research/analisis_AZ.md','kosakata_semua.tsv':ROOT/'data/kosakata_semua.tsv','inventaris_sumber.tsv':ROOT/'data/inventaris_sumber.tsv','analisis_inventaris.md':ROOT/'research/analisis_inventaris.md','source_catalog.json':ROOT/'research/source_catalog.json'})
-    package_files.update({'kosakata_berlabel.tsv':ROOT/'data/kosakata_berlabel.tsv','nama_tumbuhan_pembanding.tsv':ROOT/'data/nama_tumbuhan_pembanding.tsv','telaah_nama_tumbuhan.tsv':ROOT/'data/telaah_nama_tumbuhan.tsv','nama_botani_sumber.tsv':ROOT/'data/nama_botani_sumber.tsv'})
-    for name in ['additional_inventory.json','1977_extraction_geometry.json','1977_review_decisions.txt','local_name_observations.json','coverage_audit.json','1977_second_pass_audit.json','extension_20261027.json','research_update_20261027.json','analisis_pendalaman_20261027.md','extension_20261027b.json','botanical_audit_20261027.json','analisis_lanjutan_20261027.md']:
+    package_files.update({'kosakata_berlabel.tsv':ROOT/'data/kosakata_berlabel.tsv','nama_tumbuhan_pembanding.tsv':ROOT/'data/nama_tumbuhan_pembanding.tsv','telaah_nama_tumbuhan.tsv':ROOT/'data/telaah_nama_tumbuhan.tsv','nama_botani_sumber.tsv':ROOT/'data/nama_botani_sumber.tsv','tambahan_20261030.tsv':ROOT/'data/tambahan_20261030.tsv'})
+    for name in ['additional_inventory.json','1977_extraction_geometry.json','1977_review_decisions.txt','local_name_observations.json','coverage_audit.json','1977_second_pass_audit.json','extension_20261027.json','research_update_20261027.json','analisis_pendalaman_20261027.md','extension_20261027b.json','botanical_audit_20261027.json','analisis_lanjutan_20261027.md','extension_20261030.json','research_update_20261030.json','audit_20261030.json','analisis_pendalaman_20261030.md']:
         package_files['research/'+name]=ROOT/'research'/name
     checks='\n'.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+name for name,p in sorted(package_files.items()))+'\n'
     with zipfile.ZipFile(ROOT/'data/Kamus_Mandailing_Database.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:

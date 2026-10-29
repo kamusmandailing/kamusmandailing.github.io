@@ -8,7 +8,7 @@ root = Path(__file__).resolve().parent
 source = root / 'src'
 words = json.loads((source / 'words.json').read_text(encoding='utf-8'))
 research = json.loads((root / 'research/progress.json').read_text(encoding='utf-8'))
-research['reportMarkdown'] = (root / 'research/analisis_lanjutan_20261027.md').read_text(encoding='utf-8')
+research['reportMarkdown'] = (root / 'research/analisis_pendalaman_20261030.md').read_text(encoding='utf-8')
 from prepare_inventory import prepare_inventory
 inventory=prepare_inventory()
 assert words and len({word['id'] for word in words}) == len(words)
