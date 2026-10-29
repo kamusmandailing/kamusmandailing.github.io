@@ -14,6 +14,7 @@ abap	percikan api	percikan api	spark	unmarked	headword	reviewed_translations	for
 abar	penyakit menular	penyakit berjangkit	infectious disease	unmarked	headword	reviewed_translations	form-221f50ecd218d6be	dictionary
 abara	bahu	bahu	shoulder	unmarked, Mdl-scope	headword, wordlist_entry, publisher_abstract	reviewed_translations	form-24ff809a2f8d2095	dictionary, abvd1655, idiom2023
 abarahon				unmarked	subentry	source_inventory	form-8ffbd3e3ec8038dd	dictionary
+abaro				Mdl-scope	study_table	source_inventory	form-322c5b30f1b1a3f0	upah2021
 abas	lambai	lambai	wave	unmarked	headword	reviewed_translations	form-f148dbbed5cbf148	dictionary
 abaskon				unmarked	subentry	source_inventory	form-787fe553f3fad521	dictionary
 abat	halangan	halangan	obstacle	unmarked	headword	reviewed_translations	form-d5605c9263f13442	dictionary
@@ -196,7 +197,7 @@ alam	dunia	dunia	world	Mdl	headword	reviewed_translations	form-fa7aa2ec12d43c41	
 alaman	halaman rumah	halaman rumah	yard	unmarked	headword	reviewed_translations	form-d45c98ab876d4e79	dictionary
 alaman bolak				unmarked	cultural_term, compound	source_inventory	form-8bccab542dce6eca	culture2021
 alamat	alamat	alamat	address	unmarked	headword	reviewed_translations	form-148ed87db4a59924	dictionary
-alame	dodol	dodol	dodol (a sweet)	unmarked	headword	reviewed_translations	form-0482641150c41a4d	dictionary
+alame	dodol	dodol	dodol (a sweet)	unmarked, Mdl-scope	headword, culinary_term	reviewed_translations	form-0482641150c41a4d	dictionary, culinary2021
 alang	segan	segan	reluctant	unmarked	headword	reviewed_translations	form-3134b66add14d87e	dictionary
 alang ulang				unmarked	historical_form, compound	source_inventory	form-fbbb442540dc254e	dictionary1977
 alang ulu				unmarked	headword, compound	source_inventory	form-dc98590f4ec80af8	dictionary
@@ -465,7 +466,7 @@ amun				unmarked	headword	source_inventory	form-8ab22684696282ed	dictionary
 ana				unmarked	headword, historical_form	source_inventory	form-24d4b96f58da6d4a	dictionary, dictionary1977
 anak	anak	anak	child	unmarked, Mdl-scope	headword, historical_form, wordlist_entry, study_table	reviewed_translations	form-18f27e0f8b1c00c3	dictionary, dictionary1977, abvd1655, kinship2026
 anak bawang				Mdl-scope	idiom, compound	source_inventory	form-e2b3e183c86d4089	idiom2012
-anak boru				unmarked, Mdl-scope	subentry, compound, historical_form, study_table, cultural_term	source_inventory	form-a5c3e8682b707c05	dictionary, dictionary1977, kinship2026, culture2021
+anak boru				unmarked, Mdl-scope	subentry, compound, historical_form, study_table, cultural_term	source_inventory	form-a5c3e8682b707c05	dictionary, dictionary1977, kinship2026, culture2021, cultural2018
 anak gampang				unmarked	subentry, compound	source_inventory	form-cf2f7611aced7703	dictionary
 anak mata				unmarked	subentry, compound	source_inventory	form-746b3740768b87a7	dictionary
 anak na idapot				unmarked	subentry, compound	source_inventory	form-15dd89ad830378a0	dictionary
@@ -474,6 +475,7 @@ anak namboru				unmarked	cultural_term, compound	source_inventory	form-e1f15f4d9
 anak ni ayuaga				unmarked	historical_form, compound	source_inventory	form-6770c32a4c75a683	dictionary1977
 anak ni ayuga				unmarked	subentry, compound	source_inventory	form-765f05acd5d7366d	dictionary
 anak ni dapot				unmarked	historical_form, compound	source_inventory	form-68145c6b2d333e63	dictionary1977
+anak ni manuk na langka-langka indalu				Mdl-scope	idiom, compound	source_inventory	form-6a7729aecb30737d	cultural2018
 anak ni tangan				unmarked	subentry, compound	source_inventory	form-fbfd5da888e9a342	dictionary
 anak sikola				unmarked	subentry, compound	source_inventory	form-5361d18964cc0044	dictionary
 anak somang				unmarked	subentry, compound, historical_form	source_inventory	form-8f4963be8c51c0f6	dictionary, dictionary1977
@@ -1060,6 +1062,7 @@ bajonong				unmarked	headword	source_inventory	form-1a414fa20d38c8dc	dictionary
 bajora				unmarked	headword	source_inventory	form-7a65d0aab05649c7	dictionary
 bajoraon				Tb	headword	source_inventory	form-629821cd3b980707	dictionary
 baju	baju	baju	shirt	unmarked	headword	reviewed_translations	form-b5e5093ba002adbc	dictionary
+baju bolang				Mdl-scope	cultural_term, compound	source_inventory	form-e84d6da905a2162e	gordang2022
 baju godang				unmarked	subentry, compound, historical_form, cultural_term	source_inventory	form-a99022f6975beef9	dictionary, dictionary1977, culture2021
 baju juba				unmarked	historical_form, compound	source_inventory	form-0975a7a9a3b5e4cc	dictionary1977
 baju na imbaru				unmarked	historical_form, compound	source_inventory	form-dc46c6530d6ab823	dictionary1977
@@ -1125,7 +1128,7 @@ balik-balik bontar				unmarked	historical_form, compound	source_inventory	form-b
 balik-balik dingding				unmarked	historical_form, compound	source_inventory	form-85f601f0d3da0b5f	dictionary1977
 baliksa				unmarked	subentry, historical_form	source_inventory	form-43683174c2d27ae4	dictionary, dictionary1977
 baliksu				unmarked	headword	source_inventory	form-0aa4ca0148319044	dictionary
-balimbing	belimbing	belimbing	star fruit	unmarked	headword	reviewed_translations	form-f962ed062f0bd382	dictionary
+balimbing	belimbing	belimbing	star fruit	unmarked, MA	headword, botanical_name	reviewed_translations	form-f962ed062f0bd382	dictionary, plants2019
 baling				Akl, unmarked	headword, historical_form	source_inventory	form-64a3b9bc538efff7	dictionary, dictionary1977
 baling-boling				unmarked	historical_form	source_inventory	form-c85233bccf431d3b	dictionary1977
 balingbing				unmarked	historical_form	source_inventory	form-a4e0d2c0c354d75b	dictionary1977
@@ -1259,6 +1262,7 @@ bangut				unmarked	headword	source_inventory	form-02e05e9d1e90fc09	dictionary
 bania				unmarked	headword	source_inventory	form-96d306f0b55128d2	dictionary
 baning				unmarked	headword	source_inventory	form-459f4c99ac950ea0	dictionary
 banir				unmarked	headword	source_inventory	form-0ee486693370973e	dictionary
+banir na bolak parkolipan				Mdl-scope	idiom, compound	source_inventory	form-53fcf1616c80e1bb	cultural2018
 banjar	deretan	barisan	row	unmarked	headword	reviewed_translations	form-a1067f703bdd8f90	dictionary
 banje				unmarked	historical_form	source_inventory	form-6332e9c907293e3e	dictionary1977
 banje-banje				unmarked	headword	source_inventory	form-ed51f90d16ea198b	dictionary
@@ -1394,7 +1398,7 @@ Batak				unmarked	headword, historical_form	source_inventory	form-b6401fd419269a
 batang	sungai	sungai	river	unmarked	headword	reviewed_translations	form-8ff56163b43fd088	dictionary
 batang aek				unmarked	subentry, compound	source_inventory	form-d2389643c6d3a540	dictionary
 batang beban				unmarked	historical_form, compound	source_inventory	form-2471d3273d26f302	dictionary1977
-batang boban				unmarked	subentry, compound	source_inventory	form-57d02c209bc72a91	dictionary
+batang boban				unmarked, Mdl-scope	subentry, compound, cultural_term	source_inventory	form-57d02c209bc72a91	dictionary, cultural2018
 batangan				unmarked	subentry	source_inventory	form-cd90e3b06b2b8b08	dictionary
 batangi				unmarked	cultural_term	source_inventory	form-7ab7430110c5b21d	culture2021
 batani jaung				unmarked	historical_form, compound	source_inventory	form-a9666a83496d3a21	dictionary1977
@@ -1450,7 +1454,7 @@ bayo				Akl	headword	source_inventory	form-dcfafb564da79012	dictionary
 bayo angin				Akl	subentry, compound	source_inventory	form-dfd39b031a8482b2	dictionary
 bayo arit				Akl	subentry, compound	source_inventory	form-bd2fab79a0ee4953	dictionary
 bayo ni abit				unmarked	historical_form, compound	source_inventory	form-26dbfc25c32aa0ea	dictionary1977
-bayo pangoli				Akl	subentry, compound	source_inventory	form-26f9c72451eafae8	dictionary
+bayo pangoli				Akl, Mdl-scope	subentry, compound, cultural_term	source_inventory	form-26f9c72451eafae8	dictionary, cultural2018
 bayo-bayo				unmarked	historical_form	source_inventory	form-0a1eca5390e32ae4	dictionary1977
 bayo-bayo godang				unmarked	historical_form, compound	source_inventory	form-85ac18dc00ea0e43	dictionary1977
 bayo-bayo na godang				Akl, unmarked	subentry, compound, historical_form	source_inventory	form-eefb446e910d868f	dictionary, dictionary1977
@@ -1742,6 +1746,7 @@ bolon				Tb, unmarked	headword, wordlist_entry	source_inventory	form-aae59fae1a4
 bolong				unmarked	historical_form	source_inventory	form-91b4ce5eb14d1a78	dictionary1977
 boltak				unmarked	historical_form	source_inventory	form-20f60d347edcdbe0	dictionary1977
 boltok	perut	perut	belly	unmarked, Mdl	headword, wordlist_entry, cultural_term	reviewed_translations	form-652ee1ec12a10bae	dictionary, abvd1655, zenodo2024, culture2021
+bolu salak kenanga				Mdl-scope	culinary_term, compound	source_inventory	form-e8770a766a82415f	culinary2021
 bolum				unmarked	headword	source_inventory	form-e58dc5a2683c2dce	dictionary
 bolung				unmarked	headword	source_inventory	form-28f2ea3fd4d0fceb	dictionary
 bolus				unmarked	headword	source_inventory	form-245b94e10414433b	dictionary
@@ -1884,6 +1889,7 @@ boru	anak perempuan	anak perempuan	daughter	unmarked	headword, historical_form, 
 boru arit				unmarked	historical_form, compound	source_inventory	form-fecb60d145266e33	dictionary1977
 boru mangambe				unmarked	historical_form, compound	source_inventory	form-cfbdb480cb270607	dictionary1977
 boru marbagas				unmarked	cultural_term, compound	source_inventory	form-fe7fbd9d47c3016b	culture2021
+boru na nioli				Mdl-scope	cultural_term, compound	source_inventory	form-9b407e95ac594ee3	cultural2018
 boru namora				unmarked	cultural_term, compound	source_inventory	form-984dea8e21d3621f	culture2021
 boru raja				unmarked	cultural_term, compound	source_inventory	form-a49adc7f9a0ad216	culture2021
 boru tulang				unmarked	cultural_term, compound	source_inventory	form-05a8d7fd26bc2bf0	culture2021
@@ -1905,7 +1911,7 @@ botal	batal	batal	cancelled	unmarked	headword	reviewed_translations	form-00672a9
 botan				unmarked	cultural_term	source_inventory	form-1af917e426e9a3e2	culture2021
 boti				unmarked	headword	source_inventory	form-f09db7f2e056ba3e	dictionary
 boti-boti				unmarked	headword	source_inventory	form-6ec329ba0ef7a514	dictionary
-botik	pepaya	betik	papaya	unmarked	headword	reviewed_translations	form-0a02d0448e3c7a8e	dictionary
+botik	pepaya	betik	papaya	unmarked, MA	headword, botanical_name	reviewed_translations	form-0a02d0448e3c7a8e	dictionary, plants2019
 boting				unmarked	headword	source_inventory	form-f0de074ea315456a	dictionary
 boto	tahu	tahu	know	unmarked	headword	reviewed_translations	form-080bc338a7350d4c	dictionary
 botoan				unmarked	subentry	source_inventory	form-b2d566a430dc34e6	dictionary
@@ -2015,8 +2021,10 @@ bulu	bambu	buluh	bamboo	unmarked, Mdl-scope	headword, botanical_name	reviewed_tr
 bulu antaran				unmarked	subentry, compound, historical_form	source_inventory	form-c69c5db1ec79091a	dictionary, dictionary1977
 bulu poring				unmarked	subentry, compound	source_inventory	form-90b6af9ad9209c48	dictionary
 bulung	daun	daun	leaf	unmarked	headword, cultural_term	reviewed_translations	form-6bbea8b0140fa98d	dictionary, culture2021
-bulung gadung				Mdl-scope	botanical_name, compound	source_inventory	form-17bd046dd9caee35	wedding2022
+bulung gadung				Mdl-scope	botanical_name, compound, culinary_term	source_inventory	form-17bd046dd9caee35	wedding2022, culinary2021
+bulung gadung na dipudun				Mdl-scope	idiom, compound	source_inventory	form-b191fe4ce5beb341	cultural2018
 bulung ni latong				unmarked	historical_form, compound	source_inventory	form-387b41e9cf05ae50	dictionary1977
+bulung ujung				Mdl-scope	cultural_term, compound	source_inventory	form-8d3d2f885af8a36f	cultural2018
 bulung-bulung				unmarked	wordlist_entry	source_inventory	form-f02d869849727834	abvd1655
 bulus				unmarked	headword, subentry	source_inventory	form-47c5f7e66054a8f2	dictionary
 bulut				unmarked	headword	source_inventory	form-b04cbeae16727f60	dictionary
@@ -2036,6 +2044,8 @@ bunga	bunga	bunga	flower	unmarked	headword, wordlist_entry	reviewed_translations
 bunga karotes				Mdl-scope	botanical_name, compound	source_inventory	form-af6362b88a774f9c	wedding2022
 bunga lawang				Mdl-scope	botanical_name, compound	source_inventory	form-b5ae3238308411e0	wedding2022
 bunga mawar				unmarked	historical_form, compound	source_inventory	form-b28d2089cedddd19	dictionary1977
+bunga paet				MA	botanical_name, compound	source_inventory	form-db8248758576fd93	plants2019
+bunga raya				MA	botanical_name, compound	source_inventory	form-6b040cc9b22ae5e7	plants2019
 bungaran				unmarked	headword	source_inventory	form-45cafb599177e346	dictionary
 bungas				Mdl, unmarked	headword	source_inventory	form-ebb0eaa82f724b3f	dictionary
 bungat				unmarked	headword	source_inventory	form-bccbbf4c128b232c	dictionary
@@ -2089,6 +2099,10 @@ buranco				unmarked	headword, historical_form	source_inventory	form-fea9b549a723
 burangas				unmarked	headword, historical_form	source_inventory	form-c7df3fbaa2490d47	dictionary, dictionary1977
 burangir	sirih	sirih	betel leaf	unmarked, Mdl, Mdl-scope	headword, cultural_term, study_table, botanical_name	reviewed_translations	form-dd1b430e12d562ee	dictionary, culture2021, betle2020, wedding2022
 burangir boa-boa				unmarked	cultural_term, compound	source_inventory	form-bb9ccfd1123a8ed2	culture2021
+burangir karopit				Mdl-scope	idiom, compound	source_inventory	form-52670d62b71876fc	cultural2018
+burangir na hombang				Mdl-scope	idiom, compound	source_inventory	form-26b9327efd852988	cultural2018
+burangir parsomba				Mdl-scope	idiom, compound	source_inventory	form-2939553548309c84	cultural2018
+burangir pataonkon				Mdl-scope	idiom, compound	source_inventory	form-9925baa69811f6fe	cultural2018
 burangkit				unmarked, Akl	headword	source_inventory	form-3ed4feff8be9d02b	dictionary
 burangso				unmarked	headword	source_inventory	form-b93a69d61b500c2c	dictionary
 burantak				unmarked	headword	source_inventory	form-a667580e63b15050	dictionary
@@ -2361,6 +2375,7 @@ datdat	kadang-kadang	kadang-kadang	sometimes	unmarked	headword	reviewed_translat
 datu				unmarked	headword, cultural_term	source_inventory	form-34aad7a290b8f68b	dictionary, culture2021
 datu bonggur				unmarked	historical_form, compound	source_inventory	form-2bef19642abf7dec	dictionary1977
 datu marajar				unmarked	historical_form, compound	source_inventory	form-db33038e5db3e651	dictionary1977
+daun katarak				MA	botanical_name, compound	source_inventory	form-3b9e69f53a489fd1	plants2019
 daun salam				Mdl-scope	botanical_name, compound	source_inventory	form-542754973d363b60	wedding2022
 daya				unmarked	historical_form	source_inventory	form-6b36348af594a853	dictionary1977
 daya bisuk				unmarked	historical_form, compound	source_inventory	form-055f72ed0c411227	dictionary1977
@@ -2479,7 +2494,7 @@ dinahop				unmarked	historical_form	source_inventory	form-eea283bba6f0c856	dicti
 dingding	dinding	dinding	wall	unmarked	headword	reviewed_translations	form-f11842d1b3f6ae73	dictionary
 dingengehon				unmarked	historical_form	source_inventory	form-cd749b178bf225d2	dictionary1977
 dinggol	keras dan tidak empuk	keras dan tidak empuk	hard and uncomfortable	Mdl	headword	reviewed_translations	form-dfc93cd8b3e2556f	dictionary
-dingin-dingin				unmarked, Mdl-scope	cultural_term, botanical_name	source_inventory	form-6ff1f60a7fc80a8b	culture2021, wedding2022, patuaekkon2024
+dingin-dingin				unmarked, Mdl-scope, MA	cultural_term, botanical_name	source_inventory	form-6ff1f60a7fc80a8b	culture2021, wedding2022, patuaekkon2024, plants2019
 dioli				unmarked	cultural_term	source_inventory	form-c560f09d4b6a9169	culture2021
 diombus				unmarked	historical_form	source_inventory	form-18df41963790482b	dictionary1977
 diombuskon				unmarked	historical_form	source_inventory	form-f83d0609106a0937	dictionary1977
@@ -2583,6 +2598,8 @@ domu ni pokat				unmarked	cultural_term, compound	source_inventory	form-f8b5c728
 dong				unmarked	headword	source_inventory	form-1ff69c405a41cda9	dictionary
 dongan	kawan	kawan	friend	unmarked	headword	reviewed_translations	form-101e658afa6ba8e8	dictionary
 dongan sabagas				unmarked	headword, compound, historical_form	source_inventory	form-e2d4c6c89cc08ba2	dictionary, dictionary1977
+dongan saripe				Mdl-scope	cultural_term, compound	source_inventory	form-fa8252f99aecbf6f	cultural2018
+dongan tubu				Mdl-scope	cultural_term, compound	source_inventory	form-ee6cb63e5996dd95	cultural2018
 dongdong				unmarked	headword, historical_form	source_inventory	form-162fffe9f429e1fa	dictionary, dictionary1977
 donok	dekat	dekat	near	unmarked	headword, historical_form, wordlist_entry	reviewed_translations	form-7cbb77bd8c9db1e6	dictionary, dictionary1977, abvd1655
 donokan				unmarked	subentry	source_inventory	form-2da969b1e04c5434	dictionary
@@ -2653,7 +2670,8 @@ elduk				unmarked	headword	source_inventory	form-80d58698d5b7c8bd	dictionary
 elek	bujuk	pujuk	persuade gently	unmarked	headword, historical_form	reviewed_translations	form-c52c5501c5ddd107	dictionary, dictionary1977
 elpas				unmarked	historical_form	source_inventory	form-7f1fc432bb9ec11b	dictionary1977
 embal	geser	anjak	shift	unmarked	headword	reviewed_translations	form-7dc1280af7c58b25	dictionary
-eme	padi	padi	rice plant	unmarked, Mdl-scope	headword, historical_form, botanical_name	reviewed_translations	form-16087f74f4961fc3	dictionary, dictionary1977, zenodo2024, wedding2022, patuaekkon2024
+eme	padi	padi	rice plant	unmarked, Mdl-scope	headword, historical_form, botanical_name, study_table	reviewed_translations	form-16087f74f4961fc3	dictionary, dictionary1977, zenodo2024, wedding2022, patuaekkon2024, upah2021
+eme gorsing				Mdl-scope	study_table, compound	source_inventory	form-5a105fef9499b816	upah2021
 ende	lagu	lagu	song	unmarked	headword, subentry, cultural_term	reviewed_translations	form-8da1ebbcfde0d631	dictionary, culture2021
 ende-ende				unmarked	cultural_term	source_inventory	form-9f5d4dc255bebc3b	culture2021
 ende-ende naposo				unmarked	cultural_term, compound	source_inventory	form-f63e961cf9482846	culture2021
@@ -2687,6 +2705,7 @@ gabur	empuk	empuk	soft and yielding	unmarked	headword	reviewed_translations	form
 gabus	bohong	bohong	lie	unmarked	headword, historical_form	reviewed_translations	form-d9e14fab3c9f42f5	dictionary, dictionary1977, zenodo2024
 gade	gadai	gadai	pawn	unmarked	headword	reviewed_translations	form-3a7d979975613ddf	dictionary
 gadis	menjual	menjual	sell	unmarked	headword, historical_form	reviewed_translations	form-25939309c2e3c43c	dictionary, dictionary1977, zenodo2024
+gadong hau				MA	botanical_name, compound	source_inventory	form-4330a90c1ddae4e3	plants2019
 gadu	pematang	batas sawah	rice-field embankment	unmarked, Mdl-scope	headword, study_table	reviewed_translations	form-62e5283fda284aae	dictionary, grain2021
 gadung	ubi	ubi	tuber	unmarked	headword	reviewed_translations	form-66077196d64fb544	dictionary
 gadung batang				unmarked	subentry, compound	source_inventory	form-79fb602d149e9811	dictionary
@@ -2709,6 +2728,7 @@ gale	lemah	lemah	weak	unmarked	headword	reviewed_translations	form-2c0f3f264be03
 galoga				unmarked	headword	source_inventory	form-3cb63f2d39daf193	dictionary
 galombang	gelombang	gelombang	wave	unmarked	headword	reviewed_translations	form-4fa870ae65da6227	dictionary
 galunggung				unmarked	headword, historical_form	source_inventory	form-9857bbf455473f71	dictionary, dictionary1977
+gamak				Mdl-scope	study_table	source_inventory	form-e3223fd97df0aa3c	upah2021
 gamang				unmarked	headword	source_inventory	form-1ef96279a655470b	dictionary
 gamban				unmarked	historical_form	source_inventory	form-503edee810a76eb8	dictionary1977
 gambar	gambar	gambar	picture	unmarked	headword, historical_form	reviewed_translations	form-00b385c9d7d4f335	dictionary, dictionary1977, zenodo2024
@@ -2718,6 +2738,7 @@ gambung				unmarked	headword	source_inventory	form-0c644c66537e3bfb	dictionary
 gambur				unmarked	historical_form	source_inventory	form-699e177dfce6994a	dictionary1977
 gambur napu				unmarked	headword, compound, historical_form	source_inventory	form-2887fa56d7e04598	dictionary, dictionary1977
 gampit				Mdl, unmarked	headword	source_inventory	form-c3e0d608d98564ed	dictionary, zenodo2024
+gampual				Mdl-scope	study_table	source_inventory	form-325e8691a73fe380	upah2021
 gana				unmarked	headword	source_inventory	form-c15106469893207b	dictionary
 gancip				Akl, Mdl	headword	source_inventory	form-83a9873833758bc0	dictionary
 gandak	pacar	teman lelaki atau perempuan	boyfriend or girlfriend	unmarked	headword	reviewed_translations	form-451553aad3c3268a	dictionary
@@ -2768,6 +2789,7 @@ goar bujing				unmarked	cultural_term, compound	source_inventory	form-6ada7a149b
 goar menek				unmarked	cultural_term, compound	source_inventory	form-5fd202cd76f6f07a	culture2021
 goar nagodang				unmarked	cultural_term, compound	source_inventory	form-6806d52327d9fbd8	culture2021
 goar-goaran				unmarked	historical_form	source_inventory	form-b886f2a7d67e1495	dictionary1977
+gobak-gobak				Mdl-scope	cultural_term	source_inventory	form-730838508a9d09b1	cultural2018
 gobang				unmarked	headword	source_inventory	form-ed9c11329b9720ce	dictionary
 gobi				unmarked	historical_form	source_inventory	form-ed7206a009fdb955	dictionary1977
 godang	besar	besar	big	unmarked	headword, wordlist_entry, cultural_term	reviewed_translations	form-e4adee1522c726d4	dictionary, abvd1655, culture2021
@@ -2809,7 +2831,9 @@ gora	larang	larang	forbid	unmarked	headword, historical_form	reviewed_translatio
 gorap				unmarked	historical_form	source_inventory	form-8723c5ab6cf7df5d	dictionary1977
 gorar				unmarked	headword, wordlist_entry	source_inventory	form-bbc7d9955bf982ed	dictionary, abvd1655
 gordang	gendang	gendang	drum	Mdl, unmarked	headword, cultural_term	reviewed_translations	form-6e02ae2a4a4f5f78	dictionary, culture2021
-gordang sambilan				Mdl, unmarked	cross_reference, compound, cultural_term	source_inventory	form-338035ead7108984	dictionary, culture2021
+gordang jangat				Mdl-scope	cultural_term, compound	source_inventory	form-99cd08a36efd51c2	gordang2022
+gordang lima				Mdl-scope	cultural_term, compound	source_inventory	form-a09bbd6471bdee6f	gordang2022
+gordang sambilan				Mdl, unmarked, Mdl-scope	cross_reference, compound, cultural_term	source_inventory	form-338035ead7108984	dictionary, culture2021, cultural2018
 gore				unmarked	headword	source_inventory	form-b475efdb49506e29	dictionary
 goreng	goreng	goreng	fry	unmarked	headword, historical_form	reviewed_translations	form-3be0d64c60b111cc	dictionary, dictionary1977
 gorga	seni ukir	seni ukir	carving art	unmarked	headword	reviewed_translations	form-22557468dd864570	dictionary
@@ -2817,7 +2841,7 @@ gorit				Mdl	headword	source_inventory	form-3d95e88d01e1a188	dictionary
 gorsing	kuning	kuning	yellow	unmarked	headword, wordlist_entry	reviewed_translations	form-fa8129f0544946e2	dictionary, abvd1655
 gorsingkon				unmarked	subentry	source_inventory	form-d9a7cfacf58cdd85	dictionary
 goruk	kunci	kunci	key	unmarked	headword	reviewed_translations	form-f93281c4897d3697	dictionary
-goruk-goruk hapinis				unmarked	headword, compound	source_inventory	form-dcba80d774d1e651	dictionary
+goruk-goruk hapinis				unmarked, Mdl-scope	headword, compound, idiom	source_inventory	form-dcba80d774d1e651	dictionary, cultural2018
 gosok	gosok	gosok	rub	unmarked	headword, historical_form	reviewed_translations	form-b22e8ef311d3a984	dictionary, dictionary1977
 gotap	putus	putus	broken off	unmarked	headword, historical_form	reviewed_translations	form-715b0362b0835b43	dictionary, dictionary1977
 gotil				unmarked	cultural_term	source_inventory	form-a1981f98df1feb09	culture2021
@@ -2828,6 +2852,10 @@ goya harpus				unmarked	subentry, compound	source_inventory	form-c2ac13682555147
 goyak	benci	benci	hate	unmarked	headword	reviewed_translations	form-fe573ed3a9248494	dictionary
 gulaen	ikan	ikan	fish	unmarked	headword, wordlist_entry	reviewed_translations	form-8e69a5d6a0f81bf4	dictionary, abvd1655, zenodo2024
 gule	gulai	gulai	curry	unmarked	headword	reviewed_translations	form-23620d235bc6390f	dictionary
+gule asam pode				Mdl-scope	culinary_term, compound	source_inventory	form-21b4569b02e6972e	culinary2021
+gule ikan salai				Mdl-scope	culinary_term, compound	source_inventory	form-fba3fa08077b1ad7	culinary2021
+gule sambal pati				Mdl-scope	culinary_term, compound	source_inventory	form-6d1b4019cf630f61	culinary2021
+gule sibodak				Mdl-scope	culinary_term, compound	source_inventory	form-4aa3fb1092c954bc	culinary2021
 guling	guling	bantal peluk	bolster	unmarked	headword, historical_form	reviewed_translations	form-86b584c8b2807ead	dictionary, dictionary1977
 gulo	gula	gula	sugar	unmarked	headword	reviewed_translations	form-1830ceed6782013e	dictionary
 gulo bargot				Mdl-scope	cultural_term, compound	source_inventory	form-c7813fb4d7b013f2	wedding2022
@@ -2862,6 +2890,7 @@ habandolan				Akl, Mdl	subentry	source_inventory	form-45e50e6e635dd633	dictionar
 habandulan				unmarked	historical_form	source_inventory	form-2ba88d1addb78565	dictionary1977
 habang	terbang	terbang	fly	unmarked	headword, wordlist_entry	reviewed_translations	form-d6d30e7aba556c44	dictionary, abvd1655
 habang halihi tinggal tukko				unmarked	cultural_term, compound	source_inventory	form-c0dd5b8b8202a8a7	culture2021
+habang tondi				Mdl-scope	idiom, compound	source_inventory	form-8928d5586e79cc21	cultural2018
 habanggaon				unmarked	subentry, historical_form	source_inventory	form-a0a3d4aca2db3748	dictionary, dictionary1977
 habangkean				unmarked	historical_form	source_inventory	form-65799b66b1a2a8c7	dictionary1977
 habaranion				unmarked	subentry	source_inventory	form-f5b72b6ed59bf93b	dictionary
@@ -3011,7 +3040,7 @@ hapistaran				unmarked	subentry	source_inventory	form-9530fcdea8cc5f44	dictionar
 hapit				unmarked	headword	source_inventory	form-fa3a9db2b52d037d	dictionary
 hapitkon				unmarked	subentry	source_inventory	form-fe54712836aea530	dictionary
 hapolan				Akl	subentry	source_inventory	form-a79038627c86d996	dictionary
-haporas				unmarked	headword	source_inventory	form-b53358bb349d1486	dictionary
+haporas				unmarked, Mdl-scope	headword, study_table	source_inventory	form-b53358bb349d1486	dictionary, upah2021
 haporluan				unmarked	subentry	source_inventory	form-8009a791dd838528	dictionary
 haporsayaan				unmarked	subentry	source_inventory	form-a2d6d8b331cdbfbe	dictionary
 haposoan				unmarked	subentry	source_inventory	form-eff06930768ba2db	dictionary
@@ -3038,7 +3067,7 @@ harimboja	semangka	tembikai	watermelon	unmarked	headword	reviewed_translations	f
 haririburan				unmarked	historical_form	source_inventory	form-1150727f4538a3de	dictionary1977
 harnar				unmarked	headword	source_inventory	form-ff2d1c8a01c9fdd5	dictionary
 haroan				unmarked	subentry	source_inventory	form-0cf0016b4e48bd9b	dictionary
-haroan boru				unmarked	cultural_term, compound	source_inventory	form-3e04909b4c21c8c0	culture2021
+haroan boru				unmarked, Mdl-scope	cultural_term, compound, idiom	source_inventory	form-3e04909b4c21c8c0	culture2021, cultural2018
 haronduk panyurduon				unmarked	cultural_term, compound	source_inventory	form-60d8714bfa037dbe	culture2021
 haroro				unmarked	subentry, historical_form	source_inventory	form-0d18adba15c79f6b	dictionary, dictionary1977
 harto				unmarked	headword	source_inventory	form-08fa240cf06bde1e	zenodo2024
@@ -3080,7 +3109,7 @@ hatiha	ketika	ketika	when	unmarked	headword	reviewed_translations	form-6e1560402
 hatimbung				unmarked	headword, historical_form	source_inventory	form-b1d58d47691a1406	dictionary, dictionary1977
 hatinggalan				unmarked	subentry	source_inventory	form-92f9984f8a461568	dictionary
 hatir				Mdl	headword	source_inventory	form-5df85be6bea3fab7	dictionary
-hatobangon				unmarked	subentry, cultural_term	source_inventory	form-27ad531fcdd5f3bf	dictionary, culture2021
+hatobangon				unmarked, Mdl-scope	subentry, cultural_term	source_inventory	form-27ad531fcdd5f3bf	dictionary, culture2021, cultural2018
 hatolu				unmarked	historical_form	source_inventory	form-5a93e46a6b1dff15	dictionary1977
 hatorangan				unmarked	subentry	source_inventory	form-6c2457e8c70980c2	dictionary
 hatorkisan				unmarked	subentry, historical_form	source_inventory	form-467b68b0b5bee2a5	dictionary, dictionary1977
@@ -3119,6 +3148,7 @@ ho	kamu	kamu	you (singular)	unmarked	headword, historical_form, wordlist_entry	r
 hobar				unmarked	historical_form	source_inventory	form-296ce7e85f6e8659	dictionary1977
 hobar angin				unmarked	historical_form, compound	source_inventory	form-c393cfbaf211ba15	dictionary1977
 hobas	kemas	kemas	tidy up	unmarked	headword, historical_form	reviewed_translations	form-1b2ec3d30ced5319	dictionary, dictionary1977
+hobol tondi dohot badan				Mdl-scope	idiom, compound	source_inventory	form-4c887a0522e5132c	cultural2018
 hodar	kotor	kotor	dirty	unmarked	headword, wordlist_entry	reviewed_translations	form-66937f971d07e561	dictionary, abvd1655
 hodaran				unmarked	subentry	source_inventory	form-984449fb6b561381	dictionary
 hodohan				unmarked	historical_form	source_inventory	form-b5abe6b9d7cabd37	dictionary1977
@@ -3147,17 +3177,17 @@ homang	heran	hairan	surprised	unmarked	headword	reviewed_translations	form-e52c5
 hombang				unmarked	cross_reference	source_inventory	form-f3464409f5f77234	dictionary
 hombar				unmarked	headword, historical_form	source_inventory	form-22bc6cd764f254f4	dictionary, dictionary1977
 hombar balok				unmarked	subentry, compound	source_inventory	form-1eae09cd18ec3920	dictionary
-hombar suhut				unmarked	cultural_term, compound	source_inventory	form-2645944b8643ec0c	culture2021
+hombar suhut				unmarked, Mdl-scope	cultural_term, compound, idiom	source_inventory	form-2645944b8643ec0c	culture2021, cultural2018
 hombung				unmarked	cultural_term	source_inventory	form-141fe9d2b3ffd627	culture2021
 hona				unmarked	headword, historical_form	source_inventory	form-e53c77d546cd933e	dictionary, dictionary1977
 honas	nanas	nanas	pineapple	unmarked, MA	headword, botanical_name	reviewed_translations	form-72571bfbec0651f3	dictionary, plants2018
 honok	lama	lama	a long time	unmarked	headword	reviewed_translations	form-22be2eb72ea826f4	dictionary
 honong				unmarked	headword, historical_form	source_inventory	form-24735a093180e8cc	dictionary, dictionary1977
 hopkop				unmarked	headword, historical_form	source_inventory	form-f4bcc4ce572d99d9	dictionary, dictionary1977
-horas	selamat	selamat	safe and well	unmarked	headword, cultural_term	reviewed_translations	form-a3d475370d35fc63	dictionary, culture2021
+horas	selamat	selamat	safe and well	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-a3d475370d35fc63	dictionary, culture2021, cultural2018
 horbo	kerbau	kerbau	buffalo	unmarked	headword	reviewed_translations	form-d575b5d7663a0de6	dictionary, zenodo2024
 horing	kering	kering	dry	unmarked	headword	reviewed_translations	form-57f52ebf6ccef504	dictionary
-horja	pesta	kenduri	feast or celebration	unmarked	headword, historical_form, cultural_term	reviewed_translations	form-179dcf4926c5adfc	dictionary, dictionary1977, culture2021
+horja	pesta	kenduri	feast or celebration	unmarked, Mdl-scope	headword, historical_form, cultural_term	reviewed_translations	form-179dcf4926c5adfc	dictionary, dictionary1977, culture2021, cultural2018
 horja boru				unmarked	subentry, compound, cultural_term	source_inventory	form-68797361487e2ed4	dictionary, culture2021
 horja godang				unmarked	cultural_term, compound	source_inventory	form-aa84767e7593dd14	culture2021
 horja haroan boru				Mdl-scope	cultural_term, compound	source_inventory	form-b2fa446bdb50738a	wedding2022
@@ -3206,7 +3236,7 @@ humipas				unmarked	subentry	source_inventory	form-c5fdc8fc4cbb4529	dictionary
 humitir				unmarked	headword	source_inventory	form-13f9d0ecc0281b75	dictionary
 humkehem				unmarked	historical_form	source_inventory	form-fd5f859b62c0f5f6	dictionary1977
 humodar				unmarked	subentry	source_inventory	form-8882a4e2e34b802c	dictionary
-humolip				Mdl	subentry	source_inventory	form-e9796d4a879a8664	dictionary
+humolip				Mdl, Mdl-scope	subentry, cultural_term	source_inventory	form-e9796d4a879a8664	dictionary, cultural2018
 humopkop				unmarked	subentry	source_inventory	form-b103820452508465	dictionary
 humosa-hosa				unmarked	subentry	source_inventory	form-a9f970a602507cbb	dictionary
 humurang				unmarked	subentry, historical_form	source_inventory	form-2eeaf402c377b9a7	dictionary, dictionary1977
@@ -3346,6 +3376,7 @@ igonti				unmarked	subentry	source_inventory	form-9e858cd5745e1a79	dictionary, z
 igoreng				unmarked	subentry	source_inventory	form-dcbc52aef1f2c5f6	dictionary
 igung	hidung	hidung	nose	unmarked	headword, wordlist_entry	reviewed_translations	form-55ed23d310ac4378	dictionary, abvd1655
 ihan	ikan	ikan	fish	unmarked, Sipirok	headword, wordlist_entry	reviewed_translations	form-9b590eda19899fb4	dictionary, abvd1655
+ihan adat				Mdl-scope	cultural_term, compound	source_inventory	form-8d00a01d4e6e224d	cultural2018
 ihapit				unmarked	subentry	source_inventory	form-b1af68173b66a062	dictionary
 ihle				unmarked	cross_reference	source_inventory	form-4c36e4cfa0dde46b	dictionary
 ihur	ekor	ekor	tail	unmarked	headword, wordlist_entry	reviewed_translations	form-b062b6df97a2a177	dictionary, abvd1655
@@ -3356,6 +3387,9 @@ ijasah	ijazah	sijil	certificate of graduation	unmarked	headword	reviewed_transla
 ijazah				unmarked	historical_form	source_inventory	form-8b8b4d00eac32143	dictionary1977
 ijuk	ijuk	ijuk	sugar-palm fibre	unmarked	headword, historical_form	reviewed_translations	form-0a9ba845ed139d60	dictionary, dictionary1977
 ijur				unmarked	cross_reference	source_inventory	form-7dcc247f0dd1d417	dictionary
+ikan arsik				Mdl-scope	culinary_term, compound	source_inventory	form-ed8f09cae83d38be	culinary2021
+ikan di gule rata				Mdl-scope	culinary_term, compound	source_inventory	form-0dd34fc831501b41	culinary2021
+ikan mas holat				Mdl-scope	culinary_term, compound	source_inventory	form-d2cb9a7bb52be328	culinary2021
 ikur	ekor	ekor	tail	unmarked	headword	reviewed_translations	form-cb98217452f4e263	dictionary
 ila				unmarked	headword	source_inventory	form-eb22e86acde838b9	dictionary, zenodo2024
 ilak	elak	elak	avoid	unmarked	headword	reviewed_translations	form-fe99342c91ba2b36	dictionary, zenodo2024
@@ -3394,7 +3428,8 @@ inda	tidak	tidak	no or not	unmarked	headword, wordlist_entry	reviewed_translatio
 inda da				unmarked	subentry, compound	source_inventory	form-3e2b5aa1eedc4a80	dictionary
 inda pola				unmarked	historical_form, compound	source_inventory	form-1090796aeb180d1e	dictionary1977
 inda unjung tulonceng				Mdl-scope	idiom, compound	source_inventory	form-c3168fff1bc55a07	idiom2012
-indahan	nasi	nasi	cooked rice	unmarked	headword, historical_form, cultural_term	reviewed_translations	form-b03567a92bbc2b3d	dictionary, dictionary1977, zenodo2024, culture2021
+indahan	nasi	nasi	cooked rice	unmarked, Mdl-scope	headword, historical_form, cultural_term, study_table	reviewed_translations	form-b03567a92bbc2b3d	dictionary, dictionary1977, zenodo2024, culture2021, upah2021
+indahan lungun-lungun				Mdl-scope	idiom, compound	source_inventory	form-50718f6e9a735352	cultural2018
 indahan mamanjadi bubur				Mdl-scope	idiom, compound	source_inventory	form-5b256ed580a24441	idiom2012
 indahan sikunyit				unmarked	cultural_term, compound	source_inventory	form-0d44b82b9f459331	culture2021
 indahan tompu robu				unmarked	cultural_term, compound	source_inventory	form-0c91ac7e277698ea	culture2021
@@ -3410,7 +3445,7 @@ Indonesia Raya				unmarked	historical_form, compound	source_inventory	form-1f1b6
 indora	dada	dada	chest	Mdl	headword	reviewed_translations	form-d7f477e1f038297e	dictionary
 indu	itu	itu	that	unmarked	headword	reviewed_translations	form-3d7313dbda83d221	dictionary
 induk	induk	induk	mother animal	unmarked	headword	reviewed_translations	form-20f5e3c90f9cf9aa	dictionary
-induri				unmarked, Mdl-scope	headword, historical_form, study_table	source_inventory	form-670617cca4196bab	dictionary, dictionary1977, grain2021
+induri				unmarked, Mdl-scope	headword, historical_form, study_table, cultural_term	source_inventory	form-670617cca4196bab	dictionary, dictionary1977, grain2021, cultural2018
 inganan	tempat	tempat	place	unmarked	headword	reviewed_translations	form-94a9b5b965bf54ee	dictionary
 ingengehon				unmarked	subentry	source_inventory	form-054c4c3c4e416027	dictionary
 Inggeris				unmarked	historical_form	source_inventory	form-5352c2b932f0d50e	dictionary1977
@@ -3474,6 +3509,7 @@ isorong				unmarked	subentry	source_inventory	form-dcd4c859efbd19f6	dictionary
 isosak				unmarked	subentry	source_inventory	form-1d43bf739575de2d	dictionary
 isosali				unmarked	subentry	source_inventory	form-3b49c35af96d4d24	dictionary
 itak				unmarked	headword	source_inventory	form-267105372541f57c	dictionary
+itak poul-poul				Mdl-scope	culinary_term, compound	source_inventory	form-e457eae468597f40	culinary2021
 itambat				unmarked	subentry	source_inventory	form-c2f142826cb204d3	dictionary
 itampul				Akl, Mdl	subentry	source_inventory	form-cdfc3ad9d37c8770	dictionary
 itanom				unmarked	subentry	source_inventory	form-6be78fb232dcd19f	dictionary
@@ -3495,7 +3531,7 @@ jadi	jadi	jadi	become	unmarked	headword	reviewed_translations	form-a04401fac1310
 jae	hilir	hilir	downstream	unmarked	headword	reviewed_translations	form-0fe1fc05764a07aa	dictionary
 jagal				unmarked	headword, historical_form	source_inventory	form-464ed3a5ea9a8b83	dictionary, dictionary1977
 jagar				unmarked	headword, historical_form	source_inventory	form-533ef2fc34b50b8d	dictionary, dictionary1977
-jagar-jagar				unmarked	subentry, historical_form	source_inventory	form-f05606fa5b793c02	dictionary, dictionary1977
+jagar-jagar				unmarked, Mdl-scope	subentry, historical_form, cultural_term	source_inventory	form-f05606fa5b793c02	dictionary, dictionary1977, cultural2018
 jagit	terima	terima	receive	unmarked	headword	reviewed_translations	form-6aa5f9a0f3b59804	dictionary
 jago	jaga	jaga	guard	unmarked	headword, historical_form	reviewed_translations	form-acba1829668bd8d6	dictionary, dictionary1977, zenodo2024
 jagohon				unmarked	historical_form	source_inventory	form-7afe3d05cf004397	dictionary1977
@@ -3523,8 +3559,9 @@ jambang				unmarked	headword	source_inventory	form-75fce3d38146fa6d	dictionary
 jambang na niadahon				unmarked	historical_form, compound	source_inventory	form-497c521163984853	dictionary1977
 jambar				unmarked	cultural_term	source_inventory	form-17a4c680f413b4e2	culture2021
 jambatan	jembatan	jambatan	bridge	unmarked	headword	reviewed_translations	form-eb8d613f3816aca6	dictionary
+jamborsik				MA	botanical_name	source_inventory	form-a7d10cb7e4e9be6f	plants2019
 jambu	jambu	jambu	jambu fruit	unmarked	headword, historical_form	reviewed_translations	form-15d0382903901c2c	dictionary, dictionary1977
-jamita	cerita	cerita	story	unmarked	headword	reviewed_translations	form-48a4a542c3e2a4e4	dictionary
+jamita	cerita	cerita	story	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-48a4a542c3e2a4e4	dictionary, cultural2018
 jamoan				unmarked	headword	source_inventory	form-29bdacdc10142751	dictionary
 jampal				unmarked	headword, historical_form	source_inventory	form-f641cbe0b5feebe8	dictionary, dictionary1977
 jampar				unmarked	headword	source_inventory	form-c520635c6044e291	dictionary
@@ -3534,9 +3571,10 @@ jampi				unmarked	headword	source_inventory	form-943cbffbdb346225	dictionary
 jampurut				unmarked	headword	source_inventory	form-13ea410899dc3b88	dictionary
 jana	dan	dan	and	unmarked	headword	reviewed_translations	form-be480d3210e56e78	dictionary
 jandela	jendela	tingkap	window	unmarked	headword	reviewed_translations	form-befcaf6d6d78c9ec	dictionary
-jangat				unmarked	headword	source_inventory	form-dca51fb40ac2ab23	dictionary
+jangat				unmarked, Mdl-scope	headword, cultural_term	source_inventory	form-dca51fb40ac2ab23	dictionary, gordang2022
 janggut	janggut	janggut	beard	unmarked	headword	reviewed_translations	form-5262d767276da8fc	dictionary
 jangkat				unmarked	headword	source_inventory	form-76c1e30f9c5fe01d	dictionary
+janglas				Mdl-scope	idiom	source_inventory	form-f8a149eaad200c9b	cultural2018
 jantan	jantan	jantan	male animal	unmarked	headword	reviewed_translations	form-c3b015d61c71868f	dictionary
 jantar				unmarked	headword	source_inventory	form-ae6cca693afe7eaa	dictionary
 jaot				unmarked	headword	source_inventory	form-7b792eec43ea277a	dictionary
@@ -3638,7 +3676,8 @@ kadangan				Mdl-scope	study_table	source_inventory	form-bde43f68292121cd	grain20
 kadele	kedelai	kacang soya	soybean	unmarked	headword	reviewed_translations	form-cc921c9ddf429317	dictionary
 kaderen	kelereng	guli	marble for games	unmarked	headword	reviewed_translations	form-8148ef5cda219cd4	dictionary
 kadongdong	kedondong	kedondong	ambarella fruit	unmarked	headword	reviewed_translations	form-8342bf4882282c0d	dictionary
-kahanggi				unmarked, Mdl-scope	headword, study_table, cultural_term	source_inventory	form-1b0c51a46218b2f7	dictionary, kinship2026, culture2021
+kahanggi				unmarked, Mdl-scope	headword, study_table, cultural_term	source_inventory	form-1b0c51a46218b2f7	dictionary, kinship2026, culture2021, cultural2018
+kahanggi pareban				Mdl-scope	idiom, compound	source_inventory	form-daf22eb50c4d573c	cultural2018
 kail	pancing	pancing	fishing tackle	unmarked	headword	reviewed_translations	form-d02d59c4f25a2ae3	dictionary
 kais	kais	kais	scratch for food	unmarked	headword	reviewed_translations	form-31fc25322ea5c095	dictionary, zenodo2024
 kaji				unmarked	historical_form	source_inventory	form-e37a2f31347770f6	dictionary1977
@@ -3691,6 +3730,7 @@ karotes	kertas	kertas	paper	unmarked	headword, historical_form	reviewed_translat
 karotes cap				unmarked	historical_form, compound	source_inventory	form-9669702480e3aded	dictionary1977
 katagi				unmarked	subentry	source_inventory	form-b434aec33e9a1cfa	dictionary
 katimpung				unmarked	headword	source_inventory	form-d2a7c7503717d89b	dictionary
+katuk				MA	botanical_name	source_inventory	form-b97de65604ba4e0f	plants2019
 katupek	ketupat	ketupat	rice cake in a woven leaf pouch	unmarked	headword	reviewed_translations	form-7cd8e8ed68baafdd	dictionary
 kayo				unmarked	cultural_term	source_inventory	form-d02ff4fee85f3dd0	culture2021
 kecet	bicara	percakapan	speech	unmarked	headword	reviewed_translations	form-f957295668863aee	dictionary, zenodo2024
@@ -3713,6 +3753,7 @@ kikit	pelit	kedekut	stingy	unmarked	headword	reviewed_translations	form-bbed7e18
 kikitan				unmarked	subentry	source_inventory	form-85efaf33e36a7a3a	dictionary
 kilkil	kunyah	kunyah	chew	unmarked	headword	reviewed_translations	form-7f64242800046751	dictionary
 kilo				unmarked	historical_form	source_inventory	form-54c5ccf0f305a9a1	dictionary1977
+kina				MA	botanical_name	source_inventory	form-bb9363753ede1201	plants2019
 kirik				unmarked	historical_form	source_inventory	form-2e19c699eba98e90	dictionary1977
 kirim				unmarked	historical_form	source_inventory	form-f566ea0e2a546dff	dictionary1977
 kirim solom				unmarked	historical_form, compound	source_inventory	form-44628c7fd20f12f8	dictionary1977
@@ -3750,6 +3791,7 @@ kuburan				unmarked	historical_form	source_inventory	form-d86787968bc2ccaf	dicti
 kudo	kuda	kuda	horse	unmarked	headword, historical_form	reviewed_translations	form-da5dfd99bc5a5c31	dictionary, dictionary1977
 kue				unmarked	historical_form	source_inventory	form-4555a0b49453e7e3	dictionary1977
 kue cemprit				unmarked	historical_form, compound	source_inventory	form-891146912f98ec25	dictionary1977
+kue talam				Mdl-scope	culinary_term, compound	source_inventory	form-f2bce500b7f1a498	culinary2021
 kuhur				unmarked	headword	source_inventory	form-a572321bf3a942fc	dictionary
 kuhuran				unmarked	subentry	source_inventory	form-5febd34cfb79e28c	dictionary
 kuku				unmarked	historical_form	source_inventory	form-81a50432934af464	dictionary1977
@@ -3798,6 +3840,7 @@ lalo-lalo				unmarked	cultural_term	source_inventory	form-6d7323f19a91d003	cultu
 lalu	sampai	sampai	arrive	unmarked	headword, historical_form	reviewed_translations	form-7a5362b6fc07c28c	dictionary, dictionary1977
 lamam	lembut	lembut	soft	unmarked	headword	reviewed_translations	form-0f046aa9a0ec1600	dictionary
 lamari	lemari	almari	cupboard	unmarked	headword	reviewed_translations	form-106913a0e3851316	dictionary
+lamase				Mdl-scope	study_table	source_inventory	form-25e4adeb7ad7d5d7	upah2021
 lambang				unmarked	headword	source_inventory	form-b41b46dc4f2b0578	dictionary
 lambar	lembar	helai	sheet	unmarked	headword	reviewed_translations	form-d8a1c42e5db58a12	dictionary
 lambing				unmarked	headword	source_inventory	form-d7a4bc0e54262d77	dictionary
@@ -3870,6 +3913,7 @@ las				unmarked	historical_form	source_inventory	form-02d5d0522a76608d	dictionar
 las ni ari				unmarked	historical_form, compound	source_inventory	form-410b5ca1eaaa73bc	dictionary1977
 lasang				unmarked	headword	source_inventory	form-2dd7da84af9502c4	dictionary
 lasiak	cabai	cili	chilli	unmarked	headword	reviewed_translations	form-14d4c6acad4f7c93	dictionary
+lasiak cina				MA	botanical_name, compound	source_inventory	form-52edbab2b5aa7946	plants2019
 lasiak lamot				unmarked, Mdl-scope	subentry, compound, botanical_name	source_inventory	form-041b381bfeb83b23	dictionary, wedding2022
 lasiak narara				Mdl-scope	botanical_name, compound	source_inventory	form-7d5be6b139ad85bb	wedding2022
 latong				unmarked	historical_form	source_inventory	form-828cdc1c3273bd3c	dictionary1977
@@ -4323,6 +4367,7 @@ mambongbong				unmarked	subentry	source_inventory	form-b443b5351ff7074b	dictiona
 mambonggalkon				Akl, Mdl	subentry	source_inventory	form-02de6ad89dcd1b8c	dictionary
 mambonging				unmarked	subentry, historical_form	source_inventory	form-72628bc9126c7f2d	dictionary, dictionary1977
 mambongkal				Akl, Mdl	subentry	source_inventory	form-16270af73301fbca	dictionary
+mambongkot bagas				Mdl-scope	idiom, compound	source_inventory	form-06c22bd848c4f5f4	cultural2018
 mambongkoti				Akl, Mdl, unmarked	subentry, historical_form	source_inventory	form-86cb75868878f65c	dictionary, dictionary1977
 mambonom-bonomkon				unmarked	subentry	source_inventory	form-5ad6570ec35d9dcc	dictionary
 mambonomkon				unmarked	subentry	source_inventory	form-98070d4eb44dc966	dictionary
@@ -4769,7 +4814,7 @@ mangalangkopi				Akl, Mdl	subentry	source_inventory	form-3665ea34c71c7057	dictio
 mangalangkopkon				Akl, Mdl	subentry	source_inventory	form-8aef73a29b3d0203	dictionary
 mangalangkoti				unmarked	historical_form	source_inventory	form-9336f21a72f06442	dictionary1977
 mangalap				unmarked	subentry, historical_form	source_inventory	form-27552d12d08b4b88	dictionary, dictionary1977
-mangalap boru				unmarked	subentry, compound	source_inventory	form-1263cff6192c8510	dictionary
+mangalap boru				unmarked, Mdl-scope	subentry, compound, cultural_term	source_inventory	form-1263cff6192c8510	dictionary, culinary2021
 mangalap manaruhon				unmarked	subentry, compound	source_inventory	form-40147a549c8e314c	dictionary
 mangalap-alapi				unmarked	subentry	source_inventory	form-8cea79507c383cbc	dictionary
 mangalapi				unmarked	subentry	source_inventory	form-63edeb6bd7e72c0d	dictionary
@@ -4866,6 +4911,7 @@ mangampar ruji				unmarked	subentry, compound	source_inventory	form-bc64a09ab2a0
 mangamparkon				Mdl, Akl	subentry	source_inventory	form-4a7849fc2b33f7d3	dictionary
 mangampe				unmarked	historical_form	source_inventory	form-5c08cd49b8427af3	dictionary1977
 mangampehon				Akl, unmarked	subentry, historical_form	source_inventory	form-f6917afd2b87adb3	dictionary, dictionary1977
+mangampehon goar				Mdl-scope	idiom, compound	source_inventory	form-8a8eb1bcce18f0e0	cultural2018
 mangampei				Akl	subentry	source_inventory	form-17568eeecc852258	dictionary
 mangampik				unmarked	historical_form	source_inventory	form-cbca1ae1cb65f188	dictionary1977
 mangampini				Akl, unmarked	subentry, historical_form	source_inventory	form-e610529dc461f816	dictionary, dictionary1977
@@ -4881,6 +4927,7 @@ mangamput				unmarked	historical_form	source_inventory	form-eca112c781701def	dic
 mangamputi				unmarked	subentry	source_inventory	form-6890fcf7ce95e4b6	dictionary
 mangamuk				unmarked	subentry, historical_form	source_inventory	form-f973998fbc176d10	dictionary, dictionary1977
 mangan	makan	makan	eat	unmarked	headword, wordlist_entry	reviewed_translations	form-ea1df2fa92bf04a0	dictionary, abvd1655, zenodo2024
+mangan pamunan				Mdl-scope	cultural_term, compound	source_inventory	form-c4ebd3013a8bab82	cultural2018
 mangan tano				Mdl-scope	idiom, compound	source_inventory	form-583a041b76355bdf	idiom2012
 mangan-mangan				unmarked	subentry	source_inventory	form-dd25e146ce1ad827	dictionary
 manganahon				unmarked	subentry, historical_form	source_inventory	form-90e7683428e43fad	dictionary, dictionary1977
@@ -5321,7 +5368,7 @@ mangunjomkon				unmarked	subentry	source_inventory	form-4d234b846fa45f23	diction
 manguntong				Akl, Mdl	subentry	source_inventory	form-8be8fa1b39e6d3d3	dictionary
 manguntungkon				Akl, Mdl	subentry	source_inventory	form-fa7c857106ccfbe4	dictionary
 manguntuti				Akl, Mdl	subentry	source_inventory	form-e20d9f845be3484e	dictionary
-mangupa				unmarked	subentry, cultural_term	source_inventory	form-90e84b4493527396	dictionary, culture2021
+mangupa				unmarked, Mdl-scope	subentry, cultural_term	source_inventory	form-90e84b4493527396	dictionary, culture2021, cultural2018
 mangupa tondi				unmarked	cultural_term, compound	source_inventory	form-4488109f280bcb53	culture2021
 mangupa-upa				unmarked	subentry, cultural_term	source_inventory	form-05a72d618b323483	dictionary, culture2021
 mangupa-upai				unmarked	subentry	source_inventory	form-ed7d1058e91692dc	dictionary
@@ -5447,6 +5494,7 @@ manuk	ayam	ayam	chicken	unmarked	headword	reviewed_translations	form-892f6100b1b
 manuk bange				unmarked	historical_form, compound	source_inventory	form-8fc4178577a6700f	dictionary1977
 manuk benak				unmarked	historical_form, compound	source_inventory	form-77ace0955510e3a5	dictionary1977
 manuk lago				unmarked	subentry, compound	source_inventory	form-623758df45826978	dictionary
+manuk na direngrengan				Mdl-scope	idiom, compound	source_inventory	form-ea87096b16a573f8	cultural2018
 manuk rangga				unmarked	historical_form, compound	source_inventory	form-dec07958fc48216b	dictionary1977
 manuk sibangke				unmarked	historical_form, compound	source_inventory	form-7875deba6af5a759	dictionary1977
 manuktuk				unmarked	subentry	source_inventory	form-b027997e46f2402d	dictionary
@@ -5692,6 +5740,7 @@ maralimos				Mdl	subentry	source_inventory	form-3d71b6f882b0074c	dictionary
 maraling				unmarked	subentry	source_inventory	form-6ccb8e60daf08468	dictionary
 maraling-alingan				unmarked	historical_form	source_inventory	form-61210db7c6d44b99	dictionary1977
 maralo				unmarked	subentry	source_inventory	form-b1bd833d623955db	dictionary
+maralok-alok				Mdl-scope	idiom	source_inventory	form-8c9a2c2efb673618	cultural2018
 maralong-along				unmarked	subentry	source_inventory	form-0434ff77558d872b	dictionary
 maralpihan				unmarked	historical_form	source_inventory	form-3b49bf102baa7c58	dictionary1977
 maralpikkon				unmarked	subentry	source_inventory	form-613ec3dd56028e1a	dictionary
@@ -6322,7 +6371,7 @@ marpamarenta				Mdl	subentry	source_inventory	form-96935a406eddfd41	dictionary
 marpancur				Akl, Mdl	subentry	source_inventory	form-1846a77ff2f71d10	dictionary
 marpancuran				Akl, Mdl	subentry	source_inventory	form-6d400f9f6a932483	dictionary
 marpangalaho				unmarked	subentry	source_inventory	form-eae8dee8d1ea044e	dictionary
-marpangir				unmarked	subentry	source_inventory	form-374544cf303f96b5	dictionary
+marpangir				unmarked, Mdl-scope	subentry, cultural_term	source_inventory	form-374544cf303f96b5	dictionary, cultural2018
 marpangkal				Akl, Mdl	subentry	source_inventory	form-cf7217caa1b7abfe	dictionary
 marpantang				Akl, Mdl	subentry	source_inventory	form-da9501e18a94947b	dictionary
 marpantar				Akl, Mdl	subentry	source_inventory	form-70906817d65805f7	dictionary
@@ -6620,6 +6669,7 @@ martalobat				unmarked	subentry	source_inventory	form-0a1535e345a5cdac	dictionar
 martamba				unmarked	subentry	source_inventory	form-20724c7eb8d9c38d	dictionary
 martanda				unmarked	subentry	source_inventory	form-2def84513d7054c6	dictionary
 martandang				unmarked	subentry, cultural_term	source_inventory	form-cb1bf4b888357e79	dictionary, culture2021
+martandolan				Mdl-scope	idiom	source_inventory	form-946db5b785c96371	cultural2018
 martanga				unmarked	subentry	source_inventory	form-4997da58d6340d28	dictionary
 martangan				unmarked	subentry	source_inventory	form-ce023b4b4d86e978	dictionary
 martangga				unmarked	subentry	source_inventory	form-dd576707797799d7	dictionary
@@ -6635,6 +6685,7 @@ martata				unmarked	subentry, cultural_term	source_inventory	form-ccaf4b78b7a0fa
 martenju				unmarked	subentry	source_inventory	form-926907d6fcc9c42f	dictionary
 martiang				unmarked	subentry	source_inventory	form-569ef7ea142ac73f	dictionary
 martias				Mdl	subentry	source_inventory	form-77648797960ed0cc	dictionary
+martiga-tiga				Mdl-scope	cultural_term	source_inventory	form-f68cd9d87921d371	cultural2018
 martihas				Akl	subentry	source_inventory	form-7ec73f1405aa29e2	dictionary
 martimbako				unmarked	subentry	source_inventory	form-902db8fcff59c75d	dictionary
 martimbang				unmarked	headword	source_inventory	form-f1615af3932301a6	dictionary
@@ -6744,7 +6795,8 @@ mata duitan				Mdl-scope	idiom, compound	source_inventory	form-fec7cefae4a230dc	
 mata karanjang				Mdl-scope	idiom, compound	source_inventory	form-705ca306d65df3fa	idiom2012
 mata na bilbion				unmarked	historical_form, compound	source_inventory	form-76af95b0331ab055	dictionary1977
 mata ni ari				unmarked	historical_form, compound	source_inventory	form-cd53af5572ddf443	dictionary1977
-mata ni horja				unmarked	subentry, compound, historical_form, cultural_term	source_inventory	form-206d9e2bc189e2d5	dictionary, dictionary1977, culture2021
+mata ni ari naso gakgakon				Mdl-scope	idiom, compound	source_inventory	form-fd21faa21b8cd0bb	cultural2018
+mata ni horja				unmarked, Mdl-scope	subentry, compound, historical_form, cultural_term	source_inventory	form-206d9e2bc189e2d5	dictionary, dictionary1977, culture2021, cultural2018
 mata-mata				unmarked	subentry	source_inventory	form-95c29a0b4f2d2eb9	zenodo2024
 matabo				unmarked	subentry	source_inventory	form-7e205a3405e93aaf	dictionary
 matajom				unmarked	subentry	source_inventory	form-ae1b6ebcc03facc4	dictionary
@@ -6799,6 +6851,7 @@ menganggapkon				unmarked	subentry	source_inventory	form-b63c34e888ba168d	dictio
 mengarar				unmarked	historical_form	source_inventory	form-578cc4dfe1178df9	dictionary1977
 mengelek-elek				unmarked	historical_form	source_inventory	form-f303abe499307856	dictionary1977
 menggong				unmarked	historical_form	source_inventory	form-faa4435379418049	dictionary1977
+mengkudu				MA	botanical_name	source_inventory	form-aaeafbe409d0c878	plants2019
 mera				unmarked	headword	source_inventory	form-fc495bfc6baba494	dictionary
 mera gumbot				unmarked	historical_form, compound	source_inventory	form-569e9e43bca40ded	dictionary1977
 merek				unmarked	historical_form	source_inventory	form-83ea60c9f35e5508	dictionary1977
@@ -6832,6 +6885,7 @@ mohop				unmarked	wordlist_entry	source_inventory	form-c31997062a9c3d34	abvd1655
 mola				unmarked	historical_form	source_inventory	form-6ffa6caf3d5d2422	dictionary1977
 momo	mudah	mudah	easy	unmarked	headword, historical_form	reviewed_translations	form-3100486406b39efc	dictionary, dictionary1977
 momoan				unmarked	subentry	source_inventory	form-efc21ea9edc32b67	dictionary
+momongan				Mdl-scope	cultural_term	source_inventory	form-ee883b57d697f74c	cultural2018, gordang2022
 momos	simpan	simpan	store	unmarked	headword, historical_form	reviewed_translations	form-05c6dd649245bf88	dictionary, dictionary1977
 mona				unmarked	headword, historical_form	source_inventory	form-132106a20b11b49b	dictionary, dictionary1977
 monang	menang	menang	win	unmarked	headword	reviewed_translations	form-3b229a7c3830c68a	dictionary
@@ -6846,8 +6900,9 @@ monggot	pusing	pening	dizzy	unmarked	headword	reviewed_translations	form-2a6bd68
 monjap	sembunyi	sembunyi	hide	unmarked	headword, subentry	reviewed_translations	form-c945c4711c72bf02	dictionary
 monjap-onjap				unmarked	subentry	source_inventory	form-d4fedfc1b6c35b96	dictionary
 mopop				unmarked	headword	source_inventory	form-d7bd4a5a72f52568	dictionary
-mora				unmarked, Mdl-scope	headword, historical_form, study_table, cultural_term	source_inventory	form-faf4cec4bc508b56	dictionary, dictionary1977, kinship2026, culture2021
+mora				unmarked, Mdl-scope	headword, historical_form, study_table, cultural_term	source_inventory	form-faf4cec4bc508b56	dictionary, dictionary1977, kinship2026, culture2021, cultural2018
 mora mangulosi				unmarked	cultural_term, compound	source_inventory	form-3d5e7e50ba0a11ed	culture2021
+morapule				Mdl-scope	cultural_term	source_inventory	form-a97a21b2528435f4	cultural2018
 morgo				unmarked	historical_form	source_inventory	form-59d7b8068b70326b	dictionary1977
 morot				unmarked	subentry	source_inventory	form-475d8281e36577b7	dictionary
 morus	diare	cirit-birit	diarrhoea	unmarked	headword	reviewed_translations	form-356d95e8aa1cbf3b	dictionary
@@ -6905,16 +6960,17 @@ na mangkat				unmarked	historical_form, compound	source_inventory	form-eed4ab0ca
 na mansada bulung				unmarked	historical_form, compound	source_inventory	form-214191fde66d99e3	dictionary1977
 na marangkat i				unmarked	historical_form, compound	source_inventory	form-df8ae1d89b7584f4	dictionary1977
 na niabitan				unmarked	historical_form, compound	source_inventory	form-7c6a876a4a6d5662	dictionary1977
-na poso bulung				unmarked	headword, compound, historical_form	source_inventory	form-23c882bece52231b	dictionary, dictionary1977
+na poso bulung				unmarked, Mdl-scope	headword, compound, historical_form, cultural_term	source_inventory	form-23c882bece52231b	dictionary, dictionary1977, cultural2018
 na siak bagi				unmarked	historical_form, compound	source_inventory	form-0e4a1e8c7431dbf0	dictionary1977
 na tua bulung				unmarked	historical_form, compound	source_inventory	form-b32b5c6958da07ac	dictionary1977
-na uli bulung				unmarked	headword, compound	source_inventory	form-d353ceb60c9ced38	dictionary
+na uli bulung				unmarked, Mdl-scope	headword, compound, cultural_term	source_inventory	form-d353ceb60c9ced38	dictionary, cultural2018
 nabalok				unmarked	subentry	source_inventory	form-6fe4754bc7a67ef4	dictionary
 nabersih ate-ate				Mdl-scope	idiom, compound	source_inventory	form-43699f391d995073	idiom2012
 nabi	nabi	nabi	prophet	unmarked	headword	reviewed_translations	form-b047fc4e2d3fa838	dictionary
 nada	tidak	tidak	not	unmarked	headword, wordlist_entry	reviewed_translations	form-41a698236b03374c	dictionary, abvd1655
 nada ampang				unmarked	historical_form, compound	source_inventory	form-e977b3902d8a7b9c	dictionary1977
 nadioli				unmarked	cultural_term	source_inventory	form-4292427b52b551df	culture2021
+naduma bulung				Mdl-scope	cultural_term, compound	source_inventory	form-f6eab20d8baf1861	cultural2018
 naek	naik	naik	go up	unmarked	headword, historical_form, wordlist_entry	reviewed_translations	form-df80fda585721152	dictionary, dictionary1977, abvd1655
 naek daro				Mdl-scope	idiom, compound	source_inventory	form-a6dc6ec6c915dbac	idiom2012
 naek daun				Mdl-scope	idiom, compound	source_inventory	form-9bacd72a9c2a346b	idiom2012
@@ -6955,7 +7011,7 @@ naposo bulung				unmarked	cultural_term, compound	source_inventory	form-41ea6825
 naposo nauli bulung				unmarked	cultural_term, compound	source_inventory	form-f8b7571f1ff4b8d3	culture2021
 napotangin				unmarked	headword, historical_form	source_inventory	form-ad577533e76a4490	dictionary, dictionary1977
 napu	pupuk	baja	fertiliser	unmarked, Mdl-scope	headword, study_table	reviewed_translations	form-7acc36d5f730fc70	dictionary, grain2021
-napuran	sirih	sirih	betel leaf	unmarked	headword	reviewed_translations	form-a2cb55aeb5968000	dictionary
+napuran	sirih	sirih	betel leaf	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-a2cb55aeb5968000	dictionary, cultural2018
 narako				unmarked	headword	source_inventory	form-0e9e2a21b26545fb	dictionary
 narara muko				Mdl-scope	idiom, compound	source_inventory	form-446a9a56dbe82f71	idiom2012
 nari				unmarked	historical_form	source_inventory	form-36ea4bac609301a4	dictionary1977
@@ -7230,7 +7286,9 @@ odang	hadang	hadang	block the way	unmarked	headword	reviewed_translations	form-f
 ogar				unmarked	headword	source_inventory	form-1a6026e491220734	dictionary
 ogol				unmarked	headword	source_inventory	form-46c62fe045cf9be8	dictionary
 ogos	senggol	senggol	bump against	unmarked	headword	reviewed_translations	form-af0b16e06b248251	dictionary
-ogung	gong	gong	gong	unmarked	headword, cultural_term	reviewed_translations	form-5fa4a6f783b75d59	dictionary, culture2021
+ogung	gong	gong	gong	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-5fa4a6f783b75d59	dictionary, culture2021, gordang2022
+ogung betina				Mdl-scope	cultural_term, compound	source_inventory	form-c3a2442ec257666f	gordang2022
+ogung jantan				Mdl-scope	cultural_term, compound	source_inventory	form-8c783f44f284425b	gordang2022
 oh				unmarked	headword	source_inventory	form-cf04119a706e2c45	dictionary
 ohol				unmarked	headword	source_inventory	form-e35e8a2926a9b247	dictionary
 oi	aduh	aduh	ouch	unmarked	headword	reviewed_translations	form-87f633634cc4b02f	dictionary
@@ -7265,6 +7323,8 @@ omping				Akl, Mdl	headword	source_inventory	form-729ca8e85264ef15	dictionary
 ompong				Mdl	headword	source_inventory	form-2435c55c9f0dd88e	dictionary
 ompot				Akl, Mdl, unmarked	headword, historical_form	source_inventory	form-dfdaa09148e33226	dictionary, dictionary1977
 ompu				Akl, Mdl, unmarked	headword, historical_form, cultural_term	source_inventory	form-db6f0a28b46ad816	dictionary, dictionary1977, culture2021
+ompu na robian				Mdl-scope	idiom, compound	source_inventory	form-a20e9ec6ab45bd47	cultural2018
+ompu ni kotuk				Mdl-scope	idiom, compound	source_inventory	form-eecb5925250f9a56	cultural2018
 ompu-ompu				MA	botanical_name	source_inventory	form-6f1018f80328702f	plants2018
 ompung				Akl, Mdl, unmarked	headword, cultural_term	source_inventory	form-ad5065e82aa65761	dictionary, culture2021
 ompung bayo				Akl, Mdl	subentry, compound	source_inventory	form-05daf8ba05a21a86	dictionary
@@ -7356,7 +7416,7 @@ paasok				unmarked	historical_form	source_inventory	form-dda9ccbb0147e562	dictio
 paasokkon				unmarked	subentry	source_inventory	form-64cb2e80242ff7c1	dictionary
 pababa				unmarked	subentry	source_inventory	form-dfeddba28242c7d2	dictionary
 pababa-babahon				unmarked	subentry	source_inventory	form-5d2122cc075784b5	dictionary
-pabagas boru				unmarked	cultural_term, compound	source_inventory	form-a3f42050eb8407e2	culture2021
+pabagas boru				unmarked, Mdl-scope	cultural_term, compound, idiom	source_inventory	form-a3f42050eb8407e2	culture2021, cultural2018
 pabagaskon				unmarked	historical_form	source_inventory	form-ff5b63c4e023171f	dictionary1977
 pabahatkon				unmarked	subentry, historical_form	source_inventory	form-227a8a31274e5462	dictionary, dictionary1977
 pabahir				unmarked	subentry	source_inventory	form-3b41c6550ab9c909	dictionary
@@ -7457,16 +7517,19 @@ padonok-donok				unmarked	subentry	source_inventory	form-932c1e0d29efe90b	dictio
 padonok-donokkon				unmarked	subentry	source_inventory	form-3225103aeaad59bd	dictionary
 padonokkon				unmarked	subentry	source_inventory	form-027a41a3f3680aed	dictionary
 padu				unmarked	headword	source_inventory	form-cd875976bdebe147	dictionary
+padua				Mdl-scope	cultural_term	source_inventory	form-155aaee0403c7f9e	gordang2022
 padua arihon				unmarked	historical_form, compound	source_inventory	form-3274e14f8cc72703	dictionary1977
 paduahon				unmarked	subentry	source_inventory	form-7007a3146d41451c	dictionary
 paenjengkon				unmarked	subentry	source_inventory	form-56905e07955703d8	dictionary
 paet	pahit	pahit	bitter	unmarked	headword	reviewed_translations	form-9a2c8ae84d00084d	dictionary
 paet ecekna				Mdl-scope	idiom, compound	source_inventory	form-fd6f2b9800a4f788	idiom2012
 paetan				unmarked	subentry	source_inventory	form-ec8c5381d0c5a614	dictionary
+paga-paga				MA	botanical_name	source_inventory	form-bb4756f7ca1f28ad	plants2019
 pagabakkon				unmarked	subentry	source_inventory	form-72b6d83d49f54575	dictionary
 pagabarkon				unmarked	subentry	source_inventory	form-58ce90e4e4a15527	dictionary
 pagailkon				unmarked	subentry	source_inventory	form-2ef93d4999e39618	dictionary
 pagalehon				unmarked	subentry	source_inventory	form-b6273da65e58be07	dictionary
+pagana-gana ugari				Mdl-scope	idiom, compound	source_inventory	form-e3b4ed5996fb670a	cultural2018
 paganggangkon				unmarked	subentry	source_inventory	form-35a5e46e1c551cdb	dictionary
 pagara api				unmarked	cultural_term, compound	source_inventory	form-640477ef9d0b0f2f	culture2021
 pagarahon				unmarked	subentry	source_inventory	form-f95f5064b6c8cc8e	dictionary
@@ -7545,6 +7608,7 @@ pakean	pakaian	pakaian	clothes	unmarked	headword	reviewed_translations	form-099f
 pakehe				unmarked	historical_form	source_inventory	form-fa2368e3311ba765	dictionary1977
 pakehehon				unmarked	subentry	source_inventory	form-b7c4c3605e8b47e3	dictionary
 pakeon				unmarked	historical_form	source_inventory	form-3be6b63b1289759e	dictionary1977
+pakkat				Mdl-scope	culinary_term	source_inventory	form-a6cbbaee30ab3192	culinary2021
 pakontalkon				unmarked	subentry	source_inventory	form-0b57da80a0d12949	dictionary
 pakoyokkon				unmarked	subentry	source_inventory	form-7ae059ffd1eac09a	dictionary
 paksa	paksa	paksa	force	unmarked	headword, historical_form	reviewed_translations	form-97e610897f5bb49c	dictionary, dictionary1977
@@ -7624,6 +7688,7 @@ pamasa				unmarked	subentry	source_inventory	form-f52233f3543fd798	dictionary
 pamasu				unmarked	subentry	source_inventory	form-cbb1508e072786fd	dictionary
 pamasuan				unmarked	subentry	source_inventory	form-cea2e58f997442cc	dictionary
 pamasuk aek				Mdl-scope	study_table, compound	source_inventory	form-0cc80a9a687e0455	grain2021
+pamasuk aili paruar babi huta				Mdl-scope	idiom, compound	source_inventory	form-15a5c4798ff04601	cultural2018
 pamasuk tobat				unmarked	cultural_term, compound	source_inventory	form-f77975ab4682f0b4	culture2021
 pamatang	badan	badan	body	unmarked	headword, historical_form	reviewed_translations	form-bba50c7d50e79207	dictionary, dictionary1977
 pamatehon				unmarked	subentry	source_inventory	form-ddad6084e332ae25	dictionary
@@ -7813,6 +7878,7 @@ pangalamot				unmarked	subentry	source_inventory	form-f2217a82d6a2f0a5	dictionar
 pangalampang				unmarked	subentry	source_inventory	form-7534159e5d050d04	dictionary
 pangalampis				Akl, Mdl	subentry	source_inventory	form-ca12881e1520c3db	dictionary
 pangalangkai				Akl, Mdl	subentry	source_inventory	form-bd6afb4f5aaf8393	dictionary
+pangalantuk				Mdl-scope	idiom	source_inventory	form-545b5e402368b755	cultural2018
 pangalap				unmarked	subentry	source_inventory	form-a894ab2b56f6302b	dictionary
 pangalapan				unmarked	subentry	source_inventory	form-f822b1977ba15c97	dictionary
 pangalapat-lapat				unmarked	historical_form	source_inventory	form-e45daa542278a6cf	dictionary1977
@@ -7885,6 +7951,7 @@ pangganggu				unmarked	subentry	source_inventory	form-339bffa37d267ad7	dictionar
 panggaor				unmarked	subentry	source_inventory	form-aa2007d4e85ae9f4	dictionary
 panggarar				unmarked	subentry	source_inventory	form-ca30f119f17d9df8	dictionary
 panggararan				unmarked	subentry	source_inventory	form-e708ead1d26d3728	dictionary
+panggete-gete				Mdl-scope	idiom	source_inventory	form-8fd24c84de3d0927	cultural2018
 panggil				unmarked	historical_form	source_inventory	form-b6d9aa3eb6dd684a	dictionary1977
 panggilan				unmarked	historical_form	source_inventory	form-972bd789839bf8eb	dictionary1977
 panggilingan				Mdl-scope	study_table	source_inventory	form-e7019699f950996a	grain2021
@@ -7911,12 +7978,14 @@ pangincocotan				Mdl	subentry	source_inventory	form-e6f4f791ea6a2b93	dictionary
 pangincop				unmarked	subentry	source_inventory	form-707b03870ce43bbd	dictionary
 panginuman				unmarked	historical_form	source_inventory	form-70f6d011a5280ac0	dictionary1977
 pangir				unmarked	headword	source_inventory	form-edde022ff1674c17	dictionary
+pangitean na mangolu				Mdl-scope	idiom, compound	source_inventory	form-b0dac9aa882514b3	cultural2018
 pangkabongi				unmarked	historical_form	source_inventory	form-213392eea8723b45	dictionary1977
 pangkail				unmarked	subentry	source_inventory	form-810fc53c0cb45f13	dictionary
 pangkailan				unmarked	subentry	source_inventory	form-14886e4a4266d475	dictionary
 pangkais				unmarked	subentry	source_inventory	form-b276090f1fca383b	dictionary, zenodo2024
 pangkal				Akl, Mdl, unmarked	headword, historical_form	source_inventory	form-ba0a5bd5ecfe575d	dictionary, dictionary1977
 pangkampak				unmarked	subentry	source_inventory	form-144416980e19f0b6	dictionary
+pangkancing pamoldas ni huta				Mdl-scope	idiom, compound	source_inventory	form-209b4c935dbdc3d0	cultural2018
 pangkandangi				unmarked	subentry	source_inventory	form-5872695beda81bd5	dictionary
 pangkat				Akl, Mdl	headword	source_inventory	form-dab10176a9c53669	dictionary
 pangkihir				unmarked	subentry	source_inventory	form-7264da51a5e82ebf	dictionary
@@ -7959,7 +8028,11 @@ pangumma				unmarked	subentry	source_inventory	form-07eaeae49437ad05	dictionary
 pangumpat				Akl, Mdl	subentry	source_inventory	form-1470954d29876487	dictionary
 pangungkal				Mdl	subentry	source_inventory	form-0ffeed7d5edbf7aa	dictionary
 pangungkalan				Mdl	subentry	source_inventory	form-1118da24e68e8307	dictionary
-pangupa				unmarked	cultural_term	source_inventory	form-f77ff3be8308a5bd	culture2021
+pangupa				unmarked, Mdl-scope	cultural_term	source_inventory	form-f77ff3be8308a5bd	culture2021, cultural2018
+pangupa hambeng				Mdl-scope	idiom, compound	source_inventory	form-5e23fc8480c84390	cultural2018
+pangupa horbo				Mdl-scope	idiom, compound	source_inventory	form-2b6084ed0c84c203	cultural2018
+pangupa manuk				Mdl-scope	idiom, compound	source_inventory	form-778e1eb69ea89cd5	cultural2018
+pangupa pahoras tondi				Mdl-scope	idiom, compound	source_inventory	form-ff22983cd0bcfc2f	cultural2018
 pangupa-upa				unmarked	subentry	source_inventory	form-5f721580fef1e29d	dictionary
 pangupet				unmarked	subentry	source_inventory	form-dc91e5cf111871de	dictionary
 pangurakan				unmarked	subentry	source_inventory	form-3bf1ac2eed85af86	dictionary
@@ -8123,7 +8196,7 @@ parale-alean				Akl	subentry	source_inventory	form-2777ce55301966f2	dictionary
 parale-aleon				Akl	subentry	source_inventory	form-fc02073ce896a706	dictionary
 paralemu				Mdl	subentry	source_inventory	form-1852e9f859c8c960	dictionary
 paraloan				unmarked	subentry	source_inventory	form-8bd2951e6e7e6a4c	dictionary
-paralok-alok				Akl	subentry	source_inventory	form-b26be9a79282d2ff	dictionary
+paralok-alok				Akl, Mdl-scope	subentry, cultural_term	source_inventory	form-b26be9a79282d2ff	dictionary, cultural2018
 paralok-alok na pande				unmarked	cultural_term, compound	source_inventory	form-739b7b09d0fa079f	culture2021
 paralong-along				unmarked	subentry	source_inventory	form-c7cbebac69ca35b7	dictionary
 paralus				unmarked	subentry	source_inventory	form-2c3a428c65dbf98a	dictionary
@@ -8181,7 +8254,7 @@ parbatasan				unmarked	historical_form	source_inventory	form-fea0c4e628744494	di
 parbatu				unmarked	subentry	source_inventory	form-1c2b3a14bf2850ab	dictionary
 parbawang				unmarked	subentry	source_inventory	form-42bfa2097211874b	dictionary
 parbayo				Akl	subentry	source_inventory	form-8c387c3f293afde9	dictionary
-parbegu				unmarked	subentry, historical_form	source_inventory	form-fa3ee5683d58ea74	dictionary, dictionary1977
+parbegu				unmarked, Mdl-scope	subentry, historical_form, cultural_term	source_inventory	form-fa3ee5683d58ea74	dictionary, dictionary1977, gordang2022
 parbeguon				unmarked	subentry, historical_form	source_inventory	form-a5ec944712117739	dictionary, dictionary1977
 parbiar				unmarked	historical_form	source_inventory	form-7b3543c80f36722e	dictionary1977
 parbibir				unmarked	subentry	source_inventory	form-53b9da26b4cb26ce	dictionary
@@ -8226,6 +8299,7 @@ pardolok				unmarked	subentry	source_inventory	form-c60c8f52ee3e58bc	dictionary
 pardomuan				unmarked	subentry	source_inventory	form-f1d487e307ff3f55	dictionary
 parege-regehon				unmarked	historical_form	source_inventory	form-4e066ed5c99f2acf	dictionary1977
 pareme				unmarked	subentry	source_inventory	form-78d031901879f64d	dictionary, zenodo2024
+pareme usang-marusang				Mdl-scope	idiom, compound	source_inventory	form-49224dde2d4d00a8	cultural2018
 parende				unmarked	subentry	source_inventory	form-992139bb9f66d972	dictionary
 parendehon				unmarked	historical_form	source_inventory	form-443c8e00e7687234	dictionary1977
 parenta				Akl, Mdl	headword	source_inventory	form-9ccb6dfb96d3ad48	dictionary
@@ -8403,6 +8477,7 @@ partahian				unmarked	subentry	source_inventory	form-2ec6302238508a11	dictionary
 partanda				unmarked	subentry	source_inventory	form-839f90505713a50f	dictionary
 partandang				unmarked	subentry	source_inventory	form-5305ef126eea8fc1	dictionary
 partangis				unmarked	subentry	source_inventory	form-de42295338e82e80	dictionary
+partanoan				Mdl-scope	cultural_term	source_inventory	form-74806a7806d0b0aa	cultural2018
 partaonan				unmarked	subentry	source_inventory	form-7eb3350a396e10f9	dictionary
 partaonkon				unmarked	subentry	source_inventory	form-4019f1ea9555ba7c	dictionary
 partenju				unmarked	subentry	source_inventory	form-45377a4d632e495a	dictionary
@@ -8421,6 +8496,7 @@ partuturan				unmarked	subentry	source_inventory	form-3914ddb4bfa6dfb9	dictionar
 paruarkon				unmarked	subentry	source_inventory	form-9a5eaa037d841b8b	dictionary
 parubatan				unmarked	subentry	source_inventory	form-27e1bb57e231f889	dictionary
 parudan				unmarked	subentry	source_inventory	form-3b931f71bb0d2e02	dictionary
+paruhum				Mdl-scope	cultural_term	source_inventory	form-8b915776c29ac3c7	cultural2018
 parujung				unmarked	subentry	source_inventory	form-113975354f0d1e9e	dictionary, zenodo2024
 parumaen				unmarked	subentry, cultural_term	source_inventory	form-6ff3be310ff288fe	dictionary, culture2021
 parunggarkon				unmarked	subentry	source_inventory	form-27568ae5fe355e84	dictionary
@@ -8471,6 +8547,7 @@ pasonangkon				unmarked	subentry	source_inventory	form-174c5b1de74fa9fe	dictiona
 pasonggopkon				unmarked	subentry	source_inventory	form-44a321d3429c3304	dictionary
 pasosotkon				unmarked	subentry	source_inventory	form-fadb42aa962bc56b	dictionary
 paspasan				Mdl-scope	study_table	source_inventory	form-dce16d7c235cfd84	grain2021
+pastak-pastak ni paradaton				Mdl-scope	idiom, compound	source_inventory	form-72e57d44f75b2bb2	cultural2018
 pastima	barat	barat	west	unmarked	headword	reviewed_translations	form-dea32e526de75eb9	dictionary
 pasuadahon				unmarked	subentry	source_inventory	form-04d2d6b57fc033ab	dictionary
 pasuangkon				unmarked	subentry	source_inventory	form-64ee2791adb16a34	dictionary
@@ -8494,12 +8571,14 @@ patangkaskon				Akl, Mdl	subentry	source_inventory	form-7e2fce59631e95dd	diction
 patangkupkon				Akl, Mdl	subentry	source_inventory	form-4625333cb3ca77da	dictionary
 patarehon				unmarked	subentry	source_inventory	form-65a98d05be6a71fe	dictionary
 pataruhon				unmarked	subentry	source_inventory	form-61946d0b9b579106	dictionary
+pataya-taya patik				Mdl-scope	idiom, compound	source_inventory	form-7f0f956caf26482e	cultural2018
 patayat				Mdl	headword	source_inventory	form-7d06da017ddc557f	dictionary
 patibalkon				Mdl	subentry	source_inventory	form-cfa913c72f600fe1	dictionary
 patibu				unmarked	historical_form	source_inventory	form-10846611c564fc8c	dictionary1977
 patibuhon				unmarked	subentry	source_inventory	form-cc107db1eb33674a	dictionary
 patidahon				unmarked	subentry, historical_form	source_inventory	form-c8071a5ee1e56143	dictionary, dictionary1977
 patigorkon				unmarked	subentry	source_inventory	form-52096ee898abca37	dictionary
+patik				Mdl-scope	cultural_term	source_inventory	form-1d693718c7b17d9a	cultural2018
 patimbangkon				unmarked	subentry	source_inventory	form-3ab679c8ffa79f32	dictionary
 patingkohon				Akl	subentry	source_inventory	form-29a7e818c0e774c1	dictionary
 patingonkon				unmarked	subentry	source_inventory	form-3f7cd9c1da491ef6	dictionary
@@ -8510,6 +8589,7 @@ patobangkon				unmarked	subentry	source_inventory	form-70b7c62930c656ff	dictiona
 patogu				unmarked	historical_form	source_inventory	form-7fd76d00687d30ac	dictionary1977
 patoguhon				unmarked	subentry	source_inventory	form-e5fd01653e97224c	dictionary
 patolahon				unmarked	subentry	source_inventory	form-9037a5da4ffb095d	dictionary
+patolu				Mdl-scope	cultural_term	source_inventory	form-34c174650021dd2f	gordang2022
 patolu nolihon				unmarked	historical_form, compound	source_inventory	form-48019591fbeb5143	dictionary1977
 patoluhon				unmarked	subentry	source_inventory	form-a4b82652f118c078	dictionary
 patonggihon				unmarked	subentry	source_inventory	form-6119d72d1a7e9d83	dictionary
@@ -8537,6 +8617,7 @@ patunda				unmarked	headword	source_inventory	form-5a79fcaaafb9e957	dictionary
 patungkiskon				Akl, Mdl	subentry	source_inventory	form-4c7e404b381e5808	dictionary
 paturahon				unmarked	subentry	source_inventory	form-62814cd789fd49cb	dictionary
 paturehon				unmarked	subentry	source_inventory	form-56ee6c3323d22c54	dictionary
+paturun sibaso				Mdl-scope	cultural_term, compound	source_inventory	form-62173067fa8b40d1	gordang2022
 paturunkon				unmarked	subentry	source_inventory	form-1f027752f61ed4ad	dictionary
 patut	patut	patut	appropriate	unmarked	headword	reviewed_translations	form-cf21c4e4b246af36	dictionary
 pau				Mdl-scope	study_table	source_inventory	form-470adaa55fab37a1	flora2015
@@ -8559,6 +8640,7 @@ pegol	bengkok	bengkok	bent	unmarked	headword	reviewed_translations	form-01d5b97d
 pendek				unmarked	wordlist_entry	source_inventory	form-1c23efd7833cec6e	abvd1655
 pending				unmarked	cultural_term	source_inventory	form-62a2fed3d6e08c44	culture2021
 pending bobat				unmarked	cultural_term, compound	source_inventory	form-8a23c07d8e2807af	culture2021
+penganak				Mdl-scope	cultural_term	source_inventory	form-c64ae96dfe05d3b7	gordang2022
 peninggalan				unmarked	historical_form	source_inventory	form-7ffe97b477f8d9e6	dictionary1977
 peol	miring	senget	tilted	unmarked	headword	reviewed_translations	form-7fd1ae0170929e4f	dictionary
 peralatan				unmarked	subentry	source_inventory	form-625d816bbb3ef777	dictionary
@@ -8590,6 +8672,7 @@ pipa bosi				unmarked	historical_form, compound	source_inventory	form-b5b3c7ae67
 pipil				unmarked	headword	source_inventory	form-8b919a5b449d5a96	dictionary
 pira	telur	telur	egg	unmarked	headword, wordlist_entry	reviewed_translations	form-13cbb5ca48e7075a	dictionary, abvd1655
 pira itik				unmarked	historical_form, compound	source_inventory	form-261c6b66c6dbe790	dictionary1977
+pira manuk na ni hobolan				Mdl-scope	idiom, compound	source_inventory	form-93c91450fccc7973	cultural2018
 pira ni				unmarked	subentry, compound	source_inventory	form-df87dd8bfb8023e5	dictionary
 pira ni ambalungan				unmarked	historical_form, compound	source_inventory	form-ea061a0f0ea02f4f	dictionary1977
 pira ni ambulungan				unmarked	historical_form, compound	source_inventory	form-9a9fa253745d6fc4	dictionary1977
@@ -8633,6 +8716,7 @@ pogu	empedu	hempedu	bile	unmarked	headword	reviewed_translations	form-669f0682b8
 pohom	diam	diam	silent	Mdl	headword	reviewed_translations	form-63a8bf5513b0fb81	dictionary
 pohon				unmarked	wordlist_entry	source_inventory	form-9563f089268c734d	abvd1655
 pokak badak				Mdl-scope	idiom, compound	source_inventory	form-95c3b50c361b60f5	idiom2012
+pokat ulu tot				Mdl-scope	idiom, compound	source_inventory	form-425d1a2652286c99	cultural2018
 poken	pekan	minggu	week	unmarked	headword	reviewed_translations	form-8547650382943ee4	dictionary
 poken bante				unmarked	subentry, compound	source_inventory	form-eabbcbab9e41a730	dictionary
 poken jongjong				unmarked	subentry, compound	source_inventory	form-c2fb13b63980530c	dictionary
@@ -8734,10 +8818,14 @@ rahut	ikat	ikat	tie	unmarked	headword	reviewed_translations	form-122a5dd99d20492
 rahutan				unmarked	subentry	source_inventory	form-9e698fe1062a3f11	dictionary
 rait	galah berkait	galah berkait	hooked pole	unmarked	headword	reviewed_translations	form-7c14ed53b257852a	dictionary
 raja	raja	raja	king	unmarked	headword, historical_form	reviewed_translations	form-744c2eb8d3ae3847	dictionary, dictionary1977
+raja adat				Mdl-scope	idiom, compound	source_inventory	form-6d88a43e6d96a60b	cultural2018
 raja huta				unmarked	cultural_term, compound	source_inventory	form-a5d9dfa6dd3940a4	culture2021
+raja na mamboto etongan na hurang sanga na lobi				Mdl-scope	idiom, compound	source_inventory	form-16a34b56c48c539f	cultural2018
 raja pamusuk				unmarked	cultural_term, compound	source_inventory	form-4de73eaabb93bf81	culture2021
-raja panusunan				unmarked	subentry, compound	source_inventory	form-d219f4af1e48b24b	dictionary
+raja panusunan				unmarked, Mdl-scope	subentry, compound, cultural_term	source_inventory	form-d219f4af1e48b24b	dictionary, cultural2018
 raja panusunan bulung				unmarked	cultural_term, compound	source_inventory	form-7808010a10fb10fa	culture2021
+raja-raja adat				Mdl-scope	cultural_term, compound	source_inventory	form-8511485edb976038	cultural2018
+raja-raja torbing balok				Mdl-scope	cultural_term, compound	source_inventory	form-1e25d54ef2efaea6	cultural2018
 rak	paru-paru	paru-paru	lungs	unmarked	headword	reviewed_translations	form-5e988b47a5edae7a	dictionary
 rakyat	rakyat	rakyat	people of a country	unmarked	headword, historical_form	reviewed_translations	form-c7a86ca0e04cd77c	dictionary, dictionary1977
 ramba				unmarked	headword, wordlist_entry	source_inventory	form-10c6560ea680f77c	dictionary, abvd1655
@@ -8791,7 +8879,7 @@ riburan				unmarked	subentry	source_inventory	form-6e4f1c8991b73131	dictionary
 ridi				unmarked	headword, historical_form	source_inventory	form-894f6e128ff34260	dictionary, dictionary1977
 rigang				unmarked	headword	source_inventory	form-915a9aa912181389	dictionary
 rija-rija				unmarked	cultural_term	source_inventory	form-6578af6dc4c128b6	culture2021
-rimbang				unmarked, Mdl-scope	headword, botanical_name	source_inventory	form-8a433725fd64bd1a	dictionary, zenodo2024, wedding2022
+rimbang				unmarked, Mdl-scope, MA	headword, botanical_name	source_inventory	form-8a433725fd64bd1a	dictionary, zenodo2024, wedding2022, plants2019
 rindang				unmarked	headword, historical_form	source_inventory	form-df792cb119afffef	dictionary, dictionary1977
 rindi				unmarked	headword	source_inventory	form-7c406495a266da3d	dictionary
 rinding				unmarked	headword	source_inventory	form-903796ce83e783aa	dictionary
@@ -8827,7 +8915,7 @@ rondo roha				Mdl-scope	idiom, compound	source_inventory	form-7b483219fccc35cf	i
 ronggot				unmarked	headword	source_inventory	form-e6e70b60c0539937	dictionary
 ronggur				unmarked	wordlist_entry	source_inventory	form-ae2aeb8bb539efc4	abvd1655
 rongit	nyamuk	nyamuk	mosquito	unmarked	headword, wordlist_entry	reviewed_translations	form-110158fb0b6d28cb	dictionary, abvd1655
-rongkap				unmarked, Akl, Mdl	headword	source_inventory	form-3f45abb6f19969bb	dictionary
+rongkap				unmarked, Akl, Mdl, Mdl-scope	headword, cultural_term	source_inventory	form-3f45abb6f19969bb	dictionary, cultural2018
 rongkon				Akl, Mdl	headword	source_inventory	form-50099cf35807fa21	dictionary
 ronjom	celup	celup	dip	unmarked	headword	reviewed_translations	form-464e35c27fe26e61	dictionary
 ronton				unmarked	headword, historical_form	source_inventory	form-f914289b512e6c94	dictionary, dictionary1977
@@ -8839,7 +8927,7 @@ rosros				unmarked	headword	source_inventory	form-8c1685e875672e82	dictionary
 roto				unmarked	cultural_term	source_inventory	form-add0320bf95782f6	culture2021
 royong				unmarked	historical_form	source_inventory	form-703e89268a4cc68a	dictionary1977
 ruar	keluar	keluar	go out	unmarked	headword	reviewed_translations	form-1e696f9775e8c51c	dictionary
-rudang	bunga	bunga	flower	unmarked	headword	reviewed_translations	form-7df21689c0eb9e65	dictionary
+rudang	bunga	bunga	flower	unmarked, MA	headword, botanical_name	reviewed_translations	form-7df21689c0eb9e65	dictionary, plants2019
 rudung-rudung	gubuk	pondok	hut	Mdl	headword	reviewed_translations	form-b2027c27b522a40a	dictionary
 rugi	rugi	rugi	at a loss	unmarked	headword, historical_form	reviewed_translations	form-2af057a22291382e	dictionary, dictionary1977, zenodo2024
 rugun				unmarked	headword	source_inventory	form-ed86cbbc3cb014bb	dictionary
@@ -8953,6 +9041,7 @@ salamlam				unmarked	subentry	source_inventory	form-bb3eed10352b6a29	dictionary
 salang				unmarked	historical_form	source_inventory	form-78430851212e0982	dictionary1977
 salangka				Akl, Mdl	subentry	source_inventory	form-51ab0ba87e761a62	dictionary
 salangkon				unmarked	historical_form	source_inventory	form-a7b20a3993c8034b	dictionary1977
+salapa				Mdl-scope	cultural_term	source_inventory	form-13df65a181a204d9	cultural2018
 salapan				unmarked	historical_form	source_inventory	form-a3a3e2247f0c2e36	dictionary1977
 Salasa				unmarked	headword	source_inventory	form-6f5c4bca20ca8823	dictionary
 sale	salai	salai	smoke food	unmarked	headword	reviewed_translations	form-1f7101fe71011ba0	dictionary
@@ -8964,6 +9053,7 @@ salimborbor				unmarked	headword	source_inventory	form-53242f5a7150ec7a	dictiona
 salimpotpot	kunang-kunang	kelip-kelip	firefly	unmarked	headword	reviewed_translations	form-c93e47a1d833df28	dictionary
 salin				unmarked	headword	source_inventory	form-b53960c67cb83733	dictionary
 salin batu				MA	botanical_name, compound	source_inventory	form-903082d0c58ce641	plants2018
+salining				Mdl-scope	study_table	source_inventory	form-6e810d232f822f4a	upah2021
 salohot				unmarked	historical_form	source_inventory	form-8dba32946243e6d2	dictionary1977
 salolot				unmarked	subentry	source_inventory	form-73d2600d4f6b565e	dictionary
 salolot ni lolotna				unmarked	historical_form, compound	source_inventory	form-f35a85d4c5c3c185	dictionary1977
@@ -8977,6 +9067,7 @@ samangkuk				Akl, Mdl	subentry	source_inventory	form-56b99aba8d74633b	dictionary
 samaso				unmarked	subentry	source_inventory	form-9abd649fb3e7cc4f	dictionary
 sambakbak				unmarked	historical_form	source_inventory	form-781d10b4a56fef0c	dictionary1977
 sambal	sambal	sambal	chilli relish	unmarked	headword	reviewed_translations	form-4ec7d0b9365bacd0	dictionary
+sambal kantori joruk				Mdl-scope	culinary_term, compound	source_inventory	form-98d2a653ce96f5c1	culinary2021
 sambal taruma				unmarked	subentry, compound	source_inventory	form-9ff97f254bf6bdca	dictionary
 sambal tuktuk				unmarked	subentry, compound, historical_form	source_inventory	form-4385ea41b4587d77	dictionary, dictionary1977
 sambalging				unmarked	subentry	source_inventory	form-8ddf04ea475aa59b	dictionary
@@ -9126,12 +9217,13 @@ saruam				unmarked	historical_form	source_inventory	form-e4cad66f06c37020	dictio
 sarudung				Mdl	headword	source_inventory	form-48eea6a9aaf8dd9b	dictionary
 sarumpaet				Akl, Mdl	headword	source_inventory	form-17e6ba8267e7499f	dictionary
 sarumpun tolang				Mdl-scope	idiom, compound	source_inventory	form-4495ddd93464833d	idiom2012
+sarune				Mdl-scope	cultural_term	source_inventory	form-8786ec9db43bbd3a	gordang2022
 sarung	sarung bantal	sarung bantal	pillowcase	unmarked	headword	reviewed_translations	form-bf89a692cc69d685	dictionary
 sarupepe				unmarked	historical_form	source_inventory	form-bfd2fa142575eac2	dictionary1977
 sarupo				unmarked	subentry	source_inventory	form-74d829ba16c54a96	dictionary
 sarusur				unmarked	headword	source_inventory	form-6bfc69f435c5b5ff	dictionary
 sasa	hapus	padam	erase	Mdl	headword	reviewed_translations	form-5cd38f85f66bc647	dictionary
-sasagun				unmarked	cultural_term	source_inventory	form-4c04f1c9201c5eb1	culture2021
+sasagun				unmarked, Mdl-scope	cultural_term, culinary_term	source_inventory	form-4c04f1c9201c5eb1	culture2021, culinary2021
 sasaotik				unmarked	subentry	source_inventory	form-762d44daf0db8be9	dictionary
 sasap	usap	usap	wipe gently	unmarked	headword	reviewed_translations	form-48799944a3e00902	dictionary
 sasendok				unmarked	subentry	source_inventory	form-955ee7c61ab997bd	dictionary
@@ -9157,6 +9249,7 @@ saumpama				Akl, Mdl	subentry	source_inventory	form-96f5cfeb49f46abf	dictionary
 saumur				unmarked	subentry	source_inventory	form-53f4bfefa4def390	dictionary
 saung	payung	payung	umbrella	unmarked	headword	reviewed_translations	form-0a31af1bf3d18b34	dictionary
 saut	tercapai	tercapai	achieved	unmarked	headword	reviewed_translations	form-019ccfa31b6568c7	dictionary
+sawo				MA	botanical_name	source_inventory	form-dacd81ccdf9458d5	plants2019
 sayang	sayang	sayang	love	unmarked	headword	reviewed_translations	form-f84cf1c5a4e5436b	dictionary
 sayup				unmarked	headword	source_inventory	form-1b56dfd19963c025	dictionary
 sayur matua				unmarked	cultural_term, compound	source_inventory	form-681050197fffbcb9	culture2021
@@ -9164,6 +9257,7 @@ sega	rusak	rosak	damaged	unmarked	headword	reviewed_translations	form-44cddc3f1b
 sege				unmarked	headword, cultural_term	source_inventory	form-3a1478c613c78a06	dictionary, culture2021
 sege-sege				unmarked	subentry	source_inventory	form-79f954046aaaafd9	dictionary
 sego	rusak	rosak	damaged	unmarked	headword	reviewed_translations	form-90bdc4d48f6457f9	dictionary
+seledri				MA	botanical_name	source_inventory	form-558e0f7bdb06cc1a	plants2019
 sende jantan				unmarked	cultural_term, compound	source_inventory	form-8281691c9c95d608	culture2021
 sendok	sendok	sudu	spoon	unmarked	headword	reviewed_translations	form-7a62c92dca0f7927	dictionary
 seng	seng	zink	zinc sheet	unmarked	headword	reviewed_translations	form-753e295ed38b70b0	dictionary
@@ -9198,6 +9292,8 @@ si dumadang ari				unmarked	historical_form, compound	source_inventory	form-2752
 si manganggo				unmarked	historical_form, compound	source_inventory	form-b2f54945c7b28e7a	dictionary1977
 si maradam tua				unmarked	historical_form, compound	source_inventory	form-35c22c1a38eec765	dictionary1977
 si pangayap-ayapi				unmarked	historical_form, compound	source_inventory	form-c8fc000b3d60f0de	dictionary1977
+si timba paya				Mdl-scope	idiom, compound	source_inventory	form-aa9967f2fb034d0c	cultural2018
+si tuan na torop				Mdl-scope	idiom, compound	source_inventory	form-4472217301c8d94b	cultural2018
 siabinon				unmarked	subentry	source_inventory	form-afd8939d56d637df	dictionary
 siadosan				unmarked	subentry, historical_form	source_inventory	form-624ff97325052db1	dictionary, dictionary1977
 siaginon				unmarked	historical_form	source_inventory	form-34d5e49aef835806	dictionary1977
@@ -9230,11 +9326,13 @@ sibahut				unmarked	historical_form	source_inventory	form-f821619f666b5d83	dicti
 sibak	sobek	koyak	torn	unmarked	headword	reviewed_translations	form-be7c6e52412d3436	dictionary
 sibarati				Mdl-scope	study_table	source_inventory	form-f9184c5c2ed57d89	grain2021
 sibarebe				unmarked	historical_form	source_inventory	form-43da69656d9046b8	dictionary1977
+sibaso				Mdl-scope	cultural_term	source_inventory	form-0c0ec2d3f36d6fef	gordang2022
 sibat				unmarked	historical_form	source_inventory	form-61b563289c57c244	dictionary1977
 sibatangi				Mdl-scope	study_table	source_inventory	form-c79dc07c456b5d78	grain2021
 sibelbelan				unmarked	historical_form	source_inventory	form-19284b139400e491	dictionary1977
 sibisukan				unmarked	historical_form	source_inventory	form-46eb9c10f23f3b95	dictionary1977
 sibodak				Mdl-scope	botanical_name	source_inventory	form-16eb507366ee16cd	wedding2022
+sibodak bulanda				MA	botanical_name, compound	source_inventory	form-0aa4947442cba355	plants2019
 siboguhon				unmarked	subentry	source_inventory	form-37f34168580af29b	dictionary
 siboguk				unmarked	subentry, historical_form	source_inventory	form-3dba0593b984003c	dictionary, dictionary1977
 sibongkihon				unmarked	historical_form	source_inventory	form-683bf713052d8b5a	dictionary1977
@@ -9255,6 +9353,7 @@ sidalian				unmarked	historical_form	source_inventory	form-a8108c1cced5720f	dict
 sidari				unmarked	historical_form	source_inventory	form-03dbcd4ab3c99686	dictionary1977
 sidoka				Akl	headword	source_inventory	form-5b81232ab6a8aa17	dictionary
 sidudu				unmarked	headword	source_inventory	form-4c2772e0dd90c249	dictionary
+sidukung anak				MA	botanical_name, compound	source_inventory	form-3cebb412310f45ce	plants2019
 sidumadang ari				unmarked	headword, compound	source_inventory	form-0426f033d584bfc9	dictionary
 sidung	selesai	selesai	finished	unmarked	headword	reviewed_translations	form-cbc414c618120c60	dictionary
 sigaret				unmarked	headword	source_inventory	form-cd441f654a8fa1d5	zenodo2024
@@ -9289,8 +9388,9 @@ silonging	jangkrik	cengkerik	cricket insect	Mdl	headword	reviewed_translations	f
 silopak				unmarked	subentry, cultural_term	source_inventory	form-99ad72435e284b84	dictionary, culture2021
 silpok				unmarked	headword	source_inventory	form-0fac564c639c9f39	dictionary
 silua	oleh-oleh	buah tangan	gift brought from a trip	unmarked	subentry, headword, cultural_term	reviewed_translations	form-16640a59e5280a67	dictionary, culture2021
-siluluton	dukacita	dukacita	grief	unmarked	headword, cultural_term	reviewed_translations	form-856a4de83e2bedf7	dictionary, culture2021
+siluluton	dukacita	dukacita	grief	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-856a4de83e2bedf7	dictionary, culture2021, cultural2018
 simanare				unmarked	headword	source_inventory	form-c346af5affd7b81a	dictionary
+simanat				MA	botanical_name	source_inventory	form-743bda915669305f	plants2019
 simanggurak				unmarked	headword	source_inventory	form-adba43a28145423a	dictionary
 simangido	tangan	tangan	hand	unmarked	headword	reviewed_translations	form-e950e44bf14e83a3	dictionary
 simanjojak	kaki	kaki	foot or leg	unmarked	headword	reviewed_translations	form-2f40a9fbcdb11774	dictionary
@@ -9298,6 +9398,7 @@ simanjolong				unmarked	historical_form	source_inventory	form-18eae813ea270060	d
 simanjujung	kepala	kepala	head	unmarked	headword	reviewed_translations	form-a96fb512a8e502dd	dictionary
 simanyolong	mata	mata	eye	unmarked	headword	reviewed_translations	form-11f1fbc5a34046e5	dictionary
 simardung				unmarked	historical_form	source_inventory	form-45d835c76b39aa5f	dictionary1977
+simartampua				MA	botanical_name	source_inventory	form-d788e3615c44f3b1	plants2019
 simata	manik-manik	manik	beads	unmarked	headword	reviewed_translations	form-11e7f5d3e125b99f	dictionary
 simatoras				Akl	headword	source_inventory	form-df69253f0f076b40	dictionary
 simbalikkon				unmarked	subentry	source_inventory	form-16fe6c75ecdafc84	dictionary
@@ -9361,6 +9462,7 @@ sipat	sifat	sifat	characteristic	unmarked	headword	reviewed_translations	form-e4
 sipataingot				unmarked	historical_form	source_inventory	form-20c05c77e5e09586	dictionary1977
 sipatu	sepatu	kasut	shoes	unmarked	headword	reviewed_translations	form-19e38e2d2da937f1	dictionary
 sipatu na imbaru				unmarked	historical_form, compound	source_inventory	form-4a06b4dbe98f8a5d	dictionary1977
+sipilit				MA	botanical_name	source_inventory	form-ade5bec4fad360f7	plants2019
 sipoda				unmarked	historical_form	source_inventory	form-83851e88a9a19358	dictionary1977
 sipodangi				unmarked	historical_form	source_inventory	form-0089e615aa82f3bb	dictionary1977
 sipu-sipu				unmarked	headword	source_inventory	form-c8abd4f5a044fa63	dictionary
@@ -9369,7 +9471,7 @@ sira	garam	garam	salt	unmarked	headword, wordlist_entry	reviewed_translations	fo
 sirang	cerai	cerai	divorce	unmarked	headword	reviewed_translations	form-e77d03d5f028d6d2	dictionary
 sirapi-api				unmarked	historical_form	source_inventory	form-8116c2f11a41f4f3	dictionary1977
 siri-siri	capung	pepatung	dragonfly	unmarked	headword	reviewed_translations	form-ac775a14cd5b95d0	dictionary
-siriaon	sukacita	sukacita	joy	unmarked	headword, cultural_term	reviewed_translations	form-fc93ecf03588cc89	dictionary, culture2021
+siriaon	sukacita	sukacita	joy	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-fc93ecf03588cc89	dictionary, culture2021, cultural2018
 sirlak	cerah	cerah	bright	unmarked	headword	reviewed_translations	form-e04f65045909bb24	dictionary
 sirohir				unmarked	historical_form	source_inventory	form-84507f6b2a15eee2	dictionary1977
 sirpang	simpang	simpang	road junction	unmarked	headword	reviewed_translations	form-b17b0f221830842a	dictionary
@@ -9445,7 +9547,7 @@ sontang				Mdl-scope	botanical_name	source_inventory	form-a4663c27b615f9c9	weddi
 sontung				Akl, Mdl	headword	source_inventory	form-d59b1d0ceea5b5f8	dictionary
 sopak				unmarked	headword	source_inventory	form-40960ea809f6eb60	dictionary
 sopang				unmarked	headword	source_inventory	form-17359900ed57a4d9	dictionary
-sopo	dangau	pondok	field shelter	unmarked, Mdl-scope	headword, study_table, cultural_term	reviewed_translations	form-54f2e81eed8136b7	dictionary, grain2021, culture2021
+sopo	dangau	pondok	field shelter	unmarked, Mdl-scope	headword, study_table, cultural_term	reviewed_translations	form-54f2e81eed8136b7	dictionary, grain2021, culture2021, upah2021
 sopo bala				unmarked	historical_form, compound	source_inventory	form-12a2aaf079166d9f	dictionary1977
 sopo eme				unmarked	historical_form, compound	source_inventory	form-9fb0095a4c6483fc	dictionary1977
 sopo godang				unmarked	subentry, compound, cultural_term	source_inventory	form-e2d537d8e78de6c4	dictionary, culture2021
@@ -9475,11 +9577,12 @@ suang	mirip	serupa	similar	unmarked	headword	reviewed_translations	form-36bf1ad8
 suap				unmarked	headword, historical_form	source_inventory	form-f5d6fe6de97e859d	dictionary, dictionary1977
 subak				unmarked	headword	source_inventory	form-f791aa7e38b10a37	dictionary
 sude	semua	semua	all	unmarked	headword, wordlist_entry	reviewed_translations	form-3377d2ce11f2c010	dictionary, abvd1655
+sudu-sudu				MA	botanical_name	source_inventory	form-97f0dcbfab6f5384	plants2019
 suga	duri	duri	thorn	unmarked	headword	reviewed_translations	form-20d655b4ad0376d7	dictionary
 sugari				unmarked	historical_form	source_inventory	form-466efd45f2540a37	dictionary1977
 suha				unmarked	headword	source_inventory	form-6afaa0f5160b15bd	dictionary
 suhul	gagang	pemegang	handle	unmarked	headword	reviewed_translations	form-3f73bcdd3aa420be	dictionary
-suhut				unmarked	cultural_term	source_inventory	form-56e16297f83aa896	culture2021
+suhut				unmarked, Mdl-scope	cultural_term	source_inventory	form-56e16297f83aa896	culture2021, cultural2018
 suhut bolon				unmarked	cultural_term, compound	source_inventory	form-01709d9a3d6e177f	culture2021
 suhut na mardalihan na tolu				unmarked	cultural_term, compound	source_inventory	form-fb4577a2bb3ac09a	culture2021
 suhut sihabolonan				unmarked	cultural_term, compound	source_inventory	form-1a56d02e8c18f342	culture2021
@@ -9537,6 +9640,7 @@ tabu	beduk	beduk	prayer drum	unmarked	headword	reviewed_translations	form-6032d4
 tabusi	membeli	membeli	buy	unmarked	headword, historical_form, wordlist_entry	reviewed_translations	form-2fc4ec3dc8233301	dictionary, dictionary1977, abvd1655
 tada-tada				unmarked	headword	source_inventory	form-3459fb495575951f	dictionary
 tading	tinggal	tinggal	remain	unmarked	headword	reviewed_translations	form-ffdaa39ced301939	dictionary
+tading-tadingan				Mdl-scope	cultural_term	source_inventory	form-2448da3dc69dd28f	cultural2018
 tae				unmarked	headword	source_inventory	form-865ec76b33caab67	dictionary
 tagi				unmarked	headword	source_inventory	form-a7e08d26b295a934	dictionary
 taguk				unmarked	headword	source_inventory	form-ae8a58919df804be	dictionary
@@ -9574,6 +9678,8 @@ talese				unmarked	headword, historical_form	source_inventory	form-27bc5f10cd06f
 talgang				unmarked	headword	source_inventory	form-dbad9f6804fd7b42	dictionary
 tali	tali	tali	rope	unmarked	headword, wordlist_entry	reviewed_translations	form-6fa29cc695ff56e2	dictionary, abvd1655
 tali pasa				unmarked	subentry, compound	source_inventory	form-bcbafd7dc1d59ebe	dictionary
+tali sasayak				Mdl-scope	cultural_term, compound	source_inventory	form-a64161116e9a2fa1	gordang2022
+talisasayak				Mdl-scope	cultural_term	source_inventory	form-cdaa7a2e33276487	gordang2022
 talmak	tembam	tembam	chubby	unmarked	headword	reviewed_translations	form-e7067ba873aae246	dictionary
 talobat	lumbung	jelapang	granary	unmarked	headword, cultural_term	reviewed_translations	form-909499fda1764c6d	dictionary, culture2021
 talonan	leher	leher	neck	Mdl	headword	reviewed_translations	form-3a3b4f4c8d1359c3	dictionary
@@ -9637,11 +9743,12 @@ tantan				unmarked	headword	source_inventory	form-2438a8aa7f5ea584	dictionary
 taon	tahun	tahun	year	unmarked	headword, wordlist_entry	reviewed_translations	form-e1b1baedbd1c6c4b	dictionary, abvd1655
 taon bosar				unmarked	historical_form, compound	source_inventory	form-7afb5b10bc8554f3	dictionary1977
 taon jolong-jolong				unmarked	subentry, compound	source_inventory	form-2ba905bc32b9f19f	dictionary
+taon sabagas				Mdl-scope	cultural_term, compound	source_inventory	form-42e234a4f2818717	cultural2018
 tape	tapai	tapai	fermented rice or cassava	unmarked	headword	reviewed_translations	form-8ba4ec7d634f794e	dictionary
 tape gadung				unmarked	subentry, compound	source_inventory	form-8d809401ec68470a	dictionary
 tape sipulut				unmarked	subentry, compound	source_inventory	form-b2c899f5cf922c1a	dictionary
 tapian				unmarked	cultural_term	source_inventory	form-f06b8ec7db00f6f3	culture2021
-tapian raya bangunan				unmarked	cultural_term, compound	source_inventory	form-58f125cbc9d724a4	culture2021
+tapian raya bangunan				unmarked, Mdl-scope	cultural_term, compound, idiom	source_inventory	form-58f125cbc9d724a4	culture2021, cultural2018
 tapor				unmarked	headword	source_inventory	form-a0a446bf5da811b2	dictionary
 tapu-tapu				Mdl-scope	study_table	source_inventory	form-25aab88b2f6f463a	grain2021
 tapus				unmarked	headword	source_inventory	form-a0718221ae57188e	dictionary
@@ -9885,6 +9992,7 @@ tarkontal				unmarked	subentry	source_inventory	form-d4250ff6aba2e4fb	dictionary
 tarkotuk				unmarked	subentry	source_inventory	form-483b61902882cd19	dictionary
 tarkoyok				unmarked	subentry	source_inventory	form-6a3f2f2f26fa23b2	dictionary
 tarkubak				unmarked	subentry	source_inventory	form-f48574b31c722fe3	dictionary
+tarkurung di bondul na opat				Mdl-scope	idiom, compound	source_inventory	form-8e736168ec3cf8e0	cultural2018
 tarlabang				unmarked	subentry	source_inventory	form-5e7874f8b8a2ca38	dictionary
 tarlabangkon				unmarked	subentry	source_inventory	form-dea24b8337938e35	dictionary
 tarlago				unmarked	subentry	source_inventory	form-88e81612199a1c2a	dictionary
@@ -10288,7 +10396,7 @@ tauru				Mdl	headword	source_inventory	form-3b1b2466a4c220c8	dictionary
 tawak-tawak				unmarked	cultural_term	source_inventory	form-6203db09071eac36	culture2021
 tawak-tawak si hutur dolok				unmarked	cultural_term, compound	source_inventory	form-218ee462ef5c8371	culture2021
 tean	warisan	warisan	inheritance	unmarked	headword	reviewed_translations	form-e99a137a72bdb7ae	dictionary
-teas				unmarked	headword	source_inventory	form-ddb7a7558a670fb0	dictionary
+teas				unmarked, Mdl-scope	headword, idiom	source_inventory	form-ddb7a7558a670fb0	dictionary, cultural2018
 tebat				unmarked	cultural_term	source_inventory	form-f68b6ed082fb85ae	culture2021
 tembak				unmarked	headword, wordlist_entry	source_inventory	form-a5e441d2127be008	dictionary, abvd1655
 tembakan				unmarked	subentry	source_inventory	form-4bef3c47f8c80e8e	dictionary
@@ -10393,7 +10501,7 @@ tomu kunci				MA	botanical_name, compound	source_inventory	form-bbf8be75a4bda96f
 tomulawak				MA	botanical_name	source_inventory	form-931e45905f506c14	plants2018
 tona	pesan	pesan	message	unmarked	headword, historical_form	reviewed_translations	form-9d7e61b0942812c9	dictionary, dictionary1977
 tonan				unmarked	historical_form	source_inventory	form-1b7d53983d52aa71	dictionary1977
-tondi	jiwa	jiwa	soul	unmarked	headword, cultural_term	reviewed_translations	form-ec6c175de87a4c9b	dictionary, culture2021
+tondi	jiwa	jiwa	soul	unmarked, Mdl-scope	headword, cultural_term, study_table	reviewed_translations	form-ec6c175de87a4c9b	dictionary, culture2021, cultural2018, upah2021
 tondo				unmarked	headword	source_inventory	form-a363d0a0361858df	dictionary
 tondong				unmarked	headword, historical_form	source_inventory	form-4a771e21d613209e	dictionary, dictionary1977
 tondongan				unmarked	historical_form	source_inventory	form-6cdc1de0df4f0053	dictionary1977
@@ -10479,7 +10587,7 @@ tula				unmarked	cultural_term	source_inventory	form-f61cdd619e49723f	culture202
 tulan rincan				unmarked	cultural_term, compound	source_inventory	form-0465492b857ad4d5	culture2021
 tulan rungkung				unmarked	cultural_term, compound	source_inventory	form-105a165ea7855649	culture2021
 tulang	paman	bapa saudara	uncle	unmarked, Mdl-scope	headword, study_table, cultural_term	reviewed_translations	form-b24b247a45ffa86b	dictionary, kinship2026, culture2021
-tulila				unmarked	cultural_term	source_inventory	form-3ac159dbc17a1e80	culture2021
+tulila				unmarked, Mdl-scope	cultural_term	source_inventory	form-3ac159dbc17a1e80	culture2021, cultural2018
 tulmok				unmarked	headword	source_inventory	form-d099cc81c853c481	dictionary
 tulus				unmarked	headword, historical_form	source_inventory	form-dd784a04518f7fb2	dictionary, dictionary1977
 tumabo				unmarked	subentry	source_inventory	form-317ddb1f41773b8d	dictionary
@@ -10547,10 +10655,15 @@ udur				unmarked	headword	source_inventory	form-229e2d564bc11eff	dictionary
 udut	sambung	sambung	join	unmarked	headword	reviewed_translations	form-d7719f158c02c24c	dictionary
 udut rungkung				unmarked	cultural_term, compound	source_inventory	form-d6a94c72a257faa9	culture2021
 ugamo	agama	agama	religion	unmarked	headword	reviewed_translations	form-6aa10ceb9aaf5864	dictionary
-ugari	adat istiadat	adat istiadat	customs	unmarked	headword	reviewed_translations	form-cd2e1b4294998eb5	dictionary
+ugari	adat istiadat	adat istiadat	customs	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-cd2e1b4294998eb5	dictionary, cultural2018
 ugup				unmarked	headword	source_inventory	form-eb87b06803c03504	dictionary
 uhor				unmarked	headword	source_inventory	form-ac53224f14538501	dictionary
-uhum	hukum	undang-undang	law	unmarked	headword	reviewed_translations	form-ec6c9ca0b0c60027	dictionary
+uhum	hukum	undang-undang	law	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-ec6c9ca0b0c60027	dictionary, cultural2018
+uhum horbo mangolu				Mdl-scope	idiom, compound	source_inventory	form-eab8ef218790a38a	cultural2018
+uhum horbo mate				Mdl-scope	idiom, compound	source_inventory	form-bb7c02aa448e6ddb	cultural2018
+uhum jadi hatoban				Mdl-scope	idiom, compound	source_inventory	form-43065d2c62b97211	cultural2018
+uhum mate				Mdl-scope	idiom, compound	source_inventory	form-30d7fe13777be064	cultural2018
+uhum pasung				Mdl-scope	idiom, compound	source_inventory	form-b58bd95c81762986	cultural2018
 uit				unmarked	headword, historical_form	source_inventory	form-5f7a7782ce42501d	dictionary, dictionary1977
 ujar-kujaran				unmarked	headword	source_inventory	form-a07521f6bbe8d945	dictionary
 uji	uji	uji	test	unmarked	headword	reviewed_translations	form-45373050f92b8eae	dictionary
@@ -10576,6 +10689,7 @@ ulokon				unmarked	subentry	source_inventory	form-dcc7e769946a6a42	dictionary
 ulos	selimut	selimut	blanket	unmarked	headword, historical_form, cultural_term	reviewed_translations	form-a9574d5124310e93	dictionary, dictionary1977, culture2021
 ulos balacu				unmarked	historical_form, compound	source_inventory	form-7c4f3f739ee22aa5	dictionary1977
 ulos godang				unmarked	cultural_term, compound	source_inventory	form-5e06a4c7f4391206	culture2021
+ulos naso ra buruk				Mdl-scope	idiom, compound	source_inventory	form-525ca6a8170ea256	cultural2018
 ulosi				unmarked	cultural_term	source_inventory	form-fec710d79ed98a2a	culture2021
 ultop				unmarked	headword	source_inventory	form-4cd9c604d434d5bf	dictionary
 ulu	kepala	kepala	head	unmarked	headword, wordlist_entry	reviewed_translations	form-592a334b32d0cc56	dictionary, abvd1655
@@ -10624,7 +10738,7 @@ ungkit				Akl, Mdl	headword	source_inventory	form-7b9fbbb5a8954a9c	dictionary
 ungkit-ungkit				Akl, Mdl	subentry	source_inventory	form-9ee1888197b8e71b	dictionary
 ungkor				Akl, Mdl, unmarked	headword, historical_form	source_inventory	form-69bba94f8da675cb	dictionary, dictionary1977
 ungut-ungut				unmarked	headword, cultural_term	source_inventory	form-39fc0418462c8b3d	dictionary, culture2021
-uning-uningan	alat musik tradisional	alat muzik tradisional	traditional musical instruments	unmarked	headword	reviewed_translations	form-2c7194b387ff46d3	dictionary
+uning-uningan	alat musik tradisional	alat muzik tradisional	traditional musical instruments	unmarked, Mdl-scope	headword, cultural_term	reviewed_translations	form-2c7194b387ff46d3	dictionary, cultural2018
 unjar				unmarked	headword	source_inventory	form-652dad9089e85b20	dictionary
 unjom				unmarked	headword	source_inventory	form-edb00a05ae1e1cbc	dictionary
 unjur				Mdl	headword	source_inventory	form-856197fa8fb76ccf	dictionary
@@ -10644,6 +10758,7 @@ untut				Akl, Mdl	headword	source_inventory	form-ab9c85b067138445	dictionary
 upa				unmarked	headword	source_inventory	form-582d98acade91596	dictionary
 upa-upa	hadiah	hadiah	gift	unmarked	subentry, cultural_term	reviewed_translations	form-1f5c0f8ce0d646f2	dictionary, culture2021
 upacara	upacara	upacara	ceremony	unmarked	headword	reviewed_translations	form-2a8084ba6ebb416b	dictionary
+upah-upah				Mdl-scope	study_table	source_inventory	form-b058f91ea89669be	upah2021
 upar				unmarked	headword	source_inventory	form-6cfdc95f828dc12b	dictionary
 upet				unmarked	headword	source_inventory	form-7f635836c6e9825e	dictionary
 upok	patah	patah	broken	unmarked	headword	reviewed_translations	form-0bfdbcf58d86136e	dictionary
@@ -10683,6 +10798,9 @@ uti-utian				unmarked	headword	source_inventory	form-47e36247d55d5f3d	dictionary
 uting aek				Mdl-scope	idiom, compound	source_inventory	form-effa5786a593587d	idiom2012
 uting arangan				Mdl-scope	idiom, compound	source_inventory	form-254d5a33b5c4dffa	idiom2012
 utok-utok	otak	otak	brain	unmarked	headword	reviewed_translations	form-5f9ea6c0c4eb6ee0	dictionary
+utte bunga				MA	botanical_name, compound	source_inventory	form-f8104aa3730c358c	plants2019
+utte godang				MA	botanical_name, compound	source_inventory	form-0bc03668c23ca818	plants2019
+utte pangir				MA	botanical_name, compound	source_inventory	form-72da27951bb52884	plants2019
 utus	utus	utus	send someone	unmarked	headword	reviewed_translations	form-1ca3da17cb376bc8	dictionary
 utusan				unmarked	subentry	source_inventory	form-b7f9f7d08711f918	dictionary
 uyom	senyum	senyum	smile	unmarked	headword	reviewed_translations	form-711b43c47acfdcff	dictionary
