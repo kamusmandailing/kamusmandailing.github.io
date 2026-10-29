@@ -1,0 +1,34 @@
+{
+  "source": "Kamus Angkola Mandailing–Indonesia, 2021",
+  "reviewedAt": "2026-10-26",
+  "normalizations": [
+    {"page":47,"from":"balangbalangon","to":"balang-balangon","reason":"Bentuk ulang dibaca pada halaman visual; tanda hubung antarkomponen dipertahankan."},
+    {"page":48,"from":"balatangbaletang","to":"balatang-baletang","reason":"Bentuk ulang berubah bunyi; tanda hubung dipertahankan."},
+    {"page":79,"from":"marburistingburisting","to":"marburisting-buristing","reason":"Bentuk ulang; tanda hubung dipertahankan."},
+    {"page":80,"from":"marburunburun","to":"marburun-burun","reason":"Bentuk ulang; tanda hubung dipertahankan."},
+    {"page":117,"from":"parkatimbungan","to":"parkatimbungan","reason":"Sambungan kata parkatim- dan bungan pada pergantian baris diperiksa secara visual."},
+    {"page":140,"from":"markatimpung","to":"markatimpung","reason":"Sambungan kata markatim- dan pung pada pergantian baris diperiksa secara visual."},
+    {"page":179,"from":"marpegepege","to":"marpege-pege","reason":"Bentuk ulang; tanda hubung dipertahankan."},
+    {"page":225,"from":"tartapor(kon","to":"tartaporkon","reason":"Notasi tartapor(kon) dibaca pada halaman visual; bentuk lengkap tartaporkon juga terdapat dalam contoh di halaman yang sama.","printedNotation":"tartapor(kon)"}
+  ],
+  "headwordCorrections": [
+    {"page":93,"form":"doba","kind":"headword","reason":"Kepala lema diikuti kp dohoba sebelum pelafalan."},
+    {"page":134,"form":"jo","kind":"headword","reason":"Kepala lema diikuti kp jolo sebelum pelafalan."},
+    {"page":134,"form":"jolo","kind":"abbreviation_expansion","reason":"Pada lokasi ini jolo adalah perluasan jo; kepala lema jolo mandiri juga dicatat di lokasi berikutnya."}
+  ],
+  "crossReferences": [
+    {"page":88,"form":"dali","target":"lian"},
+    {"page":126,"form":"ilong","target":"milong"},
+    {"page":135,"form":"jot-jot","target":"dodas"},
+    {"page":152,"form":"logu","target":"ende"},
+    {"page":159,"form":"mual","target":"marsimulmulan"},
+    {"page":176,"form":"palampak","target":"palakpak"},
+    {"page":232,"form":"tong","target":"antong"}
+  ],
+  "independentCheck": [
+    {"page":93,"text":"doba kp dohoba","decision":"doba sebagai kepala lema; dohoba sebagai perluasan singkatan."},
+    {"page":134,"text":"jo kp jolo","decision":"jo dan perluasan jolo dicatat terpisah menurut fungsi lokasi."},
+    {"page":141,"text":"melihat [mengharap]","decision":"Keterangan Indonesia di dalam definisi, bukan kepala lema atau pelafalan Mandailing; tidak dijadikan kosakata baru."},
+    {"page":127,"text":"→ binonggur)","decision":"Rujukan yang berada di dalam penjelasan; tidak dianggap kepala lema baru."}
+  ]
+}

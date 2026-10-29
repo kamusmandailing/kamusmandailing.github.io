@@ -1,0 +1,184 @@
+{
+  "releaseId": "2026-10-27-DEEP02",
+  "sourcesAccess": [
+    {
+      "name": "dictionary2021",
+      "url": "https://repositori.kemendikdasmen.go.id/34696/1/KAMUS%20ANGKOLA%20MANDAILING-FINAL.pdf",
+      "bytes": 3128234,
+      "sha256": "d1fd0627d3914c271132e30edcd1916fa462f1aeddf796a2ec60d6bdb79ef578"
+    },
+    {
+      "name": "idiom2023",
+      "url": "https://tahtamedia.co.id/index.php/issj/article/download/379/376/1417",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "unimed_book",
+      "url": "https://digilib.unimed.ac.id/id/eprint/53394/1/Fulltext.pdf",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "name": "ginger2023",
+      "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/39061/23216/121384",
+      "bytes": 667232,
+      "sha256": "62f06120fc2f2ade3eda7b986ae419bdb928635f18bd0bd1c7e39f8b1e6c50f1"
+    },
+    {
+      "name": "wedding2022",
+      "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503",
+      "bytes": 453518,
+      "sha256": "a1f0a716d2a0a821560b2dfbbbce4e9752061e96281f383f0dbe0ce71a259df0"
+    },
+    {
+      "name": "pasak2015",
+      "url": "https://smujo.id/files/psnmbi/M0104/M010410.pdf",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "ethnobotany2022",
+      "url": "https://journal.uinjkt.ac.id/kauniyah/article/download/17958/pdf/81362",
+      "bytes": 957416,
+      "sha256": "863782c3d3d6918630d62cb0921c96d485b2d1c935f4f4cfcf0086bd770ae2dd"
+    },
+    {
+      "name": "plants2019_vol1",
+      "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf",
+      "bytes": 7795894,
+      "sha256": "8d7e6225509775460b2ac580ad61625c63d58a61ea7b0bd8c4632f7cb2a4acb2"
+    },
+    {
+      "name": "patuaekkon2024",
+      "url": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424",
+      "bytes": 831790,
+      "sha256": "e2d3032106a4d5ec146abfb1b7dc0123505779d8b77a63ce8b2c8c9e92d4e7e7"
+    },
+    {
+      "name": "wildplants2026",
+      "url": "https://journal.ipm2kpe.or.id/index.php/BIOEDUSAINS/article/download/19050/12173",
+      "sha256": "db8bb13e6398e6c7225c3ca3cb1a99afa1d523510b833c516d8772f02c6e0f2f"
+    }
+  ],
+  "sourceSelection": {
+    "plants2018": {
+      "publishedYear": 2018,
+      "selectedMACodedRecords": 17,
+      "languageKeyPdfPage": 15,
+      "languageKeyPrintedPage": 5
+    },
+    "wedding2022": {
+      "tableRows": 43,
+      "excludedMixedEnglishRows": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "descriptorRowExcluded": 5,
+      "proseTerms": 7
+    },
+    "ginger2023": {
+      "table1RejectedAsMandailingForms": [
+        "pedestal",
+        "Unique",
+        "Curcuma",
+        "Incor",
+        "the lamp"
+      ],
+      "selectedRecords": 8,
+      "reason": "Ambiguous translated/taxonomic labels are not silently repaired. Hunik, Alas and Lampuyang selected from independently legible locations."
+    }
+  },
+  "observationTaxa": {
+    "total": 183,
+    "transcribed": 182,
+    "blankInSource": [
+      "plant2022-91"
+    ],
+    "languageStatusPreserved": true
+  },
+  "newForms": [
+    "ampahan gunjo",
+    "asam potong",
+    "ata andung",
+    "ata bulung-bulung",
+    "ata jampolak",
+    "ata parkapur",
+    "ata sibaso",
+    "ata somal",
+    "ata teas",
+    "bawang putih",
+    "bulung gadung",
+    "bunga karotes",
+    "bunga lawang",
+    "congkeh",
+    "daun salam",
+    "golak",
+    "gulo bargot",
+    "hasihor",
+    "hatunggal",
+    "horja haroan boru",
+    "horja pabuat boru",
+    "hunik tindosan",
+    "jintan",
+    "kacang merah",
+    "kesi",
+    "ketumbar",
+    "lampuyang",
+    "lasiak narara",
+    "mangambat boru",
+    "manyurdu burangir",
+    "mare-mare ni pining",
+    "ompu-ompu",
+    "palaga",
+    "pandan",
+    "pandan duri",
+    "pegeh",
+    "pegeh narara",
+    "pining",
+    "pisang si tabar",
+    "pisang sitabar",
+    "roson",
+    "salin batu",
+    "sibodak",
+    "sihala dairi",
+    "sontang",
+    "tetek",
+    "tindosan",
+    "tomu kunci",
+    "tomulawak",
+    "ulim",
+    "unte apas",
+    "unte asom",
+    "unte mungkur",
+    "unte susu"
+  ],
+  "counts": {
+    "records": 99,
+    "uniqueFormsInExtension": 81,
+    "newForms": 54,
+    "recordsBySource": {
+      "plants2018": 17,
+      "wedding2022": 43,
+      "ginger2023": 8,
+      "patuaekkon2024": 13,
+      "pasak2015": 1,
+      "parinduri2009": 17
+    },
+    "plantReviewStatuses": {
+      "pending_language_and_meaning": 152,
+      "combined_scope_supported": 11,
+      "homonym_risk": 1,
+      "study_scope_supported": 8,
+      "broader_taxon_only": 2,
+      "cross_source_supported": 2,
+      "taxon_missing_in_source": 1,
+      "taxon_scope_difference": 1,
+      "taxon_conflict": 1,
+      "taxon_spelling_difference": 2,
+      "non_mandailing_label": 2
+    },
+    "observationsWithTaxon": 182
+  }
+}

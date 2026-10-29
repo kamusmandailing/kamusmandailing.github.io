@@ -1,0 +1,50 @@
+[
+  {
+    "id": "md-007",
+    "before": "halai",
+    "after": "halahi",
+    "reason": "Bentuk utama mengikuti lema halahi. Halai juga muncul dalam contoh buku; tidak ditetapkan sebagai ejaan resmi atau dialek tunggal."
+  },
+  {
+    "id": "md-020",
+    "before": "salapan",
+    "after": "walu",
+    "reason": "Bentuk utama untuk delapan mengikuti walu pada kamus. Salapan muncul dalam contoh di bawah asa, hlm. 40; sumber Tapsel lain memakai lapan. Variasi dicatat, bukan dipaksakan menjadi satu dialek."
+  },
+  {
+    "id": "md-022",
+    "before": "sapulu",
+    "after": "sampulu",
+    "reason": "Bentuk sampulu tercatat di bawah pulu. Sapulu terdapat dalam publikasi Tapsel 2024 hlm. 262; keduanya tidak disebut ejaan resmi."
+  },
+  {
+    "id": "md-024",
+    "before": "minum",
+    "after": "dornguk",
+    "reason": "Bentuk utama mengikuti lema dornguk. Minum muncul dalam sejumlah contoh kamus; pilihan ini memberi rujukan lema yang langsung."
+  },
+  {
+    "id": "md-035",
+    "before": "basu",
+    "after": "mamasu",
+    "reason": "Bentuk pemakaian mamasu tercatat di bawah basu. Kepala lema basu tidak diperlakukan sebagai bentuk bebas untuk semua konteks."
+  },
+  {
+    "id": "md-037",
+    "before": "baca",
+    "after": "mamasa",
+    "reason": "Dipilih bentuk mamasa yang tercatat di bawah basa. Baca juga muncul dalam contoh buku; tidak diklaim sebagai satu-satunya bentuk Mandailing."
+  },
+  {
+    "id": "md-041",
+    "before": "dok",
+    "after": "mandok",
+    "reason": "Bentuk pemakaian mandok tercatat di bawah dok untuk mengatakan."
+  },
+  {
+    "id": "md-078",
+    "before": "belek",
+    "after": "belek-belek",
+    "reason": "Bentuk belek-belek diberikan sumber untuk kaleng; belek merupakan kepala lema dan unsur pada bentuk ukuran sabelek."
+  }
+]

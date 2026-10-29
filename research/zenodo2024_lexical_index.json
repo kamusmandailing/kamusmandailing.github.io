@@ -1,0 +1,2405 @@
+[
+  {
+    "form": "abin",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "abin",
+    "x": 72.02,
+    "y": 114.88
+  },
+  {
+    "form": "mangabin",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "abin",
+    "x": 112.85,
+    "y": 143.44
+  },
+  {
+    "form": "adaran",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "adaran",
+    "x": 72.02,
+    "y": 192.64
+  },
+  {
+    "form": "adian",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "adian",
+    "x": 72.02,
+    "y": 242.34
+  },
+  {
+    "form": "maradian",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "adian",
+    "x": 112.85,
+    "y": 270.9
+  },
+  {
+    "form": "adil",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "adil",
+    "x": 72.02,
+    "y": 320.61
+  },
+  {
+    "form": "mangadili",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "adil",
+    "x": 108.05,
+    "y": 349.17
+  },
+  {
+    "form": "pangadilan",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "adil",
+    "x": 108.05,
+    "y": 377.75
+  },
+  {
+    "form": "aek",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "aek",
+    "x": 72.02,
+    "y": 427.43
+  },
+  {
+    "form": "mangaeki",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "aek",
+    "x": 108.05,
+    "y": 456.01
+  },
+  {
+    "form": "maraek",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "aek",
+    "x": 108.05,
+    "y": 484.81
+  },
+  {
+    "form": "agak",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "agak",
+    "x": 72.02,
+    "y": 513.37
+  },
+  {
+    "form": "aha",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "aha",
+    "x": 72.02,
+    "y": 542.2
+  },
+  {
+    "form": "maraha",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "aha",
+    "x": 114.53,
+    "y": 570.76
+  },
+  {
+    "form": "umaha",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "subentry",
+    "parent": "aha",
+    "x": 114.53,
+    "y": 619.98
+  },
+  {
+    "form": "angkang",
+    "printedPage": 3,
+    "pdfPage": 3,
+    "kind": "headword",
+    "parent": "angkang",
+    "x": 77.78,
+    "y": 669.66
+  },
+  {
+    "form": "baba",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "baba",
+    "x": 77.78,
+    "y": 114.88
+  },
+  {
+    "form": "marbaba",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "baba",
+    "x": 112.85,
+    "y": 143.68
+  },
+  {
+    "form": "bada",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "bada",
+    "x": 72.02,
+    "y": 172.24
+  },
+  {
+    "form": "marbada",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "bada",
+    "x": 107.57,
+    "y": 200.82
+  },
+  {
+    "form": "parbada",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "bada",
+    "x": 107.57,
+    "y": 221.46
+  },
+  {
+    "form": "bagak",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "bagak",
+    "x": 72.02,
+    "y": 271.14
+  },
+  {
+    "form": "bagakna",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "bagak",
+    "x": 108.05,
+    "y": 299.73
+  },
+  {
+    "form": "bisuk",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "bisuk",
+    "x": 72.02,
+    "y": 328.53
+  },
+  {
+    "form": "bolak",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "bolak",
+    "x": 72.02,
+    "y": 357.33
+  },
+  {
+    "form": "bolakna",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "bolak",
+    "x": 112.85,
+    "y": 385.91
+  },
+  {
+    "form": "boltok",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "boltok",
+    "x": 72.02,
+    "y": 414.71
+  },
+  {
+    "form": "caku",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "caku",
+    "x": 72.02,
+    "y": 485.77
+  },
+  {
+    "form": "copit",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "copit",
+    "x": 72.02,
+    "y": 514.57
+  },
+  {
+    "form": "mancopit",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "copit",
+    "x": 107.57,
+    "y": 543.4
+  },
+  {
+    "form": "pancopit",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "copit",
+    "x": 107.57,
+    "y": 571.96
+  },
+  {
+    "form": "tarcopit",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "copit",
+    "x": 107.57,
+    "y": 600.76
+  },
+  {
+    "form": "cubo",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "headword",
+    "parent": "cubo",
+    "x": 72.02,
+    "y": 629.34
+  },
+  {
+    "form": "icubo",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "cubo",
+    "x": 107.57,
+    "y": 657.9
+  },
+  {
+    "form": "mancubo",
+    "printedPage": 4,
+    "pdfPage": 4,
+    "kind": "subentry",
+    "parent": "cubo",
+    "x": 107.57,
+    "y": 707.37
+  },
+  {
+    "form": "cukur",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "cukur",
+    "x": 72.02,
+    "y": 72.37
+  },
+  {
+    "form": "mancukur",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "cukur",
+    "x": 108.05,
+    "y": 100.93
+  },
+  {
+    "form": "marcukur",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "cukur",
+    "x": 108.05,
+    "y": 150.4
+  },
+  {
+    "form": "tarcukur",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "cukur",
+    "x": 108.05,
+    "y": 179.2
+  },
+  {
+    "form": "dabu",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "dabu",
+    "x": 72.02,
+    "y": 250.5
+  },
+  {
+    "form": "madabu",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dabu",
+    "x": 108.05,
+    "y": 279.06
+  },
+  {
+    "form": "dalan",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "dalan",
+    "x": 72.02,
+    "y": 307.89
+  },
+  {
+    "form": "mandalani",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dalan",
+    "x": 114.53,
+    "y": 336.45
+  },
+  {
+    "form": "mandalankon",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dalan",
+    "x": 114.53,
+    "y": 365.01
+  },
+  {
+    "form": "mardalan",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dalan",
+    "x": 114.53,
+    "y": 414.71
+  },
+  {
+    "form": "mardalani",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dalan",
+    "x": 114.53,
+    "y": 443.27
+  },
+  {
+    "form": "nipadalan",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dalan",
+    "x": 114.53,
+    "y": 472.09
+  },
+  {
+    "form": "danon",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "danon",
+    "x": 72.02,
+    "y": 500.65
+  },
+  {
+    "form": "mardanon",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "danon",
+    "x": 114.53,
+    "y": 529.45
+  },
+  {
+    "form": "dosa",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "dosa",
+    "x": 72.02,
+    "y": 558.28
+  },
+  {
+    "form": "mardosa",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dosa",
+    "x": 112.85,
+    "y": 586.84
+  },
+  {
+    "form": "dua",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "headword",
+    "parent": "dua",
+    "x": 72.02,
+    "y": 615.64
+  },
+  {
+    "form": "hadua",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dua",
+    "x": 114.53,
+    "y": 644.22
+  },
+  {
+    "form": "manduahon",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dua",
+    "x": 114.53,
+    "y": 672.78
+  },
+  {
+    "form": "aduahon",
+    "printedPage": 5,
+    "pdfPage": 5,
+    "kind": "subentry",
+    "parent": "dua",
+    "x": 114.53,
+    "y": 722.25
+  },
+  {
+    "form": "mardua-dua",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "dua",
+    "x": 114.53,
+    "y": 72.13
+  },
+  {
+    "form": "duhut",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "headword",
+    "parent": "duhut",
+    "x": 72.02,
+    "y": 121.84
+  },
+  {
+    "form": "duhut-duhutan",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "duhut",
+    "x": 114.53,
+    "y": 150.16
+  },
+  {
+    "form": "marduhut",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "duhut",
+    "x": 114.53,
+    "y": 199.86
+  },
+  {
+    "form": "ekel",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "headword",
+    "parent": "ekel",
+    "x": 72.02,
+    "y": 271.14
+  },
+  {
+    "form": "mekel",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "ekel",
+    "x": 114.53,
+    "y": 299.73
+  },
+  {
+    "form": "mekel-ekel",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "ekel",
+    "x": 114.53,
+    "y": 328.29
+  },
+  {
+    "form": "eme",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "headword",
+    "parent": "eme",
+    "x": 72.02,
+    "y": 377.99
+  },
+  {
+    "form": "mareme",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "eme",
+    "x": 114.53,
+    "y": 406.55
+  },
+  {
+    "form": "pareme",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "eme",
+    "x": 114.53,
+    "y": 435.35
+  },
+  {
+    "form": "epeng",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "headword",
+    "parent": "epeng",
+    "x": 72.02,
+    "y": 464.17
+  },
+  {
+    "form": "marepeng",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "epeng",
+    "x": 114.53,
+    "y": 492.73
+  },
+  {
+    "form": "tarepeng",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "epeng",
+    "x": 114.53,
+    "y": 521.53
+  },
+  {
+    "form": "etong",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "headword",
+    "parent": "etong",
+    "x": 72.02,
+    "y": 550.12
+  },
+  {
+    "form": "etongan",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 578.92
+  },
+  {
+    "form": "ietong",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 607.48
+  },
+  {
+    "form": "mangetong",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 636.3
+  },
+  {
+    "form": "mangetongi",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 664.86
+  },
+  {
+    "form": "maretong",
+    "printedPage": 6,
+    "pdfPage": 6,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 714.33
+  },
+  {
+    "form": "pangetong",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 72.13
+  },
+  {
+    "form": "paretongan",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 142.48
+  },
+  {
+    "form": "taretong",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "etong",
+    "x": 114.53,
+    "y": 171.28
+  },
+  {
+    "form": "gabur",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "headword",
+    "parent": "gabur",
+    "x": 72.02,
+    "y": 242.34
+  },
+  {
+    "form": "magabur",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabur",
+    "x": 114.53,
+    "y": 271.14
+  },
+  {
+    "form": "targabur",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabur",
+    "x": 114.53,
+    "y": 299.73
+  },
+  {
+    "form": "gabus",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "headword",
+    "parent": "gabus",
+    "x": 72.02,
+    "y": 328.29
+  },
+  {
+    "form": "igabusi",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabus",
+    "x": 114.53,
+    "y": 377.99
+  },
+  {
+    "form": "manggabusi",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabus",
+    "x": 114.53,
+    "y": 406.31
+  },
+  {
+    "form": "margabus",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabus",
+    "x": 114.53,
+    "y": 456.01
+  },
+  {
+    "form": "pargabus",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabus",
+    "x": 114.53,
+    "y": 484.81
+  },
+  {
+    "form": "targabusi",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gabus",
+    "x": 114.53,
+    "y": 513.37
+  },
+  {
+    "form": "gadis",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "headword",
+    "parent": "gadis",
+    "x": 72.02,
+    "y": 542.2
+  },
+  {
+    "form": "igadis",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gadis",
+    "x": 114.53,
+    "y": 571.0
+  },
+  {
+    "form": "ipagadiskon",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gadis",
+    "x": 114.53,
+    "y": 599.32
+  },
+  {
+    "form": "manggadis",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gadis",
+    "x": 114.53,
+    "y": 648.78
+  },
+  {
+    "form": "manggadisi",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gadis",
+    "x": 114.53,
+    "y": 698.46
+  },
+  {
+    "form": "panggadis",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "subentry",
+    "parent": "gadis",
+    "x": 114.53,
+    "y": 727.05
+  },
+  {
+    "form": "gambar",
+    "printedPage": 7,
+    "pdfPage": 7,
+    "kind": "headword",
+    "parent": "gambar",
+    "x": 72.02,
+    "y": 755.84
+  },
+  {
+    "form": "manggambar",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gambar",
+    "x": 114.53,
+    "y": 72.13
+  },
+  {
+    "form": "gampit",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "gampit",
+    "x": 72.02,
+    "y": 121.84
+  },
+  {
+    "form": "manggampit",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gampit",
+    "x": 114.53,
+    "y": 150.16
+  },
+  {
+    "form": "targampit",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gampit",
+    "x": 114.53,
+    "y": 199.86
+  },
+  {
+    "form": "ginjang",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "ginjang",
+    "x": 72.02,
+    "y": 228.66
+  },
+  {
+    "form": "gulaen",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "gulaen",
+    "x": 72.02,
+    "y": 257.22
+  },
+  {
+    "form": "gonti",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "gonti",
+    "x": 72.02,
+    "y": 286.05
+  },
+  {
+    "form": "igonti",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gonti",
+    "x": 114.53,
+    "y": 314.85
+  },
+  {
+    "form": "manggontihon",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gonti",
+    "x": 114.53,
+    "y": 343.41
+  },
+  {
+    "form": "targonti",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "gonti",
+    "x": 114.53,
+    "y": 372.23
+  },
+  {
+    "form": "halak",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "halak",
+    "x": 72.02,
+    "y": 443.27
+  },
+  {
+    "form": "halus",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "halus",
+    "x": 72.02,
+    "y": 471.85
+  },
+  {
+    "form": "halusan",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "halus",
+    "x": 114.53,
+    "y": 521.29
+  },
+  {
+    "form": "pahalus",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "halus",
+    "x": 114.53,
+    "y": 571.0
+  },
+  {
+    "form": "pahaluskon",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "halus",
+    "x": 114.53,
+    "y": 599.56
+  },
+  {
+    "form": "tarpahalus",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "halus",
+    "x": 114.53,
+    "y": 628.38
+  },
+  {
+    "form": "harto",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "harto",
+    "x": 72.02,
+    "y": 656.94
+  },
+  {
+    "form": "hodok",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "headword",
+    "parent": "hodok",
+    "x": 72.02,
+    "y": 685.74
+  },
+  {
+    "form": "hodokan",
+    "printedPage": 8,
+    "pdfPage": 8,
+    "kind": "subentry",
+    "parent": "hodok",
+    "x": 114.53,
+    "y": 714.33
+  },
+  {
+    "form": "marhodok",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "hodok",
+    "x": 114.53,
+    "y": 72.13
+  },
+  {
+    "form": "horbo",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "headword",
+    "parent": "horbo",
+    "x": 72.02,
+    "y": 121.84
+  },
+  {
+    "form": "holong",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "headword",
+    "parent": "holong",
+    "x": 72.02,
+    "y": 150.4
+  },
+  {
+    "form": "haholongan",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "holong",
+    "x": 114.53,
+    "y": 179.2
+  },
+  {
+    "form": "haholongi",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "holong",
+    "x": 114.53,
+    "y": 207.78
+  },
+  {
+    "form": "mangholongi",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "holong",
+    "x": 114.53,
+    "y": 256.98
+  },
+  {
+    "form": "marsihaholongan",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "holong",
+    "x": 114.53,
+    "y": 306.45
+  },
+  {
+    "form": "hulambu",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "headword",
+    "parent": "hulambu",
+    "x": 72.02,
+    "y": 356.13
+  },
+  {
+    "form": "markulambu",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "hulambu",
+    "x": 114.53,
+    "y": 384.95
+  },
+  {
+    "form": "ila",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "headword",
+    "parent": "ila",
+    "x": 72.02,
+    "y": 456.01
+  },
+  {
+    "form": "maila",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ila",
+    "x": 114.53,
+    "y": 484.57
+  },
+  {
+    "form": "ipaila",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ila",
+    "x": 114.53,
+    "y": 534.28
+  },
+  {
+    "form": "parila",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ila",
+    "x": 114.53,
+    "y": 562.84
+  },
+  {
+    "form": "pailahon",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ila",
+    "x": 114.53,
+    "y": 591.4
+  },
+  {
+    "form": "parila",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ila",
+    "x": 114.53,
+    "y": 640.86
+  },
+  {
+    "form": "ilak",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "headword",
+    "parent": "ilak",
+    "x": 72.02,
+    "y": 690.3
+  },
+  {
+    "form": "mangilak",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ilak",
+    "x": 114.53,
+    "y": 719.13
+  },
+  {
+    "form": "tarilakkon",
+    "printedPage": 9,
+    "pdfPage": 9,
+    "kind": "subentry",
+    "parent": "ilak",
+    "x": 114.53,
+    "y": 747.92
+  },
+  {
+    "form": "imbar",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "imbar",
+    "x": 72.02,
+    "y": 72.37
+  },
+  {
+    "form": "marimbar",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "imbar",
+    "x": 114.53,
+    "y": 100.93
+  },
+  {
+    "form": "inang",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "inang",
+    "x": 72.02,
+    "y": 150.16
+  },
+  {
+    "form": "marinang",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "inang",
+    "x": 114.53,
+    "y": 199.86
+  },
+  {
+    "form": "inang-inang",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "inang",
+    "x": 114.53,
+    "y": 228.66
+  },
+  {
+    "form": "inang panggonti",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "inang",
+    "x": 114.53,
+    "y": 257.22
+  },
+  {
+    "form": "incak",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "incak",
+    "x": 72.02,
+    "y": 286.05
+  },
+  {
+    "form": "mangincaki",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "incak",
+    "x": 114.53,
+    "y": 314.85
+  },
+  {
+    "form": "marsiincakan",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "incak",
+    "x": 114.53,
+    "y": 343.41
+  },
+  {
+    "form": "pangincaki",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "incak",
+    "x": 114.53,
+    "y": 372.23
+  },
+  {
+    "form": "inda",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "inda",
+    "x": 72.02,
+    "y": 400.79
+  },
+  {
+    "form": "indahan",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "indahan",
+    "x": 72.02,
+    "y": 429.35
+  },
+  {
+    "form": "parindahanan",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "indahan",
+    "x": 114.53,
+    "y": 479.05
+  },
+  {
+    "form": "marindahan-indahan",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "indahan",
+    "x": 114.53,
+    "y": 507.37
+  },
+  {
+    "form": "indahan tungkus",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "indahan",
+    "x": 114.53,
+    "y": 556.84
+  },
+  {
+    "form": "jadi",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "headword",
+    "parent": "jadi",
+    "x": 72.02,
+    "y": 649.02
+  },
+  {
+    "form": "manjadi",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "jadi",
+    "x": 114.53,
+    "y": 677.58
+  },
+  {
+    "form": "manjadihon",
+    "printedPage": 10,
+    "pdfPage": 10,
+    "kind": "subentry",
+    "parent": "jadi",
+    "x": 114.53,
+    "y": 726.81
+  },
+  {
+    "form": "pajadihon",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jadi",
+    "x": 114.53,
+    "y": 72.37
+  },
+  {
+    "form": "tarjadi",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "tarjadi",
+    "x": 72.02,
+    "y": 101.17
+  },
+  {
+    "form": "jago",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "jago",
+    "x": 72.02,
+    "y": 129.76
+  },
+  {
+    "form": "manjago",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jago",
+    "x": 114.53,
+    "y": 158.32
+  },
+  {
+    "form": "manjagohon",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jago",
+    "x": 114.53,
+    "y": 208.02
+  },
+  {
+    "form": "manjagoi",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jago",
+    "x": 114.53,
+    "y": 236.58
+  },
+  {
+    "form": "manjago",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jago",
+    "x": 114.53,
+    "y": 265.14
+  },
+  {
+    "form": "marsijago",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "jago",
+    "x": 114.53,
+    "y": 314.85
+  },
+  {
+    "form": "kaco",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "kaco",
+    "x": 72.02,
+    "y": 385.91
+  },
+  {
+    "form": "mangkacoi",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kaco",
+    "x": 108.05,
+    "y": 414.47
+  },
+  {
+    "form": "markaco",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kaco",
+    "x": 108.05,
+    "y": 455.77
+  },
+  {
+    "form": "tarkaco",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kaco",
+    "x": 108.05,
+    "y": 476.41
+  },
+  {
+    "form": "kacomata",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "kacomata",
+    "x": 72.02,
+    "y": 526.09
+  },
+  {
+    "form": "markacomata",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kacomata",
+    "x": 107.57,
+    "y": 554.68
+  },
+  {
+    "form": "kais",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "kais",
+    "x": 72.02,
+    "y": 604.36
+  },
+  {
+    "form": "mangkais",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kais",
+    "x": 108.05,
+    "y": 632.7
+  },
+  {
+    "form": "mangkaisi",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kais",
+    "x": 191.59,
+    "y": 653.58
+  },
+  {
+    "form": "markais",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kais",
+    "x": 338.28,
+    "y": 674.22
+  },
+  {
+    "form": "pangkais",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "subentry",
+    "parent": "kais",
+    "x": 108.05,
+    "y": 715.77
+  },
+  {
+    "form": "kalas",
+    "printedPage": 11,
+    "pdfPage": 11,
+    "kind": "headword",
+    "parent": "kalas",
+    "x": 72.02,
+    "y": 744.56
+  },
+  {
+    "form": "markalas",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kalas",
+    "x": 108.05,
+    "y": 72.13
+  },
+  {
+    "form": "sakalas",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kalas",
+    "x": 108.05,
+    "y": 93.01
+  },
+  {
+    "form": "kaluar",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "kaluar",
+    "x": 72.02,
+    "y": 121.6
+  },
+  {
+    "form": "markaluaran",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kaluar",
+    "x": 114.53,
+    "y": 171.04
+  },
+  {
+    "form": "pakaluarkon",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kaluar",
+    "x": 114.53,
+    "y": 220.5
+  },
+  {
+    "form": "kecet",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "kecet",
+    "x": 72.02,
+    "y": 249.3
+  },
+  {
+    "form": "mangecet",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kecet",
+    "x": 114.53,
+    "y": 278.1
+  },
+  {
+    "form": "kehe",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "kehe",
+    "x": 72.02,
+    "y": 306.69
+  },
+  {
+    "form": "hakehean",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kehe",
+    "x": 114.53,
+    "y": 335.49
+  },
+  {
+    "form": "markehean",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kehe",
+    "x": 114.53,
+    "y": 363.81
+  },
+  {
+    "form": "kobet",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "kobet",
+    "x": 72.02,
+    "y": 413.51
+  },
+  {
+    "form": "mangobet",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "kobet",
+    "x": 114.53,
+    "y": 442.31
+  },
+  {
+    "form": "koje",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "koje",
+    "x": 72.02,
+    "y": 470.89
+  },
+  {
+    "form": "koum",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "koum",
+    "x": 72.02,
+    "y": 499.69
+  },
+  {
+    "form": "lagut",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "lagut",
+    "x": 72.02,
+    "y": 571.0
+  },
+  {
+    "form": "marlagut",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "lagut",
+    "x": 114.53,
+    "y": 599.32
+  },
+  {
+    "form": "laing",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "laing",
+    "x": 72.02,
+    "y": 649.02
+  },
+  {
+    "form": "lange",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "headword",
+    "parent": "lange",
+    "x": 72.02,
+    "y": 677.82
+  },
+  {
+    "form": "marlange",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "lange",
+    "x": 114.53,
+    "y": 706.41
+  },
+  {
+    "form": "parlange",
+    "printedPage": 12,
+    "pdfPage": 12,
+    "kind": "subentry",
+    "parent": "lange",
+    "x": 114.53,
+    "y": 735.2
+  },
+  {
+    "form": "langka",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "langka",
+    "x": 72.02,
+    "y": 72.37
+  },
+  {
+    "form": "ligi",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "ligi",
+    "x": 72.02,
+    "y": 101.17
+  },
+  {
+    "form": "mangaligi",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "ligi",
+    "x": 114.53,
+    "y": 129.76
+  },
+  {
+    "form": "tarligi",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "ligi",
+    "x": 114.53,
+    "y": 158.56
+  },
+  {
+    "form": "litak",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "litak",
+    "x": 72.02,
+    "y": 187.12
+  },
+  {
+    "form": "lobong",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "lobong",
+    "x": 72.02,
+    "y": 215.94
+  },
+  {
+    "form": "malobong",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "lobong",
+    "x": 114.53,
+    "y": 244.5
+  },
+  {
+    "form": "mangalobong",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "lobong",
+    "x": 114.53,
+    "y": 273.3
+  },
+  {
+    "form": "tarlobong",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "lobong",
+    "x": 114.53,
+    "y": 302.13
+  },
+  {
+    "form": "lojong",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "lojong",
+    "x": 72.02,
+    "y": 330.69
+  },
+  {
+    "form": "lombu",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "lombu",
+    "x": 72.02,
+    "y": 416.87
+  },
+  {
+    "form": "male",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "male",
+    "x": 72.02,
+    "y": 488.17
+  },
+  {
+    "form": "mamale",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "male",
+    "x": 114.53,
+    "y": 516.73
+  },
+  {
+    "form": "mangan",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "mangan",
+    "x": 72.02,
+    "y": 545.56
+  },
+  {
+    "form": "marmangan-mangan",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "mangan",
+    "x": 114.53,
+    "y": 573.88
+  },
+  {
+    "form": "manyogot",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "manyogot",
+    "x": 72.02,
+    "y": 623.58
+  },
+  {
+    "form": "mata",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "mata",
+    "x": 72.02,
+    "y": 652.38
+  },
+  {
+    "form": "mata-mata",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "subentry",
+    "parent": "mata",
+    "x": 114.53,
+    "y": 680.94
+  },
+  {
+    "form": "musojid",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "musojid",
+    "x": 72.02,
+    "y": 709.77
+  },
+  {
+    "form": "modom",
+    "printedPage": 13,
+    "pdfPage": 13,
+    "kind": "headword",
+    "parent": "modom",
+    "x": 72.02,
+    "y": 738.32
+  },
+  {
+    "form": "parpodom",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "modom",
+    "x": 114.53,
+    "y": 72.37
+  },
+  {
+    "form": "papodom-podom",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "modom",
+    "x": 114.53,
+    "y": 101.17
+  },
+  {
+    "form": "parpodoman",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "modom",
+    "x": 114.53,
+    "y": 129.76
+  },
+  {
+    "form": "nayang",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "nayang",
+    "x": 72.02,
+    "y": 158.56
+  },
+  {
+    "form": "padati",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "padati",
+    "x": 72.02,
+    "y": 187.12
+  },
+  {
+    "form": "marpadati",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "padati",
+    "x": 114.53,
+    "y": 215.94
+  },
+  {
+    "form": "puas",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "puas",
+    "x": 72.02,
+    "y": 244.5
+  },
+  {
+    "form": "papuaskon",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "puas",
+    "x": 114.53,
+    "y": 273.3
+  },
+  {
+    "form": "tarpuaskon",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "puas",
+    "x": 114.53,
+    "y": 302.13
+  },
+  {
+    "form": "rambas",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "rambas",
+    "x": 72.02,
+    "y": 373.19
+  },
+  {
+    "form": "mangarambas",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "rambas",
+    "x": 114.53,
+    "y": 401.75
+  },
+  {
+    "form": "rambutan",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "rambutan",
+    "x": 72.02,
+    "y": 451.45
+  },
+  {
+    "form": "rimbang",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "rimbang",
+    "x": 72.02,
+    "y": 480.01
+  },
+  {
+    "form": "robung",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "robung",
+    "x": 72.02,
+    "y": 508.81
+  },
+  {
+    "form": "rugi",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "headword",
+    "parent": "rugi",
+    "x": 72.02,
+    "y": 537.4
+  },
+  {
+    "form": "harugian",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "rugi",
+    "x": 114.53,
+    "y": 566.2
+  },
+  {
+    "form": "marugi",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "rugi",
+    "x": 114.53,
+    "y": 595.0
+  },
+  {
+    "form": "mangarugihon",
+    "printedPage": 14,
+    "pdfPage": 14,
+    "kind": "subentry",
+    "parent": "rugi",
+    "x": 114.53,
+    "y": 623.58
+  },
+  {
+    "form": "salibon",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "salibon",
+    "x": 72.02,
+    "y": 114.88
+  },
+  {
+    "form": "saba-saba",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "saba-saba",
+    "x": 72.02,
+    "y": 143.68
+  },
+  {
+    "form": "sampak",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "sampak",
+    "x": 72.02,
+    "y": 250.5
+  },
+  {
+    "form": "masampak",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sampak",
+    "x": 114.53,
+    "y": 278.82
+  },
+  {
+    "form": "manyampaki",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sampak",
+    "x": 114.53,
+    "y": 328.29
+  },
+  {
+    "form": "manyampakkon",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sampak",
+    "x": 114.53,
+    "y": 377.75
+  },
+  {
+    "form": "tarsampakkon",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sampak",
+    "x": 114.53,
+    "y": 427.19
+  },
+  {
+    "form": "sigaret",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "sigaret",
+    "x": 72.02,
+    "y": 476.65
+  },
+  {
+    "form": "sonang",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "sonang",
+    "x": 72.02,
+    "y": 505.45
+  },
+  {
+    "form": "hasonangan",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sonang",
+    "x": 114.53,
+    "y": 534.28
+  },
+  {
+    "form": "sumbayang",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "headword",
+    "parent": "sumbayang",
+    "x": 72.02,
+    "y": 562.84
+  },
+  {
+    "form": "parsumbayang",
+    "printedPage": 15,
+    "pdfPage": 15,
+    "kind": "subentry",
+    "parent": "sumbayang",
+    "x": 114.53,
+    "y": 591.4
+  },
+  {
+    "form": "taba",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "taba",
+    "x": 72.02,
+    "y": 114.88
+  },
+  {
+    "form": "manaba",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 143.68
+  },
+  {
+    "form": "manabahon",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 172.24
+  },
+  {
+    "form": "manabai",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 200.82
+  },
+  {
+    "form": "panaba",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 250.5
+  },
+  {
+    "form": "panabaan",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 278.82
+  },
+  {
+    "form": "tartaba",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "taba",
+    "x": 114.53,
+    "y": 328.53
+  },
+  {
+    "form": "tangan",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "tangan",
+    "x": 72.02,
+    "y": 357.33
+  },
+  {
+    "form": "tobang",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "tobang",
+    "x": 72.02,
+    "y": 385.91
+  },
+  {
+    "form": "tobat",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "tobat",
+    "x": 72.02,
+    "y": 414.71
+  },
+  {
+    "form": "ujung",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "ujung",
+    "x": 72.02,
+    "y": 485.77
+  },
+  {
+    "form": "marujung",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "ujung",
+    "x": 114.53,
+    "y": 514.57
+  },
+  {
+    "form": "parujung",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "ujung",
+    "x": 114.53,
+    "y": 613.48
+  },
+  {
+    "form": "ukur",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "headword",
+    "parent": "ukur",
+    "x": 72.02,
+    "y": 642.06
+  },
+  {
+    "form": "mangukur",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "ukur",
+    "x": 114.53,
+    "y": 670.62
+  },
+  {
+    "form": "marukuran",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "ukur",
+    "x": 114.53,
+    "y": 720.33
+  },
+  {
+    "form": "pangukur",
+    "printedPage": 16,
+    "pdfPage": 16,
+    "kind": "subentry",
+    "parent": "ukur",
+    "x": 114.53,
+    "y": 748.88
+  },
+  {
+    "form": "pangukuran",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "ukur",
+    "x": 114.53,
+    "y": 72.13
+  },
+  {
+    "form": "tarukur",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "ukur",
+    "x": 114.53,
+    "y": 121.84
+  },
+  {
+    "form": "wajib",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "headword",
+    "parent": "wajib",
+    "x": 72.02,
+    "y": 192.88
+  },
+  {
+    "form": "iwajibkon",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "wajib",
+    "x": 114.53,
+    "y": 221.7
+  },
+  {
+    "form": "mawajibkon",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "wajib",
+    "x": 114.53,
+    "y": 250.5
+  },
+  {
+    "form": "wokop",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "headword",
+    "parent": "wokop",
+    "x": 72.02,
+    "y": 279.06
+  },
+  {
+    "form": "marwokop",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "wokop",
+    "x": 114.53,
+    "y": 307.89
+  },
+  {
+    "form": "mawokopkon",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "wokop",
+    "x": 114.53,
+    "y": 336.21
+  },
+  {
+    "form": "yakin",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "headword",
+    "parent": "yakin",
+    "x": 72.02,
+    "y": 428.39
+  },
+  {
+    "form": "yatim",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "headword",
+    "parent": "yatim",
+    "x": 72.02,
+    "y": 457.21
+  },
+  {
+    "form": "anak yatim",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "yatim",
+    "x": 114.53,
+    "y": 485.77
+  },
+  {
+    "form": "yatim piatu",
+    "printedPage": 17,
+    "pdfPage": 17,
+    "kind": "subentry",
+    "parent": "yatim",
+    "x": 114.53,
+    "y": 514.57
+  }
+]

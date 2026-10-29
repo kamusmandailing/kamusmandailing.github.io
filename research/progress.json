@@ -1,0 +1,228 @@
+{
+  "version": "2026-10-26-MULTISOURCE01",
+  "updatedAt": "2026-10-27",
+  "currentBatch": "MULTISOURCE-01",
+  "currentLetter": "A–Z",
+  "phaseStatus": "available_material_indexed_with_explicit_limits",
+  "added": 1244,
+  "revised": 94,
+  "total": 1404,
+  "sourceAttested": 1404,
+  "legacyDrafts": 0,
+  "sourceExamples": 3,
+  "pendingExamples": 1401,
+  "languageLabels": {
+    "unmarked": 1270,
+    "Mdl": 127,
+    "Tapsel": 2,
+    "shared-pronunciation": 5
+  },
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "sourceAlphabet": "ABCDEGHIJKLMNOPRSTUWY",
+  "letters": [
+    {
+      "letter": "A",
+      "phase": "selected_reviewed",
+      "entries": 212,
+      "sourceAttested": 212
+    },
+    {
+      "letter": "B",
+      "phase": "selected_reviewed",
+      "entries": 168,
+      "sourceAttested": 168
+    },
+    {
+      "letter": "C",
+      "phase": "selected_reviewed",
+      "entries": 21,
+      "sourceAttested": 21
+    },
+    {
+      "letter": "D",
+      "phase": "selected_reviewed",
+      "entries": 67,
+      "sourceAttested": 67
+    },
+    {
+      "letter": "E",
+      "phase": "selected_reviewed",
+      "entries": 12,
+      "sourceAttested": 12
+    },
+    {
+      "letter": "F",
+      "phase": "not_in_source_alphabet",
+      "entries": 0,
+      "sourceAttested": 0
+    },
+    {
+      "letter": "G",
+      "phase": "selected_reviewed",
+      "entries": 57,
+      "sourceAttested": 57
+    },
+    {
+      "letter": "H",
+      "phase": "selected_reviewed",
+      "entries": 85,
+      "sourceAttested": 85
+    },
+    {
+      "letter": "I",
+      "phase": "selected_reviewed",
+      "entries": 43,
+      "sourceAttested": 43
+    },
+    {
+      "letter": "J",
+      "phase": "selected_reviewed",
+      "entries": 35,
+      "sourceAttested": 35
+    },
+    {
+      "letter": "K",
+      "phase": "selected_reviewed",
+      "entries": 45,
+      "sourceAttested": 45
+    },
+    {
+      "letter": "L",
+      "phase": "selected_reviewed",
+      "entries": 55,
+      "sourceAttested": 55
+    },
+    {
+      "letter": "M",
+      "phase": "selected_reviewed",
+      "entries": 83,
+      "sourceAttested": 83
+    },
+    {
+      "letter": "N",
+      "phase": "selected_reviewed",
+      "entries": 33,
+      "sourceAttested": 33
+    },
+    {
+      "letter": "O",
+      "phase": "selected_reviewed",
+      "entries": 31,
+      "sourceAttested": 31
+    },
+    {
+      "letter": "P",
+      "phase": "selected_reviewed",
+      "entries": 91,
+      "sourceAttested": 91
+    },
+    {
+      "letter": "Q",
+      "phase": "not_in_source_alphabet",
+      "entries": 0,
+      "sourceAttested": 0
+    },
+    {
+      "letter": "R",
+      "phase": "selected_reviewed",
+      "entries": 40,
+      "sourceAttested": 40
+    },
+    {
+      "letter": "S",
+      "phase": "selected_reviewed",
+      "entries": 149,
+      "sourceAttested": 149
+    },
+    {
+      "letter": "T",
+      "phase": "selected_reviewed",
+      "entries": 116,
+      "sourceAttested": 116
+    },
+    {
+      "letter": "U",
+      "phase": "selected_reviewed",
+      "entries": 52,
+      "sourceAttested": 52
+    },
+    {
+      "letter": "V",
+      "phase": "not_in_source_alphabet",
+      "entries": 0,
+      "sourceAttested": 0
+    },
+    {
+      "letter": "W",
+      "phase": "selected_reviewed",
+      "entries": 4,
+      "sourceAttested": 4
+    },
+    {
+      "letter": "X",
+      "phase": "not_in_source_alphabet",
+      "entries": 0,
+      "sourceAttested": 0
+    },
+    {
+      "letter": "Y",
+      "phase": "selected_reviewed",
+      "entries": 5,
+      "sourceAttested": 5
+    },
+    {
+      "letter": "Z",
+      "phase": "not_in_source_alphabet",
+      "entries": 0,
+      "sourceAttested": 0
+    }
+  ],
+  "crosscheckedMalay": 11,
+  "scopeTitle": "Bank bentuk sumber dan koleksi berpadanan",
+  "notExhaustive": true,
+  "sourcePagesScreened": 248,
+  "notes": [
+    "Bentuk leksikal bertanda pada halaman 1–248 kamus 2021 diinventarisasi; kata dasar, turunan, gabungan, bentuk terikat dan rujuk silang dibedakan.",
+    "Kamus 1977 ditambah melalui pemeriksaan visual calon dari OCR; seluruh lembar calon baru ditinjau, tetapi deteksi tersebut bukan jaminan seluruh isi kamus sudah ditranskripsikan.",
+    "ABVD 1655 dan indeks leksikal PDF mandiri 2024 ditambahkan, bersama tabel penelitian yang dapat dibaca serta abstrak penerbit 2023. Cakupan dan mutu tiap sumber berbeda.",
+    "Jumlah bentuk unik bukan jumlah semua kata dasar bahasa Mandailing. Variasi ejaan, gabungan, kata serapan dan nama yang terdaftar dalam sumber ikut terhitung.",
+    "Label Akl dan Tb dipertahankan sebagai pembanding. Mdl-scope berarti cakupan penelitian, berbeda dari label Mdl per bentuk. unmarked bukan berarti Mandailing eksklusif.",
+    "Hanya koleksi berpadanan yang telah disunting memiliki terjemahan. Glos konsep ABVD disimpan sebagai glos sumber, bukan terjemahan kurasi.",
+    "Nama tumbuhan dengan bahasa yang tidak disebutkan per nama disimpan terpisah sebagai observasi pembanding, tidak menambah jumlah lexical_forms."
+  ],
+  "next": "Penelaahan makna dan padanan 8.846 bentuk bank, pengesahan penutur per dialek, dan transkripsi isi sumber yang belum tersedia atau belum dapat dituntaskan dengan pasti.",
+  "sourceDocumentSha256": "d1fd0627d3914c271132e30edcd1916fa462f1aeddf796a2ec60d6bdb79ef578",
+  "inventory": {
+    "uniqueForms": 10250,
+    "bodySourceForms": 8173,
+    "sourceRecords": 8580,
+    "referenceRecords": 12679,
+    "reviewedTranslations": 1404,
+    "pendingTranslations": 8846,
+    "headwordRecords": 3607,
+    "subentryRecords": 4931,
+    "crossReferenceRecords": 40,
+    "abbreviationRecords": 2,
+    "boundForms": 10,
+    "indexedPages": 248,
+    "normalizationsReviewed": 8,
+    "previousUniqueForms": 8177,
+    "addedUniqueForms": 2073,
+    "supplementalRecords": 4097,
+    "sourceCount": 9,
+    "recordsBySource": {
+      "dictionary": 8582,
+      "dictionary1977": 3371,
+      "abvd1655": 241,
+      "idiom2023": 6,
+      "zenodo2024": 265,
+      "grain2021": 95,
+      "kinship2026": 26,
+      "numbers": 81,
+      "sight2022": 12
+    },
+    "localNameObservations": 183
+  },
+  "sourceFormsAdded": 2073,
+  "sourceFormsTotal": 10250
+}

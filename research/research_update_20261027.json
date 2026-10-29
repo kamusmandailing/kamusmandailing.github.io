@@ -1,0 +1,51 @@
+{
+  "releaseId": "2026-10-27-DEEP02",
+  "date": "27 Oktober 2026",
+  "baselineForms": 10649,
+  "addedForms": 54,
+  "addedReferences": 99,
+  "reviewedCandidates1977": 1395,
+  "supportedPlantNames": 21,
+  "plantNames": 183,
+  "reportUrl": "./research/analisis_lanjutan_20261027.md",
+  "cards": [
+    {
+      "title": "Kamus Siregar 1977",
+      "status": "Audit pindai diperluas",
+      "detail": "54 rujukan baru setelah delapan lokasi lama digabung; buku tetap berstatus indeks parsial.",
+      "url": "https://repositori.kemendikdasmen.go.id/27303/"
+    },
+    {
+      "title": "Kamus Parinduri 2019",
+      "status": "Pengantar lama ditemukan; edisi 2019 belum diperoleh",
+      "detail": "17 rujukan dari pengantar bertanggal 2009 yang diterbitkan ulang pada 2014. Bahan itu dicatat terpisah dari kamus Parinduri 2019.",
+      "url": "https://gondang.blogspot.com/2014_08_11_archive.html"
+    },
+    {
+      "title": "Kamus Idiom Syahminan 2023",
+      "status": "Masih terbatas abstrak",
+      "detail": "PDF resmi gagal diakses kembali. Enam bentuk lama tetap dicatat sebagai bahan abstrak.",
+      "url": "https://tahtamedia.co.id/issj/article/view/379"
+    },
+    {
+      "title": "Buku Harahap 2007",
+      "status": "Belum mencakup isi buku",
+      "detail": "241 catatan ABVD tetap dibedakan dari kamus penuh; katalog tidak menggantikan isi leksikal.",
+      "url": "https://books.google.com/books/about/Kamus_moderen_bahasa_Angkola_Mandailing.html?id=YVQLAQAAMAAJ"
+    },
+    {
+      "title": "183 nama tumbuhan",
+      "status": "21 nama–takson mendapat dukungan silang",
+      "detail": "Dua dukungan Mandailing, 11 berkode/cakupan gabungan MA, dan delapan pada cakupan studi Mandailing. Palaga berbeda takson; Langge berisiko homonim. 182 takson asal disalin.",
+      "url": "./data/telaah_nama_tumbuhan.tsv"
+    },
+    {
+      "title": "Idiom, adat dan tradisi",
+      "status": "Enam sumber bentuk tambahan",
+      "detail": "Buku botani 2018, penelitian pernikahan 2022, Zingiberaceae 2023, Patuaekkon 2024, pasak bumi 2015, dan pengantar Parinduri 2009. Label dan batas masing-masing dipertahankan.",
+      "url": "./research/analisis_lanjutan_20261027.md"
+    }
+  ],
+  "plantTaxa": 182,
+  "phase": "Pendalaman tahap 2"
+}

@@ -1,0 +1,4602 @@
+[
+  {
+    "id": "plant2022-1",
+    "name": "Sipilit",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 113.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Justicia gandarusa"
+    },
+    "taxonAsPrinted": "Justicia gandarusa",
+    "taxonExpanded": "Justicia gandarusa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-2",
+    "name": "Temu giring giring",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 127.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Strobilanthes sp."
+    },
+    "taxonAsPrinted": "Strobilanthes sp.",
+    "taxonExpanded": "Strobilanthes sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-3",
+    "name": "Rudang nagara",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 141.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Celocasia cristata"
+    },
+    "taxonAsPrinted": "Celocasia cristata",
+    "taxonExpanded": "Celocasia cristata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-4",
+    "name": "Rudang gorsing",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 155.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Celocasia sp."
+    },
+    "taxonAsPrinted": "Celocasia sp.",
+    "taxonExpanded": "Celocasia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-5",
+    "name": "Ompu-ompu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 169.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 22,
+          "printedPage": 12,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "ompu-ompu",
+          "taxonAsPrinted": "Crinum asiaticum",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=22"
+        }
+      ],
+      "taxonAsPrinted": "Crinum asiaticum"
+    },
+    "taxonAsPrinted": "Crinum asiaticum",
+    "taxonExpanded": "Crinum asiaticum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-6",
+    "name": "Sukkit",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 183.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Curculigo latifolia"
+    },
+    "taxonAsPrinted": "Curculigo latifolia",
+    "taxonExpanded": "Curculigo latifolia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-7",
+    "name": "Sibodak bolanda",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 196.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Annona muricata"
+    },
+    "taxonAsPrinted": "Annona muricata",
+    "taxonExpanded": "Annona muricata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-8",
+    "name": "Seledri",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 210.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Apium graveolens"
+    },
+    "taxonAsPrinted": "Apium graveolens",
+    "taxonExpanded": "Apium graveolens",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-9",
+    "name": "Paga-paga ombun",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 224.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Hydrocotyle sibthorioides"
+    },
+    "taxonAsPrinted": "Hydrocotyle sibthorioides",
+    "taxonExpanded": "Hydrocotyle sibthorioides",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-10",
+    "name": "Goti",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 238.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Alastonia pneumatophora"
+    },
+    "taxonAsPrinted": "Alastonia pneumatophora",
+    "taxonExpanded": "Alastonia pneumatophora",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-11",
+    "name": "Salin batu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 252.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 16,
+          "printedPage": 6,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "salin batu",
+          "taxonAsPrinted": "Acorus calamus",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=16"
+        }
+      ],
+      "taxonAsPrinted": "Acorus calamus"
+    },
+    "taxonAsPrinted": "Acorus calamus",
+    "taxonExpanded": "Acorus calamus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-12",
+    "name": "Busir",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 279.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Colocasia esculenta"
+    },
+    "taxonAsPrinted": "Colocasia esculenta",
+    "taxonExpanded": "Colocasia esculenta",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-13",
+    "name": "Pamutung",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 293.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Colosaia sp."
+    },
+    "taxonAsPrinted": "Colosaia sp.",
+    "taxonExpanded": "Colosaia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-14",
+    "name": "Suhat",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 307.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Colocasia sp."
+    },
+    "taxonAsPrinted": "Colocasia sp.",
+    "taxonExpanded": "Colocasia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-15",
+    "name": "Langge",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 321.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "homonym_risk",
+      "note": "Langge pada tabel merujuk Colocasia sp.; lema langge berlabel Mdl Ark pada kamus 2021 bermakna mati. Makna botani tidak dibuktikan oleh kecocokan ejaan.",
+      "taxonAsPrinted": "Colocasia sp.",
+      "evidence": [
+        {
+          "sourceId": "dictionary",
+          "printedPage": 149,
+          "pdfPage": 165,
+          "form": "langge",
+          "sourceGloss": "mati"
+        }
+      ]
+    },
+    "taxonAsPrinted": "Colocasia sp.",
+    "taxonExpanded": "Colocasia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-16",
+    "name": "Bali kunda",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 334.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Pothos scandes"
+    },
+    "taxonAsPrinted": "Pothos scandes",
+    "taxonExpanded": "Pothos scandes",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-17",
+    "name": "Sirimpus kandang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 348.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Arthophyllum diversifolium"
+    },
+    "taxonAsPrinted": "Arthophyllum diversifolium",
+    "taxonExpanded": "Arthophyllum diversifolium",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-18",
+    "name": "Sirimpus tandang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 376.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Macropanax dispermun"
+    },
+    "taxonAsPrinted": "Macropanax dispermun",
+    "taxonExpanded": "Macropanax dispermun",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-19",
+    "name": "Sirimpus banua",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 390.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Schefflera sp."
+    },
+    "taxonAsPrinted": "Schefflera sp.",
+    "taxonExpanded": "Schefflera sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-20",
+    "name": "Pining",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 404.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 25,
+          "printedPage": 15,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "pining",
+          "taxonAsPrinted": "Areca catechu",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=25"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 2",
+          "form": "pining",
+          "taxonAsPrinted": "Areca catechu L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        },
+        {
+          "sourceId": "patuaekkon2024",
+          "pdfPage": 4,
+          "printedPage": 334,
+          "sourceLocator": "Paragraf tepat sebelum tabel 4.1",
+          "form": "pining",
+          "taxonAsPrinted": "Areca catechu",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Areca catechu"
+    },
+    "taxonAsPrinted": "Areca catechu",
+    "taxonExpanded": "Areca catechu",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-21",
+    "name": "Bargot",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 431.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Tabel pernikahan memakai keterangan Pohon bargot untuk Arenga pinnata, sesuai Bargot pada tabel asal. Keterangan pohon tidak diimpor sebagai bentuk Mandailing baru; dukungan tetap pada cakupan studi.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1, baris 5",
+          "formAsPrinted": "Pohon bargot",
+          "taxonAsPrinted": "Arenga pinnata (Wurmb). Merr",
+          "sourceScope": "Penelitian masyarakat Mandailing",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Arenga pinnata"
+    },
+    "taxonAsPrinted": "Arenga pinnata",
+    "taxonExpanded": "Arenga pinnata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-22",
+    "name": "Hotang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 445.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "broader_taxon_only",
+      "note": "Tabel asal menyebut Calamus sp. untuk Hotang. Sumber pernikahan menyebut otang untuk Calamus caesius; ejaan dan tingkat identifikasi berbeda, sehingga tidak disamakan otomatis.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 4",
+          "form": "otang",
+          "taxonAsPrinted": "Calamus caesius Blume.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Calamus sp."
+    },
+    "taxonAsPrinted": "Calamus sp.",
+    "taxonExpanded": "Calamus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-23",
+    "name": "Andudur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 459.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Caryota cf mitis"
+    },
+    "taxonAsPrinted": "Caryota cf mitis",
+    "taxonExpanded": "Caryota cf mitis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-24",
+    "name": "Harambir",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 472.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 31,
+          "printedPage": 21,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "harambir",
+          "taxonAsPrinted": "Cocos nucifera",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=31"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 3",
+          "form": "harambir",
+          "taxonAsPrinted": "Cocos nucifera L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Cocos nucifera"
+    },
+    "taxonAsPrinted": "Cocos nucifera",
+    "taxonExpanded": "Cocos nucifera",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-25",
+    "name": "Pusuk",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 500.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Nipa fructicans"
+    },
+    "taxonAsPrinted": "Nipa fructicans",
+    "taxonExpanded": "Nipa fructicans",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-26",
+    "name": "Salak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 6,
+    "printedPage": 112,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 514.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Salacca zalacca"
+    },
+    "taxonAsPrinted": "Salacca zalacca",
+    "taxonExpanded": "Salacca zalacca",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-27",
+    "name": "Siburnis",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 88.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Dischidia nummularia"
+    },
+    "taxonAsPrinted": "Dischidia nummularia",
+    "taxonExpanded": "Dischidia nummularia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-28",
+    "name": "Liang desa",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 102.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Dracaena umbratica"
+    },
+    "taxonAsPrinted": "Dracaena umbratica",
+    "taxonExpanded": "Dracaena umbratica",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-29",
+    "name": "Siangur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 116.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ageratum cony zoides"
+    },
+    "taxonAsPrinted": "Ageratum cony zoides",
+    "taxonExpanded": "Ageratum cony zoides",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-30",
+    "name": "Galunggung",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 130.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Blumea balsamifera"
+    },
+    "taxonAsPrinted": "Blumea balsamifera",
+    "taxonExpanded": "Blumea balsamifera",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-31",
+    "name": "Sirungkas",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 143.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "B. lacera"
+    },
+    "taxonAsPrinted": "B. lacera",
+    "taxonExpanded": "Blumea lacera",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-32",
+    "name": "Sipabolkas",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 157.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "B. chinensis"
+    },
+    "taxonAsPrinted": "B. chinensis",
+    "taxonExpanded": "Blumea chinensis",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-33",
+    "name": "Bunga jopan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 171.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Clibadium surinamense"
+    },
+    "taxonAsPrinted": "Clibadium surinamense",
+    "taxonExpanded": "Clibadium surinamense",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-34",
+    "name": "Ombur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 185.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Enhydra fluctuans"
+    },
+    "taxonAsPrinted": "Enhydra fluctuans",
+    "taxonExpanded": "Enhydra fluctuans",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-35",
+    "name": "Sirampas para",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 199.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Mikania cordata"
+    },
+    "taxonAsPrinted": "Mikania cordata",
+    "taxonExpanded": "Mikania cordata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-36",
+    "name": "Siampir",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 226.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Spilanthes iabadicensis"
+    },
+    "taxonAsPrinted": "Spilanthes iabadicensis",
+    "taxonExpanded": "Spilanthes iabadicensis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-37",
+    "name": "Bunga paet",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 240.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Tithonia diversifolia"
+    },
+    "taxonAsPrinted": "Tithonia diversifolia",
+    "taxonExpanded": "Tithonia diversifolia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-38",
+    "name": "Andarasi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 254.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Vernoia arborea"
+    },
+    "taxonAsPrinted": "Vernoia arborea",
+    "taxonExpanded": "Vernoia arborea",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-39",
+    "name": "Burley",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 268.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Radermachera gigantea"
+    },
+    "taxonAsPrinted": "Radermachera gigantea",
+    "taxonExpanded": "Radermachera gigantea",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-40",
+    "name": "Pahu lipan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 282.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Blechnum orientale"
+    },
+    "taxonAsPrinted": "Blechnum orientale",
+    "taxonExpanded": "Blechnum orientale",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-41",
+    "name": "Honas",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 295.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 45,
+          "printedPage": 35,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "honas",
+          "taxonAsPrinted": "Ananas comosus",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=45"
+        }
+      ],
+      "taxonAsPrinted": "Ananas comosus"
+    },
+    "taxonAsPrinted": "Ananas comosus",
+    "taxonExpanded": "Ananas comosus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-42",
+    "name": "Daun katarak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 309.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Isotoma longiflora"
+    },
+    "taxonAsPrinted": "Isotoma longiflora",
+    "taxonExpanded": "Isotoma longiflora",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-43",
+    "name": "Botik",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 323.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Carica papaya"
+    },
+    "taxonAsPrinted": "Carica papaya",
+    "taxonExpanded": "Carica papaya",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-44",
+    "name": "Pindul",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 350.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Chloranthus officinalis"
+    },
+    "taxonAsPrinted": "Chloranthus officinalis",
+    "taxonExpanded": "Chloranthus officinalis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-45",
+    "name": "Simarsisilon",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 364.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Drimaria cordata"
+    },
+    "taxonAsPrinted": "Drimaria cordata",
+    "taxonExpanded": "Drimaria cordata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-46",
+    "name": "Simarkarias",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 378.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Drymaria sp."
+    },
+    "taxonAsPrinted": "Drymaria sp.",
+    "taxonExpanded": "Drymaria sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-47",
+    "name": "Gadong julur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 392.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ipomea batatas"
+    },
+    "taxonAsPrinted": "Ipomea batatas",
+    "taxonExpanded": "Ipomea batatas",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-48",
+    "name": "Gadong paranci",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 406.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ipomoea sp."
+    },
+    "taxonAsPrinted": "Ipomoea sp.",
+    "taxonExpanded": "Ipomoea sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-49",
+    "name": "Tabar-tabar",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 420.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Costus sp."
+    },
+    "taxonAsPrinted": "Costus sp.",
+    "taxonExpanded": "Costus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-50",
+    "name": "Dingin-dingin",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 433.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 37",
+          "form": "dingin-dingin",
+          "taxonAsPrinted": "Kalanchoe pinnata (Lam.) Oken",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        },
+        {
+          "sourceId": "patuaekkon2024",
+          "pdfPage": 4,
+          "printedPage": 334,
+          "sourceLocator": "Tabel 4.1 · baris 6",
+          "form": "dingin-dingin",
+          "taxonAsPrinted": "Kalanchoe pinnata",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Kalanchoe pinnata"
+    },
+    "taxonAsPrinted": "Kalanchoe pinnata",
+    "taxonExpanded": "Kalanchoe pinnata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-51",
+    "name": "Gundur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 461.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Benincasa hispida"
+    },
+    "taxonAsPrinted": "Benincasa hispida",
+    "taxonExpanded": "Benincasa hispida",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-52",
+    "name": "Ancimun",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 475.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cucumis sativus"
+    },
+    "taxonAsPrinted": "Cucumis sativus",
+    "taxonExpanded": "Cucumis sativus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-53",
+    "name": "Pitola",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 488.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Momordica charantia"
+    },
+    "taxonAsPrinted": "Momordica charantia",
+    "taxonExpanded": "Momordica charantia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-54",
+    "name": "Tandiang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 502.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cyathea sp."
+    },
+    "taxonAsPrinted": "Cyathea sp.",
+    "taxonExpanded": "Cyathea sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-55",
+    "name": "Tanaon",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 7,
+    "printedPage": 113,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 516.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "cross_source_supported",
+      "note": "Tanaon pada kamus 2021 diberi label Mdl dan makna kemiri; tabel etnobotani mencatat nama Tanaon untuk Aleurites moluccana. Label asli tabel tetap dipertahankan.",
+      "taxonAsPrinted": "Aleurites moluccana",
+      "evidence": [
+        {
+          "sourceId": "dictionary",
+          "printedPage": 221,
+          "pdfPage": 237,
+          "form": "tanaon",
+          "labels": [
+            "Mdl"
+          ],
+          "sourceGloss": "kemiri"
+        }
+      ]
+    },
+    "taxonAsPrinted": "Aleurites moluccana",
+    "taxonExpanded": "Aleurites moluccana",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-56",
+    "name": "Opong",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 102.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Baccaurea macrocarpa"
+    },
+    "taxonAsPrinted": "Baccaurea macrocarpa",
+    "taxonExpanded": "Baccaurea macrocarpa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-57",
+    "name": "Simkam",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 116.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Biscovia javanica"
+    },
+    "taxonAsPrinted": "Biscovia javanica",
+    "taxonExpanded": "Biscovia javanica",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-58",
+    "name": "Sudu-sudu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 130.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Euphorbia antiquorum"
+    },
+    "taxonAsPrinted": "Euphorbia antiquorum",
+    "taxonExpanded": "Euphorbia antiquorum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-59",
+    "name": "Andulpak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 143.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Homalanthus populneus"
+    },
+    "taxonAsPrinted": "Homalanthus populneus",
+    "taxonExpanded": "Homalanthus populneus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-60",
+    "name": "Gadong hau",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 157.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Manihot uttilissima"
+    },
+    "taxonAsPrinted": "Manihot uttilissima",
+    "taxonExpanded": "Manihot uttilissima",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-61",
+    "name": "Dulang-dulang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 171.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ricinus communis"
+    },
+    "taxonAsPrinted": "Ricinus communis",
+    "taxonExpanded": "Ricinus communis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-62",
+    "name": "Nasi-nasi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 185.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Sauropus androgynus"
+    },
+    "taxonAsPrinted": "Sauropus androgynus",
+    "taxonExpanded": "Sauropus androgynus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-63",
+    "name": "Bunga teh",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 199.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Stachytarpheta mutabilis"
+    },
+    "taxonAsPrinted": "Stachytarpheta mutabilis",
+    "taxonExpanded": "Stachytarpheta mutabilis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-64",
+    "name": "Kacang tano",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 212.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Arachis hypogea"
+    },
+    "taxonAsPrinted": "Arachis hypogea",
+    "taxonExpanded": "Arachis hypogea",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-65",
+    "name": "Kacang podang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 226.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Delonix regia"
+    },
+    "taxonAsPrinted": "Delonix regia",
+    "taxonExpanded": "Delonix regia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-66",
+    "name": "Dapdap",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 240.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Erythrina lithosperma"
+    },
+    "taxonAsPrinted": "Erythrina lithosperma",
+    "taxonExpanded": "Erythrina lithosperma",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-67",
+    "name": "Bangkoang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 268.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Pachyrhizus erosus"
+    },
+    "taxonAsPrinted": "Pachyrhizus erosus",
+    "taxonExpanded": "Pachyrhizus erosus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-68",
+    "name": "Parira",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 282.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Parkia speciosa"
+    },
+    "taxonAsPrinted": "Parkia speciosa",
+    "taxonExpanded": "Parkia speciosa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-69",
+    "name": "Joring",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 295.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Pithecellobium lobatum"
+    },
+    "taxonAsPrinted": "Pithecellobium lobatum",
+    "taxonExpanded": "Pithecellobium lobatum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-70",
+    "name": "Dilah hantu hara",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 309.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Aeschynanthus sumatranus"
+    },
+    "taxonAsPrinted": "Aeschynanthus sumatranus",
+    "taxonExpanded": "Aeschynanthus sumatranus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-71",
+    "name": "Siampa",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 337.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cyrtandra sp."
+    },
+    "taxonAsPrinted": "Cyrtandra sp.",
+    "taxonExpanded": "Cyrtandra sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-72",
+    "name": "Risi-risi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 350.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Liebergia liman"
+    },
+    "taxonAsPrinted": "Liebergia liman",
+    "taxonExpanded": "Liebergia liman",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-73",
+    "name": "Sampilpil",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 364.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Gleichenia linearis"
+    },
+    "taxonAsPrinted": "Gleichenia linearis",
+    "taxonExpanded": "Gleichenia linearis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-74",
+    "name": "Manggis",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 378.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Garcinia mangostana"
+    },
+    "taxonAsPrinted": "Garcinia mangostana",
+    "taxonExpanded": "Garcinia mangostana",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-75",
+    "name": "Kulit manis",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 406.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cinnamomum burmani"
+    },
+    "taxonAsPrinted": "Cinnamomum burmani",
+    "taxonExpanded": "Cinnamomum burmani",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-76",
+    "name": "Simartampua",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 420.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ocimum americanum"
+    },
+    "taxonAsPrinted": "Ocimum americanum",
+    "taxonExpanded": "Ocimum americanum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-77",
+    "name": "Kumis kucing",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 433.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Orthosiphon stamineus"
+    },
+    "taxonAsPrinted": "Orthosiphon stamineus",
+    "taxonExpanded": "Orthosiphon stamineus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-78",
+    "name": "Nilam",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 461.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Pogostemon cablin"
+    },
+    "taxonAsPrinted": "Pogostemon cablin",
+    "taxonExpanded": "Pogostemon cablin",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-79",
+    "name": "Bawang merah",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 475.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 18,
+          "printedPage": 8,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "bawang merah",
+          "taxonAsPrinted": "Allium cepa",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=18"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 29",
+          "form": "bawang merah",
+          "taxonAsPrinted": "Allium cepa L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "Allium cepa"
+    },
+    "taxonAsPrinted": "Allium cepa",
+    "taxonExpanded": "Allium cepa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-80",
+    "name": "Bawang putih",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 502.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 30",
+          "form": "bawang putih",
+          "taxonAsPrinted": "Allium sativum L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "A. sativum"
+    },
+    "taxonAsPrinted": "A. sativum",
+    "taxonExpanded": "Allium sativum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-81",
+    "name": "Silinjuang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 8,
+    "printedPage": 114,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 516.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 41,
+          "printedPage": 31,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "silinjuang",
+          "taxonAsPrinted": "Cordyline fruticosa",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=41"
+        },
+        {
+          "sourceId": "patuaekkon2024",
+          "pdfPage": 4,
+          "printedPage": 334,
+          "sourceLocator": "Tabel 4.1 · baris 1",
+          "form": "silinjuang",
+          "taxonAsPrinted": "Cordyline fruticosa",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Cordyline fruticosa"
+    },
+    "taxonAsPrinted": "Cordyline fruticosa",
+    "taxonExpanded": "Cordyline fruticosa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-82",
+    "name": "Bunga raya",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 88.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Hibiscus rosa-sinensis"
+    },
+    "taxonAsPrinted": "Hibiscus rosa-sinensis",
+    "taxonExpanded": "Hibiscus rosa-sinensis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-83",
+    "name": "Sampelulut",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 102.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Urena lobata"
+    },
+    "taxonAsPrinted": "Urena lobata",
+    "taxonExpanded": "Urena lobata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-84",
+    "name": "Sibalik sumpah",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 116.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Wissadula periplocifolia"
+    },
+    "taxonAsPrinted": "Wissadula periplocifolia",
+    "taxonExpanded": "Wissadula periplocifolia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-85",
+    "name": "Bomban",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 130.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Donax canniformis"
+    },
+    "taxonAsPrinted": "Donax canniformis",
+    "taxonExpanded": "Donax canniformis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-86",
+    "name": "Sanduduk",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 143.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Clidemia hirta"
+    },
+    "taxonAsPrinted": "Clidemia hirta",
+    "taxonExpanded": "Clidemia hirta",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-87",
+    "name": "Timba laut",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 171.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Phyllagathis rotundifolius"
+    },
+    "taxonAsPrinted": "Phyllagathis rotundifolius",
+    "taxonExpanded": "Phyllagathis rotundifolius",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-88",
+    "name": "Sitongubalaut",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 199.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Phyllagathis sp."
+    },
+    "taxonAsPrinted": "Phyllagathis sp.",
+    "taxonExpanded": "Phyllagathis sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-89",
+    "name": "Sibalik angin",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 212.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Aglaia argentea"
+    },
+    "taxonAsPrinted": "Aglaia argentea",
+    "taxonExpanded": "Aglaia argentea",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-90",
+    "name": "Latsat",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 226.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Lansium domesticum"
+    },
+    "taxonAsPrinted": "Lansium domesticum",
+    "taxonExpanded": "Lansium domesticum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-91",
+    "name": "Tampar bue",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 240.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "taxon_missing_in_source",
+      "note": "Kolom nama ilmiah untuk Tampar bue kosong pada cetakan tabel asal. Takson tidak ditebak atau dipinjam dari baris di atasnya.",
+      "evidence": [],
+      "taxonAsPrinted": ""
+    },
+    "taxonAsPrinted": "",
+    "taxonExpanded": "",
+    "taxonNote": "Nama ilmiah tidak diisi pada baris sumber."
+  },
+  {
+    "id": "plant2022-92",
+    "name": "Torop",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 254.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Artocarpus elastica"
+    },
+    "taxonAsPrinted": "Artocarpus elastica",
+    "taxonExpanded": "Artocarpus elastica",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-93",
+    "name": "Sibodak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 268.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 12",
+          "form": "sibodak",
+          "taxonAsPrinted": "Artocarpus heterophyllus Lam.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "A. heterophyllus"
+    },
+    "taxonAsPrinted": "A. heterophyllus",
+    "taxonExpanded": "Artocarpus heterophyllus",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-94",
+    "name": "Tadah-tadah",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 282.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cudrania cochinchinensis"
+    },
+    "taxonAsPrinted": "Cudrania cochinchinensis",
+    "taxonExpanded": "Cudrania cochinchinensis",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-95",
+    "name": "Pisang sitabar",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 295.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "taxon_scope_difference",
+      "note": "Nama lokal sama, tetapi tabel asal mencetak Musa paradisiasa dan penelitian Patuaekkon mencetak Musa acuminata. Hubungan spesies dan kultivar belum dipastikan; kedua catatan dipertahankan.",
+      "evidence": [
+        {
+          "sourceId": "patuaekkon2024",
+          "pdfPage": 4,
+          "printedPage": 334,
+          "sourceLocator": "Paragraf tepat sebelum tabel 4.1",
+          "form": "pisang sitabar",
+          "taxonAsPrinted": "Musa acuminata",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Musa paradisiasa"
+    },
+    "taxonAsPrinted": "Musa paradisiasa",
+    "taxonExpanded": "Musa paradisiasa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-96",
+    "name": "Gompang batu harangan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 309.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "Nama lokal berlanjut ke baris berikutnya; spasi sambungan dipertahankan.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ardisia sp."
+    },
+    "taxonAsPrinted": "Ardisia sp.",
+    "taxonExpanded": "Ardisia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-97",
+    "name": "Pala",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 337.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Myristica fragrans"
+    },
+    "taxonAsPrinted": "Myristica fragrans",
+    "taxonExpanded": "Myristica fragrans",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-98",
+    "name": "Jamborsik",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 350.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Psidium guajava"
+    },
+    "taxonAsPrinted": "Psidium guajava",
+    "taxonExpanded": "Psidium guajava",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-99",
+    "name": "Dalimo",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 378.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Punica sp."
+    },
+    "taxonAsPrinted": "Punica sp.",
+    "taxonExpanded": "Punica sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-100",
+    "name": "Congkeh",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 392.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 33",
+          "form": "congkeh",
+          "taxonAsPrinted": "Syzygium aromaticum (L) Merr. & L.M. Perry",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "Syzygium aromaticum"
+    },
+    "taxonAsPrinted": "Syzygium aromaticum",
+    "taxonExpanded": "Syzygium aromaticum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-101",
+    "name": "Jambu bol",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 420.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "S. malascense"
+    },
+    "taxonAsPrinted": "S. malascense",
+    "taxonExpanded": "Syzygium malascense",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-102",
+    "name": "Sipuna baro",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 433.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Nervilia aragoana"
+    },
+    "taxonAsPrinted": "Nervilia aragoana",
+    "taxonExpanded": "Nervilia aragoana",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-103",
+    "name": "Balimbing",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 447.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Averrhoa carambola"
+    },
+    "taxonAsPrinted": "Averrhoa carambola",
+    "taxonExpanded": "Averrhoa carambola",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-104",
+    "name": "Pandan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 461.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 35",
+          "form": "pandan",
+          "taxonAsPrinted": "Pandanus amaryllifolius Roxb.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "Pandanus amaryllifolius"
+    },
+    "taxonAsPrinted": "Pandanus amaryllifolius",
+    "taxonExpanded": "Pandanus amaryllifolius",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-105",
+    "name": "Burangir",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 475.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "cross_source_supported",
+      "note": "Burangir pada tabel adalah Piper betle; naskah Marina Silalahi 2020 menyebut burangir dengan label Batak Mandailing. Kamus 2021 juga mencatat arti sirih.",
+      "taxonAsPrinted": "Piper betle",
+      "evidence": [
+        {
+          "sourceId": "betle2020",
+          "sourceLocator": "Local Names: Batak Mandailing",
+          "form": "burangir",
+          "labels": [
+            "Mdl"
+          ],
+          "sourceGloss": "sirih"
+        },
+        {
+          "sourceId": "dictionary",
+          "printedPage": 78,
+          "pdfPage": 94,
+          "form": "burangir",
+          "sourceGloss": "sirih"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 1",
+          "form": "burangir",
+          "taxonAsPrinted": "Piper betle L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata."
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 1",
+          "form": "burangir",
+          "taxonAsPrinted": "Piper betle L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        }
+      ]
+    },
+    "taxonAsPrinted": "Piper betle",
+    "taxonExpanded": "Piper betle",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-106",
+    "name": "Lada",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 488.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "P. nigrum"
+    },
+    "taxonAsPrinted": "P. nigrum",
+    "taxonExpanded": "Piper nigrum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-107",
+    "name": "Simanat",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 502.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Piper sp."
+    },
+    "taxonAsPrinted": "Piper sp.",
+    "taxonExpanded": "Piper sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-108",
+    "name": "Bulu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 9,
+    "printedPage": 115,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 516.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "broader_taxon_only",
+      "note": "Tabel asal hanya mengidentifikasi Bambusa sp.; sumber pernikahan memakai Bambusa vulgaris. Persamaan nama tidak memastikan spesies yang sama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 22",
+          "form": "bulu",
+          "taxonAsPrinted": "Bambusa vulgaris Schrad.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "Bambusa sp."
+    },
+    "taxonAsPrinted": "Bambusa sp.",
+    "taxonExpanded": "Bambusa sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-109",
+    "name": "Singkorung batu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 88.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Coix lacryma-jobi"
+    },
+    "taxonAsPrinted": "Coix lacryma-jobi",
+    "taxonExpanded": "Coix lacryma-jobi",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-110",
+    "name": "Padang toguh",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 102.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Eleusine indica"
+    },
+    "taxonAsPrinted": "Eleusine indica",
+    "taxonExpanded": "Eleusine indica",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-111",
+    "name": "Rih",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 116.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Imperata cylindrica"
+    },
+    "taxonAsPrinted": "Imperata cylindrica",
+    "taxonExpanded": "Imperata cylindrica",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-112",
+    "name": "Isik",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 130.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Lophatherum gracile"
+    },
+    "taxonAsPrinted": "Lophatherum gracile",
+    "taxonExpanded": "Lophatherum gracile",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-113",
+    "name": "Rumput manis",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 143.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Paspalum conjugatum"
+    },
+    "taxonAsPrinted": "Paspalum conjugatum",
+    "taxonExpanded": "Paspalum conjugatum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-114",
+    "name": "Robung parupuk",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 157.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Sacharum spontaneum"
+    },
+    "taxonAsPrinted": "Sacharum spontaneum",
+    "taxonExpanded": "Sacharum spontaneum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-115",
+    "name": "Tobu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 171.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "S. officinarum"
+    },
+    "taxonAsPrinted": "S. officinarum",
+    "taxonExpanded": "Sacharum officinarum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-116",
+    "name": "Supi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 185.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Rubus moluccanus"
+    },
+    "taxonAsPrinted": "Rubus moluccanus",
+    "taxonExpanded": "Rubus moluccanus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-117",
+    "name": "Bunga kombang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 199.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Rosa sp."
+    },
+    "taxonAsPrinted": "Rosa sp.",
+    "taxonExpanded": "Rosa sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-118",
+    "name": "Sidua kupang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 212.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Borreria repens"
+    },
+    "taxonAsPrinted": "Borreria repens",
+    "taxonExpanded": "Borreria repens",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-119",
+    "name": "Kina",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 226.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cinchona ledgeriana"
+    },
+    "taxonAsPrinted": "Cinchona ledgeriana",
+    "taxonExpanded": "Cinchona ledgeriana",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-120",
+    "name": "Kopi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 240.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Coffea sp."
+    },
+    "taxonAsPrinted": "Coffea sp.",
+    "taxonExpanded": "Coffea sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-121",
+    "name": "Sarang buriang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 254.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Myrmecodia sp."
+    },
+    "taxonAsPrinted": "Myrmecodia sp.",
+    "taxonExpanded": "Myrmecodia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-122",
+    "name": "Simanonggali",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 268.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Oldendia sp."
+    },
+    "taxonAsPrinted": "Oldendia sp.",
+    "taxonExpanded": "Oldendia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-123",
+    "name": "Gambir",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 282.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Uncaria gambir"
+    },
+    "taxonAsPrinted": "Uncaria gambir",
+    "taxonExpanded": "Uncaria gambir",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-124",
+    "name": "Sirik-sirik manuk",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 309.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Clausena excavata"
+    },
+    "taxonAsPrinted": "Clausena excavata",
+    "taxonExpanded": "Clausena excavata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-125",
+    "name": "Utte albung",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 323.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Citrus sp."
+    },
+    "taxonAsPrinted": "Citrus sp.",
+    "taxonExpanded": "Citrus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-126",
+    "name": "Utte bunga",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 337.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. aurantium"
+    },
+    "taxonAsPrinted": "C. aurantium",
+    "taxonExpanded": "Citrus aurantium",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-127",
+    "name": "Utte godang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 350.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. maxima"
+    },
+    "taxonAsPrinted": "C. maxima",
+    "taxonExpanded": "Citrus maxima",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-128",
+    "name": "Utte joran",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 364.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Citrus sp."
+    },
+    "taxonAsPrinted": "Citrus sp.",
+    "taxonExpanded": "Citrus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-129",
+    "name": "Utte kasturi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 378.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Citrus sp."
+    },
+    "taxonAsPrinted": "Citrus sp.",
+    "taxonExpanded": "Citrus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-130",
+    "name": "Untte mungkur",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 392.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. histryx"
+    },
+    "taxonAsPrinted": "C. histryx",
+    "taxonExpanded": "Citrus histryx",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-131",
+    "name": "Utte rihit",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 420.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Citrus sp."
+    },
+    "taxonAsPrinted": "Citrus sp.",
+    "taxonExpanded": "Citrus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-132",
+    "name": "Utte susu",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 433.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Citrus sp."
+    },
+    "taxonAsPrinted": "Citrus sp.",
+    "taxonExpanded": "Citrus sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-133",
+    "name": "Saoh",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 447.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Archas zapota"
+    },
+    "taxonAsPrinted": "Archas zapota",
+    "taxonExpanded": "Archas zapota",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-134",
+    "name": "Rambutan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 461.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Nephelium lappaceum"
+    },
+    "taxonAsPrinted": "Nephelium lappaceum",
+    "taxonExpanded": "Nephelium lappaceum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-135",
+    "name": "Sidua mas",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 488.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Lindernia sp."
+    },
+    "taxonAsPrinted": "Lindernia sp.",
+    "taxonExpanded": "Lindernia sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-136",
+    "name": "Sirungguk",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 502.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Selaginella sp."
+    },
+    "taxonAsPrinted": "Selaginella sp.",
+    "taxonExpanded": "Selaginella sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-137",
+    "name": "Sirungguk sormin",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 10,
+    "printedPage": 116,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 516.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Selaginella sp."
+    },
+    "taxonAsPrinted": "Selaginella sp.",
+    "taxonExpanded": "Selaginella sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-138",
+    "name": "Ampahan gunjo",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 88.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "pasak2015",
+          "pdfPage": 3,
+          "printedPage": 745,
+          "sourceLocator": "Hasil dan Pembahasan, paragraf pertama",
+          "form": "ampahan gunjo",
+          "taxonAsPrinted": "Eurycoma longifolia",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_combined_language_label",
+          "sourceScope": "Nama ampahan gunjo diberi label Angkola–Mandailing per nama pada publikasi.",
+          "url": "https://smujo.id/files/psnmbi/M0104/M010410.pdf#page=3"
+        }
+      ],
+      "taxonAsPrinted": "Eurycoma longifolia"
+    },
+    "taxonAsPrinted": "Eurycoma longifolia",
+    "taxonExpanded": "Eurycoma longifolia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-139",
+    "name": "Lasiak cina",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 116.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Capsicum frutescens"
+    },
+    "taxonAsPrinted": "Capsicum frutescens",
+    "taxonExpanded": "Capsicum frutescens",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-140",
+    "name": "Pultak-pultak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 143.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Physallis angulata"
+    },
+    "taxonAsPrinted": "Physallis angulata",
+    "taxonExpanded": "Physallis angulata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-141",
+    "name": "Kantang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 157.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 4,
+          "printedPage": 69,
+          "sourceLocator": "Tabel 1 · baris 6",
+          "form": "kantang",
+          "taxonAsPrinted": "Solanum tuberosum L.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=4"
+        }
+      ],
+      "taxonAsPrinted": "Solanum tuberosum"
+    },
+    "taxonAsPrinted": "Solanum tuberosum",
+    "taxonExpanded": "Solanum tuberosum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-142",
+    "name": "Tembakau",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 171.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "S. nicotianum"
+    },
+    "taxonAsPrinted": "S. nicotianum",
+    "taxonExpanded": "Solanum nicotianum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-143",
+    "name": "Rimbang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 185.2,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "study_scope_supported",
+      "note": "Nama dan takson cocok dalam penelitian yang secara eksplisit bercakupan masyarakat Mandailing. Ini dukungan pada cakupan studi, bukan label bahasa eksklusif per nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 10",
+          "form": "rimbang",
+          "taxonAsPrinted": "Solanum torvum Sw.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "S. torvum"
+    },
+    "taxonAsPrinted": "S. torvum",
+    "taxonExpanded": "Solanum torvum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-144",
+    "name": "Songgak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 199.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Turpinia montana"
+    },
+    "taxonAsPrinted": "Turpinia montana",
+    "taxonExpanded": "Turpinia montana",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-145",
+    "name": "Palaga",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 212.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "taxon_conflict",
+      "note": "Palaga pada tabel asal merujuk Scaphium macropodum, sedangkan penelitian pernikahan dan Zingiberaceae memakai Amomum compactum. Dua takson berbeda ini tidak disatukan berdasarkan ejaan nama.",
+      "evidence": [
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 26",
+          "form": "palaga",
+          "taxonAsPrinted": "Amomum compactum Sol. ex Maton",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        },
+        {
+          "sourceId": "ginger2023",
+          "pdfPage": 6,
+          "printedPage": 191,
+          "sourceLocator": "Tabel 1 · baris 2",
+          "form": "palaga",
+          "taxonAsPrinted": "Amomum compactum Sol. Ex Maton.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/39061/23216/121384#page=6"
+        }
+      ],
+      "taxonAsPrinted": "Scaphium macropodum"
+    },
+    "taxonAsPrinted": "Scaphium macropodum",
+    "taxonExpanded": "Scaphium macropodum",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-146",
+    "name": "Sanka dairi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 226.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Elastostema sp."
+    },
+    "taxonAsPrinted": "Elastostema sp.",
+    "taxonExpanded": "Elastostema sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-147",
+    "name": "Sisandar",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 240.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Elastostema sp."
+    },
+    "taxonAsPrinted": "Elastostema sp.",
+    "taxonExpanded": "Elastostema sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-148",
+    "name": "Sibarebeh",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 254.4,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Elastostema sp."
+    },
+    "taxonAsPrinted": "Elastostema sp.",
+    "taxonExpanded": "Elastostema sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-149",
+    "name": "Atete babi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 268.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Callicarpa sp."
+    },
+    "taxonAsPrinted": "Callicarpa sp.",
+    "taxonExpanded": "Callicarpa sp.",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-150",
+    "name": "Sarang banua",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 282.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Clerodendrum fragrans"
+    },
+    "taxonAsPrinted": "Clerodendrum fragrans",
+    "taxonExpanded": "Clerodendrum fragrans",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-151",
+    "name": "Salagundi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 295.7,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Vitex trifolia"
+    },
+    "taxonAsPrinted": "Vitex trifolia",
+    "taxonExpanded": "Vitex trifolia",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-152",
+    "name": "Tindo tasik",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 309.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. serratum"
+    },
+    "taxonAsPrinted": "C. serratum",
+    "taxonExpanded": "Clerodendrum serratum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-153",
+    "name": "Alas",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 323.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 87,
+          "printedPage": 77,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "alas",
+          "taxonAsPrinted": "Alpinia galanga",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=87"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 25",
+          "form": "alas",
+          "taxonAsPrinted": "Alpinia galanga (L.) Willd.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        },
+        {
+          "sourceId": "ginger2023",
+          "pdfPage": 14,
+          "printedPage": 199,
+          "sourceLocator": "Tabel 4 · kategori Currently",
+          "form": "alas",
+          "taxonAsPrinted": "Alpinia galanga (L.) Willd.",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/39061/23216/121384#page=14"
+        }
+      ],
+      "taxonAsPrinted": "Alpinia galanga"
+    },
+    "taxonAsPrinted": "Alpinia galanga",
+    "taxonExpanded": "Alpinia galanga",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-154",
+    "name": "Temu kunci",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 350.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Boesenbergia pandurata"
+    },
+    "taxonAsPrinted": "Boesenbergia pandurata",
+    "taxonExpanded": "Boesenbergia pandurata",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-155",
+    "name": "Tomu itom",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 364.8,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Curcuma aeroginosa"
+    },
+    "taxonAsPrinted": "Curcuma aeroginosa",
+    "taxonExpanded": "Curcuma aeroginosa",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-156",
+    "name": "Nagorsing",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 378.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. longa"
+    },
+    "taxonAsPrinted": "C. longa",
+    "taxonExpanded": "Curcuma longa",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-157",
+    "name": "Temulawak",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 406.1,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "C. xanthorrhiza"
+    },
+    "taxonAsPrinted": "C. xanthorrhiza",
+    "taxonExpanded": "Curcuma xanthorrhiza",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-158",
+    "name": "Hunik tindosan",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 420.0,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "taxon_spelling_difference",
+      "note": "Nama lokal sama, tetapi ejaan nama ilmiah pada sumber berbeda. Nama ilmiah asal tidak dikoreksi atau disamakan otomatis.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 95,
+          "printedPage": 85,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "hunik tindosan",
+          "taxonAsPrinted": "Curcuma zedoaria",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=95"
+        }
+      ],
+      "taxonAsPrinted": "C. zaedoria"
+    },
+    "taxonAsPrinted": "C. zaedoria",
+    "taxonExpanded": "Curcuma zaedoria",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-159",
+    "name": "Sihala dairi",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 447.6,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "taxon_spelling_difference",
+      "note": "Nama lokal sama, tetapi ejaan nama ilmiah pada sumber berbeda. Nama ilmiah asal tidak dikoreksi atau disamakan otomatis.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 97,
+          "printedPage": 87,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "sihala dairi",
+          "taxonAsPrinted": "Etlingera elatior",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=97"
+        }
+      ],
+      "taxonAsPrinted": "Etlingera eliator"
+    },
+    "taxonAsPrinted": "Etlingera eliator",
+    "taxonExpanded": "Etlingera eliator",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-160",
+    "name": "Hasihor",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 461.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 102,
+          "printedPage": 92,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "hasihor",
+          "taxonAsPrinted": "Kaempferia galanga",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=102"
+        }
+      ],
+      "taxonAsPrinted": "Kaempferia galanga"
+    },
+    "taxonAsPrinted": "Kaempferia galanga",
+    "taxonExpanded": "Kaempferia galanga",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-161",
+    "name": "Lempuyang",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 475.3,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Zingiber americanus"
+    },
+    "taxonAsPrinted": "Zingiber americanus",
+    "taxonExpanded": "Zingiber americanus",
+    "taxonNote": "Ejaan nama ilmiah dipertahankan sebagaimana cetakan, termasuk kemungkinan salah eja; bukan validasi nomenklatur."
+  },
+  {
+    "id": "plant2022-162",
+    "name": "Pege",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 488.9,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "combined_scope_supported",
+      "note": "Nama dan takson cocok dengan sumber berkode MA (Mandailing–Angkola). Kode gabungan dipertahankan; bukan bukti Mandailing eksklusif.",
+      "evidence": [
+        {
+          "sourceId": "plants2018",
+          "pdfPage": 103,
+          "printedPage": 93,
+          "sourceLocator": "Nama lokal, kode MA",
+          "form": "pege",
+          "taxonAsPrinted": "Zingiber officinale",
+          "labels": [
+            "MA"
+          ],
+          "labelBasis": "direct_language_code",
+          "sourceScope": "Kode MA secara eksplisit berarti Mandailing–Angkola dalam buku; label gabungan ini tidak diubah menjadi Mandailing eksklusif.",
+          "url": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf#page=103"
+        },
+        {
+          "sourceId": "wedding2022",
+          "pdfPage": 5,
+          "printedPage": 70,
+          "sourceLocator": "Tabel 1 · baris 23",
+          "form": "pege",
+          "taxonAsPrinted": "Zingiber officinale Roscoe",
+          "labels": [
+            "Mdl-scope"
+          ],
+          "labelBasis": "source_scope",
+          "sourceScope": "Nama dan istilah dalam penelitian masyarakat Mandailing; cakupan penelitian tidak sama dengan label bahasa eksklusif per kata.",
+          "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503#page=5"
+        }
+      ],
+      "taxonAsPrinted": "Z. officinale"
+    },
+    "taxonAsPrinted": "Z. officinale",
+    "taxonExpanded": "Zingiber officinale",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "plant2022-163",
+    "name": "Hunik burley",
+    "sourceId": "ethnobotany2022",
+    "pdfPage": 11,
+    "printedPage": 117,
+    "sourceLocator": "Tabel 1, kolom nama lokal",
+    "x": 281.83,
+    "y": 516.5,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Tanjung Julu; judul dan tabel menyebut Mandailing/Angkola–Mandailing. Bahasa setiap nama tidak ditandai.",
+    "normalizationNote": "",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Z. purpureum"
+    },
+    "taxonAsPrinted": "Z. purpureum",
+    "taxonExpanded": "Zingiber purpureum",
+    "taxonNote": "Singkatan genus diperluas berdasarkan nama genus lengkap terdekat dalam urutan tabel; ejaan sumber tetap disimpan."
+  },
+  {
+    "id": "wild2026-1",
+    "name": "Sambiloto",
+    "sourceId": "wildplants2026",
+    "pdfPage": 4,
+    "printedPage": 109,
+    "sourceLocator": "Tabel 1 · baris 1",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Andrographis paniculata (Burm.f.) Wall. ex Nees"
+    },
+    "taxonAsPrinted": "Andrographis paniculata (Burm.f.) Wall. ex Nees",
+    "taxonExpanded": "Andrographis paniculata (Burm.f.) Wall. ex Nees",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-2",
+    "name": "Rumput Israel",
+    "sourceId": "wildplants2026",
+    "pdfPage": 4,
+    "printedPage": 109,
+    "sourceLocator": "Tabel 1 · baris 2",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Asystasia gangetica (L.) T. Anderson"
+    },
+    "taxonAsPrinted": "Asystasia gangetica (L.) T. Anderson",
+    "taxonExpanded": "Asystasia gangetica (L.) T. Anderson",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-3",
+    "name": "Bayam Berduri",
+    "sourceId": "wildplants2026",
+    "pdfPage": 4,
+    "printedPage": 109,
+    "sourceLocator": "Tabel 1 · baris 3",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Amaranthus spinosus L."
+    },
+    "taxonAsPrinted": "Amaranthus spinosus L.",
+    "taxonExpanded": "Amaranthus spinosus L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-4",
+    "name": "Bandotan",
+    "sourceId": "wildplants2026",
+    "pdfPage": 4,
+    "printedPage": 109,
+    "sourceLocator": "Tabel 1 · baris 4",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ageratum conyzoides L."
+    },
+    "taxonAsPrinted": "Ageratum conyzoides L.",
+    "taxonExpanded": "Ageratum conyzoides L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-5",
+    "name": "Sawi Langit",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 5",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cyanthillium cinereum (L.) H. Rob."
+    },
+    "taxonAsPrinted": "Cyanthillium cinereum (L.) H. Rob.",
+    "taxonExpanded": "Cyanthillium cinereum (L.) H. Rob.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-6",
+    "name": "Urang Aring",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 6",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Eclipta prostrata (L.) L."
+    },
+    "taxonAsPrinted": "Eclipta prostrata (L.) L.",
+    "taxonExpanded": "Eclipta prostrata (L.) L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-7",
+    "name": "Tapak Liman",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 7",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Elephantopus scaber L."
+    },
+    "taxonAsPrinted": "Elephantopus scaber L.",
+    "taxonExpanded": "Elephantopus scaber L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-8",
+    "name": "Kitolod",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 8",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Hippobroma longiflora (L.) G. Don"
+    },
+    "taxonAsPrinted": "Hippobroma longiflora (L.) G. Don",
+    "taxonExpanded": "Hippobroma longiflora (L.) G. Don",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-9",
+    "name": "Mama Lanang",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 9",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cleome rutidosperma DC."
+    },
+    "taxonAsPrinted": "Cleome rutidosperma DC.",
+    "taxonExpanded": "Cleome rutidosperma DC.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-10",
+    "name": "Jukut Pendul",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 10",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cyperus mindorensis (Steud.) Huygh"
+    },
+    "taxonAsPrinted": "Cyperus mindorensis (Steud.) Huygh",
+    "taxonExpanded": "Cyperus mindorensis (Steud.) Huygh",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-11",
+    "name": "Teki Ladang",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 11",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Cyperus rotundus L."
+    },
+    "taxonAsPrinted": "Cyperus rotundus L.",
+    "taxonExpanded": "Cyperus rotundus L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-12",
+    "name": "Anting-Anting",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 12",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Acalypha indica L."
+    },
+    "taxonAsPrinted": "Acalypha indica L.",
+    "taxonExpanded": "Acalypha indica L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-13",
+    "name": "Ruku-Ruku",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 13",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Ocimum tenuiflorum L."
+    },
+    "taxonAsPrinted": "Ocimum tenuiflorum L.",
+    "taxonExpanded": "Ocimum tenuiflorum L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-14",
+    "name": "Haredong",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 14",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Miconia crenata (Vahl) Michelang."
+    },
+    "taxonAsPrinted": "Miconia crenata (Vahl) Michelang.",
+    "taxonExpanded": "Miconia crenata (Vahl) Michelang.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-15",
+    "name": "Sapu Manis",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 15",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Scoparia dulcis L."
+    },
+    "taxonAsPrinted": "Scoparia dulcis L.",
+    "taxonExpanded": "Scoparia dulcis L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-16",
+    "name": "Aur-Aur",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 16",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Paspalum conjugatum P.J. Bergius"
+    },
+    "taxonAsPrinted": "Paspalum conjugatum P.J. Bergius",
+    "taxonExpanded": "Paspalum conjugatum P.J. Bergius",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-17",
+    "name": "Mexican clover",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 17",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "non_mandailing_label",
+      "note": "Nama pada kolom lokal menggunakan bahasa Inggris; nama ilmiah disalin dari baris yang sama. Belum menjadi bukti nama berbahasa Mandailing.",
+      "evidence": [],
+      "taxonAsPrinted": "Mitracarpus hirtus (L.) DC."
+    },
+    "taxonAsPrinted": "Mitracarpus hirtus (L.) DC.",
+    "taxonExpanded": "Mitracarpus hirtus (L.) DC.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-18",
+    "name": "Spearmint",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 18",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "non_mandailing_label",
+      "note": "Nama pada kolom lokal menggunakan bahasa Inggris; nama ilmiah disalin dari baris yang sama. Belum menjadi bukti nama berbahasa Mandailing.",
+      "evidence": [],
+      "taxonAsPrinted": "Spermacoce exilis (L.O. Williams) C.D. Adams ex W.C. Burger & C.M. Taylor"
+    },
+    "taxonAsPrinted": "Spermacoce exilis (L.O. Williams) C.D. Adams ex W.C. Burger & C.M. Taylor",
+    "taxonExpanded": "Spermacoce exilis (L.O. Williams) C.D. Adams ex W.C. Burger & C.M. Taylor",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-19",
+    "name": "Tembelekan",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 19",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Lantana camara L."
+    },
+    "taxonAsPrinted": "Lantana camara L.",
+    "taxonExpanded": "Lantana camara L.",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  },
+  {
+    "id": "wild2026-20",
+    "name": "Pulutan",
+    "sourceId": "wildplants2026",
+    "pdfPage": 5,
+    "printedPage": 110,
+    "sourceLocator": "Tabel 1 · baris 20",
+    "x": null,
+    "y": null,
+    "languageStatus": "local_name_language_unspecified",
+    "scope": "Lubuk Barumun, Padang Lawas. Nama berbahasa Indonesia/Inggris juga muncul; bahasa tiap nama tidak ditandai.",
+    "normalizationNote": "Sambungan baris nama dibaca dengan satu spasi.",
+    "review": {
+      "status": "pending_language_and_meaning",
+      "note": "Nama pada tabel tidak memberi label bahasa per nama. Kecocokan ejaan saja belum membuktikan makna atau bahasa.",
+      "evidence": [],
+      "taxonAsPrinted": "Stachytarpheta jamaicensis (L.) Vahl"
+    },
+    "taxonAsPrinted": "Stachytarpheta jamaicensis (L.) Vahl",
+    "taxonExpanded": "Stachytarpheta jamaicensis (L.) Vahl",
+    "taxonNote": "Nama ilmiah pada baris tabel yang sama; bahasa nama lokal belum ditentukan."
+  }
+]

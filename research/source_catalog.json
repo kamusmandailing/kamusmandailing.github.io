@@ -1,0 +1,260 @@
+[
+  {
+    "id": "dictionary",
+    "title": "Kamus Angkola Mandailing–Indonesia, edisi kedua, cetakan kedua, 2021",
+    "url": "https://repositori.kemendikdasmen.go.id/34696/",
+    "inventoryStatus": "indexed_source_forms",
+    "note": "Seluruh halaman bagian kamus 1–248 diinventarisasi menurut bentuk yang ditandai secara leksikografis; makna dan padanan seluruh inventaris belum ditelaah.",
+    "sha256": "d1fd0627d3914c271132e30edcd1916fa462f1aeddf796a2ec60d6bdb79ef578",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "parinduri2019",
+    "title": "Kamus Mandailing–Indonesia, Muhammad Bakhsan Parinduri, 2019; ISBN 978-602-60609-3-8",
+    "url": "https://mandailingonline.com/kamus-bahasa-mandailing-sudah-diterbitkan/",
+    "inventoryStatus": "bibliographic_information_only",
+    "note": "Informasi terbit tersedia; isi penuh kamus tidak diperoleh. Angka jumlah kata pada pemberitaan tidak dipakai untuk mengisi entri atau menaksir persentase kelengkapan bahasa. Pemeriksaan ulang menemukan pemberitaan wawancara penulis, tetapi tidak memperoleh halaman leksikal bukunya. Angka promosi yang berbeda tidak dijadikan jumlah entri database. Ditemukan pengantar bertanggal 2009 yang diterbitkan ulang di blog pada 2014; bahan itu diberi ID parinduri2009 dan tidak dianggap isi edisi 2019.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "dictionary1977",
+    "title": "Kamus Bahasa Angkola/Mandailing Indonesia · Ahmad Samin Siregar · 1977",
+    "url": "https://repositori.kemendikdasmen.go.id/27303/",
+    "inventoryStatus": "partial_visual_candidate_index",
+    "note": "3.403 calon baru dari OCR dan beberapa pemeriksaan ulang ditinjau secara visual pada PDF 11–144; 2.641 catatan calon diterima menjadi 3.087 bentuk unik. Bukan transkripsi penuh dan bukan bukti eksklusivitas Mandailing. Audit kedua: 2.355 calon posisi kata, 1.395 ejaan OCR berbeda ditinjau melalui 14 lembar gambar dan 61 pembesaran lokasi; 62 pembacaan bentuk diterima; delapan lokasi sudah tersimpan dan digabungkan, sehingga 54 rujukan baru ditambahkan. Cakupan tetap parsial.",
+    "sha256": "cac94f74d5f004ce1da3cbd35fbeaaa3bdddd2062b50610aa6c89f985609147c",
+    "bodyPdfPages": [
+      11,
+      144
+    ],
+    "acceptedRecords": 3371,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "abvd1655",
+    "title": "ABVD: Mandailing (A. Bazar Harahap), daftar 1655 · Greenhill, Blust & Gray, penyunting ABVD · Harahap 2007 · entri oleh Andrew C. Hsiu · CC BY 4.0",
+    "url": "https://abvd.clld.org/austronesian/language.php/1655",
+    "inventoryStatus": "available_structured_wordlist_indexed",
+    "note": "Seluruh 241 baris API daftar 1655 diperoleh; 237 ejaan unik. Anotasi dan glos konsep disimpan. Bukan isi penuh kamus Harahap 2007. Atribusi ABVD/Harahap/Hsiu dan lisensi CC BY 4.0 dipertahankan.",
+    "sha256": "c87215d2da663531f1742907745e0fed725335f4441452f4ac405dbbaf2326f4",
+    "hashObject": "stored factual API snapshot",
+    "records": 241,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "zenodo2024",
+    "title": "Kamus Sederhana Bahasa Mandailing · Sry Wahyuni · Zenodo · 5 Oktober 2024 · DOI 10.5281/zenodo.13892372",
+    "url": "https://zenodo.org/records/13892372",
+    "inventoryStatus": "marked_forms_indexed",
+    "note": "267 pengamatan teks leksikal pada PDF 3–17; setelah pengulangan identik disatukan tersisa 265 catatan/bentuk unik. Deposit mandiri; makna/kelas kata tidak diimpor otomatis.",
+    "sha256": "141c93d32fb2527d0b65c803372ef5c30dcf4ecadfb4f74eee48ff7af9c342ef",
+    "bodyPdfPages": [
+      3,
+      17
+    ],
+    "observationsBeforeDeduplication": 267,
+    "records": 265,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "grain2021",
+    "title": "Ecolinguistics in the Grain Lexicon of Mandailing Language · Dharmawati & Dwi Widayati · BIOLAE 3(2) · 2021 · 143–150 · DOI 10.33258/biolae.v3i2.468",
+    "url": "https://www.biarjournal.com/index.php/biolae/article/download/468/481/",
+    "inventoryStatus": "readable_tables_indexed_with_caveats",
+    "note": "95 bentuk yang terbaca pada tabel: 18 verba, 65 nomina, 12 adjektiva. Klaim 98 dan penghitungan lain dalam artikel tidak disamakan dengan entri yang benar-benar terbaca. Tabel rinci terpotong/bergeser; glos tidak disalin. Spasi internal yang ganjil diberi catatan.",
+    "sha256": "5f1450c2b95452defc5c811ae8b521263605314a12d8d22201ec821650d4708a",
+    "records": 95,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "sight2022",
+    "title": "Struktur Semantik Verba Penglihatan dalam Bahasa Mandailing · Nur Hadinda Utami, Nurhabibah Nasution & Mulyadi · Disastra 4(2) · 2022 · 176–186 · DOI 10.29300/disastra.v4i2.5943",
+    "url": "https://ejournal.uinfasbengkulu.ac.id/index.php/disastra/article/download/3188/2700",
+    "inventoryStatus": "table1_forms_indexed",
+    "note": "12 verba yang tertulis di tabel 1 hlm. 180/PDF 5. Bentuk mamparrohahon didukung penulisan utuh dalam teks; contoh tidak diimpor.",
+    "sha256": "",
+    "records": 12,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "kinship2026",
+    "title": "Analisis Makna dan Struktur Entri Kamus pada Leksikon Kekerabatan Masyarakat Mandailing · Agung Dzaky Syuhada dkk. · QISTINA 5(1) · 2026 · 546–554 · DOI 10.57235/qistina.v5i1.8194",
+    "url": "https://rayyanjurnal.com/index.php/qistina/article/download/8194/7283/40714",
+    "inventoryStatus": "visible_table_forms_indexed_with_caveats",
+    "note": "26 bentuk unik yang benar-benar terlihat pada tabel 1–3. Dua alternatif bergaris miring dipisahkan. Klaim 45 tidak dijadikan jumlah entri; glos yang tidak konsisten tidak diadopsi.",
+    "sha256": "3cf5d0a646c9d83f8769ee0ddd7d8161e4be64bf9cf7c1c8dad531864919691f",
+    "records": 26,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "numbers",
+    "title": "Pelatihan Pembelajaran Kolaboratif Jumping Task Berbasis Bahasa Matematis Tapsel · Yuni Rhamayanti dkk. · Komunita · 2024 · hlm. 262–263",
+    "url": "https://journal.pelitanusa.or.id/index.php/komunita/article/download/108/58/",
+    "inventoryStatus": "explicit_listed_forms_indexed",
+    "note": "81 bentuk bilangan/ukuran yang tertulis pada hlm. 262–263/PDF 11–12. Cakupan Tapsel. Tidak membangkitkan semua kombinasi angka; kekeliruan contoh angka tidak diadopsi.",
+    "sha256": "f47427973869aaf792f455c7efe218f1c4edc1301669bd6181dc0d112378a548",
+    "records": 81,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "idiom2023",
+    "title": "Kamus Idiom: Leksikon Mandailing · Mhd. Syahminan · Tahta Media · 2023 · ISBN 978-623-147-136-9",
+    "url": "https://tahtamedia.co.id/issj/article/view/379",
+    "inventoryStatus": "publisher_abstract_only_full_pdf_unavailable",
+    "note": "Enam bentuk awal A terbaca pada abstrak penerbit. PDF yang diiklankan berulang kali gagal diakses (503/timeout); bentuk abingsoabibg tidak dipromosikan karena meragukan. Tidak ada klaim isi penuh buku telah masuk. Pemeriksaan ulang URL resmi /index.php/issj/article/download/379/376/1417 mendapat HTTP 503 pada 27 Oktober 2026. Pemeriksaan lanjutan 27 Oktober 2026 kembali menerima HTTP 503 pada PDF resmi.",
+    "sha256": "",
+    "records": 6,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "ethnobotany2022",
+    "title": "Kajian Etnobotani Tumbuhan Obat oleh Masyarakat Lokal Etnis Batak Mandailing di Desa Tanjung Julu, Kabupaten Mandailing Natal, Sumatra Utara · Marina Silalahi, Nisyawati & Riska Septi Wahyuningtyas · AL-KAUNIYAH 15(1) · 2022 · 107–120 · DOI 10.15408/kauniyah.v15i1.17958 · CC BY-SA 4.0",
+    "url": "https://journal.uinjkt.ac.id/kauniyah/article/download/17958/pdf/81362",
+    "inventoryStatus": "local_names_stored_separately_language_unspecified",
+    "note": "163 nama lokal dari tabel 1 hlm. 112–117/PDF 6–11. Bahasa per nama tidak ditandai. Disimpan pada observasi pembanding, bukan ditambah sebagai lema Mandailing. Hanya nama/lokasi diindeks; manfaat kesehatan dan resep tidak disalin.",
+    "sha256": "863782c3d3d6918630d62cb0921c96d485b2d1c935f4f4cfcf0086bd770ae2dd",
+    "records": 163,
+    "storage": "local_name_observations",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "wildplants2026",
+    "title": "Etnobotani Tumbuhan Liar yang Dimanfaatkan sebagai Obat oleh Masyarakat Suku Mandailing di Kecamatan Lubuk Barumun Kabupaten Padang Lawas · Ratimah Daulay & M. Idris · BIOEDUSAINS 9(1) · 2026 · 106–117 · DOI 10.31539/v1y1bs84",
+    "url": "https://journal.ipm2kpe.or.id/index.php/BIOEDUSAINS/article/download/19050/12173",
+    "inventoryStatus": "local_names_stored_separately_language_unspecified",
+    "note": "20 nama pada tabel 1 hlm. 109–110/PDF 4–5. Mencakup nama Indonesia/Inggris dan bahasa per nama tidak ditandai; tidak dipromosikan ke lexical_forms.",
+    "sha256": "db8bb13e6398e6c7225c3ca3cb1a99afa1d523510b833c516d8772f02c6e0f2f",
+    "records": 20,
+    "storage": "local_name_observations",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "eggink1936",
+    "title": "Kamus Eggink (1936), rujukan historis dalam bibliografi",
+    "url": "",
+    "inventoryStatus": "full_text_not_obtained",
+    "note": "Teks penuh belum diperoleh pada penelusuran ini. Transkripsi fonetis daftar pembanding tidak diubah otomatis menjadi ejaan Latin kamus.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "ethnomedicine2023",
+    "title": "Fulltext penelitian etnomedisin, repositori Universitas Negeri Medan",
+    "url": "https://digilib.unimed.ac.id/id/eprint/53394/1/Fulltext.pdf",
+    "inventoryStatus": "full_text_download_failed",
+    "note": "Unduhan gagal dengan HTTP 500. Tidak ada kosakata yang ditambahkan dari berkas yang tidak berhasil diperoleh.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "harahap2007",
+    "title": "Kamus moderen bahasa Angkola Mandailing · A. Bazar Harahap · 2007 · ISBN 9789799760821",
+    "url": "https://books.google.com/books/about/Kamus_moderen_bahasa_Angkola_Mandailing.html?id=YVQLAQAAMAAJ",
+    "inventoryStatus": "bibliographic_only_no_full_book",
+    "note": "Google Books menyatakan tidak ada eBook tersedia. Lampiran A skripsi Defi Foni yang ditelusuri hanya menampilkan sampul/rujukan, bukan daftar lema; komentar media sosialnya tidak diimpor. Data ABVD tetap merupakan daftar terpisah, bukan isi penuh buku.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "idiom2012",
+    "title": "Idiom Bahasa Mandailing di Kenagarian Simpang Tonang Kecamatan Dua Koto Kabupaten Pasaman · Pepi Sumanti, Ermanto & Bakhtaruddin Nst. · Jurnal Pendidikan Bahasa dan Sastra Indonesia 1(1) · 2012 · 574–580 · DOI 10.24036/454-019883",
+    "url": "https://ejournal.unp.ac.id/index.php/pbs/article/view/454",
+    "inventoryStatus": "published_pdf_tables_indexed",
+    "note": "75 bentuk pada tabel 1–2 hlm. 576–578. Ejaan regional dan unsur serapan dipertahankan. Bentuk tabel diperiksa melalui representasi teks PDF; unduhan langsung belum berhasil. Bukan isi kamus idiom Syahminan 2023.",
+    "sha256": "",
+    "records": 75,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "culture2021",
+    "title": "Ensiklopedia Kebudayaan Kawasan Danau Toba · Robert Sibarani (editor), Askolani Nasution dkk. · BPNB Provinsi Aceh · Desember 2021 · ISBN 978-623-6107-05-8",
+    "url": "https://repositori.kemendikdasmen.go.id/26199/",
+    "inventoryStatus": "scoped_whole_terms_indexed",
+    "note": "Istilah utuh dari 69 unit yang membahas masyarakat Angkola–Mandailing. Istilah etnis lain, nama takson Latin dan fragmen baris tidak diimpor. Satu halaman PDF memuat dua halaman cetak; sisi dan nomor cetak disimpan.",
+    "sha256": "24b81aef86591f18efa5dedde0ee6d5c44fac988020486eb4c0b9f46a520a565",
+    "records": 650,
+    "lastChecked": "2026-10-27",
+    "scopedPrintedLeaves": 69
+  },
+  {
+    "id": "flora2015",
+    "title": "Entitas Metafora Leksikon Flora Mandailing terhadap Kebudayaannya · Putri Nasution · Ranah: Jurnal Kajian Bahasa 4(2) · 2015 · 200–214 · DOI 10.26499/rnh.v4i2.33 · CC BY-SA 4.0",
+    "url": "https://ojs.badanbahasa.kemendikdasmen.go.id/jurnal/index.php/jurnal_ranah/article/view/33",
+    "inventoryStatus": "publisher_abstract_indexed",
+    "note": "13 bentuk yang eksplisit pada abstrak penerbit. Hubungan bunyi/pesan bahasa daun tidak dianggap sebagai identifikasi takson botani. PDF penuh gagal diakses.",
+    "sha256": "",
+    "records": 13,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "betle2020",
+    "title": "Piper betle L. — Local Names · Marina Silalahi · Ethnobotany of the Mountain Regions of Southeast Asia · 2020 · DOI 10.1007/978-3-030-14116-5_92-1",
+    "url": "https://www.researchgate.net/publication/344234819_Piper_betle_L_Piperaceae_Local_Names",
+    "inventoryStatus": "author_deposited_name_evidence",
+    "note": "Naskah yang didepositkan penulis menyebut burangir dengan label Batak Mandailing pada bagian Local Names. Hanya fakta nama dan takson diindeks; klaim pengobatan, resep dan foto tidak disalin.",
+    "sha256": "",
+    "records": 1,
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "plants2018",
+    "title": "Tumbuhan Obat Sumatera Utara Jilid I: Monokotiledon",
+    "url": "https://repository.uki.ac.id/648/",
+    "documentUrl": "https://repository.uki.ac.id/648/1/Jilid%20I_revised%2008-01-2019.pdf",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "17 rujukan nama lokal berkode MA, yang pada petunjuk buku berarti Mandailing–Angkola. Tidak mengimpor nama berlabel K/P/S/T atau resep. Tahun 2018 mengikuti halaman terbit, bukan nama berkas revisi 2019.",
+    "sha256": "8d7e6225509775460b2ac580ad61625c63d58a61ea7b0bd8c4632f7cb2a4acb2",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "wedding2022",
+    "title": "Ethnobotany of Plants in the Mandailing Traditional Wedding Service in the Village Around the Batang Gadis National Park Area, Mandailing Natal Regency",
+    "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/view/36497",
+    "documentUrl": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/36497/19664/88503",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "36 bentuk tabel yang terbaca jelas dan tujuh istilah upacara dari uraian. Enam label berawalan Banana dan satu deskriptor Pohon bargot tidak dipromosikan sebagai bentuk Mandailing. Semua cakupan penelitian dipertahankan.",
+    "sha256": "a1f0a716d2a0a821560b2dfbbbce4e9752061e96281f383f0dbe0ce71a259df0",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "ginger2023",
+    "title": "Zingiberaceae Etnobotany as a Traditional Treatment Ingredient for the Mandailing Tribe in Villages Around the Batang Gadis National Park Area, Mandailing Regency Natal",
+    "url": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/view/39061",
+    "documentUrl": "https://jurnal.unimed.ac.id/2012/index.php/biosains/article/download/39061/23216/121384",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "Delapan bentuk dari lokasi yang jelas. Kolom nama lokal mengandung dugaan artefak penerjemahan; pedestal, Unique, Curcuma, Incor dan the lamp tidak diimpor sebagai kata Mandailing. Tidak mengimpor klaim terapi.",
+    "sha256": "62f06120fc2f2ade3eda7b986ae419bdb928635f18bd0bd1c7e39f8b1e6c50f1",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "patuaekkon2024",
+    "title": "Etnobotani Tumbuhan pada Upacara Adat Patuaekkon Masyarakat Etnis Mandailing di Aliran Sungai Batang Lubu Kabupaten Padang Lawas",
+    "url": "https://jurnal.kopusindo.com/index.php/jpst/article/view/407",
+    "documentUrl": "https://jurnal.kopusindo.com/index.php/jpst/article/download/407/424",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "Sepuluh baris tabel 4.1 serta tiga bentuk eksplisit pada paragraf di atasnya. Bentuk pisang si tabar dan pisang sitabar disimpan sesuai lokasinya; bukan disatukan secara fuzzy.",
+    "sha256": "e2d3032106a4d5ec146abfb1b7dc0123505779d8b77a63ce8b2c8c9e92d4e7e7",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "pasak2015",
+    "title": "Etnobotani pasak bumi (Eurycoma longifolia) pada etnis Batak, Sumatera Utara",
+    "url": "https://doi.org/10.13057/psnmbi/m010410",
+    "documentUrl": "https://smujo.id/files/psnmbi/M0104/M010410.pdf",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "Satu nama ampahan gunjo diberi label Angkola–Mandailing secara eksplisit. Teks PDF penerbit dapat ditelusuri; unduhan lokal mengalami timeout, sehingga tidak diklaim sebagai audit pindai lokal.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "parinduri2009",
+    "title": "Sekapur Sirih Mhd. Bakhsan Parinduri, bertanggal 18 Maret 2009, pada Saro Mandailing",
+    "url": "https://gondang.blogspot.com/2014_08_11_archive.html",
+    "documentUrl": "",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "17 rujukan contoh bunyi, ragam bahasa dan akronim pada bagian yang dikreditkan kepada penulis. Ini pengantar 2009 yang diterbitkan ulang, bukan transkripsi kamus Parinduri 2019; daftar usulan pembaca dan komentar tidak diimpor.",
+    "sha256": "",
+    "lastChecked": "2026-10-27"
+  }
+]

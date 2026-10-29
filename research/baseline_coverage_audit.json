@@ -1,0 +1,54 @@
+{
+  "version": "2026-10-26-INVENTORY01",
+  "scope": "Lexical forms in dictionary body pages 1–248; not all Mandailing vocabulary.",
+  "stats": {
+    "uniqueForms": 8177,
+    "bodySourceForms": 8173,
+    "sourceRecords": 8580,
+    "referenceRecords": 8584,
+    "reviewedTranslations": 1404,
+    "pendingTranslations": 6773,
+    "headwordRecords": 3607,
+    "subentryRecords": 4931,
+    "crossReferenceRecords": 40,
+    "abbreviationRecords": 2,
+    "boundForms": 5,
+    "indexedPages": 248,
+    "normalizationsReviewed": 8
+  },
+  "sqliteCounts": {
+    "lexical_forms": 8177,
+    "lexical_occurrences": 8584,
+    "vocabulary_all": 8177,
+    "dictionary": 1404,
+    "translations": 4212,
+    "source_coverage": 248
+  },
+  "checks": {
+    "uniqueForms": true,
+    "allPagesRepresented": true,
+    "legacyIdsPreserved": true,
+    "jsonMatchesAppData": true,
+    "sqliteIntegrity": true,
+    "sqliteForeignKeys": true,
+    "allTSVFiveColumns": true,
+    "pendingTranslationsBlank": true,
+    "referenceTSVAllLocations": true,
+    "zipChecksums": true,
+    "allHTMLBuildsIdentical": true,
+    "compiledJavaScriptSyntax": true,
+    "browserSearchAndLanguageFilters": true,
+    "mobile390NoHorizontalOverflow": true
+  },
+  "labelCountsOverlapping": {
+    "unmarked": 6912,
+    "Akl": 823,
+    "Mdl": 984,
+    "Tb": 27,
+    "Tapsel": 2
+  },
+  "layoutStates": {
+    "intact": 8572,
+    "visually_reviewed": 8
+  }
+}
