@@ -5,7 +5,7 @@ const bank=JSON.parse(read('src/inventory.json')),seed=JSON.parse(read('src/word
 const elements=new Map(),documentListeners={},downloads=[];
 function element(id){
   if(!elements.has(id))elements.set(id,{value:'',textContent:'',innerHTML:'',listeners:{},
-    addEventListener(type,fn){this.listeners[type]=fn;},showModal(){this.open=true;},close(){this.open=false;},scrollIntoView(){}});
+    addEventListener(type,fn){this.listeners[type]=fn;},setAttribute(key,value){this[key]=value;},showModal(){this.open=true;},close(){this.open=false;},scrollIntoView(){}});
   return elements.get(id);
 }
 element('#inventory-data').textContent=JSON.stringify(bank);
@@ -20,16 +20,16 @@ const ctx=vm.createContext({SEED:seed,SOURCES:sources,RESEARCH:JSON.parse(read('
 const sourceURL=read('src/app.js').match(/  const sourcePageUrl = ref => \{[\s\S]*?\n  \};/)[0];
 vm.runInContext(sourceURL+'\n'+read('src/inventory.js')+'\nglobalThis.api={bankState,bankFiltered,renderBank,openBankDetail,renderLocalNames,exportBankTSV,exportBankLabels,exportLocalNames,sourcePageUrl};',ctx);
 const a=ctx.api;
-const reset=()=>Object.assign(a.bankState,{query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1});
-assert.equal(a.bankFiltered().length,10703);
+const reset=()=>Object.assign(a.bankState,{query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1,latestOnly:false});
+assert.equal(a.bankFiltered().length,10821);
 for(const id of Object.keys(bank.stats.recordsBySource)){
   reset();a.bankState.source=id;
   const expected=bank.forms.filter(f=>f.references.some(r=>r.sourceId===id)).length;
   assert.equal(a.bankFiltered().length,expected,id);
 }
-reset();a.bankState.status='pending';assert.equal(a.bankFiltered().length,9299);
+reset();a.bankState.status='pending';assert.equal(a.bankFiltered().length,9417);
 reset();a.bankState.status='reviewed';assert.equal(a.bankFiltered().length,1404);
-reset();a.bankState.status='source-gloss';assert.equal(a.bankFiltered().length,309);
+reset();a.bankState.status='source-gloss';assert.equal(a.bankFiltered().length,bank.stats.sourceGlossForms);
 reset();a.bankState.source='idiom2012';a.bankState.kind='idiom';assert.equal(a.bankFiltered().length,75);
 reset();a.bankState.source='culture2021';a.bankState.status='source-gloss';
 assert(a.bankFiltered().length>0);assert(a.bankFiltered().every(f=>f.references.some(r=>r.sourceId==='culture2021'&&r.sourceGloss)));
@@ -49,11 +49,11 @@ assert.equal(a.bankFiltered().length,0,'A source word-list entry must not inheri
 reset();a.bankState.query='niabahon';assert(a.bankFiltered().some(f=>f.form==='niabahon'));
 reset();a.bankState.letter='F';a.renderBank();assert(element('#bank-results').innerHTML.includes('Belum ada bentuk'));
 documentListeners.click({target:{closest:()=>({disabled:false,dataset:{bankReset:'true'}})}});
-assert.equal(a.bankFiltered().length,10703);assert.equal(element('#bank-source').value,'all');
+assert.equal(a.bankFiltered().length,10821);assert.equal(element('#bank-source').value,'all');
 element('#bank-source').listeners.change({target:{value:'sight2022'}});
 assert.equal(a.bankFiltered().length,12);
 reset();a.renderBank();assert.equal((element('#bank-results').innerHTML.match(/<article/g)||[]).length,24);
-a.bankState.page=9999;a.renderBank();assert.equal(a.bankState.page,446);
+a.bankState.page=9999;a.renderBank();assert.equal(a.bankState.page,451);
 const narian=bank.forms.find(f=>f.form==='narian');a.openBankDetail(narian.id);
 assert(element('#bank-detail').innerHTML.includes('27303/2/Kamus%20Bahasa%20Angkola'));
 assert(!element('#bank-detail').innerHTML.includes('34696/1/'));
@@ -67,11 +67,11 @@ for(const r of bank.forms.flatMap(f=>f.references)){
   if(r.sourceId!=='dictionary')assert(!u.includes('/34696/'));
 }
 reset();a.exportBankTSV();let rows=downloads.at(-1).content.replace(/^\uFEFF/,'').split('\n').map(r=>r.split('\t'));
-assert.equal(rows.length,10704);assert(rows.every(r=>r.length===5));
+assert.equal(rows.length,10822);assert(rows.every(r=>r.length===5));
 const lookup=new Map(bank.forms.map(f=>[f.form,f]));
 for(const row of rows.slice(1))if(!lookup.get(row[0]).entryId)assert(row.slice(1).every(v=>v===''));
 a.exportBankLabels();rows=downloads.at(-1).content.replace(/^\uFEFF/,'').split('\n').map(r=>r.split('\t'));
-assert.equal(rows.length,10704);assert(rows.every(r=>r.length===9));
+assert.equal(rows.length,10822);assert(rows.every(r=>r.length===9));
 reset();a.bankState.source='abvd1655';a.bankState.scope='Mdl';a.exportBankLabels();
 rows=downloads.at(-1).content.replace(/^\uFEFF/,'').split('\n').map(r=>r.split('\t'));
 assert.equal(rows.length,8);assert(rows.slice(1).every(r=>r[4]==='Mdl'&&r[8]==='abvd1655'));
@@ -89,4 +89,19 @@ element('#local-name-search').value='';element('#local-name-status').value='supp
 element('#local-name-status').value='pending';a.renderLocalNames();assert(element('#local-name-count').textContent.startsWith('152 '));
 element('#local-name-status').value='needs-check';a.renderLocalNames();assert(element('#local-name-count').textContent.startsWith('10 '));
 element('#local-name-status').value='all';element('#local-name-search').value='Scaphium';a.renderLocalNames();assert(element('#local-name-count').textContent.startsWith('1 '));assert(element('#local-name-results').innerHTML.includes('Dua takson berbeda'));
-console.log(JSON.stringify({bankLogic:'passed',forms:10703,sourceFilters:19,pendingBlankExports:9299,localNameObservations:183,visualBrowserTest:false}));
+reset();
+documentListeners.click({target:{closest:()=>({id:'bank-latest',disabled:false,dataset:{}})}});
+assert.equal(a.bankFiltered().length,118);assert.equal(element('#bank-latest')['aria-pressed'],'true');
+a.bankState.source='plants2019';a.bankState.scope='MA';assert.equal(a.bankFiltered().length,21);
+a.bankState.scope='Mdl';assert.equal(a.bankFiltered().length,0);
+reset();a.bankState.latestOnly=true;a.exportBankLabels();
+rows=downloads.at(-1).content.replace(/^\uFEFF/,'').split('\n').map(r=>r.split('\t'));
+assert.equal(rows.length,119);assert(rows.slice(1).every(r=>bank.researchUpdate.newFormIds.includes(r[7])));
+documentListeners.click({target:{closest:()=>({disabled:false,dataset:{bankReset:'true'}})}});
+assert.equal(a.bankFiltered().length,10821);assert.equal(element('#bank-latest')['aria-pressed'],'false');
+reset();a.bankState.query='Piper attenuatum';a.bankState.source='plants2019';assert(a.bankFiltered().some(f=>f.form==='simanat'));
+a.bankState.query='Piper betle';assert(a.bankFiltered().some(f=>f.form==='simanat'));
+reset();a.bankState.kind='culinary_term';assert.equal(a.bankFiltered().length,15);
+reset();a.bankState.query='pastak-pastak ni paradaton';a.renderBank();assert(element('#bank-results').innerHTML.includes('rambu-rambu adat'));
+
+console.log(JSON.stringify({bankLogic:'passed',forms:10821,sourceFilters:24,pendingBlankExports:9417,localNameObservations:183,visualBrowserTest:false}));

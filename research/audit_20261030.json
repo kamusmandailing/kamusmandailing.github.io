@@ -1,0 +1,150 @@
+{
+  "releaseId": "2026-10-30-DEEP03",
+  "baselineCommit": "5356ad924f10a1f104490a2d0a39fa205bc49796",
+  "sources": [
+    {
+      "id": "cultural2018",
+      "url": "https://www.scitepress.org/PublishedPapers/2018/100825/",
+      "documentUrl": "https://www.scitepress.org/Papers/2018/100825/100825.pdf",
+      "sha256": "a5170d7d863d2868df9f3b1579b4c4a006cfc37bc86f552fcc03f0bafe538db6",
+      "records": 102,
+      "visualPDFChecked": true,
+      "pagesChecked": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "plants2019",
+      "url": "https://repository.uki.ac.id/649/",
+      "documentUrl": "https://repository.uki.ac.id/649/1/draft_pt2.pdf",
+      "sha256": "c867b0cdffadb8bedcf2c875dd94da822d695953c0e953cdaa4b43cd12ad4ca4",
+      "records": 27,
+      "visualPDFChecked": true,
+      "pagesChecked": [
+        29,
+        37,
+        40,
+        43,
+        44,
+        64,
+        77,
+        78,
+        83,
+        97,
+        104,
+        134,
+        163,
+        197,
+        210,
+        217,
+        222,
+        225,
+        226,
+        240,
+        242,
+        249,
+        250,
+        251,
+        260,
+        265,
+        278
+      ]
+    },
+    {
+      "id": "gordang2022",
+      "url": "https://jurnal.unimed.ac.id/2012/index.php/GDG/article/view/34960",
+      "documentUrl": "https://jurnal.unimed.ac.id/2012/index.php/GDG/article/download/34960/pdf",
+      "sha256": "cefd0349b8be5366195709fcdd7eb8cc77a7fdb6fca39ba8e93f633316404cad",
+      "records": 17,
+      "visualPDFChecked": true,
+      "pagesChecked": [
+        1,
+        1,
+        1,
+        5,
+        2,
+        3,
+        4,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        7,
+        7,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "upah2021",
+      "url": "https://www.al-kindipublisher.com/index.php/bjbs/article/view/2372",
+      "documentUrl": "https://al-kindipublisher.com/index.php/bjbs/article/download/2372/2058",
+      "sha256": "a78464756d8a7dedb515c3c9d1b749052be3e4e570f02fab1a2c6084fe9b2e5c",
+      "records": 12,
+      "visualPDFChecked": true,
+      "pagesChecked": [
+        1,
+        4,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "id": "culinary2021",
+      "url": "https://bircu-journal.com/index.php/birle/article/view/1677",
+      "documentUrl": "",
+      "sha256": "",
+      "records": 16,
+      "visualPDFChecked": false,
+      "pagesChecked": []
+    }
+  ],
+  "excluded": [
+    {
+      "source": "Archaism in Mandailingese, 2015",
+      "reason": "PDF lama yang berhasil dibuka hanya halaman abstrak; berkas dari situs penerbit baru gagal diunduh. Klaim sekitar 350 bentuk tidak diperlakukan sebagai 350 entri yang sudah diperoleh."
+    },
+    {
+      "source": "Leksikon Kuliner Sumatera Utara, 2025",
+      "reason": "Pratinjau hanya 13 halaman; bab Mandailing halaman cetak 31–39 tidak tersedia."
+    },
+    {
+      "source": "Leksikon Pengobatan Tradisional, tesis USU 2021",
+      "reason": "Repositori gagal diakses. Tidak menyalin bentuk dari cuplikan agregator."
+    },
+    {
+      "source": "Upah-upah 2021",
+      "reason": "Sabah Ginger dan redfish merupakan label Inggris yang tidak dipromosikan menjadi bentuk Mandailing."
+    }
+  ],
+  "cautions": [
+    "Table 1 cultural source has displaced gloss column from item 26; those glosses held back.",
+    "Table 2 item 18 joined across line break; indalu not admitted as a standalone idiom from the split.",
+    "Simanat is printed for two different Piper taxa; no taxonomic equivalence asserted.",
+    "Culinary source checked as article full-text on web, not as visually inspected PDF."
+  ],
+  "counts": {
+    "records": 174,
+    "uniqueFormsInExtension": 171,
+    "newForms": 118,
+    "recordsBySource": {
+      "cultural2018": 102,
+      "plants2019": 27,
+      "gordang2022": 17,
+      "upah2021": 12,
+      "culinary2021": 16
+    }
+  }
+}

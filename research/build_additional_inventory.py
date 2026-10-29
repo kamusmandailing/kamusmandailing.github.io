@@ -116,6 +116,7 @@ def build():
     extension=json.loads((HERE/'extension_20261027.json').read_text())
     result.extend(extension['records'])
     result.extend(json.loads((HERE/'extension_20261027b.json').read_text())['records'])
+    result.extend(json.loads((HERE/'extension_20261030.json').read_text())['records'])
     counts=dict(collections.Counter(r['sourceId'] for r in result))
     output={'schemaVersion':1,'method':'Source forms only; no inferred derivations or bulk definitions.',
             'sourceRecordCounts':counts,'records':result,

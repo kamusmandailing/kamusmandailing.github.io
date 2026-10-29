@@ -256,5 +256,55 @@
     "note": "17 rujukan contoh bunyi, ragam bahasa dan akronim pada bagian yang dikreditkan kepada penulis. Ini pengantar 2009 yang diterbitkan ulang, bukan transkripsi kamus Parinduri 2019; daftar usulan pembaca dan komentar tidak diimpor.",
     "sha256": "",
     "lastChecked": "2026-10-27"
+  },
+  {
+    "id": "cultural2018",
+    "title": "Investigating and Maintaining Mandailing Cultural Terminology",
+    "url": "https://www.scitepress.org/PublishedPapers/2018/100825/",
+    "documentUrl": "https://www.scitepress.org/Papers/2018/100825/100825.pdf",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "50 istilah dan 50 sel ungkapan menghasilkan 102 catatan bentuk setelah dua pasangan varian dipisah. Kolom bentuk diperiksa visual; glos yang bergeser ditahan.",
+    "sha256": "a5170d7d863d2868df9f3b1579b4c4a006cfc37bc86f552fcc03f0bafe538db6",
+    "lastChecked": "2026-10-30"
+  },
+  {
+    "id": "plants2019",
+    "title": "Tumbuhan Obat Sumatera Utara Jilid II: Dikotiledon",
+    "url": "https://repository.uki.ac.id/649/",
+    "documentUrl": "https://repository.uki.ac.id/649/1/draft_pt2.pdf",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "27 lokasi nama berkode MA (Mandailing–Angkola), dibaca dari kolom Nama lokal. 26 ejaan berbeda karena simanat muncul untuk dua takson. Buku 297 halaman diperiksa untuk bagian nama MA; bukan semua nama atau uraian obat diimpor.",
+    "sha256": "c867b0cdffadb8bedcf2c875dd94da822d695953c0e953cdaa4b43cd12ad4ca4",
+    "lastChecked": "2026-10-30"
+  },
+  {
+    "id": "gordang2022",
+    "title": "Struktur Gordang Lima dalam Kebudayaan Masyarakat Mandailing di Pakantan Kabupaten Mandailing Natal: Kontinuitas dan Perubahan",
+    "url": "https://jurnal.unimed.ac.id/2012/index.php/GDG/article/view/34960",
+    "documentUrl": "https://jurnal.unimed.ac.id/2012/index.php/GDG/article/download/34960/pdf",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "17 bentuk instrumen, ritual dan kostum pada kajian Pakantan. Talisasayak dan tali sasayak dipertahankan sebagai variasi cetakan; bukan dua instrumen berbeda.",
+    "sha256": "cefd0349b8be5366195709fcdd7eb8cc77a7fdb6fca39ba8e93f633316404cad",
+    "lastChecked": "2026-10-30"
+  },
+  {
+    "id": "upah2021",
+    "title": "Lexicons of Flora and Fauna in Upah-Upah Ceremony at Mandailing Tribe Wedding in Matondang Village Padang Lawas Regency: An Ecolinguistic Perspective",
+    "url": "https://www.al-kindipublisher.com/index.php/bjbs/article/view/2372",
+    "documentUrl": "https://al-kindipublisher.com/index.php/bjbs/article/download/2372/2058",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "12 bentuk eksplisit pada teks. Label terjemahan Inggris yang meragukan seperti Sabah Ginger dan redfish dikecualikan. Tahun mengikuti halaman publikasi PDF 2021, bukan tanggal dinamis halaman web.",
+    "sha256": "a78464756d8a7dedb515c3c9d1b749052be3e4e570f02fab1a2c6084fe9b2e5c",
+    "lastChecked": "2026-10-30"
+  },
+  {
+    "id": "culinary2021",
+    "title": "Naming Culinary in Mandailing Society: A Culinary Linguistic Approach",
+    "url": "https://bircu-journal.com/index.php/birle/article/view/1677",
+    "documentUrl": "",
+    "inventoryStatus": "selected_verified_forms",
+    "note": "16 bentuk terpilih pada bagian 4.1–4.8 dibaca dari salinan teks artikel di ResearchGate; PDF penerbit gagal diunduh. Nama makanan regional tidak diberi label Mandailing eksklusif.",
+    "sha256": "",
+    "lastChecked": "2026-10-30"
   }
 ]
