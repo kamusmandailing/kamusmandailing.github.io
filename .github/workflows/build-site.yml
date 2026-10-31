@@ -34,6 +34,8 @@ jobs:
         run: python research/check_baseline_alignment.py
       - name: Check interface language selector
         run: node research/test_locale.cjs
+      - name: Test generated site in headless Chrome before publication
+        run: python research/browser_smoke.py
       - name: Commit generated site
         run: |
           git config user.name "github-actions[bot]"
