@@ -66,15 +66,15 @@ header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-
         <div class="trap-field" aria-hidden="true"><label for="situs-usulan">Kosongkan kolom ini</label><input id="situs-usulan" name="website" type="text" tabindex="-1" autocomplete="off"></div>
         <div class="consent">
           <strong>Sebelum melanjutkan</strong>
-          <p>GitHub Issues bersifat publik. Jangan masukkan nomor telepon, alamat pribadi, data identitas orang lain, rekaman sensitif, atau teks berhak cipta yang tidak boleh dibagikan. Setiap usulan akan diberi status belum terverifikasi sampai ditelaah.</p>
-          <label><input type="checkbox" id="consent" required><span>Saya memiliki hak atau izin untuk membagikan informasi ini, dan memahami bahwa isi usulan dapat dibaca publik serta tidak otomatis menjadi entri resmi kamus. <span class="req">*</span></span></label>
+          <p><strong>Pilih jalur dengan sadar:</strong> laporan GitHub dapat dilihat publik; usulan Google Drive (setelah diaktifkan) hanya masuk antrean privat yang dibaca pengelola berizin. Jangan sertakan nomor telepon, alamat lengkap, identitas penutur lain, rekaman sensitif, atau teks berhak cipta tanpa izin.</p>
+          <label><input type="checkbox" id="consent" required><span>Saya memiliki hak atau izin untuk membagikan informasi ini. Saya memahami bahwa jalur GitHub bersifat publik, jalur Google Drive khusus penelaah berizin, dan tidak ada usulan yang otomatis menjadi entri resmi kamus. <span class="req">*</span></span></label>
         </div>
         <div class="form-buttons">
-          <button class="button button-primary" type="button" id="send-drive" disabled>Kirim ke Google Drive <span aria-hidden="true">↗</span></button>
+          <button class="button button-primary" type="button" id="send-drive" aria-describedby="drive-status" disabled>Kirim tanpa akun GitHub <span aria-hidden="true">↗</span></button>
           <button class="button button-outline" type="submit">Lanjutkan ke GitHub <span aria-hidden="true">↗</span></button>
           <button class="button button-outline" type="button" id="copy-draft">Salin draf usulan</button>
         </div>
-        <p class="status" id="drive-status" role="status" aria-live="polite">Penerimaan langsung ke Drive menunggu aktivasi administrator. Untuk saat ini, kirim melalui GitHub atau salin draf.</p>
+        <p class="status" id="drive-status" role="status" aria-live="polite">Pengiriman tanpa akun GitHub sedang menunggu aktivasi administrator Google. Tombol ini tidak akan mengirim data sebelum sistem siap; gunakan GitHub atau salin draf sementara.</p>
         <p class="status" id="status" role="status" aria-live="polite"></p>
       </form>
     </div>
@@ -97,7 +97,7 @@ header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-
       <details><summary>Apakah usulan langsung muncul di kamus?</summary><p>Tidak. Usulan masuk antrean telaah. Penambahan ke database dan website publik hanya dilakukan melalui proses editorial dan penerbitan yang disetujui pengelola.</p></details>
       <details><summary>Apakah saya mendapat hak edit GitHub setelah mengirim?</summary><p>Tidak. Mengirim GitHub Issue tidak memberikan izin menulis atau mengubah kode repositori.</p></details>
       <details><summary>Bolehkah mengirim variasi dari Mandailing Julu, Mandailing Godang, atau diaspora?</summary><p>Ya. Tuliskan wilayah secara umum dan, bila diketahui, bentuk ucapan serta konteks penggunaannya. Jangan samakan semua variasi tanpa bukti.</p></details>
-      <details><summary>Bagaimana jika tidak punya akun GitHub?</summary><p>Setelah kanal Google Drive diaktifkan oleh administrator, Anda dapat mengirim lewat tombol “Kirim ke Google Drive” tanpa akun GitHub. Saat tombol belum aktif, simpan draf dengan “Salin draf usulan”.</p></details>
+      <details><summary>Bagaimana jika tidak punya akun GitHub?</summary><p>Anda tidak memerlukan akun GitHub untuk memakai tombol “Kirim tanpa akun GitHub” setelah admin mengaktifkan kanal Drive. Jika tombol belum aktif, salin draf terlebih dahulu. Tidak perlu membuat akun khusus.</p></details>
       <details><summary>Bisakah mengirim rekaman suara?</summary><p>Jangan menaruh rekaman orang lain di GitHub Issues tanpa persetujuan yang sah. Sistem penerimaan audio dengan persetujuan penutur dan kontrol akses akan dikembangkan terpisah.</p></details>
     </div>
   </section>
@@ -154,7 +154,7 @@ header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-
   const activeDrive=/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint);
   if(activeDrive){
     driveButton.disabled=false;
-    driveStatus.textContent="Penerima Drive telah dikonfigurasi. Usulan dikirim ke antrean privat dan tidak langsung menjadi entri kamus.";
+    driveStatus.textContent="Kanal tanpa akun GitHub siap digunakan. Usulan diterima di antrean privat Google Drive setelah tanda terima berhasil; tidak langsung menjadi entri kamus.";
   }
   driveButton.addEventListener("click",function(){
     if(!activeDrive){driveStatus.textContent="Penerimaan Google Drive belum diaktifkan pengelola.";return;}
