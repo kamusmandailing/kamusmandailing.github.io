@@ -101,4 +101,67 @@ document.addEventListener('DOMContentLoaded', () => {
         if run.returncode!=0 or result!="PASS":
             print(run.stderr[-1500:])
             raise AssertionError("Chrome UI smoke test failed: "+result)
+
+    assert 'id="send-drive" disabled' in PAGE, "Drive must fail closed until deployed"
+    assert '<meta name="kamus-drive-endpoint" content="">' in PAGE
+    backend=(ROOT/"integrations/google-drive-intake/Code.gs").read_text(encoding="utf-8")
+    assert 'function doPost(e)' in backend and 'function setupOnce()' in backend
+    assert 'MENUNGGU TELAAH' in backend and 'KAMUS_INTAKE_FOLDER_ID' in backend
+    assert '1Pa5TimoNh9ragvun2XTEkIKHA4wdUpU2' not in backend, "Private folder ID must not be embedded in public code"
+    subprocess.run([node,"--check"],input=backend,text=True,check=True)
+    print("Apps Script backend syntax and configuration boundaries: PASS")
+
+    drive_js=r"""
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const fails=[];
+  const check=(ok,name)=>{if(!ok) fails.push(name)};
+  const button=document.getElementById('send-drive');
+  check(!button.disabled,'configured-drive-remains-disabled');
+  for(const [id,v] of Object.entries({
+    jenis:'Kosakata atau padanan baru',kata:'amang',makna:'Pengujian untuk antrean',
+    wilayah:'Mandailing',padanan:'-',contoh:'Contoh',sumber:'Uji'
+  })) document.getElementById(id).value=v;
+  document.getElementById('consent').checked=true;
+  let sent;
+  const original=HTMLFormElement.prototype.submit;
+  HTMLFormElement.prototype.submit=function(){
+    sent={
+      method:this.method,action:this.action,target:this.target,
+      data:Object.fromEntries(new FormData(this).entries())
+    };
+  };
+  button.click();
+  HTMLFormElement.prototype.submit=original;
+  check(!!sent,'post-not-created');
+  if(sent){
+    check(sent.action==='https://script.google.com/macros/s/AKfycbxTEST123/exec','wrong-drive-endpoint');
+    check(sent.method==='post','not-post');
+    check(sent.target==='_blank','not-new-tab');
+    check(sent.data.kata==='amang','missing-word');
+    check(sent.data.consent==='yes','missing-consent');
+    check(sent.data.makna==='Pengujian untuk antrean','missing-meaning');
+  }
+  check(document.getElementById('status').textContent.includes('belum dianggap tersimpan'),
+    'premature-success-claim');
+  document.documentElement.setAttribute('data-test',fails.length?'FAIL-'+fails.join('-'):'PASS');
+});
+</script>
+"""
+    configured=PAGE.replace(
+      '<meta name="kamus-drive-endpoint" content="">',
+      '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbxTEST123/exec">'
+    ).replace("</body>",drive_js+"</body>")
+    drive_fixture=tmp/"kontributor-configured.html"
+    drive_fixture.write_text(configured,encoding="utf-8")
+    run=subprocess.run([chrome,"--headless=new","--no-sandbox","--disable-gpu",
+      "--disable-dev-shm-usage","--user-data-dir="+str(tmp/"chrome-drive-test"),
+      "--window-size=390,844","--virtual-time-budget=2500","--dump-dom",drive_fixture.as_uri()],
+      capture_output=True,text=True,timeout=70)
+    marker=re.search(r'data-test="([^"]+)"',run.stdout)
+    verdict=marker.group(1) if marker else 'MISSING-TEST-RESULT'
+    print("Configured Drive handoff (mock endpoint):",verdict)
+    if run.returncode or verdict!='PASS':
+      print(run.stderr[-1200:])
+      raise AssertionError("Configured Drive browser handoff failed: "+verdict)
 print("Contributor page checks: PASS")
