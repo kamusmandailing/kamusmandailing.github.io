@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const set=(id,v)=>{document.getElementById(id).value=v};
   check(!!form,'no-form');
   check(!!document.getElementById('copy-draft'),'no-copy-button');
+  check(document.getElementById('send-drive').disabled,'unverified-drive-must-stay-disabled');
   check(document.querySelectorAll('#contribution-form [required]').length>=4,'missing-required-inputs');
   check(form.checkValidity()===false,'invalid-empty-form-accepted');
   set('jenis','Kosakata atau padanan baru');
@@ -104,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     assert re.search(r'<button[^>]*id="send-drive"[^>]*disabled', PAGE), "Drive must fail closed until deployed"
     assert '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbx9pHzkymHVF4W_0cFYckOlSd1hp4KRjnHgQBji4fgQwNPC_ruiF0gUVVYqTjZ8-hUD/exec">' in PAGE, "Configured Apps Script deployment URL missing"
+    assert '<meta name="kamus-drive-enabled" content="false">' in PAGE, "Drive should remain disabled until anonymous GET succeeds"
     backend=(ROOT/"integrations/google-drive-intake/Code.gs").read_text(encoding="utf-8")
     assert 'function doPost(e)' in backend and 'function setupOnce()' in backend
     assert 'MENUNGGU TELAAH' in backend and 'KAMUS_INTAKE_FOLDER_ID' in backend
@@ -152,7 +154,9 @@ document.addEventListener('DOMContentLoaded', () => {
       r'<meta name="kamus-drive-endpoint" content="[^"]*">',
       '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbxTEST123/exec">',
       PAGE,count=1
-    ).replace("</body>",drive_js+"</body>")
+    ).replace('<meta name="kamus-drive-enabled" content="false">',
+              '<meta name="kamus-drive-enabled" content="true">')\
+      .replace("</body>",drive_js+"</body>")
     drive_fixture=tmp/"kontributor-configured.html"
     drive_fixture.write_text(configured,encoding="utf-8")
     run=subprocess.run([chrome,"--headless=new","--no-sandbox","--disable-gpu",
