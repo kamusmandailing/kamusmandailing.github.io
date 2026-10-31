@@ -35,5 +35,9 @@ jobs:
         run: python research/check_baseline_alignment.py
       - name: Test interface localization and fallback
         run: node research/test_locale.cjs
+      - name: Report generated outputs and possible drift
+        run: |
+          git status --short
+          git diff --stat
       - name: Check source files for stray changes
         run: git diff --exit-code -- src/words.json src/inventory.json data/database/schema.sql
