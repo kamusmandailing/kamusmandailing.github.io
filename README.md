@@ -37,3 +37,13 @@ Build menghasilkan HTML yang sama di root dan `dist/`, TSV, JSON, SQLite serta p
 ## Skema 5
 
 `forms` JSON dan tabel SQLite `lexical_forms` adalah seluruh bank. `entries` dan view `dictionary` adalah koleksi berpadanan. `vocabulary_all` menggabungkan keduanya. `lexical_occurrences` mempertahankan semua metadata termasuk sumber web dengan pdf_page NULL. `extraction_audit` menyimpan geometri/status calon OCR, bukan teks mentah definisi. `local_name_observations` tidak menambah hitungan bentuk Mandailing. `second_pass_extraction_audit` menyimpan audit tambahan pindai 1977; `local_name_reviews` menyimpan dukungan silang dan risiko homonim. Kolom takson pada lexical_occurrences dan local_name_observations mempertahankan nama ilmiah cetakan sumber. SQLite adalah ekspor yang dapat dibuka lokal, bukan backend server situs statis.
+
+## Status proyek V2 — fondasi rilis dan pilot editorial (31 Oktober 2026)
+
+**Angka kanonis rilis:** [snapshot rilis](research/release_snapshot.json) menetapkan 10.821 bentuk sumber, 1.404 entri dengan padanan editorial, 9.417 bentuk belum berpadanan, 13.745 lokasi rujukan dari 24 sumber. [`research/progress.json`](research/progress.json) adalah **rekaman historis** tahap 27 Oktober (10.250 bentuk dan 12.679 lokasi rujukan), bukan ringkasan rilis terbaru. Periksa/segarkan snapshot dengan `python research/release_snapshot.py` (atau `--write` **hanya setelah perubahan data ditinjau**).
+
+**Integritas otomatis:** [workflow validasi rilis](.github/workflows/validate-release-baseline.yml) membangun ulang website dan database, memeriksa identitas/sumber, membandingkan HTML, TSV, SQLite, dan ZIP dengan audit, menguji hitungan versi terbaru serta regresi pilihan kata pribadi/komunitas. CI ini tidak menerbitkan data baru secara otomatis.
+
+**Pilot linguistik:** [panduan 40 entri](research/PILOT_40_PANDUAN.md) dan [generator sampel](research/select_editorial_pilot.py) mempersiapkan 40 entri existing untuk penelaahan editor serta penutur lintas huruf/kategori. Jalankan [workflow pilot](.github/workflows/editorial-pilot.yml) untuk memperoleh berkas TSV serta petunjuk. Semua keputusan awal **BELUM DITELAAH**; tidak ada arti baru yang dibuat AI, pengesahan penutur, atau perubahan ke `src/words.json`. Salinan paket disimpan dalam arsip Drive riset.
+
+**Masih wajib sebelum rilis V2 penuh:** persetujuan penutur untuk entri pilot; audit izin data/sumber; aktivasi ruleset perlindungan branch `main`; pengujian Web app kontribusi Google Drive end-to-end sampai benar-benar menulis ke antrean privat; dan perbaikan/fallback antarmuka empat bahasa beserta uji aksesibilitas ponsel.
