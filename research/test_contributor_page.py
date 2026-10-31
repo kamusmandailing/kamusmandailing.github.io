@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
             print(run.stderr[-1500:])
             raise AssertionError("Chrome UI smoke test failed: "+result)
 
-    assert 'id="send-drive" disabled' in PAGE, "Drive must fail closed until deployed"
+    assert re.search(r'<button[^>]*id="send-drive"[^>]*\\bdisabled\\b', PAGE), "Drive must fail closed until deployed"
     assert '<meta name="kamus-drive-endpoint" content="">' in PAGE
     backend=(ROOT/"integrations/google-drive-intake/Code.gs").read_text(encoding="utf-8")
     assert 'function doPost(e)' in backend and 'function setupOnce()' in backend
