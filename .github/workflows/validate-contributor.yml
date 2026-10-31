@@ -7,6 +7,8 @@ on:
       - '.github/ISSUE_TEMPLATE/01-kontribusi-kosakata.yml'
       - 'research/test_contributor_page.py'
       - 'research/test_drive_intake.cjs'
+      - 'research/package_approved_contributions.py'
+      - 'research/test_package_approved_contributions.py'
       - 'integrations/google-drive-intake/**'
       - 'CONTRIBUTING.md'
       - '.github/workflows/validate-contributor.yml'
@@ -35,5 +37,7 @@ jobs:
           node-version: '22'
       - name: Verify anonymous Google Drive queue and administrator approval gate
         run: node research/test_drive_intake.cjs
+      - name: Check approved-only admin export does not publish automatically
+        run: python research/test_package_approved_contributions.py
       - name: Verify HTML, form consent and GitHub issue handoff in Chrome
         run: python research/test_contributor_page.py
