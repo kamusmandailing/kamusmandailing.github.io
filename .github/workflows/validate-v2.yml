@@ -31,5 +31,7 @@ jobs:
         run: python build.py
       - name: Validate data provenance, release outputs, and JavaScript
         run: python research/validate_release.py
+      - name: Check that published research statistics match the release audit
+        run: python research/check_baseline_alignment.py
       - name: Check source files for stray changes
         run: git diff --exit-code -- src/words.json src/inventory.json data/database/schema.sql
