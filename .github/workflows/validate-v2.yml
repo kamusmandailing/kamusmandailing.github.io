@@ -1,0 +1,45 @@
+name: Validate Kamus Mandailing V2
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'data/**'
+      - 'research/**'
+      - 'build.py'
+      - 'prepare_inventory.py'
+      - 'export_database.py'
+      - '.github/workflows/validate-v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compile Python sources
+        run: python -m compileall -q build.py prepare_inventory.py export_database.py research/
+      - name: Rebuild static files and database
+        run: python build.py
+      - name: Validate data provenance, release outputs, and JavaScript
+        run: python research/validate_release.py
+      - name: Check that published research statistics match the release audit
+        run: python research/check_baseline_alignment.py
+      - name: Test interface localization and fallback
+        run: node research/test_locale.cjs
+      - name: Run real-browser smoke test for search and language selector
+        run: python research/browser_smoke.py
+      - name: Report generated outputs and possible drift
+        run: |
+          git status --short
+          git diff --stat
+      - name: Check source files for stray changes
+        run: git diff --exit-code -- src/words.json src/inventory.json data/database/schema.sql

@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'src/**'
+      - 'data/**'
       - 'build.py'
       - 'prepare_inventory.py'
       - 'export_database.py'
@@ -24,12 +25,23 @@ jobs:
           python-version: '3.11'
       - name: Generate static HTML from source
         run: python build.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate generated database and published HTML
+        run: python research/validate_release.py
+      - name: Ensure research baseline matches audited release
+        run: python research/check_baseline_alignment.py
+      - name: Check interface language selector
+        run: node research/test_locale.cjs
+      - name: Test generated site in headless Chrome before publication
+        run: python research/browser_smoke.py
       - name: Commit generated site
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html Hata_Kamus_Mandailing.html
+          git add index.html Hata_Kamus_Mandailing.html data/
           if ! git diff --cached --quiet; then
-            git commit -m "build: publish multilingual selector [skip ci]"
+            git commit -m "build: publish validated website and database together [skip ci]"
             git push
           fi
