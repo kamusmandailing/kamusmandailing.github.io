@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#642b36">
 <meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbx9pHzkymHVF4W_0cFYckOlSd1hp4KRjnHgQBji4fgQwNPC_ruiF0gUVVYqTjZ8-hUD/exec">
+<meta name="kamus-drive-enabled" content="false">
 <meta name="description" content="Ruang kontribusi Kamus Mandailing: ajukan kata, koreksi, dialek, dan contoh kalimat untuk ditelaah editor. Kontribusi tidak langsung mengubah kamus.">
 <link rel="canonical" href="https://kamusmandailing.github.io/kontributor.html">
 <title>Kontributor Komunitas — Hata Kamus Mandailing</title>
@@ -74,7 +75,7 @@ header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-
           <button class="button button-outline" type="submit">Lanjutkan ke GitHub <span aria-hidden="true">↗</span></button>
           <button class="button button-outline" type="button" id="copy-draft">Salin draf usulan</button>
         </div>
-        <p class="status" id="drive-status" role="status" aria-live="polite">Pengiriman tanpa akun GitHub sedang menunggu aktivasi administrator Google. Tombol ini tidak akan mengirim data sebelum sistem siap; gunakan GitHub atau salin draf sementara.</p>
+        <p class="status" id="drive-status" role="status" aria-live="polite">Pengiriman tanpa akun GitHub belum aktif karena Web app meminta login Google. Admin perlu mengubah akses deployment menjadi Anyone, lalu menguji ulang. Gunakan GitHub atau salin draf sementara.</p>
         <p class="status" id="status" role="status" aria-live="polite"></p>
       </form>
     </div>
@@ -151,13 +152,14 @@ header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-
   const driveStatus=document.getElementById("drive-status");
   const endpoint=(document.querySelector('meta[name="kamus-drive-endpoint"]')?.content || "").trim();
   // Only a published Apps Script web app URL. This is a public endpoint, not an OAuth credential.
-  const activeDrive=/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint);
+  const verifiedLive=(document.querySelector('meta[name="kamus-drive-enabled"]')?.content || "").trim() === "true";
+  const activeDrive=verifiedLive && /^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint);
   if(activeDrive){
     driveButton.disabled=false;
     driveStatus.textContent="Kanal tanpa akun GitHub siap digunakan. Usulan diterima di antrean privat Google Drive setelah tanda terima berhasil; tidak langsung menjadi entri kamus.";
   }
   driveButton.addEventListener("click",function(){
-    if(!activeDrive){driveStatus.textContent="Penerimaan Google Drive belum diaktifkan pengelola.";return;}
+    if(!activeDrive){driveStatus.textContent="Penerima Google Drive belum lolos uji akses publik. Admin perlu mengubah izin Web app menjadi Anyone.";return;}
     if(!ready())return;
     const submission=document.createElement("form");
     submission.method="POST";submission.action=endpoint;submission.target="_blank";
