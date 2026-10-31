@@ -27,6 +27,9 @@ vm.runInContext(sourceURL+'\n'+read('src/inventory.js')+
 const api=ctx.api, state=api.bankState, start=api.bankPerfStats();
 assert.equal(start.searchStringsCached,0,'Full-bank search strings must not build at page startup');
 assert.equal(start.sourceListsCached,0,'Source-specific subsets must be lazy');
+assert.equal(start.bankLettersIndexed,false,'Bank letter index must be lazy');
+assert.equal(start.detailsIndexed,false,'Detail lookup must be lazy');
+assert.equal(start.localNamesIndexed,false,'Plant-name comparison index must be lazy');
 let rows=api.bankFiltered();
 assert.equal(rows.length,10821);
 const scans=api.bankPerfStats().filterScans;
@@ -57,6 +60,9 @@ state.query='Acorus calamus';assert(api.bankFiltered().some(f=>f.form==='salin b
 state.query='';state.status='pending';
 assert.equal(api.bankFiltered().length,9417);
 state.status='reviewed';assert.equal(api.bankFiltered().length,1404);
+assert.equal(api.bankPerfStats().bankLettersIndexed,false,'No letter filter requested yet');
+api.renderBank();
+assert.equal(api.bankPerfStats().bankLettersIndexed,true,'Opening Bank builds letter index exactly once');
 console.log(JSON.stringify({
   status:'PASS',forms:bank.forms.length,initialSearchStrings:start.searchStringsCached,
   sourceCount,sourceSubsetCaches:api.bankPerfStats().sourceListsCached,
