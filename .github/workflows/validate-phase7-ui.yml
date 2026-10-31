@@ -8,6 +8,7 @@ on:
       - 'src/app.js'
       - 'src/inventory.js'
       - 'research/test_phase7_dynamic_locale.py'
+      - 'research/audit_offline_payload.py'
       - '.github/workflows/validate-phase7-ui.yml'
   pull_request:
     branches: [main]
@@ -17,6 +18,7 @@ on:
       - 'src/app.js'
       - 'src/inventory.js'
       - 'research/test_phase7_dynamic_locale.py'
+      - 'research/audit_offline_payload.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -36,5 +38,12 @@ jobs:
         run: python build.py
       - name: Test dynamic locale and native dialog keyboard focus
         run: python research/test_phase7_dynamic_locale.py
+      - name: Audit standalone size and offline self-contained assets
+        run: python research/audit_offline_payload.py qa/phase7-delivery.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kamus-Mandailing-Phase7-Delivery-Audit
+          path: qa/phase7-delivery.json
+          retention-days: 30
       - name: Assert source and release data unchanged
         run: python research/validate_release.py
