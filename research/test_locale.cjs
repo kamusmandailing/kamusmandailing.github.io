@@ -90,6 +90,18 @@ locale.applyLanguage('bogus');
 assert.equal(locale.currentLanguage(), 'id', 'Unknown language must default to Indonesian');
 assert.equal(memory.get('kamus-interface-language'), 'id');
 
+// A locked-down browser may disable localStorage: UI must still open in Indonesian.
+const deniedStorage = {
+  getItem() { throw new Error('Storage blocked'); },
+  setItem() { throw new Error('Storage blocked'); }
+};
+const fallbackWindow = {};
+vm.runInNewContext(source, { document, localStorage: deniedStorage, window: fallbackWindow });
+assert.equal(fallbackWindow.KamusLocale.currentLanguage(), 'id',
+  'Blocked storage must still initialize the interface');
+assert.equal(note.hidden, true);
+assert.equal(rootElement.lang, 'id');
+
 // Built-in static fallback must not mutate the embedded dictionary data.
 assert(!source.includes("seed-data") && !source.includes('inventory-data') &&
        !source.includes('words.json'), 'Locale script may not rewrite lexicographic data');
