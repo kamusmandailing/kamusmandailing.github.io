@@ -35,6 +35,8 @@ jobs:
         run: python research/check_baseline_alignment.py
       - name: Test interface localization and fallback
         run: node research/test_locale.cjs
+      - name: Run real-browser smoke test for search and language selector
+        run: python research/browser_smoke.py
       - name: Report generated outputs and possible drift
         run: |
           git status --short
