@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#642b36">
+<meta name="description" content="Ruang kontribusi Kamus Mandailing: ajukan kata, koreksi, dialek, dan contoh kalimat untuk ditelaah editor. Kontribusi tidak langsung mengubah kamus.">
+<link rel="canonical" href="https://kamusmandailing.github.io/kontributor.html">
+<title>Kontributor Komunitas — Hata Kamus Mandailing</title>
+<style>
+:root{--paper:#f8f5ef;--surface:#fffdf9;--wine:#642b36;--wine-dark:#45202b;--gold:#b79565;--ink:#2b2828;--muted:#696363;--line:#e7dfd5;--sage:#45695d;--radius:18px;--sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--serif:Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.65 var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}button,input,select,textarea{font:inherit}.skip{position:absolute;top:-60px;left:16px;padding:9px;background:white;z-index:10}.skip:focus{top:12px}.wrap{width:min(1140px,calc(100% - 40px));margin:auto}
+header{background:#fffdfb;border-bottom:1px solid var(--line)}.header-inner{min-height:78px;display:flex;justify-content:space-between;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none}.brand-mark{width:40px;height:40px;border:1px solid #c5a995;border-radius:12px;display:grid;place-items:center;background:#fcf6ef;color:var(--wine);font-family:var(--serif);font-size:28px}.brand-title{font-family:var(--serif);font-size:26px;font-weight:700;letter-spacing:-1px;color:var(--wine)}.brand-title span{color:var(--gold)}.brand small{display:block;font-size:10px;font-weight:800;letter-spacing:.17em;line-height:1;color:#73655d}.header-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.header-actions a{font-size:13px;font-weight:700;padding:8px 14px;text-decoration:none;border-radius:999px}.header-actions a:hover{background:#f4ebe8}.header-actions .current{color:var(--wine);background:#f4ebe8}
+.hero{background:radial-gradient(circle at 96% 3%,#9c6570 0,transparent 35%),linear-gradient(130deg,#642b36,#42212d);color:#fff;overflow:hidden}.hero .wrap{padding:64px 0 70px;position:relative}.hero .wrap:after{content:"";position:absolute;right:-60px;top:12px;width:290px;height:290px;border:18px double #d6b68e;opacity:.13;transform:rotate(25deg);pointer-events:none}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}.hero .eyebrow{color:#e5c99d}.hero h1{max-width:750px;font-family:var(--serif);font-weight:400;font-size:clamp(36px,5.8vw,65px);line-height:1.09;letter-spacing:-.035em;margin:15px 0 20px}.hero h1 em{font-style:italic;color:#e9cda9}.hero p{max-width:650px;color:#f2e8e7;font-size:16px;margin:0 0 28px}.hero-links{display:flex;gap:11px;flex-wrap:wrap}.button{border:0;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;cursor:pointer;font-weight:750;text-align:center;line-height:1.3;text-decoration:none;gap:6px}.button-gold{background:#e1c199;color:#35232a}.button-gold:hover{background:#f0d4b0}.button-ghost{border:1px solid #cfb1b4;color:white;background:transparent}.button-ghost:hover{background:#ffffff15}.button-primary{background:var(--wine);color:#fff}.button-primary:hover{background:#4e222f}.button-outline{border:1px solid #cdbdae;background:var(--surface);color:var(--wine)}.button-outline:hover{background:#f5ede6}.button:disabled{opacity:.45}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:-24px auto 52px;position:relative;z-index:1}.metric{padding:20px 22px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 32px #35222a0b}.metric b{display:block;font-size:18px;color:var(--wine);font-family:var(--serif)}.metric span{font-size:12px;color:var(--muted)}
+.section-head{margin-bottom:24px}.section-head h2{font-family:var(--serif);font-size:clamp(27px,3vw,38px);font-weight:400;letter-spacing:-.02em;line-height:1.2;margin:9px 0}.section-head p{margin:0;max-width:690px;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:0 0 64px}.step{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:23px}.step .number{font-family:var(--serif);font-size:29px;color:var(--gold)}.step h3{font-size:15px;line-height:1.35;margin:10px 0 5px}.step p{font-size:13px;color:var(--muted);margin:0}.contribute{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(290px,.8fr);gap:24px;align-items:start;margin-bottom:70px}.form-card,.aside-card,.faq{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}.form-card{padding:30px}.form-card h2{font-family:var(--serif);font-size:31px;font-weight:400;margin:0 0 4px}.form-card>.sub{margin:0 0 20px;color:var(--muted);font-size:14px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:5px}.wide{grid-column:1/-1}.field label{font-size:13px;font-weight:750}.req{color:#a03246}.field .hint{font-size:12px;line-height:1.45;color:var(--muted)}.field input,.field select,.field textarea{background:white;color:var(--ink);border:1px solid #c9c0b7;border-radius:9px;padding:11px 12px;min-width:0;width:100%}.field textarea{resize:vertical;min-height:96px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--wine)}.consent{margin-top:20px;background:#f9f2e8;border:1px solid #e7d6bd;padding:17px;border-radius:12px;font-size:13px}.consent strong{display:block;margin-bottom:5px}.consent label{display:flex;align-items:flex-start;gap:10px;margin-top:12px}.consent input{accent-color:var(--wine);margin-top:4px;min-width:16px;min-height:16px}.consent p{margin:0;color:#66594e}.form-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.status{font-size:13px;min-height:19px;margin-top:12px;color:var(--sage)}.status.error{color:#a3273e}.aside-col{display:grid;gap:18px}.aside-card{padding:24px}.aside-card h3{font-size:17px;margin:0 0 9px}.aside-card p{font-size:13px;color:var(--muted);margin:0 0 13px}.aside-card ul{padding-left:21px;margin:0}.aside-card li{font-size:13px;margin:6px 0}.aside-card a.link{color:var(--wine);font-weight:750}.notice{background:#f5eae5;border-color:#e3c9c4}.notice strong{color:var(--wine)}.rules{border-top:1px solid var(--line);padding:40px 0 56px}.rules-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}.rules h2{font-family:var(--serif);font-size:29px;font-weight:400;margin:0 0 10px}.rules p{color:var(--muted);margin:0 0 14px}.rules ul{margin:0;padding-left:20px}.rules li{margin-bottom:8px}.faq{padding:4px 22px;margin:12px 0 55px}.faq details{border-bottom:1px solid var(--line);padding:16px 0}.faq details:last-child{border-bottom:0}.faq summary{cursor:pointer;font-weight:700;list-style-position:outside}.faq p{color:var(--muted);margin:9px 0 0;font-size:14px}footer{background:#ece6de;border-top:1px solid #ded2c5;padding:27px 0;font-size:13px;color:#685c57}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer a{font-weight:750;color:var(--wine)}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}.contribute{grid-template-columns:1fr}.aside-col{grid-template-columns:1fr 1fr}}@media(max-width:600px){.wrap{width:min(100% - 30px,1140px)}.header-inner{align-items:flex-start;flex-direction:column;padding:13px 0;gap:7px}.header-actions a{padding:5px 10px}.hero .wrap{padding:43px 0 60px}.metrics{grid-template-columns:1fr;gap:8px;margin:-21px auto 44px}.metric{padding:13px 16px}.steps,.aside-col,.rules-grid{grid-template-columns:1fr}.steps{margin-bottom:43px}.step{padding:17px}.form-card{padding:21px 17px}.form-grid{grid-template-columns:1fr}.form-buttons .button{width:100%}.contribute{margin-bottom:48px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#konten">Lewati ke isi</a>
+<header><div class="wrap header-inner">
+  <a class="brand" href="./" aria-label="Kembali ke Kamus Mandailing"><span class="brand-mark" aria-hidden="true">h</span><span><span class="brand-title">hata<span>.</span></span><small>KAMUS MANDAILING</small></span></a>
+  <nav class="header-actions" aria-label="Navigasi"><a href="./">Kamus</a><a href="./#bank">Bank kosakata</a><a href="./kontributor.html" class="current" aria-current="page">Kontributor</a></nav>
+</div></header>
+<main id="konten">
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">Ruang komunitas · Seluruh dunia</div>
+  <h1>Bahasa kita tumbuh<br><em>bersama penuturnya.</em></h1>
+  <p>Kontribusikan kosakata, arti, variasi dialek, contoh pemakaian, dan sumber bahasa Mandailing. Setiap usulan dipelajari dahulu oleh pengelola — tidak langsung masuk ke kamus publik.</p>
+  <div class="hero-links"><a class="button button-gold" href="#kirim">Ajukan kontribusi <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#cara">Pelajari prosesnya</a></div>
+</div></section>
+<div class="wrap">
+  <div class="metrics" aria-label="Prinsip pengelolaan">
+    <div class="metric"><b>Terbuka untuk komunitas</b><span>Penutur, perantau, peneliti, dan pemerhati bahasa.</span></div>
+    <div class="metric"><b>Ditelaah manusia</b><span>Asal data, dialek, makna, dan izin diperiksa.</span></div>
+    <div class="metric"><b>Publikasi oleh admin</b><span>Kontributor tidak mendapat akses mengubah situs.</span></div>
+  </div>
+  <section id="cara" aria-labelledby="cara-title">
+    <div class="section-head"><div class="eyebrow">Alur kontribusi</div><h2 id="cara-title">Empat langkah, satu tujuan.</h2><p>Sistem usulan dipisahkan dari database utama untuk menjaga ketepatan, riwayat koreksi, serta keamanan proyek.</p></div>
+    <div class="steps">
+      <article class="step"><span class="number">01</span><h3>Ajukan kata</h3><p>Isi bentuk, makna, dan catatan dialek atau rujukannya.</p></article>
+      <article class="step"><span class="number">02</span><h3>Masuk antrean telaah</h3><p>Usulan menjadi laporan GitHub. Akun GitHub diperlukan untuk mengirim.</p></article>
+      <article class="step"><span class="number">03</span><h3>Periksa bukti</h3><p>Editor menilai sumber dan, jika perlu, meminta konfirmasi penutur.</p></article>
+      <article class="step"><span class="number">04</span><h3>Admin memutuskan</h3><p>Hanya tim berizin yang menyetujui serta menerbitkan perubahan.</p></article>
+    </div>
+  </section>
+  <section class="contribute" id="kirim" aria-labelledby="form-title">
+    <div class="form-card">
+      <div class="eyebrow">Formulir usulan · Tahap awal</div>
+      <h2 id="form-title">Bagikan pengetahuan Anda.</h2>
+      <p class="sub">Formulir ini menyiapkan laporan untuk GitHub, bukan mengirim data secara diam-diam. Anda meninjau dan mengirimnya sendiri setelah masuk ke akun GitHub.</p>
+      <form id="contribution-form">
+        <div class="form-grid">
+          <div class="field"><label for="jenis">Jenis kontribusi <span class="req">*</span></label><select id="jenis" required>
+            <option value="">Pilih jenis</option><option>Kosakata atau padanan baru</option><option>Koreksi arti atau ejaan</option><option>Variasi dialek atau pengucapan</option><option>Contoh kalimat</option><option>Istilah budaya</option><option>Rujukan atau sumber tertulis</option>
+          </select></div>
+          <div class="field"><label for="kata">Kata / bentuk dalam bahasa Mandailing <span class="req">*</span></label><input id="kata" maxlength="100" required placeholder="Tulis bentuk sesuai yang diketahui" autocomplete="off"></div>
+          <div class="field wide"><label for="makna">Makna atau penjelasan <span class="req">*</span></label><textarea id="makna" maxlength="500" minlength="3" required placeholder="Jelaskan arti dan kapan kata ini digunakan"></textarea></div>
+          <div class="field"><label for="wilayah">Wilayah tutur (opsional)</label><input id="wilayah" maxlength="120" placeholder="Daerah umum atau komunitas diaspora"><span class="hint">Jangan tulis alamat lengkap seseorang.</span></div>
+          <div class="field"><label for="padanan">Padanan Indonesia / Melayu / Inggris (opsional)</label><input id="padanan" maxlength="250" placeholder="Sebutkan bahasa setiap padanan"></div>
+          <div class="field wide"><label for="contoh">Contoh kalimat dan terjemahan (opsional)</label><textarea id="contoh" maxlength="500" placeholder="Kalimat yang diketahui benar-benar digunakan, bukan contoh rekaan"></textarea></div>
+          <div class="field wide"><label for="sumber">Sumber atau bukti (opsional)</label><textarea id="sumber" maxlength="500" placeholder="Judul buku, tahun, halaman, tautan, atau catatan penggunaan langsung"></textarea><span class="hint">Jangan cantumkan informasi pribadi penutur atau unggah rekaman tanpa izinnya.</span></div>
+        </div>
+        <div class="consent">
+          <strong>Sebelum melanjutkan</strong>
+          <p>GitHub Issues bersifat publik. Jangan masukkan nomor telepon, alamat pribadi, data identitas orang lain, rekaman sensitif, atau teks berhak cipta yang tidak boleh dibagikan. Setiap usulan akan diberi status belum terverifikasi sampai ditelaah.</p>
+          <label><input type="checkbox" id="consent" required><span>Saya memiliki hak atau izin untuk membagikan informasi ini, dan memahami bahwa isi usulan dapat dibaca publik serta tidak otomatis menjadi entri resmi kamus. <span class="req">*</span></span></label>
+        </div>
+        <div class="form-buttons">
+          <button class="button button-primary" type="submit">Lanjutkan ke GitHub <span aria-hidden="true">↗</span></button>
+          <button class="button button-outline" type="button" id="copy-draft">Salin draf usulan</button>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+    <div class="aside-col">
+      <aside class="aside-card"><div class="eyebrow">Bisa berkontribusi apa?</div><h3>Bukan hanya kosakata.</h3>
+        <ul><li>Arti dan contoh yang digunakan sehari-hari</li><li>Perbedaan ejaan atau pengucapan menurut wilayah</li><li>Istilah adat, makanan, tumbuhan, dan lingkungan</li><li>Koreksi kata atau padanan yang keliru</li><li>Judul, halaman, atau tautan sumber yang bisa diperiksa</li></ul>
+      </aside>
+      <aside class="aside-card notice"><h3>Keamanan dan hak penerbitan</h3><p><strong>Kontribusi adalah usulan, bukan penyuntingan langsung.</strong> Pengunjung hanya mengajukan laporan; berkas website, koleksi kurasi, dan database hanya dapat diubah oleh pengelola yang diberi izin.</p><p>Jika belum memiliki akun GitHub, Anda dapat menyalin draf untuk disimpan terlebih dahulu. Saat ini belum tersedia saluran pengiriman tanpa akun yang terintegrasi.</p></aside>
+      <aside class="aside-card"><h3>Lebih suka formulir GitHub?</h3><p>Gunakan formulir resmi di repositori, dengan pilihan jenis kontribusi dan kotak bukti terstruktur.</p><a class="link" href="https://github.com/kamusmandailing/kamusmandailing.github.io/issues/new?template=01-kontribusi-kosakata.yml" target="_blank" rel="noopener noreferrer">Buka formulir GitHub ↗</a><p style="margin-top:12px">Lihat juga <a class="link" href="https://github.com/kamusmandailing/kamusmandailing.github.io/issues" target="_blank" rel="noopener noreferrer">antrean usulan yang terlihat publik</a>.</p></aside>
+    </div>
+  </section>
+  <section class="rules" aria-labelledby="aturan-title">
+    <div class="rules-grid">
+      <div><div class="eyebrow">Prinsip penelitian</div><h2 id="aturan-title">Bukti sebelum diterbitkan.</h2><p>Kamus Mandailing memisahkan bentuk sumber, penafsiran makna, padanan yang telah dikurasi, dan kontribusi yang masih perlu ditelaah.</p><ul><li>Hindari menebak arti atau mengarang kutipan sebagai fakta.</li><li>Perbedaan dialek dicatat; tidak otomatis dianggap salah.</li><li>Sumber dan izin dipertahankan agar asal informasi bisa ditelusuri.</li></ul></div>
+      <div><div class="eyebrow">Hak komunitas</div><h2>Kredit dan penghormatan.</h2><p>Kontributor dapat memakai nama akun GitHub atau menuliskan preferensi kredit pada laporan. Kami tidak menjanjikan pengakuan nama penutur tanpa persetujuan mereka.</p><ul><li>Admin dapat meminta klarifikasi sebelum menerima usulan.</li><li>Kontribusi dapat diterima, direvisi, ditunda, atau ditolak dengan alasan.</li><li>Materi yang memerlukan izin khusus harus melalui jalur privat yang disetujui pengelola, bukan GitHub Issues publik.</li></ul></div>
+    </div>
+  </section>
+  <section aria-labelledby="faq-title"><div class="section-head"><div class="eyebrow">Pertanyaan umum</div><h2 id="faq-title">Yang perlu diketahui kontributor.</h2></div>
+    <div class="faq">
+      <details><summary>Apakah usulan langsung muncul di kamus?</summary><p>Tidak. Usulan masuk antrean telaah. Penambahan ke database dan website publik hanya dilakukan melalui proses editorial dan penerbitan yang disetujui pengelola.</p></details>
+      <details><summary>Apakah saya mendapat hak edit GitHub setelah mengirim?</summary><p>Tidak. Mengirim GitHub Issue tidak memberikan izin menulis atau mengubah kode repositori.</p></details>
+      <details><summary>Bolehkah mengirim variasi dari Mandailing Julu, Mandailing Godang, atau diaspora?</summary><p>Ya. Tuliskan wilayah secara umum dan, bila diketahui, bentuk ucapan serta konteks penggunaannya. Jangan samakan semua variasi tanpa bukti.</p></details>
+      <details><summary>Bagaimana jika tidak punya akun GitHub?</summary><p>Gunakan tombol “Salin draf usulan” untuk menyimpan isinya. Pengiriman langsung tanpa akun belum tersedia pada tahap ini; jangan kirim data pribadi melalui kanal yang belum diumumkan resmi.</p></details>
+      <details><summary>Bisakah mengirim rekaman suara?</summary><p>Jangan menaruh rekaman orang lain di GitHub Issues tanpa persetujuan yang sah. Sistem penerimaan audio dengan persetujuan penutur dan kontrol akses akan dikembangkan terpisah.</p></details>
+    </div>
+  </section>
+</div>
+</main>
+<footer><div class="wrap footer-inner"><span>hata. / Kamus Mandailing · Ruang kontribusi komunitas</span><span><a href="./">Kembali ke kamus</a> · <a href="https://github.com/kamusmandailing/kamusmandailing.github.io/issues" rel="noopener noreferrer" target="_blank">Usulan komunitas</a></span></div></footer>
+<script>
+(function(){
+  "use strict";
+  const form=document.getElementById("contribution-form");
+  const status=document.getElementById("status");
+  const field=id=>document.getElementById(id).value.trim();
+  function compose(){
+    const kata=field("kata");
+    const jenis=field("jenis");
+    const rows=[
+      "## Usulan kontribusi Kamus Mandailing",
+      "**Jenis:** "+jenis,
+      "**Kata/bentuk:** "+kata,
+      "**Makna atau penjelasan:**\n"+field("makna"),
+      "**Wilayah tutur:** "+(field("wilayah")||"Tidak disebutkan"),
+      "**Padanan:** "+(field("padanan")||"Belum ada"),
+      "**Contoh kalimat:**\n"+(field("contoh")||"Belum ada"),
+      "**Sumber/bukti:**\n"+(field("sumber")||"Belum disebutkan"),
+      "## Pernyataan kontributor",
+      "Saya berhak membagikan informasi ini dan memahami laporan dapat dibaca publik. Usulan belum diverifikasi dan tidak otomatis diterbitkan."
+    ];
+    return {title:"[Usulan komunitas] "+kata.slice(0,70),body:rows.join("\n\n")};
+  }
+  function ready(){
+    status.textContent="";
+    status.classList.remove("error");
+    if(!form.reportValidity())return false;
+    return true;
+  }
+  form.addEventListener("submit",function(event){
+    event.preventDefault();
+    if(!ready())return;
+    const payload=compose();
+    const params=new URLSearchParams({title:payload.title,body:payload.body});
+    const url="https://github.com/kamusmandailing/kamusmandailing.github.io/issues/new?"+params.toString();
+    if(url.length>7500){
+      status.textContent="Usulan terlalu panjang untuk tautan otomatis. Salin draf lalu gunakan formulir GitHub di sebelah kanan.";
+      status.classList.add("error");
+      return;
+    }
+    const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener noreferrer";document.body.appendChild(a);a.click();a.remove();
+    status.textContent="GitHub dibuka untuk peninjauan dan pengiriman. Formulir ini belum mengirim data atau menyimpannya di server.";
+  });
+  document.getElementById("copy-draft").addEventListener("click",async function(){
+    if(!ready())return;
+    const payload=compose(),value=payload.title+"\n\n"+payload.body;
+    try{
+      if(!navigator.clipboard||!window.isSecureContext)throw Error("clipboard");
+      await navigator.clipboard.writeText(value);
+      status.textContent="Draf disalin. Simpan atau tempelkan pada formulir GitHub saat Anda siap.";
+    }catch(error){
+      status.textContent="Penyalinan otomatis tidak tersedia. Pilih dan salin isian Anda secara manual; data belum dikirim.";
+      status.classList.add("error");
+    }
+  });
+})();
+</script>
+</body>
+</html>
