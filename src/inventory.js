@@ -27,27 +27,63 @@
   const bankLetter=f=>normalize(f.form).replace(/^-+/,'').charAt(0).toUpperCase();
   const bankByNormalizedForm=new Map(BANK.forms.map(f=>[normalize(f.form),f]));
   const bankLetterCounts={};
-  for(const f of BANK.forms){const l=bankLetter(f);bankLetterCounts[l]=(bankLetterCounts[l]||0)+1;}
-  const bankSearchText=new Map(BANK.forms.map(f=>{
+  const bankLetterById=new Map();
+  for(const f of BANK.forms){
+    const l=bankLetter(f);
+    bankLetterById.set(f.id,l);
+    bankLetterCounts[l]=(bankLetterCounts[l]||0)+1;
+  }
+  // Phase 8: never allocate normalized search text for 10,821 forms on startup.
+  // Build each whole-bank search record once, on the first actual search.
+  const bankSearchText=new Map();
+  const bankSourceForms=new Map();
+  const bankFilterCache={key:null,rows:null,scans:0};
+  const bankPerfStats=()=>({
+    searchStringsCached:bankSearchText.size,
+    sourceListsCached:bankSourceForms.size,
+    filterScans:bankFilterCache.scans
+  });
+  const normalizedSearchText=(f,refs)=>{
     const w=bankEntries.get(f.entryId);
-    return [f.id,normalize([f.form,...f.references.flatMap(ref=>[ref.parent,ref.sourceGloss,ref.taxonAsPrinted]),...(w?[w.idn,w.my,w.en,...(w.aliases||[])]:[])].join(' '))];
-  }));
+    return normalize([f.form,...refs.flatMap(ref=>[ref.parent,ref.sourceGloss,ref.taxonAsPrinted]),
+      ...(w?[w.idn,w.my,w.en,...(w.aliases||[])]:[])].join(' '));
+  };
+  const wholeBankSearchText=f=>{
+    let result=bankSearchText.get(f.id);
+    if(result===undefined){
+      result=normalizedSearchText(f,f.references);
+      bankSearchText.set(f.id,result);
+    }
+    return result;
+  };
+  const selectedSourceForms=source=>{
+    if(source==='all')return BANK.forms;
+    if(!bankSourceForms.has(source))bankSourceForms.set(source,
+      BANK.forms.filter(f=>f.references.some(ref=>ref.sourceId===source)));
+    return bankSourceForms.get(source);
+  };
   function bankFiltered(){
     const q=normalize(bankState.query);
-    return BANK.forms.filter(f=>{
+    const key=JSON.stringify([q,bankState.letter,bankState.kind,bankState.scope,
+      bankState.status,bankState.source,bankState.latestOnly]);
+    if(bankFilterCache.key===key && bankFilterCache.rows)return bankFilterCache.rows;
+    bankFilterCache.scans++;
+    const result=selectedSourceForms(bankState.source).filter(f=>{
       if(bankState.latestOnly&&!latestFormIds.has(f.id))return false;
       const refs=bankSelectedReferences(f);
       if(!refs.length)return false;
-      if(bankState.letter!=='all'&&bankLetter(f)!==bankState.letter)return false;
+      if(bankState.letter!=='all'&&bankLetterById.get(f.id)!==bankState.letter)return false;
       if(bankState.kind!=='all'&&!(['bound_form','compound'].includes(bankState.kind)?f.kinds.includes(bankState.kind):refs.some(ref=>ref.kind===bankState.kind)))return false;
       if(bankState.scope!=='all'&&!refs.some(ref=>ref.labels.includes(bankState.scope)))return false;
       if(bankState.status==='reviewed'&&!f.entryId||bankState.status==='pending'&&f.entryId)return false;
       if(bankState.status==='source-gloss'&&!refs.some(ref=>ref.sourceGloss))return false;
       if(!q)return true;
-      if(bankState.source==='all')return bankSearchText.get(f.id).includes(q);
-      const w=bankEntries.get(f.entryId);
-      return normalize([f.form,...refs.flatMap(ref=>[ref.parent,ref.sourceGloss,ref.taxonAsPrinted]),...(w?[w.idn,w.my,w.en,...(w.aliases||[])]:[])].join(' ')).includes(q);
+      if(bankState.source==='all')return wholeBankSearchText(f).includes(q);
+      return normalizedSearchText(f,refs).includes(q);
     });
+    bankFilterCache.key=key;
+    bankFilterCache.rows=result;
+    return result;
   }
   function renderBank(){
     const items=bankFiltered(),pages=Math.max(1,Math.ceil(items.length/BANK_SIZE));bankState.page=Math.min(Math.max(1,bankState.page),pages);
