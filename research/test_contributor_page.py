@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             raise AssertionError("Chrome UI smoke test failed: "+result)
 
     assert re.search(r'<button[^>]*id="send-drive"[^>]*disabled', PAGE), "Drive must fail closed until deployed"
-    assert '<meta name="kamus-drive-endpoint" content="">' in PAGE
+    assert '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbx9pHzkymHVF4W_0cFYckOlSd1hp4KRjnHgQBji4fgQwNPC_ruiF0gUVVYqTjZ8-hUD/exec">' in PAGE, "Configured Apps Script deployment URL missing"
     backend=(ROOT/"integrations/google-drive-intake/Code.gs").read_text(encoding="utf-8")
     assert 'function doPost(e)' in backend and 'function setupOnce()' in backend
     assert 'MENUNGGU TELAAH' in backend and 'KAMUS_INTAKE_FOLDER_ID' in backend
@@ -148,9 +148,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 """
-    configured=PAGE.replace(
-      '<meta name="kamus-drive-endpoint" content="">',
-      '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbxTEST123/exec">'
+    configured=re.sub(
+      r'<meta name="kamus-drive-endpoint" content="[^"]*">',
+      '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbxTEST123/exec">',
+      PAGE,count=1
     ).replace("</body>",drive_js+"</body>")
     drive_fixture=tmp/"kontributor-configured.html"
     drive_fixture.write_text(configured,encoding="utf-8")
