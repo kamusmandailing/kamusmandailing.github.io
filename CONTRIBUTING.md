@@ -44,6 +44,6 @@ Mengirim GitHub Issue **tidak** memberikan hak tulis ke repository. Hak menulis 
 
 ## Rencana pengembangan berikutnya
 
-Tahap awal menggunakan GitHub Issues yang memerlukan akun GitHub. Jalur tanpa akun GitHub disiapkan melalui Google Apps Script yang menyimpan usulan pada Sheet privat di folder Drive proyek; **jalur itu belum aktif sebelum deployment dan uji administrator**. Panduan internal ada di [integrations/google-drive-intake/README.md](integrations/google-drive-intake/README.md). Rekaman suara, dashboard reviewer dan ekspor leksikografi memerlukan tata kelola tambahan sebelum diaktifkan.
+GitHub Issues saat ini aktif. Jalur tanpa akun GitHub memakai Apps Script dan antrean privat di Google Drive; **URL sudah terpasang tetapi tombol masih dinonaktifkan sampai POST berhasil dicatat di tab Masuk**. Tab **Panel Admin** sudah tersedia bagi pengelola dan dapat digunakan untuk triase berdasarkan status. Paket peninjauan dari baris yang disetujui dapat dibuat secara privat dengan `research/package_approved_contributions.py`, tetapi tidak menerbitkan data otomatis. Panduan teknis ada di [integrations/google-drive-intake/README.md](integrations/google-drive-intake/README.md). Rekaman audio dengan izin dan alur kredit kontributor memerlukan proses terpisah.
 
 Perubahan prosedur akan dicatat dan diuji tanpa menghilangkan jejak sumber.
