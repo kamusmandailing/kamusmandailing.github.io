@@ -1,0 +1,50 @@
+name: Validate phase 8 bank performance and offline integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/inventory.js'
+      - 'src/index.html'
+      - 'research/test_phase8_bank_cache.cjs'
+      - 'research/audit_offline_payload.py'
+      - '.github/workflows/validate-phase8-performance.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/inventory.js'
+      - 'src/index.html'
+      - 'research/test_phase8_bank_cache.cjs'
+      - 'research/audit_offline_payload.py'
+      - '.github/workflows/validate-phase8-performance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bank-performance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build self-contained offline dictionary from current sources
+        run: python build.py
+      - name: Verify lazy search index and memoization invariants
+        run: node research/test_phase8_bank_cache.cjs
+      - name: Validate all existing source filters and exports
+        run: node research/check_inventory_logic.cjs
+      - name: Test bank and dictionary UI on desktop and mobile
+        run: python research/test_phase6_locale_search.py
+      - name: Validate canonical source data and offline exports
+        run: python research/validate_release.py
+      - name: Measure standalone HTML footprint, not real-network speed
+        run: python research/audit_offline_payload.py qa/phase8-delivery.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Mandailing-Phase8-Offline-Payload
+          path: qa/phase8-delivery.json
+          retention-days: 30
