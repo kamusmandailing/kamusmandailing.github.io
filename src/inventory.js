@@ -1,4 +1,17 @@
   const BANK = JSON.parse($('#inventory-data').textContent);
+  const release = RESEARCH.releaseSnapshot;
+  const releaseNote = $('#bank-release-note');
+  if(releaseNote && release) {
+    const n = value => Number(value).toLocaleString('id-ID');
+    releaseNote.textContent = 'Snapshot rilis ' + release.releaseVersion + ' · '
+      + n(release.counts.sourceForms) + ' bentuk sumber · '
+      + n(release.counts.curatedEntries) + ' entri berpadanan · '
+      + n(release.counts.pendingTranslations) + ' bentuk belum berpadanan · '
+      + n(release.counts.referenceRecords) + ' lokasi rujukan. '
+      + 'Riwayat tahap lama (' + n(release.historicalProgress.sourceForms)
+      + ' bentuk) tidak menggantikan angka rilis ini. '
+      + 'Padanan editorial bukan pengesahan otomatis oleh penutur semua dialek.';
+  }
   const bankEntries = new Map(SEED.map(w=>[w.id,w]));
   const bankById = new Map(BANK.forms.map(f=>[f.id,f]));
   const latestFormIds = new Set(BANK.researchUpdate.newFormIds || []);
