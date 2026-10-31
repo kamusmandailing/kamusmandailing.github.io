@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Regression tests for current-vs-historical Kamus Mandailing release counts."""
 import copy
+import sys
 import json
 from unittest.mock import patch
 from pathlib import Path
