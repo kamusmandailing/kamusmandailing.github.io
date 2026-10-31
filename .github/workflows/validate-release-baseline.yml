@@ -1,0 +1,59 @@
+name: Validate canonical dictionary release
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'research/coverage_audit.json'
+      - 'research/progress.json'
+      - 'research/release_snapshot.py'
+      - 'research/release_snapshot.json'
+      - 'research/test_release_snapshot.py'
+      - 'research/validate_release.py'
+      - 'prepare_inventory.py'
+      - 'export_database.py'
+      - 'build.py'
+      - '.github/workflows/validate-release-baseline.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'research/coverage_audit.json'
+      - 'research/progress.json'
+      - 'research/release_snapshot.py'
+      - 'research/release_snapshot.json'
+      - 'research/test_release_snapshot.py'
+      - 'research/validate_release.py'
+      - 'prepare_inventory.py'
+      - 'export_database.py'
+      - 'build.py'
+      - '.github/workflows/validate-release-baseline.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check historical and canonical release counts
+        run: |
+          python research/release_snapshot.py
+          python research/test_release_snapshot.py
+      - name: Regenerate HTML and database outputs from checked-in sources
+        run: python build.py
+      - name: Validate export IDs, source labels, HTML, TSV, SQLite and ZIP
+        run: python research/validate_release.py
+      - name: Ensure audited release snapshot did not drift during build
+        run: |
+          python research/release_snapshot.py
+          git diff --exit-code -- research/release_snapshot.json research/coverage_audit.json
+      - name: Browser smoke for the separate personal and community routes
+        run: python research/test_contribution_choices.py
