@@ -68,6 +68,9 @@ document.addEventListener('DOMContentLoaded',function(){
   check(main.value===''&&document.activeElement===main,'dictionary-clear-and-focus');
   check(!$('result-count').textContent.startsWith('0 '),'dictionary-count-not-reset');
 
+  // Bank has its own view; navigate there before asserting programmatic focus.
+  document.querySelector('.sidebar [data-nav="inventory"]').click();
+  check(!document.querySelector('[data-view="inventory"]').hidden,'bank-view-not-open');
   const bank=$('bank-search');bank.value='zzzyyxxunknownword';
   bank.dispatchEvent(new Event('input',{bubbles:true}));
   check($('bank-count').textContent.startsWith('0 '),'bank-no-match-result');
