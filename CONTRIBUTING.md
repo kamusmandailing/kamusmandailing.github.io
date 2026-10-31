@@ -10,7 +10,7 @@ Terima kasih telah membantu mendokumentasikan bahasa Mandailing. Anda dapat ikut
 4. Klik **Lanjutkan ke GitHub**, masuk ke akun GitHub, periksa isinya, lalu kirim laporan. Alternatifnya gunakan [formulir GitHub langsung](https://github.com/kamusmandailing/kamusmandailing.github.io/issues/new?template=01-kontribusi-kosakata.yml).
 5. Ikuti diskusi pada GitHub Issue apabila editor meminta klarifikasi.
 
-**Tidak ada pengiriman otomatis dari halaman statis.** Data isian hanya diteruskan ke halaman penyusunan GitHub Issue melalui tautan saat Anda memutuskan melanjutkan; halaman tidak menyimpan isian ke server kami. GitHub Issues dapat dilihat publik.
+**Jalur GitHub sudah aktif.** Data isian diteruskan ke halaman penyusunan GitHub Issue melalui tautan saat Anda memilih GitHub; usulan menjadi publik jika Anda mengirimnya di GitHub. **Jalur Google Drive sedang dipersiapkan**: setelah administrator mengaktifkan penerima Apps Script, pengunjung dapat mengirim melalui POST standar ke antrean privat Google Drive. Sampai aktivasi tersebut, tombol Drive dinonaktifkan dan belum ada pengiriman otomatis ke Drive.
 
 ## Ketentuan data dan izin
 
@@ -44,6 +44,6 @@ Mengirim GitHub Issue **tidak** memberikan hak tulis ke repository. Hak menulis 
 
 ## Rencana pengembangan berikutnya
 
-Tahap awal menggunakan GitHub Issues yang memerlukan akun GitHub. Jalur kontribusi tanpa akun, rekaman suara dengan persetujuan penutur, dashboard reviewer, dan format ekspor leksikografi perlu sistem terpisah dengan kendali akses dan tata kelola data sebelum diaktifkan.
+Tahap awal menggunakan GitHub Issues yang memerlukan akun GitHub. Jalur tanpa akun GitHub disiapkan melalui Google Apps Script yang menyimpan usulan pada Sheet privat di folder Drive proyek; **jalur itu belum aktif sebelum deployment dan uji administrator**. Panduan internal ada di [integrations/google-drive-intake/README.md](integrations/google-drive-intake/README.md). Rekaman suara, dashboard reviewer dan ekspor leksikografi memerlukan tata kelola tambahan sebelum diaktifkan.
 
 Perubahan prosedur akan dicatat dan diuji tanpa menghilangkan jejak sumber.
