@@ -11,6 +11,12 @@ research = json.loads((root / 'research/progress.json').read_text(encoding='utf-
 research['reportMarkdown'] = (root / 'research/analisis_pendalaman_20261030.md').read_text(encoding='utf-8')
 from prepare_inventory import prepare_inventory
 inventory=prepare_inventory()
+# The historical 26/27 October progress report is retained for the A–Z timeline.
+# Public release counts are derived only from the 30 October audited snapshot.
+from research.release_snapshot import make_snapshot
+snapshot=make_snapshot(root)
+assert snapshot == json.loads((root / 'research/release_snapshot.json').read_text(encoding='utf-8')), 'Release snapshot stale; review and regenerate before building.'
+research['releaseSnapshot']=snapshot
 assert words and len({word['id'] for word in words}) == len(words)
 assert len({word['md'].strip().casefold() for word in words}) == len(words)
 categories = {'ganti','angka','kerja','rumah','sifat','alam','orang','tugas','umum'}
