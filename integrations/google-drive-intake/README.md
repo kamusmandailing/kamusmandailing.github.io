@@ -4,7 +4,7 @@
 
 Mengumpulkan usulan dari `kontributor.html` ke **Google Sheet privat** bernama `Kamus Mandailing — Antrean Usulan Kontributor` di dalam folder `Kontribusi Komunitas - Masuk dan Telaah` pada folder proyek Kamus Mandailing. Kontributor tidak mendapat akses tulis maupun baca ke Drive atau repository. Semua catatan baru berstatus **MENUNGGU TELAAH**.
 
-**Status setelah commit ini:** kode backend disiapkan tetapi belum dideploy di Google Apps Script, dan pengiriman dari website belum aktif hingga administrator mengonfigurasi URL web app. GitHub Issues tetap tersedia sebagai saluran aktif. Jangan menyatakan usulan sudah tersimpan ke Drive sebelum tab tanda terima dari Apps Script menunjukkan sukses.
+**Status 31 Oktober 2026:** URL Web app telah dipasang pada halaman, tetapi pengujian POST ke tab `Masuk` belum terbukti berhasil. Oleh sebab itu sakelar `kamus-drive-enabled` masih `false` dan tombol publik tetap nonaktif. GitHub Issues sudah aktif sebagai alternatif. Jangan menyatakan usulan tersimpan sebelum ada tanda terima **dan** baris di Sheet privat. Tab `Panel Admin` telah dibuat untuk memantau antrean.
 
 ## Konfigurasi satu kali oleh administrator Google
 
@@ -13,10 +13,10 @@ Mengumpulkan usulan dari `kontributor.html` ke **Google Sheet privat** bernama `
 3. Salin seluruh isi `Code.gs` dari direktori ini ke file `Code.gs` proyek tersebut. Simpan.
 4. Buka **Project Settings → Script properties**, buat:
    - `KAMUS_INTAKE_FOLDER_ID` = ID folder privat **Kontribusi Komunitas - Masuk dan Telaah**. Cari ID folder pada arsip admin Google Drive, jangan memublikasikannya ke halaman.
-5. Di editor Apps Script pilih fungsi `setupOnce`, klik **Run**, lalu izinkan akses yang diperlukan. Fungsi ini membuat sebuah Google Sheet `Kamus Mandailing — Antrean Usulan Kontributor` di folder privat tersebut, dengan tab `Masuk` dan kolom ID, waktu, status, jenis, kata, makna, wilayah, padanan, contoh, sumber, izin, asal, catatan editor. Pemanggilan ulang memeriksa header dan tidak menghapus isi.
+5. Atur juga Script Property `KAMUS_INTAKE_SHEET_ID` ke spreadsheet antrean **yang sudah ada**, lalu pilih fungsi `setupOnce` dan jalankan **Run**. Fungsi ini memeriksa tab `Masuk` dan header yang benar; jika ID tidak diatur, script dapat membuat spreadsheet lain sehingga usulan tidak muncul pada antrean yang diharapkan. Periksa `Executions` bila POST gagal.
 6. Pastikan Sheet benar-benar berada pada folder privat dan hanya akun yang diizinkan memiliki hak lihat/edit. Jangan publikasikan Sheet atau folder sebagai `Anyone with the link`.
 7. Di Apps Script pilih **Deploy → New deployment → Web app**. Set **Execute as: Me** (akun pemilik script), **Who has access: Anyone** (apabila publik tanpa login diizinkan oleh kebijakan akun). Lakukan deployment, kemudian salin URL yang berakhiran **/exec**.
-8. Tambahkan URL tersebut sebagai nilai konten `<meta name="kamus-drive-endpoint" content="...">` pada `kontributor.html` (tanpa token OAuth; URL web app bersifat publik). Setelah commit ke `main`, halaman otomatis mengaktifkan tombol **Kirim langsung ke Google Drive**.
+8. URL Web app diletakkan pada `<meta name="kamus-drive-endpoint" content="...">` di `kontributor.html`. **Memasang URL saja tidak mengaktifkan tombol**: pengelola sengaja menggunakan `<meta name="kamus-drive-enabled" content="false">` sampai pengujian penyimpanan end-to-end lulus. Jangan menggantinya ke `true` sebelum verifikasi.
 9. **Lakukan kiriman uji (tanpa data orang sungguhan)** dari halaman, lihat tanda terima pada tab baru, dan periksa satu baris `MENUNGGU TELAAH` tercatat di Sheet. Hapus/arsipkan baris uji. Baru umumkan kanal kontribusi langsung.
 10. Di `Settings > Rules` GitHub aktifkan kewajiban persetujuan admin untuk `main` sebelum memberikan akses tambahan (lihat `CODEOWNERS` dan issue pengamanan).
 
@@ -43,3 +43,27 @@ Mengumpulkan usulan dari `kontributor.html` ke **Google Sheet privat** bernama `
 - Google Apps Script Web Apps: https://developers.google.com/apps-script/guides/web
 - Apps Script Deployments: https://developers.google.com/apps-script/concepts/deployments
 - Halaman Kontributor: https://kamusmandailing.github.io/kontributor.html
+
+## Panel admin dan pengambilan keputusan
+
+- Tab **Masuk** adalah sumber usulan dan status yang dapat diubah oleh pengelola berizin.
+- Tab **Panel Admin** otomatis menghitung jumlah usulan tiap status dan menampilkan usulan berstatus `MENUNGGU TELAAH`, `DALAM TELAAH`, dan `BUTUH KLARIFIKASI`. Jangan menulis data di panel; ubah status pada tab `Masuk`.
+- Tab **Panduan** memuat prosedur editorial: cek dialek, ejaan, arti, sumber/izin, duplikasi, dan catatan editor.
+- **DISETUJUI berbeda dari DITERBITKAN.** Status disetujui hanya berarti kandidat dapat ditelaah untuk rilis. Tidak ada API, workflow, atau Sheet yang otomatis mengubah database kamus.
+- Untuk menyiapkan paket kandidat, admin mengekspor **tab Masuk sebagai CSV** ke komputer privat dan menjalankan:
+
+```bash
+python research/package_approved_contributions.py --csv "/path/pribadi/masuk.csv" --out "/path/pribadi/review-candidates.json"
+```
+
+- Program hanya mengambil baris **DISETUJUI** dengan persetujuan `YA`, lemma dan makna valid, serta sumber atau catatan editor; usulan menunggu/ditolak/tanpa persetujuan tidak boleh diekspor. Program menolak menulis file ke repository publik dan tidak menerbitkan kata.
+- Peninjauan akhir dan penerbitan harus melalui perubahan versi data, PR/review oleh admin, kemudian verifikasi terbit di GitHub Pages. Jangan menandai `DITERBITKAN` sebelum rilis benar-benar berhasil.
+
+## Diagnosis POST (belum selesai)
+
+1. Pastikan deploy sebagai Web app `Execute as: Me` dan `Who has access: Anyone`; bukalah `/exec` dalam jendela privat untuk membuktikan `doGet` terbuka.
+2. Dalam **Project Settings → Script Properties**, periksa kedua ID `KAMUS_INTAKE_FOLDER_ID` dan `KAMUS_INTAKE_SHEET_ID` dengan akun admin. Jalankan `setupOnce()` sampai sukses.
+3. Buka **Executions** pada Apps Script. Filter fungsi `doPost` setelah uji. Catatan `Kamus Mandailing intake` memuat kesalahan server; jangan tampilkan informasi pribadi di log publik.
+4. Uji pengiriman kata **UJI** saja, baca halaman tanda terima, lalu cek baris baru pada tab `Masuk`; hapus baris uji sesudah proses. Hanya setelah dua bukti itu ada, ubah `kamus-drive-enabled` menjadi `true`.
+5. Bila script berubah, pilih **Deploy → Manage deployments → Edit → New version**; Script Properties dapat diubah tanpa mengedit kode. Periksa izin spreadsheet tetap tertutup untuk publik.
+
