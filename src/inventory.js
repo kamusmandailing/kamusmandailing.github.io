@@ -121,6 +121,7 @@
     download('hata-bank-'+rows.length+'-bentuk.tsv','\uFEFF'+content,'text/tab-separated-values;charset=utf-8');toast(rows.length+' bentuk diekspor; padanan yang belum ditelaah tetap kosong.');
   }
   $('#bank-search').addEventListener('input',event=>{bankState.query=event.target.value;bankState.page=1;renderBank();});
+  $('#bank-search-clear').addEventListener('click',()=>{bankState.query='';bankState.page=1;$('#bank-search').value='';renderBank();$('#bank-search').focus();});
   for(const [id,key] of [['bank-kind','kind'],['bank-scope','scope'],['bank-status','status'],['bank-source','source']])$('#'+id).addEventListener('change',event=>{bankState[key]=event.target.value;bankState.page=1;renderBank();});
   document.addEventListener('click',event=>{
     const b=event.target.closest('button');if(!b||b.disabled)return;
