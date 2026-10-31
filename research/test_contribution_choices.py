@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
  check(chooser.open,'chooser-failed-to-open');
  check(!edit.open,'private-modal-opened-before-choice');
  const link=chooser.querySelector('a[href="./kontributor.html"]');
- check(!!link && /Usulkan/.test(link.textContent),'community-destination');
+ check(!!link && /formulir usulan/i.test(link.textContent),'community-destination');
  document.getElementById('choice-word-private').click();
  check(!chooser.open && edit.open,'personal-choice-does-not-open-form');
  check(/Hanya untuk koleksi Anda/.test(edit.textContent),'missing-personal-notice');
