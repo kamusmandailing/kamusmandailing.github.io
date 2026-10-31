@@ -1,0 +1,63 @@
+name: One-time live Google Drive contributor smoke test
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-drive-live-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-live-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: GET live Apps Script endpoint and POST one dummy contribution
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html import unescape
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+          from urllib.error import URLError, HTTPError
+          import re, sys
+          html=Path("kontributor.html").read_text(encoding="utf-8")
+          endpoint_match=re.search(r'<meta name="kamus-drive-endpoint" content="([^"]+)">',html)
+          if not endpoint_match: sys.exit("FAIL: Drive endpoint is not configured.")
+          url=unescape(endpoint_match.group(1))
+          assert re.fullmatch(r'https://script\.google\.com/macros/s/[A-Za-z0-9_-]+/exec',url)
+          print("Testing public Apps Script web app endpoint via Google infrastructure")
+          try:
+            with urlopen(Request(url,headers={"User-Agent":"Kamus-Mandailing-CI/1.0"}),timeout=35) as resp:
+              body=resp.read(150000).decode("utf-8","replace")
+              print("GET status:",resp.status,"final_host:",__import__('urllib.parse',fromlist=['urlparse']).urlparse(resp.url).hostname)
+              if "Penerima usulan aktif" not in body:
+                print("GET output:",re.sub(r'\s+',' ',body)[:550])
+                sys.exit("FAIL: GET did not return expected Apps Script intake receipt. Check deployment access/version.")
+            dummy={
+              "jenis":"Kosakata atau padanan baru",
+              "kata":"[UJI-INTEGRASI] hapus usulan ini",
+              "makna":"Data uji otomatis koneksi situs ke Google Drive, bukan kosakata nyata. Harap dihapus setelah verifikasi.",
+              "wilayah":"Uji sistem",
+              "padanan":"",
+              "contoh":"",
+              "sumber":"GitHub Actions smoke test otomatis",
+              "consent":"yes",
+              "hpt":""
+            }
+            request=Request(url,data=urlencode(dummy).encode("utf-8"),headers={
+              "User-Agent":"Kamus-Mandailing-CI/1.0",
+              "Content-Type":"application/x-www-form-urlencoded"
+            },method="POST")
+            with urlopen(request,timeout=40) as resp:
+              body=resp.read(150000).decode("utf-8","replace")
+              print("POST status:",resp.status,"final_host:",__import__('urllib.parse',fromlist=['urlparse']).urlparse(resp.url).hostname)
+              if not ("Usulan diterima untuk ditelaah" in body and "antrean privat" in body):
+                print("POST output:",re.sub(r'\s+',' ',body)[:550])
+                sys.exit("FAIL: POST did not acknowledge private moderation queue write.")
+            print("LIVE SMOKE TEST PASS: GET is public; POST dummy was accepted for private review.")
+          except (URLError, HTTPError) as e:
+            sys.exit("FAIL: Web app connectivity or deployment error: "+str(e))
+          PY
