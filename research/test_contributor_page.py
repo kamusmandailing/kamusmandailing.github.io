@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             raise AssertionError("Chrome UI smoke test failed: "+result)
 
     assert re.search(r'<button[^>]*id="send-drive"[^>]*disabled', PAGE), "Drive must fail closed until deployed"
-    assert '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbx9pHzkymHVF4W_0cFYckOlSd1hp4KRjnHgQBji4fgQwNPC_ruiF0gUVVYqTjZ8-hUD/exec">' in PAGE, "Configured Apps Script deployment URL missing"
+    assert '<meta name="kamus-drive-endpoint" content="https://script.google.com/macros/s/AKfycbwEZIbartwOWK1ciqQXeLxSCtecfKrf7RBgMRqJ8Uc8j-8HQruOza9Zkrpf4TBpHdtF/exec">' in PAGE, "Configured Apps Script deployment URL missing"
     assert '<meta name="kamus-drive-enabled" content="false">' in PAGE, "Drive should remain disabled until anonymous GET succeeds"
     backend=(ROOT/"integrations/google-drive-intake/Code.gs").read_text(encoding="utf-8")
     assert 'function doPost(e)' in backend and 'function setupOnce()' in backend
