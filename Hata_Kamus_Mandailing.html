@@ -764,6 +764,8 @@ body {
   const INITIAL = JSON.parse($("#initial-state").textContent);
   const RESEARCH = JSON.parse($("#research-data").textContent);
   const KEY = "hata-mandailing-v1";
+  const ui=(key,vars={})=>globalThis.KamusUI?.t?.(key,vars) ?? key;
+  const uiLang=()=>globalThis.KamusUI?.current?.()||'id';
   const CATEGORIES = {
     all: {label:"Semua", title:"Semua kosakata", icon:"grid"},
     ganti: {label:"Kata ganti & tanya", title:"Kata ganti & kata tanya", icon:"people"},
@@ -917,9 +919,11 @@ body {
     renderCategories();renderAlphabet();syncCounts();
     const result=filtered(),pages=Math.max(1,Math.ceil(result.length/PAGE_SIZE));
     state.page=Math.min(Math.max(1,state.page),pages);
-    $("#results-title").textContent=state.view==="saved"?(state.category==="all"?"Kosakata disimpan":CATEGORIES[state.category].title):CATEGORIES[state.category].title;
-    if(state.letter!=="all")$("#results-title").textContent="Huruf "+state.letter+" · "+$("#results-title").textContent;
-    $("#result-count").textContent=result.length+(state.query?" kata cocok dengan “"+state.query+"”":state.view==="saved"?" kata dalam koleksi Anda":" kata tersedia untuk dijelajahi");
+    $("#results-title").textContent=state.category==="all"?(state.view==="saved"?ui("savedTitle"):ui("allTitle")):CATEGORIES[state.category].title;
+    if(state.letter!=="all")$("#results-title").textContent=ui("letterTitle",{letter:state.letter,title:$("#results-title").textContent});
+    $("#results-title").lang=uiLang();
+    $("#result-count").textContent=state.query?ui("countMatch",{count:result.length,query:state.query}):state.view==="saved"?ui("countSaved",{count:result.length}):ui("countAll",{count:result.length});
+    $("#result-count").lang=uiLang();
     $("#grid-view").classList.toggle("selected",state.layout==="grid");
     $("#table-view").classList.toggle("selected",state.layout==="table");
     $("#grid-view").setAttribute("aria-pressed",String(state.layout==="grid"));
@@ -927,12 +931,13 @@ body {
     const current=result.slice((state.page-1)*PAGE_SIZE,state.page*PAGE_SIZE);
     if(!result.length){
       const emptySaved=state.view==="saved"&&!fav.size;
-      $("#word-results").innerHTML='<div class="empty-state"><div class="empty-icon">'+icon(emptySaved?"bookmark":"search")+'</div><h3>'+(emptySaved?"Simpan kata pertama Anda.":"Belum ada kata yang cocok.")+'</h3><p>'+(emptySaved?"Tekan ikon penanda pada kartu untuk mengumpulkan kata yang ingin Anda ingat.":"Coba kata yang lebih singkat, bahasa lain, atau kategori yang berbeda.")+'</p><button class="button button-outline" '+(emptySaved?'data-nav="dictionary"':'data-clear-filters="true"')+'>'+(emptySaved?"Jelajahi kamus":"Reset pencarian & filter")+'</button></div>';
+      $("#word-results").innerHTML='<div class="empty-state"><div class="empty-icon">'+icon(emptySaved?"bookmark":"search")+'</div><h3>'+esc(ui(emptySaved?"noneSaved":"none"))+'</h3><p>'+esc(ui(emptySaved?"noneSavedHint":"noneHint"))+'</p><button class="button button-outline" '+(emptySaved?'data-nav="dictionary"':'data-clear-filters="true"')+'>'+esc(ui(emptySaved?"browse":"reset"))+'</button></div>';
     }else $("#word-results").innerHTML=state.layout==="grid"?'<div class="word-grid">'+current.map(card).join("")+'</div>':table(current);
     let indices=[...new Set([1,state.page-1,state.page,state.page+1,pages])].filter(index=>index>0&&index<=pages).sort((a,b)=>a-b);
     let pageHtml="",previous=0;
-    for(const index of indices){if(previous&&index-previous>1)pageHtml+='<span class="page-ellipsis">…</span>';pageHtml+='<button class="page-button '+(index===state.page?"current":"")+'" data-page="'+index+'" aria-label="Halaman '+index+'" '+(index===state.page?'aria-current="page"':"")+'>'+index+'</button>';previous=index;}
-    $("#pagination").innerHTML=result.length?'<p>Menampilkan '+((state.page-1)*PAGE_SIZE+1)+'–'+Math.min(state.page*PAGE_SIZE,result.length)+' dari '+result.length+' kata</p><div class="page-buttons"><button class="page-button" data-page="'+(state.page-1)+'" '+(state.page===1?"disabled":"")+' aria-label="Halaman sebelumnya">'+icon("left")+'</button>'+pageHtml+'<button class="page-button" data-page="'+(state.page+1)+'" '+(state.page===pages?"disabled":"")+' aria-label="Halaman berikutnya">'+icon("right")+'</button></div>':"";
+    for(const index of indices){if(previous&&index-previous>1)pageHtml+='<span class="page-ellipsis">…</span>';pageHtml+='<button class="page-button '+(index===state.page?"current":"")+'" data-page="'+index+'" aria-label="'+esc(ui("page",{n:index}))+'" '+(index===state.page?'aria-current="page"':"")+'>'+index+'</button>';previous=index;}
+    $("#pagination").innerHTML=result.length?'<p>'+esc(ui("showing",{from:(state.page-1)*PAGE_SIZE+1,to:Math.min(state.page*PAGE_SIZE,result.length),total:result.length}))+'</p><div class="page-buttons"><button class="page-button" data-page="'+(state.page-1)+'" '+(state.page===1?"disabled":"")+' aria-label="'+esc(ui("prev"))+'">'+icon("left")+'</button>'+pageHtml+'<button class="page-button" data-page="'+(state.page+1)+'" '+(state.page===pages?"disabled":"")+' aria-label="'+esc(ui("next"))+'">'+icon("right")+'</button></div>':"";
+    $("#pagination").lang=uiLang();
   }
   function navigate(view,writeHash=true){
     const same=state.view===view;
@@ -1008,14 +1013,14 @@ body {
     const target=$("#learn-language").value;
     const targetPhrase={idn:"bahasa Indonesia",my:"bahasa Melayu Malaysia",en:"bahasa Inggris"}[target];
     if(!deck.length){
-      $("#flashcard-area").innerHTML='<div class="empty-state learning-empty"><div class="empty-icon">'+icon("bookmark")+'</div><h3>Belum ada kartu di sini.</h3><p>Simpan kata dari kamus atau pilih kategori lain untuk mulai belajar.</p><button class="button button-outline" data-nav="dictionary">Jelajahi kamus</button></div>';return;
+      $("#flashcard-area").innerHTML='<div class="empty-state learning-empty"><div class="empty-icon">'+icon("bookmark")+'</div><h3>'+esc(ui("deckEmpty"))+'</h3><p>'+esc(ui("deckEmptyHint"))+'</p><button class="button button-outline" data-nav="dictionary">'+esc(ui("browse"))+'</button></div>';return;
     }
     if(deckIndex>=deck.length){
-      $("#flashcard-area").innerHTML='<div class="flashcard"><div class="flashcard-content learning-empty"><span class="eyebrow">SESI SELESAI</span><div class="flash-word">'+icon("check")+'</div><h3 style="font:30px var(--serif);color:var(--wine);margin:0 0 15px">Selangkah lebih dekat.</h3><p class="flash-prompt">'+deck.length+' kartu ditinjau; '+sessionKnown+' jawaban ditandai dipahami dalam sesi ini.</p><button class="button button-primary" data-restart-deck="true">Mulai sesi baru</button></div></div>';return;
+      $("#flashcard-area").innerHTML='<div class="flashcard"><div class="flashcard-content learning-empty"><span class="eyebrow">'+esc(ui("deckDone"))+'</span><div class="flash-word">'+icon("check")+'</div><h3 style="font:30px var(--serif);color:var(--wine);margin:0 0 15px">'+esc(ui("deckDoneTitle"))+'</h3><p class="flash-prompt">'+esc(ui("deckDoneStats",{total:deck.length,known:sessionKnown}))+'</p><button class="button button-primary" data-restart-deck="true">'+esc(ui("deckRestart"))+'</button></div></div>';return;
     }
     const word=byId(deck[deckIndex]);
     if(!word){deckIndex++;renderFlashcard();return;}
-    $("#flashcard-area").innerHTML='<div class="flashcard"><div class="flashcard-header"><span>Kartu '+(deckIndex+1)+' dari '+deck.length+'</span>'+favoriteButton(word)+'</div><div class="flashcard-content"><span class="eyebrow">MANDAILING</span><div class="flash-word">'+esc(word.md)+'</div>'+(revealed?'<div class="flash-answer"><span class="eyebrow">'+LANGUAGES[target].toUpperCase()+'</span><div class="answer-word">'+esc(word[target])+'</div><p>'+esc(word.exampleMd||"")+'</p><p>'+esc(word.exampleId||"")+'</p></div>':'<p class="flash-prompt">Apa padanannya dalam '+targetPhrase+'?</p><button class="button button-outline" id="reveal-answer">Buka jawaban '+icon("down")+'</button>')+'</div>'+(revealed?'<div class="flashcard-footer"><button class="button button-outline" id="review-later">Ulangi nanti</button><button class="button button-primary" id="mark-learned">'+icon("check")+'Sudah paham</button></div>':"")+'</div><div class="flash-meta"><span>'+esc(CATEGORIES[word.category].label)+' · '+esc(exampleLabel(word))+'</span><button class="text-button" id="shuffle-deck">'+icon("shuffle")+'Acak kartu</button></div>';
+    $("#flashcard-area").innerHTML='<div class="flashcard"><div class="flashcard-header"><span>'+esc(ui("card",{n:deckIndex+1,total:deck.length}))+'</span>'+favoriteButton(word)+'</div><div class="flashcard-content"><span class="eyebrow">MANDAILING</span><div class="flash-word">'+esc(word.md)+'</div>'+(revealed?'<div class="flash-answer"><span class="eyebrow">'+LANGUAGES[target].toUpperCase()+'</span><div class="answer-word">'+esc(word[target])+'</div><p>'+esc(word.exampleMd||"")+'</p><p>'+esc(word.exampleId||"")+'</p></div>':'<p class="flash-prompt">'+esc(ui("prompt",{language:uiLang()==="en"?LANGUAGES[target]:targetPhrase}))+'</p><button class="button button-outline" id="reveal-answer">'+esc(ui("reveal"))+' '+icon("down")+'</button>')+'</div>'+(revealed?'<div class="flashcard-footer"><button class="button button-outline" id="review-later">'+esc(ui("repeat"))+'</button><button class="button button-primary" id="mark-learned">'+icon("check")+esc(ui("understood"))+'</button></div>':"")+'</div><div class="flash-meta"><span>'+esc(CATEGORIES[word.category].label)+' · '+esc(exampleLabel(word))+'</span><button class="text-button" id="shuffle-deck">'+icon("shuffle")+esc(ui("shuffle"))+'</button></div>';
   }
   function advance(understood){
     const word=byId(deck[deckIndex]);if(!word)return;
@@ -1266,6 +1271,11 @@ body {
   $('#local-name-status').addEventListener('change',renderLocalNames);
   renderLocalNames();
 
+  document.addEventListener("kamus:locale",()=>{
+    if(["dictionary","saved"].includes(state.view))renderList();
+    else if(state.view==="inventory")renderBank();
+    else if(state.view==="learn")renderFlashcard();
+  });
   const initialView={kamus:"dictionary",bank:"inventory",disimpan:"saved",belajar:"learn",rujukan:"sources"}[location.hash.slice(1)]||"dictionary";
   navigate(initialView,false);
 })();
