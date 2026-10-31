@@ -67,3 +67,11 @@ Pemilih `md` **tetap fallback Bahasa Indonesia**, tanpa terjemahan Mandailing bu
 **Performa dan luring:** `research/audit_offline_payload.py` mengukur ukuran HTML mentah dan gzip serta memeriksa data JSON dan skrip penting tertanam di HTML luring. Ini pengukuran footprint statis, **bukan pengukuran kecepatan jaringan/perangkat asli**. Gambar/sumber/tautan luar atau unduhan database ZIP bisa memerlukan internet. CI `.github/workflows/validate-phase7-ui.yml` menyimpan hasil pengukuran sebagai artefak sementara.
 
 Lihat `research/PHASE7_DYNAMIC_UI.md` untuk cakupan lengkap dan rencana layar berikutnya. Tetap perlukan review editor/penutur, perlindungan branch, dan bukti POST Google Drive sebelum klaim rilis V2 penuh.
+
+## Tahap 8 — optimasi pemuatan Bank Kosakata (1 November 2026)
+
+Pencarian Bank memakai **indeks yang disiapkan sesuai kebutuhan**, cache hasil filter antarpaginasi, daftar per sumber, dan pemuatan tertunda indeks huruf/detail/nama tumbuhan. Panel pembanding nama tumbuhan (183 catatan) baru dirender ketika panel dibuka. Cakupan tiap sumber dan padanan yang masih kosong **tidak berubah**. Test deterministik mencatat 0 string pencarian pada startup dan 39 + 30 pemindaian ulang yang dihindari pada skenario cache, bukan pengukuran kecepatan nyata.
+
+Pengujian: [phase 8 CI](https://github.com/kamusmandailing/kamusmandailing.github.io/actions/runs/41222427768) — PASS; termasuk desktop 1280 px / ponsel 390–360 px, filter sumber, ekspor TSV, 67 kontrak integritas, dan HTML mandiri luring. Ringkasan: [research/PHASE8_BANK_PERFORMANCE.md](research/PHASE8_BANK_PERFORMANCE.md).
+
+HTML mentah masih ~8,65 MB (gzip ~706 KB), jadi tahap ini mengurangi pekerjaan pemrosesan awal dan berulang, **bukan** ukuran file terkirim. Tahap lanjutan adalah pengukuran pengguna nyata dan opsi online ringan tanpa merusak unduhan offline mandiri. Kanal kontribusi Google Drive dan ruleset admin masih memerlukan verifikasi/pengaturan terpisah.
