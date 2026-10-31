@@ -1,4 +1,5 @@
 name: One-time live Google Drive contributor smoke test
+# Capture bounded response markers to distinguish Apps Script wrapper from intake success.
 # Recheck after administrator changed Apps Script anonymous deployment access (2026-10-31).
 on:
   push:
@@ -55,6 +56,11 @@ jobs:
             with urlopen(request,timeout=40) as resp:
               body=resp.read(150000).decode("utf-8","replace")
               print("POST status:",resp.status,"final_host:",__import__('urllib.parse',fromlist=['urlparse']).urlparse(resp.url).hostname)
+              for term in ["Usulan diterima", "Usulan belum tersimpan", "Sistem penerimaan belum dikonfigurasi", "antrean privat", "doPost", "userHtml", "sandbox", "error", "Exception"]:
+                position=body.find(term)
+                print("POST marker",repr(term),"found",position>=0)
+                if position>=0 and term not in ("sandbox","userHtml"):
+                  print("POST context:",re.sub(r'\\s+',' ',body[max(0,position-90):position+220])[:300])
               if not ("Usulan diterima untuk ditelaah" in body and "antrean privat" in body):
                 print("POST output:",re.sub(r'\s+',' ',body)[:550])
                 sys.exit("FAIL: POST did not acknowledge private moderation queue write.")
