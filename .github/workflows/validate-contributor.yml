@@ -6,6 +6,8 @@ on:
       - 'kontributor.html'
       - '.github/ISSUE_TEMPLATE/01-kontribusi-kosakata.yml'
       - 'research/test_contributor_page.py'
+      - 'research/test_drive_intake.cjs'
+      - 'integrations/google-drive-intake/**'
       - 'CONTRIBUTING.md'
       - '.github/workflows/validate-contributor.yml'
   pull_request:
@@ -31,5 +33,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verify anonymous Google Drive queue and administrator approval gate
+        run: node research/test_drive_intake.cjs
       - name: Verify HTML, form consent and GitHub issue handoff in Chrome
         run: python research/test_contributor_page.py
