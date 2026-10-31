@@ -765,6 +765,9 @@ body {
   function renderSources(){
     $("#source-list").innerHTML=SOURCES.map((source,index)=>'<article class="source-item"><span class="source-index">'+String(index+1).padStart(2,'0')+'</span><div class="source-content"><h3>'+esc(source.title)+'</h3><p>'+esc(source.meta)+'</p><p>'+esc(source.use)+'</p></div><a href="'+source.url+'" target="_blank" rel="noopener noreferrer" aria-label="Buka sumber: '+esc(source.title)+'">Buka rujukan '+icon("external")+'</a></article>').join("");
   }
+  function openChoice(){
+    $("#choose-word-modal").showModal();
+  }
   function openAdd(){
     $("#word-form").reset();$("#form-error").textContent="";$("#edit-modal").showModal();
   }
@@ -802,7 +805,9 @@ body {
     if(button.id==="grid-view"||button.id==="table-view"){state.layout=button.id==="grid-view"?"grid":"table";renderList();return;}
     if(button.id==="export-top"){exportTSV();return;}
     if(button.id==="export-all"){exportTSV(true);return;}
-    if(button.id==="add-word-top"){openAdd();return;}
+    if(button.id==="add-word-top"){openChoice();return;}
+    if(button.id==="add-word-private"){openAdd();return;}
+    if(button.id==="choice-word-private"){$("#choose-word-modal").close();openAdd();return;}
     if(button.id==="reveal-answer"){revealed=true;renderFlashcard();return;}
     if(button.id==="review-later"){advance(false);return;}
     if(button.id==="mark-learned"){advance(true);return;}
