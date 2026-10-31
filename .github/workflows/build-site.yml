@@ -1,0 +1,35 @@
+name: Build Kamus Mandailing site
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'build.py'
+      - 'prepare_inventory.py'
+      - 'export_database.py'
+      - 'research/**'
+      - '.github/workflows/build-site.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate static HTML from source
+        run: python build.py
+      - name: Commit generated site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html Hata_Kamus_Mandailing.html
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish multilingual selector [skip ci]"
+            git push
+          fi
