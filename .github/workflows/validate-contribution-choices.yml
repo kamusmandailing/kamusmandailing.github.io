@@ -1,0 +1,37 @@
+name: Verify two-way word contribution choices
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/index.html'
+      - 'src/app.js'
+      - 'src/styles.css'
+      - 'build.py'
+      - 'research/test_contribution_choices.py'
+      - '.github/workflows/validate-contribution-choices.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/index.html'
+      - 'src/app.js'
+      - 'src/styles.css'
+      - 'research/test_contribution_choices.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  word-choice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate standalone dictionary HTML from latest source
+        run: python build.py
+      - name: Verify the two submission routes and local private storage
+        run: python research/test_contribution_choices.py
