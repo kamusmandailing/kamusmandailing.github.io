@@ -44,7 +44,7 @@
       <div class="breadcrumb"><span data-icon="globe"></span> MANDAILING <span class="breadcrumb-sep">/</span> EMPAT BAHASA</div>
       <div class="topbar-actions">
         <button class="draft-pill" data-nav="sources"><span></span>Kurasi A–Z</button>
-        <button class="button button-outline button-small" id="add-word-top"><span data-icon="plus"></span><span>Tambah kata</span></button>
+        <button class="button button-outline button-small" id="add-word-top" aria-haspopup="dialog" aria-controls="choose-word-modal" aria-label="Pilih tambah kata pribadi atau usulkan kata ke kamus"><span data-icon="plus"></span><span>Tambah / usulkan</span></button>
       </div>
     </header>
     <div class="ulos-ribbon" aria-hidden="true"></div>
@@ -65,6 +65,31 @@
           <svg class="heritage-emblem" viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M41 44C19 48 8 36 6 19c13 9 23 12 37 12l11 8h12l11-8c14 0 24-3 37-12-2 17-13 29-35 25l-2 27-12 17H55L43 71Z" stroke="currentColor" stroke-width="2"/><path d="m48 52 7 6m17-6-7 6m-9 14h9M20 102h80m-70 7h60" stroke="currentColor" stroke-width="2"/></svg>
         </div>
       </div>
+      <section class="contribution-choices" aria-labelledby="contribution-choices-title">
+        <div class="contribution-choices-heading">
+          <div>
+            <span class="eyebrow">DUA CARA MENAMBAH KOSAKATA</span>
+            <h2 id="contribution-choices-title">Simpan sendiri atau bagikan kepada komunitas.</h2>
+          </div>
+          <p>Semua orang dapat ikut serta. Kata pribadi tidak mengubah kamus resmi; usulan komunitas harus disetujui administrator terlebih dahulu.</p>
+        </div>
+        <div class="contribution-choices-grid">
+          <article class="contribution-choice contribution-choice-personal">
+            <span class="contribution-choice-step">01 · UNTUK BELAJAR</span>
+            <h3>Tambah Kata Pribadi</h3>
+            <p>Catat kata dan terjemahan di perangkat Anda sendiri. Tidak dikirim ke Google Drive dan tidak terlihat oleh pengunjung lain.</p>
+            <button type="button" class="button button-outline" id="add-word-private"><span data-icon="plus"></span> Tambah Kata Pribadi</button>
+            <small>Disimpan di browser ini. Bisa hilang jika data browser dihapus.</small>
+          </article>
+          <article class="contribution-choice contribution-choice-community">
+            <span class="contribution-choice-step">02 · UNTUK KOMUNITAS</span>
+            <h3>Usulkan Kata ke Kamus Mandailing</h3>
+            <p>Isi formulir usulan. Setelah penerima Google Drive diaktifkan, data masuk antrean privat, ditelaah administrator, dan hanya diterbitkan jika disetujui.</p>
+            <a class="button button-primary" href="./kontributor.html"><span data-icon="globe"></span> Usulkan Kata ke Kamus Mandailing</a>
+            <small>Pengiriman Drive masih menunggu verifikasi akhir. Tidak ada publikasi otomatis.</small>
+          </article>
+        </div>
+      </section>
     </section>
 
     <section data-view="inventory" class="view bank-view" hidden>
@@ -157,9 +182,25 @@
 </div>
 <dialog id="bank-modal" class="modal entry-modal" aria-labelledby="bank-detail-title"><div id="bank-detail"></div></dialog>
 <dialog id="entry-modal" class="modal entry-modal" aria-labelledby="detail-title"><div id="entry-detail"></div></dialog>
+<dialog id="choose-word-modal" class="modal choice-modal" aria-labelledby="choose-word-title">
+  <div class="modal-topline"><span class="eyebrow">PILIH TUJUAN PENAMBAHAN KATA</span><button class="icon-button" data-close="choose-word-modal" aria-label="Tutup pilihan"><span data-icon="close"></span></button></div>
+  <h2 id="choose-word-title">Ingin menambah kata untuk siapa?</h2>
+  <p class="form-intro">Anda bisa membuat catatan pribadi atau mengajukan kosakata kepada pengelola kamus.</p>
+  <div class="choice-modal-grid">
+    <div class="choice-modal-item">
+      <h3>Tambah Kata Pribadi</h3><p>Hanya disimpan di browser Anda, tanpa mengubah kamus resmi.</p>
+      <button id="choice-word-private" type="button" class="button button-outline">Buat catatan pribadi</button>
+    </div>
+    <div class="choice-modal-item">
+      <h3>Usulkan Kata ke Kamus Mandailing</h3><p>Usulan untuk ditelaah administrator; penerimaan Google Drive sedang dalam verifikasi akhir.</p>
+      <a class="button button-primary" href="./kontributor.html">Buka formulir usulan</a>
+    </div>
+  </div>
+</dialog>
 <dialog id="edit-modal" class="modal edit-modal" aria-labelledby="edit-title">
   <div class="modal-topline"><span class="eyebrow">KOSAKATA PRIBADI</span><button class="icon-button" data-close="edit-modal" aria-label="Tutup formulir"><span data-icon="close"></span></button></div>
   <h2 id="edit-title">Tambahkan satu kata.</h2><p class="form-intro">Catat kosakata Anda sendiri. Entri tambahan diberi status pribadi dan belum diverifikasi.</p>
+  <div class="personal-mode-notice"><strong>Hanya untuk koleksi Anda.</strong> Kata disimpan di peramban perangkat ini, tidak masuk ke Google Drive atau kamus publik. Ingin berbagi untuk semua? <a href="./kontributor.html">Usulkan kata ke Kamus Mandailing</a>.</div>
   <form id="word-form">
     <div class="form-grid"><div class="field"><label for="entry-mandailing">Mandailing <span>*</span></label><input id="entry-mandailing" name="md" maxlength="80" required></div><div class="field"><label for="entry-category">Kategori</label><select id="entry-category" name="category"><option value="ganti">Kata ganti & tanya</option><option value="angka">Angka</option><option value="kerja">Kata kerja</option><option value="rumah" selected>Di rumah</option></select></div><div class="field"><label for="entry-indonesia">Indonesia <span>*</span></label><input id="entry-indonesia" name="idn" maxlength="120" required></div><div class="field"><label for="entry-melayu">Melayu Malaysia <span>*</span></label><input id="entry-melayu" name="my" maxlength="120" required></div><div class="field field-wide"><label for="entry-english">English <span>*</span></label><input id="entry-english" name="en" maxlength="120" required></div><div class="field field-wide"><label for="entry-example-md">Contoh kalimat Mandailing <small>opsional</small></label><input id="entry-example-md" name="exampleMd" maxlength="300"></div><div class="field field-wide"><label for="entry-example-id">Arti kalimat dalam Indonesia <small>opsional</small></label><input id="entry-example-id" name="exampleId" maxlength="300"></div><div class="field field-wide"><label for="entry-reference">Sumber atau catatan <small>opsional</small></label><textarea id="entry-reference" name="note" rows="2" maxlength="600" placeholder="Misalnya judul kamus, halaman, atau catatan penutur."></textarea></div></div>
     <p id="form-error" class="form-error" role="alert"></p><div class="form-footer"><button type="button" class="button button-outline" data-close="edit-modal">Batal</button><button type="submit" class="button button-primary"><span data-icon="plus"></span>Simpan kata pribadi</button></div>
