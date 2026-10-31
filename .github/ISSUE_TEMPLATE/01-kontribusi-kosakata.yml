@@ -1,0 +1,66 @@
+name: "Usulan kosakata dan koreksi Mandailing"
+description: "Kirim kata, variasi dialek, contoh kalimat, atau koreksi untuk ditelaah editor; tidak langsung mengubah kamus."
+title: "[Usulan kosakata] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Terima kasih telah membantu dokumentasi bahasa Mandailing.**
+        Usulan ini akan **terlihat publik** di GitHub. Jangan sertakan nomor telepon, alamat, data pribadi orang lain, atau materi yang tidak diizinkan untuk dibagikan. Semua usulan akan ditelaah sebelum masuk ke kamus.
+  - type: dropdown
+    id: jenis
+    attributes:
+      label: Jenis kontribusi
+      options:
+        - Kata atau padanan baru
+        - Koreksi makna atau ejaan
+        - Variasi dialek atau pelafalan
+        - Contoh kalimat
+        - Tambahan rujukan
+        - Istilah budaya
+    validations:
+      required: true
+  - type: input
+    id: lema
+    attributes:
+      label: Bentuk kata / lema
+      description: "Tulis sebagaimana dipakai penutur; hindari merekonstruksi bentuk tanpa bukti."
+      placeholder: "Contoh: kata dalam ejaan yang Anda ketahui"
+    validations:
+      required: true
+  - type: textarea
+    id: makna
+    attributes:
+      label: Makna dan penjelasan
+      description: "Jelaskan makna yang diusulkan dan konteks pemakaiannya dalam bahasa Indonesia / Melayu / Inggris."
+    validations:
+      required: true
+  - type: input
+    id: wilayah
+    attributes:
+      label: Wilayah atau variasi tutur (opsional)
+      description: "Cukup desa/kawasan umum; jangan tulis alamat lengkap seseorang."
+      placeholder: "Misalnya: kawasan Mandailing Julu atau diaspora"
+    validations:
+      required: false
+  - type: textarea
+    id: contoh
+    attributes:
+      label: Contoh kalimat dan terjemahan (opsional)
+      description: "Hanya contoh yang Anda ketahui atau Anda diberi izin untuk bagikan; jangan membuat contoh yang diklaim sebagai tuturan asli."
+    validations:
+      required: false
+  - type: textarea
+    id: bukti
+    attributes:
+      label: Sumber atau bukti penggunaan
+      description: "Sertakan judul, tahun, halaman, URL, atau uraian umum pengalaman langsung jika ada. Jangan unggah rekaman seseorang tanpa izin."
+    validations:
+      required: false
+  - type: checkboxes
+    id: pernyataan
+    attributes:
+      label: Persetujuan dan publikasi
+      options:
+        - label: "Saya berhak membagikan informasi ini; saya paham usulan dapat dibaca publik dan tidak otomatis diterbitkan dalam kamus."
+          required: true
