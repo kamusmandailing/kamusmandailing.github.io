@@ -1,0 +1,35 @@
+name: Check community contributor page
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'kontributor.html'
+      - '.github/ISSUE_TEMPLATE/01-kontribusi-kosakata.yml'
+      - 'research/test_contributor_page.py'
+      - 'CONTRIBUTING.md'
+      - '.github/workflows/validate-contributor.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'kontributor.html'
+      - '.github/ISSUE_TEMPLATE/01-kontribusi-kosakata.yml'
+      - 'research/test_contributor_page.py'
+      - 'CONTRIBUTING.md'
+      - '.github/workflows/validate-contributor.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-contributor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify HTML, form consent and GitHub issue handoff in Chrome
+        run: python research/test_contributor_page.py
