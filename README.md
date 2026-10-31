@@ -55,3 +55,15 @@ Perubahan yang telah diuji: sebagian kontrol UI pada **Indonesia/Melayu Malaysia
 CI `validate-phase6-locale-search.yml` menguji desktop 1280 px dan ponsel 390/360 px, sementara `research/validate_release.py` tetap memastikan stabilitas jumlah sumber, ID, terjemahan terkurasi dan ekspor database. Bukti: [run #41216914124](https://github.com/kamusmandailing/kamusmandailing.github.io/actions/runs/41216914124) — lulus.
 
 Berikutnya: telaah istilah UI Mandailing oleh penutur, penyempurnaan teks dinamis Belajar/hasil pencarian, uji screen reader pada perangkat nyata, penyelesaian kanal kontribusi Google Drive dengan uji POST end-to-end, dan aturan review admin di branch utama.
+
+## Tahap 7 — pesan dinamis, mode Belajar, dan baseline luring (1 November 2026)
+
+**Pembaruan nyata:** Hasil pencarian pada Kamus, jumlah hasil dan paginasi, status hasil di Bank Kosakata, serta progres dan tombol mode Belajar kini berubah mengikuti pilihan ID/MS/EN. Pergantian bahasa langsung memperbarui tampilan yang sedang dibuka tanpa mengubah kata, contoh, sumber, atau status verifikasi.
+
+Pemilih `md` **tetap fallback Bahasa Indonesia**, tanpa terjemahan Mandailing buatan. Sebagian hasil dinamis lain (kategori, kartu kata, sumber, formulir dan halaman kontributor) juga masih berbahasa Indonesia. Bahasa dokumen tetap `id`; cakupan antarmuka empat bahasa belum lengkap.
+
+**Aksesibilitas yang telah diuji otomatis:** modal pilihan kata mengembalikan fokus ke tombol pemicu ketika ditutup, hasil yang berubah dalam tiga ukuran viewport 1280×900, 390×844, 360×760, serta label aksesibel. Pengujian pengguna screen reader nyata di perangkat fisik belum dilaksanakan.
+
+**Performa dan luring:** `research/audit_offline_payload.py` mengukur ukuran HTML mentah dan gzip serta memeriksa data JSON dan skrip penting tertanam di HTML luring. Ini pengukuran footprint statis, **bukan pengukuran kecepatan jaringan/perangkat asli**. Gambar/sumber/tautan luar atau unduhan database ZIP bisa memerlukan internet. CI `.github/workflows/validate-phase7-ui.yml` menyimpan hasil pengukuran sebagai artefak sementara.
+
+Lihat `research/PHASE7_DYNAMIC_UI.md` untuk cakupan lengkap dan rencana layar berikutnya. Tetap perlukan review editor/penutur, perlindungan branch, dan bukti POST Google Drive sebelum klaim rilis V2 penuh.
