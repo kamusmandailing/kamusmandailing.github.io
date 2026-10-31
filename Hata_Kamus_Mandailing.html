@@ -1136,7 +1136,12 @@ body {
       + 'Padanan editorial bukan pengesahan otomatis oleh penutur semua dialek.';
   }
   const bankEntries = new Map(SEED.map(w=>[w.id,w]));
-  const bankById = new Map(BANK.forms.map(f=>[f.id,f]));
+  // Source details use this index only when someone opens a detail dialog.
+  let bankById=null;
+  const getBankForm=id=>{
+    if(bankById===null)bankById=new Map(BANK.forms.map(f=>[f.id,f]));
+    return bankById.get(id);
+  };
   const latestFormIds = new Set(BANK.researchUpdate.newFormIds || []);
   const bankState = {query:'',letter:'all',kind:'all',scope:'all',status:'all',source:'all',page:1,latestOnly:false};
   const BANK_SIZE=24;
@@ -1146,14 +1151,24 @@ body {
   const bankSourceLocation=ref=>ref.pdfPage?'Hlm. cetak '+ref.printedPage+' · PDF '+ref.pdfPage:ref.sourceLocator||'Halaman sumber';
   const bankSelectedReferences=f=>bankState.source==='all'?f.references:f.references.filter(ref=>ref.sourceId===bankState.source);
   const bankLetter=f=>normalize(f.form).replace(/^-+/,'').charAt(0).toUpperCase();
-  const bankByNormalizedForm=new Map(BANK.forms.map(f=>[normalize(f.form),f]));
+  // The plant-name comparison panel stays collapsed on initial load.
+  let bankByNormalizedForm=null;
+  const getBankByNormalizedForm=form=>{
+    if(bankByNormalizedForm===null)bankByNormalizedForm=new Map(BANK.forms.map(f=>[normalize(f.form),f]));
+    return bankByNormalizedForm.get(normalize(form));
+  };
   const bankLetterCounts={};
   const bankLetterById=new Map();
-  for(const f of BANK.forms){
-    const l=bankLetter(f);
-    bankLetterById.set(f.id,l);
-    bankLetterCounts[l]=(bankLetterCounts[l]||0)+1;
-  }
+  let bankLettersReady=false;
+  const ensureBankLetters=()=>{
+    if(bankLettersReady)return;
+    for(const f of BANK.forms){
+      const l=bankLetter(f);
+      bankLetterById.set(f.id,l);
+      bankLetterCounts[l]=(bankLetterCounts[l]||0)+1;
+    }
+    bankLettersReady=true;
+  };
   // Phase 8: never allocate normalized search text for 10,821 forms on startup.
   // Build each whole-bank search record once, on the first actual search.
   const bankSearchText=new Map();
@@ -1162,6 +1177,9 @@ body {
   const bankPerfStats=()=>({
     searchStringsCached:bankSearchText.size,
     sourceListsCached:bankSourceForms.size,
+    bankLettersIndexed:bankLettersReady,
+    detailsIndexed:bankById!==null,
+    localNamesIndexed:bankByNormalizedForm!==null,
     filterScans:bankFilterCache.scans
   });
   const normalizedSearchText=(f,refs)=>{
@@ -1193,7 +1211,10 @@ body {
       if(bankState.latestOnly&&!latestFormIds.has(f.id))return false;
       const refs=bankSelectedReferences(f);
       if(!refs.length)return false;
-      if(bankState.letter!=='all'&&bankLetterById.get(f.id)!==bankState.letter)return false;
+      if(bankState.letter!=='all'){
+        ensureBankLetters();
+        if(bankLetterById.get(f.id)!==bankState.letter)return false;
+      }
       if(bankState.kind!=='all'&&!(['bound_form','compound'].includes(bankState.kind)?f.kinds.includes(bankState.kind):refs.some(ref=>ref.kind===bankState.kind)))return false;
       if(bankState.scope!=='all'&&!refs.some(ref=>ref.labels.includes(bankState.scope)))return false;
       if(bankState.status==='reviewed'&&!f.entryId||bankState.status==='pending'&&f.entryId)return false;
@@ -1207,6 +1228,7 @@ body {
     return result;
   }
   function renderBank(){
+    ensureBankLetters();
     const items=bankFiltered(),pages=Math.max(1,Math.ceil(items.length/BANK_SIZE));bankState.page=Math.min(Math.max(1,bankState.page),pages);
     $('#bank-latest').textContent=bankState.latestOnly?'Tampilkan seluruh bank':latestFormIds.size+' bentuk baru';
     $('#bank-latest').setAttribute('aria-pressed',String(bankState.latestOnly));
@@ -1226,7 +1248,7 @@ body {
     $('#bank-pagination').lang=bankUILang();
   }
   function openBankDetail(id){
-    const f=bankById.get(id);if(!f)return;const w=bankEntries.get(f.entryId);
+    const f=getBankForm(id);if(!f)return;const w=bankEntries.get(f.entryId);
     const refs=f.references.map(ref=>{
       const source=SOURCES.find(s=>s.id===ref.sourceId);
       return '<section class="evidence-panel"><h3>'+esc(bankKinds[ref.kind]||ref.kind)+' · '+esc(bankSourceName(ref.sourceId))+'</h3>'+
@@ -1254,7 +1276,7 @@ body {
       (status==='all'||status==='supported'&&supported(r)||status==='pending'&&r.review?.status==='pending_language_and_meaning'||status==='needs-check'&&!supported(r)&&r.review?.status!=='pending_language_and_meaning'));
     $('#local-name-count').textContent=names.length+' catatan cocok';
     $('#local-name-results').innerHTML=names.length?names.map(r=>{
-      const f=bankByNormalizedForm.get(normalize(r.name));
+      const f=getBankByNormalizedForm(r.name);
       const review=r.review;
       const reviewNote=review&&review.status!=='pending_language_and_meaning'?'<p class="plant-review-note '+(supported(r)?'supported':'caution')+'">'+esc(review.note)+'</p>':'';
       return '<article><strong>'+esc(r.name)+'</strong><p>'+esc(bankSourceName(r.sourceId))+'</p><p class="local-name-taxon">'+(r.taxonAsPrinted?'Takson pada sumber: <em>'+esc(r.taxonAsPrinted)+'</em>':'Nama ilmiah tidak diisi pada sumber')+'</p><a href="'+esc(sourcePageUrl(r))+'" target="_blank" rel="noopener noreferrer">'+esc(bankSourceLocation(r))+' '+icon('external')+'</a>'+reviewNote+(review?.evidence?.length?'<p>'+review.evidence.map((e,i)=>e.url?'<a href="'+esc(e.url)+'" target="_blank" rel="noopener noreferrer">Bukti silang '+(i+1)+' ↗</a>':'').filter(Boolean).join(' · ')+'</p>':'')+(f?'<button data-bank-open="'+f.id+'">Kecocokan ejaan dalam bank · makna perlu diperiksa</button>':'')+'</article>';
@@ -1309,7 +1331,9 @@ body {
   for(const el of $$('[data-local-count]'))el.textContent=BANK.stats.localNameObservations;
   $('#local-name-search').addEventListener('input',renderLocalNames);
   $('#local-name-status').addEventListener('change',renderLocalNames);
-  renderLocalNames();
+  const namePanel=$('.local-name-panel');
+  if(namePanel?.open)renderLocalNames();
+  else namePanel?.addEventListener('toggle',()=>{if(namePanel.open)renderLocalNames();});
 
   document.addEventListener("kamus:locale",()=>{
     if(["dictionary","saved"].includes(state.view))renderList();
