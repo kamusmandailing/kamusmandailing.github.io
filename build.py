@@ -38,6 +38,7 @@ styles = (source / 'styles.css').read_text(encoding='utf-8')+'\n'+skin+'\n'+(sou
 template = template.replace('/* INLINE_STYLES */',styles)
 app=(source/'app.js').read_text(encoding='utf-8').replace('/* INLINE_INVENTORY_APP */',(source/'inventory.js').read_text(encoding='utf-8'))
 template = template.replace('/* INLINE_APP */',app)
+template = template.replace('/* INLINE_LANGUAGE_SELECTOR */',(source/'language-selector.js').read_text(encoding='utf-8'))
 encode = lambda value: json.dumps(value,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
 template = template.replace('"INLINE_INVENTORY"',encode(inventory))
 template = template.replace('"INLINE_SOURCES"',encode(json.loads((source/'sources.json').read_text(encoding='utf-8'))))
