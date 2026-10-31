@@ -1103,6 +1103,81 @@ body {
       viewCards:'Card view',viewTable:'Table view'
     }
   };
+  // Dynamic controls only. Meanings, examples, source evidence and category names are never machine-translated.
+  const dynamic={
+    id:{
+      allTitle:"Semua kosakata",savedTitle:"Kosakata disimpan",letterTitle:({letter,title})=>"Huruf "+letter+" · "+title,
+      countMatch:({count,query})=>count+" kata cocok dengan “"+query+"”",
+      countSaved:({count})=>count+" kata dalam koleksi Anda",
+      countAll:({count})=>count+" kata tersedia untuk dijelajahi",
+      none:"Belum ada kata yang cocok.",noneHint:"Coba kata yang lebih singkat, bahasa lain, atau kategori yang berbeda.",
+      noneSaved:"Simpan kata pertama Anda.",noneSavedHint:"Tekan ikon penanda pada kartu untuk mengumpulkan kata yang ingin Anda ingat.",
+      browse:"Jelajahi kamus",reset:"Reset pencarian & filter",
+      showing:({from,to,total})=>"Menampilkan "+from+"–"+to+" dari "+total+" kata",
+      page:({n})=>"Halaman "+n,prev:"Halaman sebelumnya",next:"Halaman berikutnya",
+      bankCount:({count,total})=>count+" bentuk cocok · "+total+" bentuk dalam bank",
+      bankPage:({page,pages,from,to,total})=>"Halaman "+page+" dari "+pages+" · "+from+"–"+to+" dari "+total,
+      bankPrev:"Sebelumnya",bankNext:"Berikutnya",
+      card:({n,total})=>"Kartu "+n+" dari "+total,
+      prompt:({language})=>"Apa padanannya dalam "+language+"?",
+      reveal:"Buka jawaban",repeat:"Ulangi nanti",understood:"Sudah paham",shuffle:"Acak kartu",
+      deckEmpty:"Belum ada kartu di sini.",deckEmptyHint:"Simpan kata dari kamus atau pilih kategori lain untuk mulai belajar.",
+      deckDone:"SESI SELESAI",deckDoneTitle:"Selangkah lebih dekat.",
+      deckDoneStats:({total,known})=>total+" kartu ditinjau; "+known+" jawaban ditandai dipahami dalam sesi ini.",
+      deckRestart:"Mulai sesi baru"
+    },
+    ms:{
+      allTitle:"Semua kosa kata",savedTitle:"Kosa kata disimpan",letterTitle:({letter,title})=>"Huruf "+letter+" · "+title,
+      countMatch:({count,query})=>count+" perkataan sepadan dengan “"+query+"”",
+      countSaved:({count})=>count+" perkataan dalam koleksi anda",
+      countAll:({count})=>count+" perkataan tersedia untuk diterokai",
+      none:"Tiada perkataan yang sepadan.",noneHint:"Cuba perkataan lebih ringkas, bahasa lain atau kategori berbeza.",
+      noneSaved:"Simpan perkataan pertama anda.",noneSavedHint:"Tekan ikon penanda pada kad untuk mengumpulkan perkataan yang ingin diingati.",
+      browse:"Terokai kamus",reset:"Set semula carian & penapis",
+      showing:({from,to,total})=>"Memaparkan "+from+"–"+to+" daripada "+total+" perkataan",
+      page:({n})=>"Halaman "+n,prev:"Halaman sebelumnya",next:"Halaman seterusnya",
+      bankCount:({count,total})=>count+" bentuk sepadan · "+total+" bentuk dalam bank",
+      bankPage:({page,pages,from,to,total})=>"Halaman "+page+" daripada "+pages+" · "+from+"–"+to+" daripada "+total,
+      bankPrev:"Sebelumnya",bankNext:"Seterusnya",
+      card:({n,total})=>"Kad "+n+" daripada "+total,
+      prompt:({language})=>"Apakah padanannya dalam "+language+"?",
+      reveal:"Lihat jawapan",repeat:"Ulang kemudian",understood:"Sudah faham",shuffle:"Kocok kad",
+      deckEmpty:"Tiada kad di sini.",deckEmptyHint:"Simpan perkataan daripada kamus atau pilih kategori lain.",
+      deckDone:"SESI TAMAT",deckDoneTitle:"Selangkah lebih dekat.",
+      deckDoneStats:({total,known})=>total+" kad disemak; "+known+" jawapan ditandai difahami dalam sesi ini.",
+      deckRestart:"Mulakan sesi baharu"
+    },
+    en:{
+      allTitle:"All vocabulary",savedTitle:"Saved vocabulary",letterTitle:({letter,title})=>"Letter "+letter+" · "+title,
+      countMatch:({count,query})=>count+" matching words for “"+query+"”",
+      countSaved:({count})=>count+" words in your collection",
+      countAll:({count})=>count+" words available to explore",
+      none:"No matching words.",noneHint:"Try a shorter word, another language, or a different category.",
+      noneSaved:"Save your first word.",noneSavedHint:"Select the bookmark on a card to build your collection.",
+      browse:"Explore dictionary",reset:"Reset search & filters",
+      showing:({from,to,total})=>"Showing "+from+"–"+to+" of "+total+" words",
+      page:({n})=>"Page "+n,prev:"Previous page",next:"Next page",
+      bankCount:({count,total})=>count+" matching forms · "+total+" source forms in bank",
+      bankPage:({page,pages,from,to,total})=>"Page "+page+" of "+pages+" · "+from+"–"+to+" of "+total,
+      bankPrev:"Previous",bankNext:"Next",
+      card:({n,total})=>"Card "+n+" of "+total,
+      prompt:({language})=>"What is its meaning in "+language+"?",
+      reveal:"Show answer",repeat:"Review later",understood:"I understand",shuffle:"Shuffle cards",
+      deckEmpty:"No cards here yet.",deckEmptyHint:"Save a word or choose another category to start learning.",
+      deckDone:"SESSION COMPLETE",deckDoneTitle:"One step closer.",
+      deckDoneStats:({total,known})=>total+" cards reviewed; "+known+" marked understood in this session.",
+      deckRestart:"Start a new session"
+    }
+  };
+  let active='id';
+  const currentUI=()=>active==='en'?'en':active==='ms'?'ms':'id';
+  window.KamusUI={
+    current:()=>currentUI(),
+    t:(key,vars={})=>{
+      const value=(dynamic[currentUI()]||dynamic.id)[key]??dynamic.id[key];
+      return typeof value==='function'?value(vars):value??key;
+    }
+  };
   // Leaf nodes only. Never overwrite icons or dynamic search results with textContent.
   const labels={
     navDictionary:'[data-nav="dictionary"] > span:nth-child(2)',
@@ -1140,6 +1215,7 @@ body {
   }
   function apply(code){
     const selected=has(choices,code)?code:'id';
+    active=selected;
     const fallback=selected==='md';
     const language=(selected==='en' || selected==='ms')?selected:'id';
     const copy=strings[fallback?'id':selected];
@@ -1171,6 +1247,7 @@ body {
           : 'Antara muka Bahasa Melayu masih separa: hasil, nota sumber dan sebahagian kawalan kekal dalam Bahasa Indonesia. Padanan kamus tidak diubah.';
     }
     try{localStorage.setItem('kamus-interface-language',selected);}catch(e){}
+    document.dispatchEvent(new Event('kamus:locale'));
   }
   function init(){
     const host=document.querySelector('.topbar-actions');
