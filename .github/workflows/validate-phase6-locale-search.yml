@@ -1,0 +1,44 @@
+name: Validate phase 6 locale and search accessibility
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/language-selector.js'
+      - 'src/index.html'
+      - 'src/app.js'
+      - 'src/inventory.js'
+      - 'src/styles.css'
+      - 'src/inventory.css'
+      - 'research/test_phase6_locale_search.py'
+      - '.github/workflows/validate-phase6-locale-search.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/language-selector.js'
+      - 'src/index.html'
+      - 'src/app.js'
+      - 'src/inventory.js'
+      - 'src/styles.css'
+      - 'src/inventory.css'
+      - 'research/test_phase6_locale_search.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build current public data with no lexical changes
+        run: python build.py
+      - name: Validate locale behavior and clearing both searches on 3 viewport sizes
+        run: python research/test_phase6_locale_search.py
+      - name: Check dictionary identity and export contracts
+        run: python research/validate_release.py
