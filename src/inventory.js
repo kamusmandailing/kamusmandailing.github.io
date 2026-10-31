@@ -1,4 +1,6 @@
   const BANK = JSON.parse($('#inventory-data').textContent);
+  const bankUi=(key,vars,fallback)=>globalThis.KamusUI?.t?.(key,vars)??fallback;
+  const bankUILang=()=>globalThis.KamusUI?.current?.()||'id';
   const release = RESEARCH.releaseSnapshot;
   const releaseNote = $('#bank-release-note');
   if(releaseNote && release) {
@@ -51,7 +53,8 @@
     const items=bankFiltered(),pages=Math.max(1,Math.ceil(items.length/BANK_SIZE));bankState.page=Math.min(Math.max(1,bankState.page),pages);
     $('#bank-latest').textContent=bankState.latestOnly?'Tampilkan seluruh bank':latestFormIds.size+' bentuk baru';
     $('#bank-latest').setAttribute('aria-pressed',String(bankState.latestOnly));
-    $('#bank-count').textContent=items.length.toLocaleString('id-ID')+' bentuk cocok · '+BANK.stats.uniqueForms.toLocaleString('id-ID')+' bentuk dalam bank';
+    $('#bank-count').textContent=bankUi('bankCount',{count:items.length.toLocaleString('id-ID'),total:BANK.stats.uniqueForms.toLocaleString('id-ID')},items.length.toLocaleString('id-ID')+' bentuk cocok · '+BANK.stats.uniqueForms.toLocaleString('id-ID')+' bentuk dalam bank');
+    $('#bank-count').lang=bankUILang();
     $('#bank-letters').innerHTML='<button data-bank-letter="all" class="letter-button '+(bankState.letter==='all'?'active':'')+'" aria-pressed="'+(bankState.letter==='all')+'">Semua</button>'+RESEARCH.alphabet.split('').map(l=>'<button class="letter-button '+(bankState.letter===l?'active':'')+'" data-bank-letter="'+l+'" aria-pressed="'+(bankState.letter===l)+'" aria-label="Bank huruf '+l+'">'+l+'<small>'+(bankLetterCounts[l]||0)+'</small></button>').join('');
     const slice=items.slice((bankState.page-1)*BANK_SIZE,bankState.page*BANK_SIZE);
     $('#bank-results').innerHTML=slice.length?'<div class="bank-grid">'+slice.map(f=>{
@@ -62,7 +65,8 @@
       const meaning=w?esc(w.idn):glossRef?'<span class="bank-gloss-label">Glos sumber ('+esc(glossRef.glossLanguage)+')</span>'+esc(glossRef.sourceGloss):taxonRef?'<span class="bank-gloss-label">Takson pada sumber</span>'+esc(taxonRef.taxonAsPrinted):'Padanan belum ditelaah';
       return '<article class="bank-card"><div class="bank-card-meta"><span>'+esc(mainKind)+'</span><span class="bank-label">'+esc(labels)+'</span></div><button class="bank-term" data-bank-open="'+f.id+'">'+esc(f.form)+'</button><p class="bank-meaning '+(!w?'pending':'')+'">'+meaning+'</p><div class="bank-card-bottom"><small>'+f.references.length+' lokasi sumber</small><button data-bank-open="'+f.id+'" aria-label="Lihat sumber bentuk '+esc(f.form)+'">Lihat sumber '+icon('arrow')+'</button></div></article>';
     }).join('')+'</div>':'<div class="empty-state"><h3>Belum ada bentuk yang cocok.</h3><p>Huruf atau gabungan filter ini tidak mempunyai hasil dalam inventaris. Huruf kosong tidak diisi dengan kata rekaan.</p><button class="button button-outline" data-bank-reset="true">Reset filter bank</button></div>';
-    $('#bank-pagination').innerHTML=items.length?'<p>Halaman '+bankState.page+' dari '+pages+' · '+((bankState.page-1)*BANK_SIZE+1)+'–'+Math.min(bankState.page*BANK_SIZE,items.length)+' dari '+items.length+'</p><div><button class="button button-outline button-small" data-bank-page="'+(bankState.page-1)+'" '+(bankState.page===1?'disabled':'')+'>Sebelumnya</button><button class="button button-outline button-small" data-bank-page="'+(bankState.page+1)+'" '+(bankState.page===pages?'disabled':'')+'>Berikutnya</button></div>':'';
+    $('#bank-pagination').innerHTML=items.length?'<p>'+esc(bankUi('bankPage',{page:bankState.page,pages,from:(bankState.page-1)*BANK_SIZE+1,to:Math.min(bankState.page*BANK_SIZE,items.length),total:items.length},'Halaman '+bankState.page+' dari '+pages+' · '+((bankState.page-1)*BANK_SIZE+1)+'–'+Math.min(bankState.page*BANK_SIZE,items.length)+' dari '+items.length))+'</p><div><button class="button button-outline button-small" data-bank-page="'+(bankState.page-1)+'" '+(bankState.page===1?'disabled':'')+'>'+esc(bankUi('bankPrev',{},'Sebelumnya'))+'</button><button class="button button-outline button-small" data-bank-page="'+(bankState.page+1)+'" '+(bankState.page===pages?'disabled':'')+'>'+esc(bankUi('bankNext',{},'Berikutnya'))+'</button></div>':'';
+    $('#bank-pagination').lang=bankUILang();
   }
   function openBankDetail(id){
     const f=bankById.get(id);if(!f)return;const w=bankEntries.get(f.entryId);
