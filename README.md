@@ -47,3 +47,11 @@ Build menghasilkan HTML yang sama di root dan `dist/`, TSV, JSON, SQLite serta p
 **Pilot linguistik:** [panduan 40 entri](research/PILOT_40_PANDUAN.md) dan [generator sampel](research/select_editorial_pilot.py) mempersiapkan 40 entri existing untuk penelaahan editor serta penutur lintas huruf/kategori. Jalankan [workflow pilot](.github/workflows/editorial-pilot.yml) untuk memperoleh berkas TSV serta petunjuk. Semua keputusan awal **BELUM DITELAAH**; tidak ada arti baru yang dibuat AI, pengesahan penutur, atau perubahan ke `src/words.json`. Salinan paket disimpan dalam arsip Drive riset.
 
 **Masih wajib sebelum rilis V2 penuh:** persetujuan penutur untuk entri pilot; audit izin data/sumber; aktivasi ruleset perlindungan branch `main`; pengujian Web app kontribusi Google Drive end-to-end sampai benar-benar menulis ke antrean privat; dan perbaikan/fallback antarmuka empat bahasa beserta uji aksesibilitas ponsel.
+
+## Tahap 6 — antarmuka & pencarian (31 Oktober 2026)
+
+Perubahan yang telah diuji: sebagian kontrol UI pada **Indonesia/Melayu Malaysia/Inggris**, pemberitahuan eksplisit bahwa pilihan **Mandailing** masih memakai **fallback Indonesia**, serta tombol **Hapus** pada dua pencarian (Kamus dan Bank) yang mengembalikan fokus keyboard. Ini **belum** terjemahan antarmuka penuh untuk empat bahasa dan tidak mengubah padanan kamus. Lihat [matriks cakupan dan batas](research/PHASE6_LOCALE_MATRIX.md).
+
+CI `validate-phase6-locale-search.yml` menguji desktop 1280 px dan ponsel 390/360 px, sementara `research/validate_release.py` tetap memastikan stabilitas jumlah sumber, ID, terjemahan terkurasi dan ekspor database. Bukti: [run #41216914124](https://github.com/kamusmandailing/kamusmandailing.github.io/actions/runs/41216914124) — lulus.
+
+Berikutnya: telaah istilah UI Mandailing oleh penutur, penyempurnaan teks dinamis Belajar/hasil pencarian, uji screen reader pada perangkat nyata, penyelesaian kanal kontribusi Google Drive dengan uji POST end-to-end, dan aturan review admin di branch utama.
