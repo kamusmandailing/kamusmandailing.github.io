@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'src/**'
+      - 'data/**'
       - 'build.py'
       - 'prepare_inventory.py'
       - 'export_database.py'
