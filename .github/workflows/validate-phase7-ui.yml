@@ -1,0 +1,40 @@
+name: Validate phase 7 dynamic locale and keyboard focus
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/index.html'
+      - 'src/language-selector.js'
+      - 'src/app.js'
+      - 'src/inventory.js'
+      - 'research/test_phase7_dynamic_locale.py'
+      - '.github/workflows/validate-phase7-ui.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/index.html'
+      - 'src/language-selector.js'
+      - 'src/app.js'
+      - 'src/inventory.js'
+      - 'research/test_phase7_dynamic_locale.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ui-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build app using existing editorial data
+        run: python build.py
+      - name: Test dynamic locale and native dialog keyboard focus
+        run: python research/test_phase7_dynamic_locale.py
+      - name: Assert source and release data unchanged
+        run: python research/validate_release.py
