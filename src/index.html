@@ -9,6 +9,8 @@
   <title>Hata — Kamus Mandailing</title>
   <style>/* INLINE_STYLES */
 .interface-language-wrap{display:inline-flex;align-items:center;max-width:210px}.interface-language-select{max-width:100%;padding:8px 10px;border:1px solid #c5b8b3;border-radius:8px;background:#fff;color:#362b2b;font:inherit;font-size:12px}.interface-language-select:focus-visible{outline:3px solid #b88652;outline-offset:2px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:600px){.interface-language-wrap{max-width:140px}.interface-language-select{font-size:11px}}
+
+.interface-language-note{margin:6px 20px;padding:8px 12px;border-left:3px solid #98774b;background:#faf4e9;color:#4d3b2c;font-size:12px;line-height:1.45}
 </style>
 </head>
 <body>
@@ -19,13 +21,13 @@
       <span class="brand-symbol"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 13 20 6l13 7M7 18l13-7 13 7M10 20v12l10-5 10 5V20M20 16v11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
       <span class="brand-name">hata<span class="brand-dot">.</span><small>KAMUS MANDAILING</small></span>
     </a>
-    <div class="sidebar-caption">RUANG BELAJAR</div>
+    <div class="sidebar-caption" data-i18n="sidebarTitle">RUANG BELAJAR</div>
     <nav class="nav-list">
-      <button class="nav-item active" data-nav="dictionary" aria-current="page"><span data-icon="book"></span><span>Kamus</span><span class="nav-marker"></span></button>
-      <button class="nav-item" data-nav="inventory"><span data-icon="globe"></span><span>Bank kosakata</span></button>
-      <button class="nav-item" data-nav="saved"><span data-icon="bookmark"></span><span>Disimpan</span><span class="nav-count" id="nav-saved-count">0</span></button>
-      <button class="nav-item" data-nav="learn"><span data-icon="layers"></span><span>Belajar</span></button>
-      <button class="nav-item" data-nav="sources"><span data-icon="feather"></span><span>Catatan & sumber</span></button>
+      <button class="nav-item active" data-nav="dictionary" aria-current="page"><span data-icon="book"></span><span data-i18n="navDictionary">Kamus</span><span class="nav-marker"></span></button>
+      <button class="nav-item" data-nav="inventory"><span data-icon="globe"></span><span data-i18n="navInventory">Bank kosakata</span></button>
+      <button class="nav-item" data-nav="saved"><span data-icon="bookmark"></span><span data-i18n="navSaved">Disimpan</span><span class="nav-count" id="nav-saved-count">0</span></button>
+      <button class="nav-item" data-nav="learn"><span data-icon="layers"></span><span data-i18n="navLearn">Belajar</span></button>
+      <button class="nav-item" data-nav="sources"><span data-icon="feather"></span><span data-i18n="navSources">Catatan & sumber</span></button>
     </nav>
     <div class="sidebar-bottom">
       <div class="chapter-card">
@@ -43,31 +45,32 @@
       <div class="breadcrumb"><span data-icon="globe"></span> MANDAILING <span class="breadcrumb-sep">/</span> EMPAT BAHASA</div>
       <div class="topbar-actions">
         <button class="draft-pill" data-nav="sources"><span></span>Kurasi A–Z</button>
-        <button class="button button-outline button-small" id="add-word-top"><span data-icon="plus"></span><span>Tambah kata</span></button>
+        <button class="button button-outline button-small" id="add-word-top"><span data-icon="plus"></span><span data-i18n="addWord">Tambah kata</span></button>
       </div>
     </header>
+    <p id="interface-language-note" class="interface-language-note" hidden lang="id">Terjemahan antarmuka Mandailing masih dalam pemeriksaan penutur. Untuk sementara, label bahasa Indonesia digunakan; lema Mandailing tidak berubah.</p>
     <div class="ulos-ribbon" aria-hidden="true"></div>
 
     <section data-view="dictionary" class="view">
       <div class="hero">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="tiny-rule"></span> KAMUS PRAKTIS MULTIBAHASA</div>
-          <h1>Temukan kata.<br><em>Dekatkan makna.</em></h1>
-          <p>Jelajahi bahasa Mandailing lewat padanan Indonesia,<br class="desktop-br"> Melayu Malaysia, dan Inggris.</p>
+          <div class="eyebrow"><span class="tiny-rule"></span> <span data-i18n="heroKicker">KAMUS PRAKTIS MULTIBAHASA</span></div>
+          <h1><span data-i18n="heroTitle">Temukan kata.</span><br><em data-i18n="heroEm">Dekatkan makna.</em></h1>
+          <p data-i18n="heroDescription">Jelajahi bahasa Mandailing lewat padanan Indonesia, Melayu Malaysia, dan Inggris.</p>
           <div class="hero-stats"><span><strong id="hero-word-count">100</strong> entri berpadanan</span><i></i><span><strong data-bank-total>0</strong> bentuk sumber</span></div>
         </div>
         <div class="featured-word">
           <div class="featured-top"><span class="eyebrow">KURASI A · LABEL Mdl · HLM. 19</span><span data-icon="sparkle"></span></div>
           <span class="featured-label">MANDAILING</span><div class="featured-term">amak<span>n.</span></div>
           <div class="featured-meanings"><span>tikar<small>Indonesia</small></span><span>tikar<small>Melayu Malaysia</small></span><span>mat<small>English</small></span></div>
-          <button class="featured-link" data-open="md-064">Kenali kata ini <span data-icon="arrow"></span></button>
+          <button class="featured-link" data-open="md-064"><span data-i18n="featuredLink">Kenali kata ini</span> <span data-icon="arrow"></span></button>
           <svg class="heritage-emblem" viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M41 44C19 48 8 36 6 19c13 9 23 12 37 12l11 8h12l11-8c14 0 24-3 37-12-2 17-13 29-35 25l-2 27-12 17H55L43 71Z" stroke="currentColor" stroke-width="2"/><path d="m48 52 7 6m17-6-7 6m-9 14h9M20 102h80m-70 7h60" stroke="currentColor" stroke-width="2"/></svg>
         </div>
       </div>
     </section>
 
     <section data-view="inventory" class="view bank-view" hidden>
-      <div class="section-intro"><div class="eyebrow">SELURUH INVENTARIS BENTUK SUMBER</div><h1>Lebih banyak kata.<br><em>Jejaknya tetap jelas.</em></h1><p>Telusuri bentuk dari kamus, daftar kata, dan penelitian. Setiap bentuk membawa lokasi rujukan serta keterangan cakupan bahasa sumbernya.</p></div>
+      <div class="section-intro"><div class="eyebrow" data-i18n="bankKicker">SELURUH INVENTARIS BENTUK SUMBER</div><h1><span data-i18n="bankTitle">Lebih banyak kata.</span><br><em data-i18n="bankEm">Jejaknya tetap jelas.</em></h1><p>Telusuri bentuk dari kamus, daftar kata, dan penelitian. Setiap bentuk membawa lokasi rujukan serta keterangan cakupan bahasa sumbernya.</p></div>
       <div class="bank-stats"><div><strong data-bank-total>0</strong><span>bentuk unik tersimpan</span></div><div><strong id="bank-source-records">0</strong><span>lokasi rujukan tersimpan</span></div><div><strong id="bank-source-total">0</strong><span>sumber bentuk yang digunakan</span></div></div>
       <div class="bank-scope-note"><strong>Inventaris sumber berbeda dari koleksi berpadanan.</strong><p>Label Mdl per bentuk dibedakan dari cakupan studi Mandailing. Angkola, Toba, Tapsel dan catatan dialek lain tetap diberi keterangan. <span data-bank-pending>0</span> bentuk masih menunggu penelaahan makna dan padanan; data tersebut tidak diisi dengan tebakan. Jumlah bentuk termasuk turunan dan gabungan, bukan jumlah semua kata dasar Mandailing.</p><a class="button button-outline button-small" href="./data/Kamus_Mandailing_Database.zip" download><span data-icon="download"></span>Unduh database lengkap</a></div>
       <details class="source-audit-panel">
@@ -76,16 +79,16 @@
         <div id="source-audit-cards" class="source-audit-grid"></div>
         <a id="research-update-link" href="./research/analisis_lanjutan_20261027.md" target="_blank" rel="noopener noreferrer">Baca laporan penelitian dan batas cakupan ↗</a>
       </details>
-      <div class="bank-controls"><div class="bank-search"><label for="bank-search">Cari dalam seluruh bank</label><input id="bank-search" type="search" placeholder="Bentuk, takson, induk lema, atau padanan…" autocomplete="off" spellcheck="false"></div><div><label for="bank-kind">Jenis bentuk</label><select id="bank-kind"><option value="all">Semua jenis</option><option value="headword">Lema</option><option value="subentry">Turunan / gabungan</option><option value="compound">Gabungan kata</option><option value="cross_reference">Rujuk silang</option><option value="bound_form">Bentuk terikat</option><option value="historical_form">Bentuk kamus 1977</option><option value="wordlist_entry">Entri daftar kata</option><option value="study_table">Bentuk pada penelitian</option><option value="publisher_abstract">Abstrak penerbit</option><option value="idiom">Idiom / ungkapan</option><option value="cultural_term">Istilah budaya</option><option value="culinary_term">Nama kuliner pada sumber</option><option value="botanical_name">Nama botani pada sumber</option><option value="number_list">Bilangan / ukuran</option></select></div><div><label for="bank-scope">Label bahasa sumber</label><select id="bank-scope"><option value="all">Semua label sumber</option><option value="Mdl">Memuat label Mdl</option><option value="Akl">Memuat label Akl</option><option value="Tb">Memuat label Toba</option><option value="unmarked">Tanpa label per bentuk</option><option value="Mdl-scope">Cakupan studi Mandailing</option><option value="MA">Mandailing–Angkola (MA)</option><option value="Sipirok">Catatan dialek Sipirok</option><option value="Tapsel">Cakupan Tapsel</option></select></div><div><label for="bank-status">Status padanan</label><select id="bank-status"><option value="all">Semua status</option><option value="reviewed">Padanan tersedia</option><option value="pending">Belum ditelaah</option><option value="source-gloss">Glos sumber tersedia</option></select></div><div><label for="bank-source">Sumber bentuk</label><select id="bank-source"><option value="all">Semua sumber bentuk</option></select></div></div>
+      <div class="bank-controls"><div class="bank-search"><label for="bank-search" data-i18n="bankSearchLabel">Cari dalam seluruh bank</label><input id="bank-search" type="search" data-i18n-placeholder="bankSearchPlaceholder" placeholder="Bentuk, takson, induk lema, atau padanan…" autocomplete="off" spellcheck="false"></div><div><label for="bank-kind" data-i18n="bankKindLabel">Jenis bentuk</label><select id="bank-kind"><option value="all">Semua jenis</option><option value="headword">Lema</option><option value="subentry">Turunan / gabungan</option><option value="compound">Gabungan kata</option><option value="cross_reference">Rujuk silang</option><option value="bound_form">Bentuk terikat</option><option value="historical_form">Bentuk kamus 1977</option><option value="wordlist_entry">Entri daftar kata</option><option value="study_table">Bentuk pada penelitian</option><option value="publisher_abstract">Abstrak penerbit</option><option value="idiom">Idiom / ungkapan</option><option value="cultural_term">Istilah budaya</option><option value="culinary_term">Nama kuliner pada sumber</option><option value="botanical_name">Nama botani pada sumber</option><option value="number_list">Bilangan / ukuran</option></select></div><div><label for="bank-scope" data-i18n="bankScopeLabel">Label bahasa sumber</label><select id="bank-scope"><option value="all">Semua label sumber</option><option value="Mdl">Memuat label Mdl</option><option value="Akl">Memuat label Akl</option><option value="Tb">Memuat label Toba</option><option value="unmarked">Tanpa label per bentuk</option><option value="Mdl-scope">Cakupan studi Mandailing</option><option value="MA">Mandailing–Angkola (MA)</option><option value="Sipirok">Catatan dialek Sipirok</option><option value="Tapsel">Cakupan Tapsel</option></select></div><div><label for="bank-status" data-i18n="bankStatusLabel">Status padanan</label><select id="bank-status"><option value="all">Semua status</option><option value="reviewed">Padanan tersedia</option><option value="pending">Belum ditelaah</option><option value="source-gloss">Glos sumber tersedia</option></select></div><div><label for="bank-source" data-i18n="bankSourceLabel">Sumber bentuk</label><select id="bank-source"><option value="all">Semua sumber bentuk</option></select></div></div>
       <div id="bank-letters" class="alphabet-bar bank-letters" aria-label="Huruf dalam bank kosakata"></div>
-      <div class="bank-results-heading"><p id="bank-count" aria-live="polite"></p><div class="bank-export-actions"><button class="button button-outline button-small" id="bank-latest" aria-pressed="false">Bentuk baru</button><button class="button button-outline button-small" id="bank-export"><span data-icon="download"></span>TSV 5 kolom</button><button class="button button-outline button-small" id="bank-export-labels"><span data-icon="download"></span>TSV berlabel</button></div></div>
+      <div class="bank-results-heading"><p id="bank-count" aria-live="polite"></p><div class="bank-export-actions"><button class="button button-outline button-small" id="bank-latest" aria-pressed="false" data-i18n="bankLatest">Bentuk baru</button><button class="button button-outline button-small" id="bank-export"><span data-icon="download"></span>TSV 5 kolom</button><button class="button button-outline button-small" id="bank-export-labels"><span data-icon="download"></span>TSV berlabel</button></div></div>
       <div id="bank-results"></div><div id="bank-pagination" class="bank-pagination"></div>
       <p class="bank-endnote">Bank mencakup indeks kamus 2021, tambahan hasil pemeriksaan pindai 1977, daftar ABVD, kamus mandiri 2024, dan bentuk pada publikasi yang dapat dibaca. Pindai 1977 belum merupakan transkripsi penuh. TSV 5 kolom tidak memuat label bahasa; TSV berlabel menyertakannya. Ini bukan klaim seluruh kosakata semua dialek sudah terkumpul.</p>
       <details class="local-name-panel"><summary><span data-local-count>0</span> catatan nama tumbuhan pembanding</summary><p>Bahasa setiap nama tidak dinyatakan dalam tabel asal. Hasil telaah membedakan label Mandailing, kode gabungan MA, dan cakupan penelitian. Nama ilmiah mengikuti cetakan sumber; kesamaan ejaan tidak otomatis membuktikan spesies atau bahasa yang sama.</p><div class="local-name-filters"><div><label for="local-name-search">Cari nama, takson, atau sumber penelitian</label><input id="local-name-search" type="search" placeholder="Misalnya pining, palaga, atau Areca…" autocomplete="off"></div><div><label for="local-name-status">Status telaah nama</label><select id="local-name-status"><option value="all">Semua telaah</option><option value="supported">Dukungan sumber tersedia</option><option value="pending">Bahasa belum dipastikan</option><option value="needs-check">Perlu pemeriksaan khusus</option></select></div></div><div class="local-name-toolbar"><span id="local-name-count" aria-live="polite"></span><button class="button button-outline button-small" id="local-name-export">Ekspor semua telaah TSV</button></div><div id="local-name-results" class="local-name-results"></div></details>
     </section>
 
     <section data-view="saved" class="view" hidden>
-      <div class="section-intro"><div class="eyebrow">KOLEKSI PRIBADI</div><h1>Kata yang <em>ingin diingat.</em></h1><p>Simpan kata yang menarik perhatian Anda, lalu temukan kembali di sini.</p></div>
+      <div class="section-intro"><div class="eyebrow" data-i18n="savedKicker">KOLEKSI PRIBADI</div><h1><span data-i18n="savedTitle">Kata yang</span> <em data-i18n="savedEm">ingin diingat.</em></h1><p data-i18n="savedDescription">Simpan kata yang menarik perhatian Anda, lalu temukan kembali di sini.</p></div>
     </section>
 
     <section id="dictionary-workspace">
@@ -94,19 +97,19 @@
       <aside class="curation-banner" aria-label="Pembaruan kurasi A sampai Z"><div><span class="eyebrow">A–Z, SEDIKIT DEMI SEDIKIT</span><h2>Satu koleksi, lintas huruf.</h2><p><strong id="curation-added">1.244</strong> tambahan · <strong id="curation-reviewed">1.404</strong> entri dirujuk. Pilihan praktis dengan jejak sumber.</p></div><button class="button button-primary" data-curation="AZ-01">Jelajahi kurasi A–Z <span data-icon="arrow"></span></button></aside>
       <div class="search-wrap">
         <span class="search-symbol" data-icon="search"></span>
-        <label class="sr-only" for="search">Cari kosakata</label>
-        <input type="search" id="search" placeholder="Cari kata, misalnya rumah, bagas, atau house…" autocomplete="off" spellcheck="false">
+        <label class="sr-only" for="search" data-i18n="searchLabel">Cari kosakata</label>
+        <input type="search" id="search" data-i18n-placeholder="searchPlaceholder" placeholder="Cari kata, misalnya rumah, bagas, atau house…" autocomplete="off" spellcheck="false">
         <kbd class="search-shortcut">/</kbd>
-        <div class="search-language"><label class="sr-only" for="search-language">Bahasa pencarian</label><select id="search-language"><option value="all">Semua bahasa</option><option value="md">Mandailing</option><option value="idn">Indonesia</option><option value="my">Melayu Malaysia</option><option value="en">English</option></select></div>
+        <div class="search-language"><label class="sr-only" for="search-language" data-i18n="searchLanguage">Bahasa pencarian</label><select id="search-language"><option value="all">Semua bahasa</option><option value="md">Mandailing</option><option value="idn">Indonesia</option><option value="my">Melayu Malaysia</option><option value="en">English</option></select></div>
       </div>
-      <div class="alphabet-heading"><div><span class="eyebrow">JELAJAHI HURUF</span><button id="all-letters" class="all-letters active" data-letter="all" aria-pressed="true">Semua huruf</button></div><div><label for="editorial-filter">Status penelaahan</label><select id="editorial-filter"><option value="all">Semua status</option><option value="attested">Entri dirujuk</option><option value="draft">Draf awal</option><option value="personal">Kata pribadi</option></select></div></div>
+      <div class="alphabet-heading"><div><span class="eyebrow">JELAJAHI HURUF</span><button id="all-letters" class="all-letters active" data-letter="all" aria-pressed="true" data-i18n="allLetters">Semua huruf</button></div><div><label for="editorial-filter" data-i18n="reviewFilter">Status penelaahan</label><select id="editorial-filter"><option value="all">Semua status</option><option value="attested">Entri dirujuk</option><option value="draft">Draf awal</option><option value="personal">Kata pribadi</option></select></div></div>
       <div id="alphabet-bar" class="alphabet-bar" aria-label="Filter huruf A sampai Z"></div>
       <p class="alphabet-context"><span id="active-filter-copy">Semua huruf · semua status</span><span>Angka menunjukkan isi koleksi, bukan kelengkapan bahasa.</span></p>
       <div class="category-bar" id="category-bar" aria-label="Filter kategori"></div>
       <div class="results-toolbar">
-        <div><h2 id="results-title">Semua kosakata</h2><p id="result-count" aria-live="polite">100 kata tersedia untuk dijelajahi</p></div>
+        <div><h2 id="results-title" data-i18n="allVocabulary">Semua kosakata</h2><p id="result-count" aria-live="polite">100 kata tersedia untuk dijelajahi</p></div>
         <div class="result-actions">
-          <label class="sr-only" for="sort">Urutkan kosakata</label><select id="sort"><option value="az">A — Z</option><option value="za">Z — A</option><option value="original">Urutan awal</option></select>
+          <label class="sr-only" for="sort" data-i18n="sortLabel">Urutkan kosakata</label><select id="sort"><option value="az">A — Z</option><option value="za">Z — A</option><option value="original">Urutan awal</option></select>
           <div class="view-switch" aria-label="Tampilan hasil"><button id="grid-view" class="selected" aria-label="Tampilan kartu" aria-pressed="true"><span data-icon="grid"></span></button><button id="table-view" aria-label="Tampilan tabel" aria-pressed="false"><span data-icon="list"></span></button></div>
           <button class="button button-export" id="export-top" aria-label="Ekspor TSV"><span data-icon="download"></span><span>Ekspor TSV</span></button>
         </div>
@@ -117,24 +120,24 @@
     </section>
 
     <section data-view="learn" class="view learning-view" hidden>
-      <div class="section-intro"><div class="eyebrow">SEDIKIT DEMI SEDIKIT</div><h1>Satu kartu.<br><em>Satu kata lebih dekat.</em></h1><p>Ingat maknanya, buka jawabannya, lalu tandai kata yang sudah Anda pahami.</p></div>
+      <div class="section-intro"><div class="eyebrow" data-i18n="learnKicker">SEDIKIT DEMI SEDIKIT</div><h1><span data-i18n="learnTitle">Satu kartu.</span><br><em data-i18n="learnEm">Satu kata lebih dekat.</em></h1><p data-i18n="learnDescription">Ingat maknanya, buka jawabannya, lalu tandai kata yang sudah Anda pahami.</p></div>
       <div class="learning-layout">
         <div class="learning-main">
-          <div class="learn-options"><div><label for="learn-category">Kategori</label><select id="learn-category"><option value="all">Semua kategori</option><option value="ganti">Kata ganti & tanya</option><option value="angka">Angka</option><option value="kerja">Kata kerja</option><option value="rumah">Di rumah</option><option value="saved">Kata disimpan</option></select></div><div><label for="learn-language">Tebak padanan</label><select id="learn-language"><option value="idn">Indonesia</option><option value="my">Melayu Malaysia</option><option value="en">English</option></select></div></div>
+          <div class="learn-options"><div><label for="learn-category" data-i18n="categoryLabel">Kategori</label><select id="learn-category"><option value="all">Semua kategori</option><option value="ganti">Kata ganti & tanya</option><option value="angka">Angka</option><option value="kerja">Kata kerja</option><option value="rumah">Di rumah</option><option value="saved">Kata disimpan</option></select></div><div><label for="learn-language" data-i18n="guessLanguage">Tebak padanan</label><select id="learn-language"><option value="idn">Indonesia</option><option value="my">Melayu Malaysia</option><option value="en">English</option></select></div></div>
           <div id="flashcard-area"></div>
         </div>
         <aside class="learning-aside">
           <div class="progress-orbit" id="progress-orbit"><div><strong id="known-count">0</strong><span>kata dipahami</span></div></div>
-          <h3>Setiap kata berarti.</h3><p id="progress-copy">Mulai dari satu kata hari ini.</p>
+          <h3 data-i18n="everyWord">Setiap kata berarti.</h3><p id="progress-copy">Mulai dari satu kata hari ini.</p>
           <div class="learn-hint"><span data-icon="bulb"></span><p>Ucapkan maknanya dalam hati sebelum membuka jawaban. Ulangi kartu yang belum familiar.</p></div>
-          <p class="muted small">Progres tersimpan di peramban ini.</p>
+          <p class="muted small" data-i18n="progressNotice">Progres tersimpan di peramban ini.</p>
         </aside>
       </div>
     </section>
 
     <section data-view="sources" class="view sources-view" hidden>
-      <div class="section-intro"><div class="eyebrow">BELAJAR DENGAN RUJUKAN</div><h1>Bahasa punya konteks.<br><em>Begitu juga kamus ini.</em></h1><p>Kenali asal kosakata, variasi bentuk, dan batas verifikasi sebelum menggunakannya.</p></div>
-      <div class="bank-scope-note"><strong>Bank kosakata kini memuat <span data-bank-total>0</span> bentuk unik.</strong><p>Indeks kamus 2021 telah digabungkan dengan bentuk dari sumber tambahan yang dapat diperiksa. Laporan unduhan merinci cakupan dan keterbatasan setiap sumber. Koleksi 1.404 entri berpadanan tetap tersedia. <span data-bank-pending>0</span> bentuk belum mempunyai padanan yang ditelaah.</p><button class="button button-outline button-small" data-nav="inventory">Telusuri bank sumber</button></div><div class="source-notice"><span data-icon="feather"></span><div><span class="eyebrow">STATUS MATERI</span><h2>Dari A–Z, dengan jejak yang jelas.</h2><p id="research-summary"></p></div></div>
+      <div class="section-intro"><div class="eyebrow" data-i18n="sourcesKicker">BELAJAR DENGAN RUJUKAN</div><h1><span data-i18n="sourcesTitle">Bahasa punya konteks.</span><br><em data-i18n="sourcesEm">Begitu juga kamus ini.</em></h1><p data-i18n="sourcesDescription">Kenali asal kosakata, variasi bentuk, dan batas verifikasi sebelum menggunakannya.</p></div>
+      <div class="bank-scope-note"><strong>Bank kosakata kini memuat <span data-bank-total>0</span> bentuk unik.</strong><p>Indeks kamus 2021 telah digabungkan dengan bentuk dari sumber tambahan yang dapat diperiksa. Laporan unduhan merinci cakupan dan keterbatasan setiap sumber. Koleksi 1.404 entri berpadanan tetap tersedia. <span data-bank-pending>0</span> bentuk belum mempunyai padanan yang ditelaah.</p><button class="button button-outline button-small" data-nav="inventory" data-i18n="exploreBank">Telusuri bank sumber</button></div><div class="source-notice"><span data-icon="feather"></span><div><span class="eyebrow">STATUS MATERI</span><h2>Dari A–Z, dengan jejak yang jelas.</h2><p id="research-summary"></p></div></div>
       <div class="note-grid">
         <article class="note-card"><span class="note-number">01</span><h3>Cakupan bahasa</h3><p>Rujukan utama adalah kamus gabungan Angkola–Mandailing. Bentuk berlabel Mdl diprioritaskan; bentuk tanpa label khusus tidak diklaim eksklusif Mandailing. Daftar ini belum mewakili satu dialek desa yang diperiksa secara terpisah.</p></article>
         <article class="note-card"><span class="note-number">02</span><h3>Bentuk dan variasi</h3><p>Bentuk utama mengikuti tulisan dalam sumber. Bentuk bebas, turunan, dan contoh ejaan dibedakan pada detail. Aek dan aer disajikan sebagai dua lema bermakna sama dengan label sumber masing-masing. Agihon dipertahankan sebagai bentuk bersufiks yang tercatat. Kata homonim dipisahkan menurut makna yang dipilih, bukan digabungkan.</p></article>
