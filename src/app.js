@@ -316,6 +316,7 @@
     if(button.id==="shuffle-deck"){startDeck(true);toast("Urutan kartu diacak. Progres tetap disimpan.");return;}
   });
   $("#search").addEventListener("input",event=>{state.query=event.target.value;state.page=1;renderList();});
+  $("#search-clear").addEventListener("click",()=>{state.query="";state.page=1;$("#search").value="";renderList();$("#search").focus();});
   $("#search-language").addEventListener("change",event=>{state.language=event.target.value;state.page=1;renderList();});
   $("#editorial-filter").addEventListener("change",event=>{state.status=event.target.value;state.page=1;renderList();});
   $("#sort").addEventListener("change",event=>{state.sort=event.target.value;state.page=1;renderList();});
