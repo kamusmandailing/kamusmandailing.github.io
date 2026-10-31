@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "2026-10-30-DEEP03",
+  "sourceOfTruth": "research/coverage_audit.json",
+  "counts": {
+    "sourceForms": 10821,
+    "curatedEntries": 1404,
+    "pendingTranslations": 9417,
+    "referenceRecords": 13745,
+    "sourceCount": 24,
+    "examplesWithSource": 3,
+    "curatedEntriesWithoutSourceExample": 1401
+  },
+  "historicalProgress": {
+    "version": "2026-10-26-MULTISOURCE01",
+    "updatedAt": "2026-10-27",
+    "sourceForms": 10250,
+    "referenceRecords": 12679
+  },
+  "scope": {
+    "sourceForms": "Bentuk dari sumber; mencakup variasi, turunan dan frasa, bukan jumlah lema dasar yang telah disahkan.",
+    "curatedEntries": "Memiliki padanan editorial; label sumber bukan pengesahan seluruh penutur/dialek.",
+    "pendingTranslations": "Tercatat sebagai bentuk, belum mempunyai padanan terkurasi.",
+    "examplesWithSource": "Contoh dari sumber tercatat, bukan klaim verifikasi baru oleh penutur.",
+    "speakerVerifiedSenseCount": null
+  }
+}
