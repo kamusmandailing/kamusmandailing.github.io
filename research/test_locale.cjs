@@ -61,18 +61,18 @@ for (const lang of ['en', 'ms']) {
   }
 }
 assert.equal(locale.currentLanguage(), 'en', 'Stored language should be used at load');
-assert.equal(rootElement.getAttribute('lang'), 'en');
+assert.equal(rootElement.lang, 'en');
 assert.equal(nodes.find(n => n.getAttribute('data-i18n') === 'navDictionary').textContent, 'Dictionary');
 assert.equal(placeholders.find(p => p.getAttribute('data-i18n-placeholder') === 'searchPlaceholder').getAttribute('placeholder'), locale.messages.en.searchPlaceholder);
 assert.equal(note.hidden, true, 'English does not use Mandailing fallback');
 
 locale.applyLanguage('ms');
-assert.equal(rootElement.getAttribute('lang'), 'ms');
+assert.equal(rootElement.lang, 'ms');
 assert.equal(memory.get('kamus-interface-language'), 'ms');
 assert.equal(nodes.find(n => n.getAttribute('data-i18n') === 'navInventory').textContent, 'Bank kosa kata');
 
 locale.applyLanguage('md');
-assert.equal(rootElement.getAttribute('lang'), 'id', 'Unreviewed Mandailing UI must be declared Indonesian');
+assert.equal(rootElement.lang, 'id', 'Unreviewed Mandailing UI must be declared Indonesian');
 assert.equal(rootElement.getAttribute('data-ui-language'), 'md');
 assert.equal(note.hidden, false, 'Mandailing fallback notice must be visible');
 for (const node of nodes) {
@@ -85,7 +85,7 @@ for (const input of placeholders) {
 
 locale.applyLanguage('id');
 assert.equal(note.hidden, true);
-assert.equal(rootElement.getAttribute('lang'), 'id');
+assert.equal(rootElement.lang, 'id');
 locale.applyLanguage('bogus');
 assert.equal(locale.currentLanguage(), 'id', 'Unknown language must default to Indonesian');
 assert.equal(memory.get('kamus-interface-language'), 'id');
