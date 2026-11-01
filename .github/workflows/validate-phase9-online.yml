@@ -1,4 +1,4 @@
-name: Validate phase 9 light online and offline parity
+name: Validate online, offline and progressive Bank
 on:
   push:
     branches: [main]
@@ -11,7 +11,16 @@ on:
       - 'src/words.json'
       - 'src/inventory.json'
       - 'src/sources.json'
+      - 'data/bank-online.json'
+      - 'data/bank-online-shards/**'
       - 'research/test_phase9_online.py'
+      - 'research/test_mobile_network.cjs'
+      - 'research/benchmark_bank_shards.py'
+      - 'research/validate_release.py'
+      - 'research/check_inventory_logic.cjs'
+      - 'research/audit_offline_payload.py'
+      - 'research/PHASE10_SHARDING_FEASIBILITY.md'
+      - '.github/workflows/build-site.yml'
       - '.github/workflows/validate-phase9-online.yml'
   pull_request:
     branches: [main]
@@ -21,7 +30,19 @@ on:
       - 'src/online.js'
       - 'src/online.css'
       - 'src/index.html'
+      - 'src/words.json'
+      - 'src/inventory.json'
+      - 'src/sources.json'
+      - 'data/bank-online.json'
+      - 'data/bank-online-shards/**'
       - 'research/test_phase9_online.py'
+      - 'research/test_mobile_network.cjs'
+      - 'research/benchmark_bank_shards.py'
+      - 'research/validate_release.py'
+      - 'research/check_inventory_logic.cjs'
+      - 'research/audit_offline_payload.py'
+      - 'research/PHASE10_SHARDING_FEASIBILITY.md'
+      - '.github/workflows/build-site.yml'
       - '.github/workflows/validate-phase9-online.yml'
   workflow_dispatch:
 permissions:
@@ -44,6 +65,10 @@ jobs:
         run: node --check src/online.js
       - name: Audit online versus offline and lazy-bank browser behavior
         run: python research/test_phase9_online.py
+      - name: Simulate constrained mobile network and CPU
+        run: node research/test_mobile_network.cjs
+      - name: Benchmark sharded Bank payload and exact-search coverage
+        run: python research/benchmark_bank_shards.py
       - name: Regression on classic full/offline Bank and source filters
         run: node research/check_inventory_logic.cjs
       - name: Verify source identities and database exports
@@ -56,14 +81,18 @@ jobs:
           from pathlib import Path
           a=Path("online.html").read_bytes()
           b=Path("index.html").read_bytes()
-          report={"online_bytes":len(a),"online_gzip_bytes":len(gzip.compress(a,mtime=0)),"offline_bytes":len(b),"reduction_percent":round(100*(1-len(a)/len(b)),1),"bank_online_bytes":Path("data/bank-online.json").stat().st_size}
+          manifest=Path("data/bank-online-shards/manifest.json").read_bytes()
+          first_chunk=Path("data/bank-online-shards/chunk-000.json").read_bytes()
+          bank_manifest=json.loads(manifest)
+          report={"online_bytes":len(a),"online_gzip_bytes":len(gzip.compress(a,mtime=0)),"offline_bytes":len(b),"reduction_percent":round(100*(1-len(a)/len(b)),1),"bank_online_bytes":Path("data/bank-online.json").stat().st_size,"bank_online_gzip_bytes":len(gzip.compress(Path("data/bank-online.json").read_bytes(),mtime=0)),"bank_chunk_count":len(bank_manifest["chunks"]),"bank_first_view_bytes":len(manifest)+len(first_chunk),"bank_first_view_gzip_bytes":len(gzip.compress(manifest,mtime=0))+len(gzip.compress(first_chunk,mtime=0))}
           Path("qa/phase9-online.json").write_text(json.dumps(report,indent=2))
           print(report)
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: Mandailing-Phase9-Online-Offline-QA
+          name: Mandailing-Online-Offline-Mobile-QA
           path: |
             qa/phase9-offline.json
             qa/phase9-online.json
+            qa/phase10-mobile-simulation.json
           retention-days: 30

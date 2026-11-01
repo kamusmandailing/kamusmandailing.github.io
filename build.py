@@ -1,7 +1,9 @@
 from pathlib import Path
 import csv
+import hashlib
 import io
 import json
+import os
 from urllib.parse import quote
 
 root = Path(__file__).resolve().parent
@@ -65,11 +67,46 @@ online=online.replace('"INLINE_SNAPSHOT"',encode(snapshot))
 assert 'INLINE_' not in online, 'Online build has unsubstituted template tokens.'
 # Do not expose any private Google Sheets intake data in this public bank artifact.
 bank_json=encode(inventory)
+bank_chunk_size=int(os.environ.get('BANK_CHUNK_SIZE','512'))
+if bank_chunk_size not in (128,256,512,1024):
+    raise ValueError('BANK_CHUNK_SIZE must be one of 128, 256, 512, or 1024.')
+bank_filter_kinds=set()
+bank_filter_scopes=set()
+for form in inventory['forms']:
+    bank_filter_kinds.update(form.get('kinds',[]))
+    for reference in form.get('references',[]):
+        bank_filter_kinds.add(reference.get('kind',''))
+        bank_filter_scopes.update(reference.get('labels',[]))
+bank_filter_kinds.discard('')
+bank_filter_kinds.update(('bound_form','compound'))
+bank_chunks=[]
+bank_chunk_payloads=[]
+for index,offset in enumerate(range(0,len(inventory['forms']),bank_chunk_size)):
+    forms=inventory['forms'][offset:offset+bank_chunk_size]
+    payload=encode({'forms':forms}).encode('utf-8')
+    filename=f'chunk-{index:03d}.json'
+    bank_chunk_payloads.append((filename,payload))
+    bank_chunks.append({'file':filename,'start':offset,'count':len(forms),
+        'referenceRecords':sum(len(form.get('references',[])) for form in forms),
+        'sha256':hashlib.sha256(payload).hexdigest()})
+bank_manifest={key:value for key,value in inventory.items() if key!='forms'}
+bank_manifest.update({'chunkSize':bank_chunk_size,'chunks':bank_chunks,
+    'filterOptions':{'kinds':sorted(bank_filter_kinds),'scopes':sorted(bank_filter_scopes)}})
+bank_manifest_json=encode(bank_manifest)
 for directory in (root,root/'dist'):
     (directory/'online.html').write_text(online,encoding='utf-8')
     (directory/'data').mkdir(parents=True,exist_ok=True)
     (directory/'data/bank-online.json').write_text(bank_json,encoding='utf-8')
-print('Built light online.html with deferred data/bank-online.json from same canonical inventory.')
+    shard_directory=directory/'data/bank-online-shards'
+    shard_directory.mkdir(parents=True,exist_ok=True)
+    (shard_directory/'manifest.json').write_text(bank_manifest_json,encoding='utf-8')
+    current_files={filename for filename,_ in bank_chunk_payloads}
+    for old_file in shard_directory.glob('chunk-*.json'):
+        if old_file.name not in current_files:
+            old_file.unlink()
+    for filename,payload in bank_chunk_payloads:
+        (shard_directory/filename).write_bytes(payload)
+print(f'Built light online.html with {len(bank_chunks)} deferred Bank chunks from the same canonical inventory.')
 
 buffer=io.StringIO(newline='')
 writer=csv.writer(buffer,delimiter='\t',lineterminator='\n')
