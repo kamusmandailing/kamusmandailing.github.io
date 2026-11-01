@@ -48,3 +48,5 @@
 @media(max-width:600px){.search-clear{padding:7px 8px;font-size:10px}.search-shortcut{display:none}.interface-language-note{margin:9px 12px 0}.bank-search-clear{margin-top:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.sidebar,.topbar,.search-wrap,.category-bar,.result-actions,.pagination,.editorial-note,.main-footer,dialog,.toast,.card-bottom{display:none!important}.main{margin:0;width:100%;padding:0}.hero{display:block}.featured-word{display:none}.word-grid{grid-template-columns:repeat(3,1fr)}.word-card{break-inside:avoid;box-shadow:none}.word-card:hover{transform:none}body{background:white}}
+
+.light-version-link a{display:inline-block;padding:8px 13px;background:#fff8ec;border:1px solid #dfc8a9;color:#6c2e3b;border-radius:8px;font-size:11px;font-weight:700;text-decoration:none}.light-version-link a:hover{text-decoration:underline}.light-version-link a:focus-visible{outline:3px solid #b59562;outline-offset:3px}
