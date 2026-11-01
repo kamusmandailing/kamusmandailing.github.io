@@ -54,6 +54,23 @@ for directory in (root,root/'dist'):
     directory.mkdir(exist_ok=True)
     for name in ('index.html','Hata_Kamus_Mandailing.html'):
         (directory/name).write_text(template,encoding='utf-8')
+# Phase 9: opt-in lightweight online build shares the EXACT curated and source inventory objects.
+# The complete standalone HTML above remains unchanged and suitable for offline use.
+online=(source/'online.html').read_text(encoding='utf-8')
+online=online.replace('/* INLINE_ONLINE_CSS */',(source/'online.css').read_text(encoding='utf-8'))
+online=online.replace('/* INLINE_ONLINE_SCRIPT */',(source/'online.js').read_text(encoding='utf-8'))
+online=online.replace('"INLINE_WORDS"',encode(words))
+online=online.replace('"INLINE_SOURCES"',encode(json.loads((source/'sources.json').read_text(encoding='utf-8'))))
+online=online.replace('"INLINE_SNAPSHOT"',encode(snapshot))
+assert 'INLINE_' not in online, 'Online build has unsubstituted template tokens.'
+# Do not expose any private Google Sheets intake data in this public bank artifact.
+bank_json=encode(inventory)
+for directory in (root,root/'dist'):
+    (directory/'online.html').write_text(online,encoding='utf-8')
+    (directory/'data').mkdir(parents=True,exist_ok=True)
+    (directory/'data/bank-online.json').write_text(bank_json,encoding='utf-8')
+print('Built light online.html with deferred data/bank-online.json from same canonical inventory.')
+
 buffer=io.StringIO(newline='')
 writer=csv.writer(buffer,delimiter='\t',lineterminator='\n')
 writer.writerow(['Mandailing','Indonesia','Melayu Malaysia','English','Contoh Kalimat'])
