@@ -75,3 +75,14 @@ Pencarian Bank memakai **indeks yang disiapkan sesuai kebutuhan**, cache hasil f
 Pengujian: [phase 8 CI](https://github.com/kamusmandailing/kamusmandailing.github.io/actions/runs/41222427768) — PASS; termasuk desktop 1280 px / ponsel 390–360 px, filter sumber, ekspor TSV, 67 kontrak integritas, dan HTML mandiri luring. Ringkasan: [research/PHASE8_BANK_PERFORMANCE.md](research/PHASE8_BANK_PERFORMANCE.md).
 
 HTML mentah masih ~8,65 MB (gzip ~706 KB), jadi tahap ini mengurangi pekerjaan pemrosesan awal dan berulang, **bukan** ukuran file terkirim. Tahap lanjutan adalah pengukuran pengguna nyata dan opsi online ringan tanpa merusak unduhan offline mandiri. Kanal kontribusi Google Drive dan ruleset admin masih memerlukan verifikasi/pengaturan terpisah.
+
+## Tahap 9 — versi online ringan dan offline lengkap (1 November 2026)
+
+Dua mode rilis kini dihasilkan dari sumber data yang **sama** oleh `python build.py`:
+
+- **[Online ringan](https://kamusmandailing.github.io/online.html):** HTML awal ±907 KB mentah / ±67 KB gzip berisi 1.404 entri berpadanan, pencarian empat kolom, dan tautan offline. Ketika Bank dibuka, browser mengambil `data/bank-online.json` (±7,59 MB mentah) untuk menyediakan 10.821 bentuk sumber, 9.417 bentuk tanpa padanan, filter sumber/status/jenis/label, bukti per bentuk dan dua jenis TSV. Ketika jaringan gagal, tombol coba lagi dan jalur offline tersedia.
+- **[Kamus lengkap/offline](https://kamusmandailing.github.io/):** HTML mandiri ±8,65 MB mentah, dengan mode Belajar, koleksi pribadi, pencarian Bank dan jejak sumber yang tidak perlu fetch data saat digunakan dari berkas lokal.
+
+Perbandingan **89,5% lebih kecil** berlaku hanya untuk *HTML awal mentah*, **bukan** total data yang diunduh jika Bank dibuka, bukan hasil ukur peningkatan kecepatan atau konsumsi data ponsel nyata. Hasil inventaris online/offline disetarakan hingga level JSON sumber, ID dan 13.745 lokasi rujukan melalui [QA Tahap 9](.github/workflows/validate-phase9-online.yml). HTML online merupakan mode ringan **berfokus pencarian**, bukan pengganti semua fitur UI lengkap.
+
+Seluruh implementasi, ukuran dan keterbatasan ada dalam [research/PHASE9_ONLINE_OFFLINE.md](research/PHASE9_ONLINE_OFFLINE.md). Publikasi kosakata masih memerlukan persetujuan admin; pengiriman kontribusi Google Drive masih menunggu uji POST yang benar-benar tersimpan.
