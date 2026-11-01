@@ -1,0 +1,69 @@
+name: Validate phase 9 light online and offline parity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'build.py'
+      - 'src/online.html'
+      - 'src/online.js'
+      - 'src/online.css'
+      - 'src/index.html'
+      - 'src/words.json'
+      - 'src/inventory.json'
+      - 'src/sources.json'
+      - 'research/test_phase9_online.py'
+      - '.github/workflows/validate-phase9-online.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'build.py'
+      - 'src/online.html'
+      - 'src/online.js'
+      - 'src/online.css'
+      - 'src/index.html'
+      - 'research/test_phase9_online.py'
+      - '.github/workflows/validate-phase9-online.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  phase9:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build the full offline and lightweight online modes
+        run: python build.py
+      - name: Validate generated online scripts
+        run: node --check src/online.js
+      - name: Audit online versus offline and lazy-bank browser behavior
+        run: python research/test_phase9_online.py
+      - name: Regression on classic full/offline Bank and source filters
+        run: node research/check_inventory_logic.cjs
+      - name: Verify source identities and database exports
+        run: python research/validate_release.py
+      - name: Record byte-size baselines
+        run: |
+          python research/audit_offline_payload.py qa/phase9-offline.json
+          python - <<'PY'
+          import json, gzip
+          from pathlib import Path
+          a=Path("online.html").read_bytes()
+          b=Path("index.html").read_bytes()
+          report={"online_bytes":len(a),"online_gzip_bytes":len(gzip.compress(a,mtime=0)),"offline_bytes":len(b),"reduction_percent":round(100*(1-len(a)/len(b)),1),"bank_online_bytes":Path("data/bank-online.json").stat().st_size}
+          Path("qa/phase9-online.json").write_text(json.dumps(report,indent=2))
+          print(report)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Mandailing-Phase9-Online-Offline-QA
+          path: |
+            qa/phase9-offline.json
+            qa/phase9-online.json
+          retention-days: 30
