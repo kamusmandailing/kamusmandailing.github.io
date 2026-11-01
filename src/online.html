@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#6b293a">
+<meta name="description" content="Kamus Mandailing online ringan: 1.404 entri berpadanan tersedia langsung, Bank Kosakata dimuat saat diminta, dan rujukan sumber terjaga.">
+<title>Hata Ringan — Kamus Mandailing</title>
+<link rel="canonical" href="https://kamusmandailing.github.io/online.html">
+<style>/* INLINE_ONLINE_CSS */</style>
+</head>
+<body>
+<a class="skip" href="#main">Langsung ke isi</a>
+<header class="site-header">
+  <a class="brand" href="./"><strong>hata<span>.</span></strong><small>KAMUS MANDAILING</small></a>
+  <nav aria-label="Jalur situs">
+    <a href="./">Kamus lengkap</a>
+    <a href="./Hata_Kamus_Mandailing.html" download>Unduh versi offline</a>
+    <a href="./kontributor.html">Usulkan kata</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <span class="eyebrow">KAMUS MANDAILING · VERSI ONLINE RINGAN</span>
+    <h1>Temukan kata.<br><em>Jelajahi sumbernya.</em></h1>
+    <p>Entri berpadanan tersedia langsung. Bank Kosakata lengkap dimuat hanya jika Anda membukanya. Data tetap mengikuti rilis Kamus Mandailing yang sama.</p>
+    <div class="summary"><span><strong id="curated-total">1.404</strong> entri berpadanan</span><span><strong id="bank-total">10.821</strong> bentuk sumber</span><span><strong id="reference-total">13.745</strong> rujukan</span></div>
+  </section>
+  <div class="tabs" role="group" aria-label="Pilih koleksi">
+    <button id="show-curated" aria-pressed="true">Kamus berpadanan</button>
+    <button id="show-bank" aria-pressed="false">Bank Kosakata · memuat saat dibuka</button>
+  </div>
+  <section id="curated-view" aria-labelledby="curated-title">
+    <h2 id="curated-title">Kamus berpadanan</h2>
+    <p class="hint">Padanan bersifat editorial. Verifikasi semua dialek oleh penutur tidak otomatis dijamin.</p>
+    <div class="controls"><label>Cari dalam empat bahasa<input id="curated-search" type="search" placeholder="Mandailing, Indonesia, Melayu, English…" autocomplete="off"></label>
+      <label>Bahasa pencarian<select id="curated-language"><option value="all">Semua bahasa</option><option value="md">Mandailing</option><option value="idn">Indonesia</option><option value="my">Melayu Malaysia</option><option value="en">English</option></select></label>
+      <button id="curated-reset" class="minor">Hapus pencarian</button>
+    </div>
+    <div class="toolbar"><p id="curated-count" role="status" aria-live="polite"></p><button id="curated-export">Ekspor hasil TSV</button></div>
+    <div class="cards" id="curated-results"></div><div class="pagination" id="curated-pagination"></div>
+  </section>
+  <section id="bank-view" hidden aria-labelledby="bank-title">
+    <h2 id="bank-title">Bank Kosakata dan rujukan sumber</h2>
+    <div class="notice">Bentuk sumber mencakup variasi, turunan, idiom, frasa, dan catatan penelitian. Sebanyak <strong id="pending-total">9.417</strong> bentuk belum memiliki padanan editorial. Label sumber tidak otomatis membuktikan suatu bentuk eksklusif Mandailing.</div>
+    <p id="bank-loading" role="status" aria-live="polite" tabindex="-1">Memuat Bank Kosakata…</p>
+    <div id="bank-workspace" hidden>
+      <div class="controls"><label>Cari bentuk, glos, induk, takson, atau padanan<input id="bank-search" type="search" placeholder="Cari seluruh bank…"></label>
+        <label>Jenis bentuk<select id="bank-kind"><option value="all">Semua jenis</option></select></label>
+        <label>Label sumber<select id="bank-scope"><option value="all">Semua label</option></select></label>
+        <label>Status padanan<select id="bank-status"><option value="all">Semua status</option><option value="reviewed">Padanan tersedia</option><option value="pending">Belum berpadanan</option><option value="source-gloss">Glos sumber tersedia</option></select></label>
+        <label>Sumber<select id="bank-source"><option value="all">Semua sumber</option></select></label>
+        <button id="bank-reset" class="minor">Reset filter</button>
+      </div>
+      <div class="toolbar"><p id="bank-count" role="status" aria-live="polite"></p><div><button id="bank-export">TSV 5 kolom</button> <button id="bank-export-labels">TSV berlabel</button></div></div>
+      <div class="cards" id="bank-results"></div><div class="pagination" id="bank-pagination"></div>
+    </div>
+  </section>
+  <section class="offline-note"><h2>Ingin membaca tanpa internet?</h2><p>Versi lengkap satu berkas tetap tersedia untuk pencarian, kartu Belajar, koleksi pribadi dan Bank Kosakata saat offline. Versi online ini tidak menghapus fungsi tersebut.</p><a class="button-link" href="./Hata_Kamus_Mandailing.html" download>Unduh HTML offline lengkap</a></section>
+</main>
+<dialog id="source-dialog" aria-labelledby="source-dialog-title"><button id="source-close" class="close" aria-label="Tutup rincian sumber">Tutup ×</button><div id="source-dialog-body"></div></dialog>
+<footer>Kamus Mandailing · Sumber dan padanan dipisahkan secara editorial · <a href="./">Versi lengkap</a></footer>
+<script id="seed-data" type="application/json">"INLINE_WORDS"</script>
+<script id="source-data" type="application/json">"INLINE_SOURCES"</script>
+<script id="release-data" type="application/json">"INLINE_SNAPSHOT"</script>
+<script>/* INLINE_ONLINE_SCRIPT */</script>
+</body></html>
