@@ -58,4 +58,14 @@ Ukuran potongan dibandingkan ulang melalui `BANK_CHUNK_SIZE=<ukuran> python3 bui
 
 Satu kali pengukuran per ukuran menunjukkan pilihan 512 sebagai kompromi: 256 menghemat sekitar 0,25 detik saat Bank pertama dibuka tetapi menambah sekitar 19 KB dan satu detik pada pencarian penuh; 1.024 mempercepat pencarian penuh sekitar 0,94 detik tetapi menambah sekitar 27 KB dan 0,59 detik pada Bank pertama. Ini hasil emulasi desktop satu profil sintetis, bukan pengukuran ponsel atau GitHub Pages. Workflow CI menguji ukuran bawaan 512 dan menyimpan JSON hasil simulasi sebagai artefak.
 
-**Status:** ini prototipe pada cabang kerja dan belum tayang. HTML offline mandiri dan inventaris kamus tidak berubah. Simulasi desktop memberi RTT dan batas kecepatan, tetapi belum mengukur konsumsi memori, Core Web Vitals lapangan, atau aksesibilitas NVDA/VoiceOver pada ponsel fisik. Minta uji perangkat nyata sebelum memilih atau menerbitkan strategi pemotongan ini.
+**Batas simulasi:** HTML offline mandiri dan inventaris kamus tetap tidak berubah. Profil desktop memberi RTT dan batas kecepatan, tetapi tidak mengukur konsumsi memori, Core Web Vitals lapangan, atau aksesibilitas NVDA/VoiceOver pada ponsel. Uji smoke iPhone dilakukan setelah prototipe ini; rinciannya ada di bawah.
+
+## Smoke test iPhone, 1 November 2026
+
+Saya membuka build lokal di Chrome pada iPhone melalui server HTTP sementara di jaringan Wi-Fi yang sama. Halaman awal menampilkan 1.404 entri berpadanan. Setelah Bank dibuka, perangkat menerima manifest dan hanya `chunk-000.json`; daftar menyatakan 512 bentuk dimuat dari 10.821. Pencarian `poda` meminta semua 22 potongan, seluruh permintaan mendapat HTTP 200, dan hasil menampilkan 12 bentuk yang cocok dari 10.821. Nilai data, arti, label, atau rujukan tidak diubah.
+
+Saat kolom pencarian difokuskan pada uji pertama, Chrome memperbesar halaman karena ukuran teks kontrol 12 px. CSS seluler sekarang memakai 16 px untuk input dan select Bank, dan tes browser memeriksa ukuran tersebut pada viewport 390×844. Pengulangan di iPhone mempertahankan lebar halaman dan pencarian tetap menampilkan 12 hasil tanpa pembesaran otomatis. Server lokal dihentikan setelah uji.
+
+Ini smoke test fungsi dan tampilan, bukan pengukuran performa lapangan: saya tidak mengukur LCP/INP/TBT, penggunaan memori, jaringan 3G/4G, Safari, atau teknologi bantu VoiceOver. Karena itu klaim performa CI tetap simulasi desktop dan persoalan aksesibilitas pembaca layar masih terbuka.
+
+**Status tinjauan:** implementasi ada pada draft PR #11, belum tayang; kode kamus offline mandiri dan inventaris kanonis tetap tidak berubah. Persetujuan editor untuk mengubah draft menjadi siap ditinjau atau menggabungkannya masih diperlukan.

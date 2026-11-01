@@ -144,6 +144,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
  try{
    check(!!window.HataOnlineAudit && !window.HataOnlineAudit.bankLoaded(),"bank-requested-on-start");
    check(!performance.getEntriesByType("resource").some(entry=>entry.name.includes("/data/bank-online-shards/")),"no-bank-assets-before-request");
+   if(innerWidth<=560)check([...document.querySelectorAll(".controls input,.controls select")].every(control=>parseFloat(getComputedStyle(control).fontSize)>=16),"mobile-control-font-size");
    check($("#show-curated").getAttribute("aria-pressed")==="true"&&$("#show-bank").getAttribute("aria-pressed")==="false","initial-mode-state");
    check($("#curated-count").textContent.includes("1.404"),"curated-count");
    $("#curated-search").value="amak";
