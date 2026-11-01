@@ -123,6 +123,38 @@ try:
      raise AssertionError("Online browser test failed: "+verdict)
   finally:
    test_file.unlink(missing_ok=True)
+  # Deliberately simulate unavailable Bank JSON to verify retry+offline fallback.
+  error_page=ROOT/"phase9-network-error-check.html"
+  error_test=r"""
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const bank=document.querySelector('#show-bank');bank.click();
+ setTimeout(()=>{
+  const msg=document.querySelector('#bank-loading');
+  const retry=document.querySelector('#bank-retry');
+  const offline=msg?.querySelector('a[href="./Hata_Kamus_Mandailing.html"]');
+  const ok=!!retry && !!offline && !window.HataOnlineAudit.bankLoaded() && msg.textContent.includes('TEST-NETWORK-OFFLINE');
+  document.documentElement.dataset.phase9failure=ok?'PASS':'FAIL';
+ },130);
+});
+</script>
+"""
+  try:
+   mock=lite.replace("</head>",'<script>window.fetch=()=>Promise.reject(new Error("TEST-NETWORK-OFFLINE"));</script></head>')
+   error_page.write_text(mock.replace("</body>",error_test+"</body>"),encoding="utf-8")
+   out=subprocess.run([browser,"--headless=new","--no-sandbox","--disable-gpu",
+      "--disable-dev-shm-usage","--window-size=390,844",
+      "--user-data-dir="+str(Path(directory)/"state-network-failure"),
+      "--virtual-time-budget=2500","--dump-dom",host+"/phase9-network-error-check.html"],
+      capture_output=True,text=True,timeout=90)
+   verdict=re.search(r'data-phase9failure="([^"]+)"',out.stdout)
+   verdict=verdict.group(1) if verdict else "MISSING"
+   print("Chrome network failure fallback",verdict,flush=True)
+   if out.returncode or verdict!="PASS":
+    print(out.stderr[-1000:],flush=True)
+    raise AssertionError("Network error must show retry and full offline fallback")
+  finally:
+   error_page.unlink(missing_ok=True)
 finally:
  server.shutdown();server.server_close()
 print("Phase 9 online/offline parity and lazy-fetch browser smoke: PASS")
