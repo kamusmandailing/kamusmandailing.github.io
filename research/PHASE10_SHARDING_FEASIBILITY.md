@@ -68,4 +68,4 @@ Saat kolom pencarian difokuskan pada uji pertama, Chrome memperbesar halaman kar
 
 Ini smoke test fungsi dan tampilan, bukan pengukuran performa lapangan: saya tidak mengukur LCP/INP/TBT, penggunaan memori, jaringan 3G/4G, Safari, atau teknologi bantu VoiceOver. Karena itu klaim performa CI tetap simulasi desktop dan persoalan aksesibilitas pembaca layar masih terbuka.
 
-**Status tinjauan:** implementasi ada pada draft PR #11, belum tayang; kode kamus offline mandiri dan inventaris kanonis tetap tidak berubah. Persetujuan editor untuk mengubah draft menjadi siap ditinjau atau menggabungkannya masih diperlukan.
+**Status tinjauan:** PR #11 sudah ditandai siap ditinjau, tetapi belum tayang. Kode kamus offline mandiri dan inventaris kanonis tetap tidak berubah. Penggabungan dan deployment masih menunggu persetujuan editor.
