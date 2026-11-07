@@ -8,6 +8,8 @@ on:
       - 'research/progress.json'
       - 'research/release_snapshot.py'
       - 'research/release_snapshot.json'
+      - 'research/check_public_release_claims.py'
+      - 'README.md'
       - 'research/test_release_snapshot.py'
       - 'research/validate_release.py'
       - 'prepare_inventory.py'
@@ -22,6 +24,8 @@ on:
       - 'research/progress.json'
       - 'research/release_snapshot.py'
       - 'research/release_snapshot.json'
+      - 'research/check_public_release_claims.py'
+      - 'README.md'
       - 'research/test_release_snapshot.py'
       - 'research/validate_release.py'
       - 'prepare_inventory.py'
@@ -47,6 +51,7 @@ jobs:
         run: |
           python research/release_snapshot.py
           python research/test_release_snapshot.py
+          python research/check_public_release_claims.py
       - name: Regenerate HTML and database outputs from checked-in sources
         run: python build.py
       - name: Validate export IDs, source labels, HTML, TSV, SQLite and ZIP
